@@ -1,0 +1,174 @@
+{
+"Netze BW GmbH": {
+"src": "https://assets.cdn.netze-bw.de/xytfb1vrn7of/3WkwLb2wCAE2YcQuG0YU4m/cff72cf6af73c9b225d0268390f45ebf/preisuebersicht-baukostenzuschuss-bkz-strom.pdf",
+"HS": 162.97,
+"HS/MS": 164.94,
+"MS": 172.74,
+"NS": 30.0
+},
+"Bayernwerk Netz GmbH": {
+"src": "https://www.bayernwerk-netz.de/content/dam/revu-global/bayernwerk-netz/files/energie-anschliessen/anschluss-mittel-und-hochspannung/bayernwerk_netz_baukostenzuschuss_2026.pdf",
+"HS": 109.78,
+"HS/MS": 111.07,
+"MS": 125.86,
+"MS/NS": 50.0,
+"NS": 50.0,
+"note": "Speicher flexibel -70%"
+},
+"Stuttgart Netze GmbH": {
+"src": "https://www.stuttgart-netze.de/filer/sharing/1768313449/3518/",
+"HS": 87.85,
+"HS/MS": 85.17,
+"MS": 88.21,
+"MS/NS": 90.14,
+"NS": 64.81
+},
+"NGN NETZGESELLSCHAFT NIEDERRHEIN MBH": {
+"src": "https://cdn.swk.de/assets/download/Preisblatt Baukostenzuschuss, gültig ab 01.01.2026.pdf",
+"HS": 92.64,
+"HS/MS": 91.33,
+"MS": 132.42,
+"MS/NS": 133.82,
+"NS": 31.56
+},
+"Netze Duisburg GmbH": {
+"src": "https://www.netze-duisburg.de/fileadmin/user_upload/Netz_nutzen/Netzzugang/Strom/251212_Netze_Duisburg_-_Preisblatt_Baukostenzuschuss_2026.pdf",
+"HS": 126.53,
+"HS/MS": 122.89,
+"MS": 141.85,
+"MS/NS": 152.89,
+"NS": 68.98
+},
+"Netze ODR GmbH": {
+"src": "https://www.netze-odr.de/fileadmin/Netze-ODR/Dokumente/Unternehmen/Veroeffentlichungen/Netzanschluss/Preisblatt_BKZ.pdf",
+"HS/MS": 152.69,
+"MS": 155.88,
+"MS/NS": 151.52,
+"NS": 47.28,
+"note": "gültig ab 07.07.2026"
+},
+"Regionetz GmbH": {
+"src": "https://www.regionetz.de/de/Service/Downloads/Downloads/2026-Preisblatt-Baukostenzuschuss-oberhalb-der-Niederspannung.pdf",
+"HS": 46.49,
+"HS/MS": 74.0
+},
+"ELE Verteilnetz GmbH": {
+"src": "https://www.evng.de/content/dam/revu-global/evng/documents/energie_beziehen/strom/bkz_pb.pdf",
+"HS/MS": 153.22,
+"MS": 144.27,
+"MS/NS": 151.51
+},
+"EWE NETZ GmbH": {
+"src": "https://www.ewe-netz.de/-/media/ewe-netz/downloads/2026_02_24_ewe_netz_nne_strom_2026.pdf",
+"note": "BKZ 71,71 / 71,27 / 31,03 €/kW, Zuordnung unklar"
+},
+"EAM Netz GmbH": {
+"src": "https://www.eam-netz.de/fileadmin/user_upload/Hausanschluss/Netzanschlusskosten/Preisblatt_fuer_Baukostenzuschuesse_ab_01.01.2026.pdf",
+"HS/MS": 156.79,
+"MS": 164.66,
+"MS/NS": 141.98
+},
+"Pfalzwerke Netz AG": {
+"src": "https://www.pfalzwerke-netz.de/pfalzwerke-netz/downloads/netz-anschliessen/preisblatt_pfalzwerke_netz_ag_bkz_2026.pdf",
+"note": "Werte 58,47/109,82/111,76/109,27/102,06 ohne eindeutige Ebenenzuordnung"
+},
+"RheinNetz GmbH (RNG)": {
+"src": "https://www.rheinnetz.de/netzentgelte-strom-ab-dem-01.01.2026.pdfx",
+"HS": 52.23,
+"HS/MS": 59.72,
+"MS": 59.0,
+"MS/NS": 81.72,
+"NS": 88.39
+},
+"NEW Netz GmbH": {
+"src": "https://www.new-netz.de/mediathek/2026-01-01%20Preisblatt%20Netzanschl%C3%BCsse%20Strom-Wasser-Gas%20inkl.%20BKZ.pdf",
+"HS/MS": 50.15,
+"MS": 56.33,
+"MS/NS": 61.48
+},
+"naturenergie netze GmbH": {
+"src": "https://www.naturenergie-netze.de/fileadmin/ednetze/PDF/Geschaeftspartner/Lieferanten/Netzentgelte/2026/Preisblaetter_Gesamt_2026.pdf",
+"HS": 127.45,
+"HS/MS": 135.5,
+"MS": 119.28,
+"MS/NS": 119.33,
+"NS": 31.5,
+"note": "Spaltenzuordnung netto/brutto im PDF unklar"
+},
+"ovag Netz GmbH": {
+"src": "https://www.ovag-netz.de/files/on/downloads/preisblaetter/netznutzung/ovagNetzGmbH_Preisblatt_Netznutzung_20251223.pdf",
+"HS/MS": 49.96,
+"MS": 78.83,
+"MS/NS": 81.24
+},
+"swa Netze GmbH": {
+"src": "https://www.swa-netze.de/fileadmin/content/17_swa_Netze/Downloads/Strom/02_Netzzugang_und_Entgelte/04_Preisblaetter/Preisblatt_2026.pdf",
+"HS": 136.68,
+"HS/MS": 146.97,
+"MS": 154.16,
+"MS/NS": 155.48
+},
+"Städtische Werke Netz+Service (Kassel)": {
+"src": "https://netzplusservice.de/fileadmin/dokumente/Preisblatt_BKZ_2026.pdf",
+"stand": "01.01.2026",
+"HS": 144.4,
+"HS/MS": 149.9,
+"MS": 162.55,
+"MS/NS": 169.61
+},
+"LEW Verteilnetz": {
+"src": "https://www.lew-verteilnetz.de/media/4apj0vzh/preisblatt_bkz_2026_20251222.pdf",
+"stand": "01.01.2026",
+"HS": 128.26,
+"HS/MS": 126.43,
+"MS": 127.84,
+"MS/NS": 185.57,
+"NS": 49.0
+},
+"E.DIS Netz": {
+"src": "https://www.e-dis-netz.de/content/dam/revu-global/e-dis-netz/dokumente/BKZ-Strom.pdf",
+"stand": "01.01.2026",
+"note": "Zuordnung unsicher: 73,88 / 110,30 / 80,68 (vermutl. HS / HS/MS / MS)",
+"HS": 73.88,
+"HS/MS": 110.3,
+"MS": 80.68
+},
+"Energienetze Mittelrhein": {
+"src": "https://www.energienetze-mittelrhein.de/mediendateien/downloads/stromnetz/netzanschluss/2026-01-01-preisblatt-bkz.pdf",
+"stand": "01.01.2026",
+"note": "in €/kVA",
+"HS/MS": 114.8,
+"MS": 125.5,
+"MS/NS": 116.1,
+"NS": 50.0
+},
+"Energie Waldeck-Frankenberg (EWF)": {
+"src": "https://www.ewf.de/fileadmin/user_upload/netz/strom/Baukostenzuschuss/PREISBLATT_STROM_BKZ_EWF_ab_01.01.2026.pdf",
+"stand": "01.01.2026",
+"HS/MS": 111.67,
+"MS": 132.23,
+"MS/NS": 169.01,
+"NS": 70.69
+},
+"Stadtwerke Elbtal": {
+"src": "https://www.stadtwerke-elbtal.de/fileadmin/user_upload/pdf/netz-strom/preisblaetter-strom/Preisblatt-Baukostenzuschuss-Strom-2026.pdf",
+"stand": "01.01.2026",
+"MS": 137.04,
+"MS/NS": 75.51,
+"NS": 66.14
+},
+"energis-Netzgesellschaft": {
+"src": "https://www.energis-netzgesellschaft.de/fileadmin/dokumente/Downloads/Preise/pdf/SG_energis_Preisblatt_Verteilnetz_2026_1.pdf",
+"stand": "01.01.2026",
+"note": "MS-Anschluss (Umspannanlage Eigentum NB) – als MS/NS geführt",
+"MS/NS": 153.86,
+"NS": 105.0
+},
+"Mittelhessen Netz (Gießen)": {
+"src": "https://www.mit-n.de/fileadmin/user_upload/Dateien/Netzanschluesse/Strom/Preisblatt_Baukostenzuschuss.pdf",
+"stand": "01.2026",
+"HS/MS": 105.11,
+"MS": 132.46,
+"MS/NS": 141.65
+}
+}

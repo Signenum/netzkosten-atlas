@@ -1,0 +1,548 @@
+<title>Netzkosten-Atlas Deutschland</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: Leitstand-Karte – links die Deutschlandkarte als Arbeitsfläche, rechts ein Schaltfeld mit Kennzahl-Wahl, Rangliste und Steckbrief */
+:root{
+  --bg:#eef1f0; --panel:#f8faf9; --ink:#17221f; --muted:#5d6b67; --line:#d3dbd8;
+  --land:#dde5e2; --landline:#b9c6c2; --accent:#0f6b5c; --sel:#17221f;
+  --cheap:#1a8a6e; --lv1:#4a3f6b; --lv2:#6f62a3; --lv3:#a59bd6; --lv4:#2f7d8c; --lv5:#6db7c2; --lv6:#c9a24a; --mid:#e3b23c; --dear:#c4462f; --nodata:#a8b3b0;
+  --f-disp:"Barlow Semi Condensed","Arial Narrow",Arial,sans-serif;
+  --f-body:"Barlow",Arial,Helvetica,sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#101614; --panel:#161e1b; --ink:#e3ebe8; --muted:#97a6a1; --line:#2a3632;
+  --land:#1e2926; --landline:#33433e; --accent:#4fc2a7; --sel:#f2f6f4;
+  --lv1:#8a7fc0; --lv2:#a99ee0; --lv3:#d0c8f5; --lv4:#4fa9b8; --lv5:#8fd3dc; --lv6:#e0bf6a;
+  --cheap:#34b48f; --mid:#e8bd52; --dear:#e0634a; --nodata:#56625e; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#101614; --panel:#161e1b; --ink:#e3ebe8; --muted:#97a6a1; --line:#2a3632;
+  --land:#1e2926; --landline:#33433e; --accent:#4fc2a7; --sel:#f2f6f4;
+  --lv1:#8a7fc0; --lv2:#a99ee0; --lv3:#d0c8f5; --lv4:#4fa9b8; --lv5:#8fd3dc; --lv6:#e0bf6a;
+  --cheap:#34b48f; --mid:#e8bd52; --dear:#e0634a; --nodata:#56625e; color-scheme:dark}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:14px;line-height:1.45;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:14px}
+.app{display:grid;grid-template-columns:minmax(0,1fr) 380px;grid-template-rows:auto minmax(0,1fr) auto;gap:12px 16px;height:100%;min-height:640px}
+header.top{grid-column:1/-1;display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 18px}
+h1{font-family:var(--f-disp);font-weight:700;font-size:1.65rem;letter-spacing:.01em;margin:0;text-wrap:balance}
+.sub{color:var(--muted);font-size:.9rem;margin:0}
+.mapwrap{position:relative;min-width:0;min-height:0;background:var(--panel);border:1px solid var(--line);border-radius:6px;overflow:hidden}
+svg#map{width:100%;height:100%;display:block}
+.state{fill:none;stroke:var(--ink);stroke-opacity:.55;stroke-width:1;vector-effect:non-scaling-stroke;pointer-events:none}
+.area{stroke:var(--panel);stroke-width:.5;vector-effect:non-scaling-stroke}
+.area.other{fill:var(--land);stroke:var(--landline)}
+.area.atlas{cursor:pointer}
+.area.nodata{fill:var(--nodata);opacity:.5}
+.area.dim{opacity:.18}
+.area.sel{stroke:var(--sel);stroke-width:2.4}
+.area.atlas:hover{stroke:var(--ink);stroke-width:1.4}
+.area:focus-visible{outline:none;stroke:var(--accent);stroke-width:3}
+.zoomctl{position:absolute;right:10px;top:10px;display:flex;flex-direction:column;gap:4px}
+.zoomctl button{width:30px;height:30px;font:inherit;font-size:1rem;border:1px solid var(--line);border-radius:4px;background:var(--panel);color:var(--ink);cursor:pointer}
+.slab{font-family:var(--f-disp);font-size:10px;fill:var(--muted);pointer-events:none;letter-spacing:.06em}
+.legend{position:absolute;left:12px;bottom:12px;background:color-mix(in srgb,var(--panel) 92%,transparent);border:1px solid var(--line);
+  border-radius:5px;padding:8px 10px;font-size:.78rem;max-width:calc(100% - 24px)}
+.legend .bar{height:9px;width:220px;max-width:100%;border-radius:2px;background:linear-gradient(90deg,var(--cheap),var(--mid),var(--dear))}
+.legend .ends{display:flex;justify-content:space-between;font-family:var(--f-mono);font-size:.72rem;color:var(--muted);margin-top:2px;gap:12px}
+.legend .lt{font-family:var(--f-disp);font-weight:600;letter-spacing:.04em;text-transform:uppercase;font-size:.72rem;margin-bottom:4px}
+.legend .shape{display:flex;gap:12px;margin-top:6px;color:var(--muted);align-items:center;flex-wrap:wrap}
+.legend .shape i{display:inline-block;border-radius:50%;background:var(--muted);vertical-align:middle;margin-right:4px}
+.tip{position:absolute;pointer-events:none;background:var(--ink);color:var(--bg);font-size:.8rem;padding:6px 9px;border-radius:4px;max-width:240px;z-index:5}
+.tip b{font-family:var(--f-disp);font-weight:600;font-size:.88rem;display:block}
+aside{display:flex;flex-direction:column;gap:12px;min-height:0;min-width:0;overflow-y:auto}
+.ctl{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:12px;display:grid;gap:10px}
+.lab{font-family:var(--f-disp);font-weight:600;font-size:.74rem;letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
+select{width:100%;font:inherit;font-weight:500;padding:7px 8px;border:1px solid var(--line);border-radius:4px;background:var(--bg);color:var(--ink)}
+.seg{display:flex;border:1px solid var(--line);border-radius:4px;overflow:hidden}
+.seg button{flex:1;font:inherit;font-size:.86rem;padding:6px 4px;border:0;background:var(--bg);color:var(--ink);cursor:pointer}
+.seg button+button{border-left:1px solid var(--line)}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--panel);font-weight:600}
+.seg button:focus-visible,select:focus-visible,.row:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.chk{display:flex;gap:8px;align-items:center;font-size:.88rem}
+.mdesc{font-size:.8rem;color:var(--muted);margin:0}
+.listbox{background:var(--panel);border:1px solid var(--line);border-radius:6px;display:flex;flex-direction:column;min-height:260px;flex:1 0 260px}
+.listhead{display:flex;justify-content:space-between;align-items:baseline;padding:10px 12px 6px;gap:8px}
+.list{overflow:auto;padding:0 6px 8px;min-height:120px}
+.row{display:grid;grid-template-columns:26px minmax(0,1fr) auto;gap:8px;align-items:center;padding:5px 6px;border-radius:4px;cursor:pointer}
+.row:hover{background:var(--bg)}
+.row.sel{background:color-mix(in srgb,var(--accent) 14%,transparent)}
+.row .rk{font-family:var(--f-mono);font-size:.74rem;color:var(--muted);text-align:right}
+.row .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.row .nm small{color:var(--muted);font-size:.74rem;margin-left:4px}
+.row .vl{font-family:var(--f-mono);font-size:.8rem;font-variant-numeric:tabular-nums;display:flex;align-items:center;gap:6px}
+.sw{width:9px;height:9px;border-radius:50%;flex:none}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:12px;font-size:.86rem}
+.card h2{font-family:var(--f-disp);font-weight:700;font-size:1.15rem;margin:0 0 2px}
+.card .meta{color:var(--muted);font-size:.8rem;margin-bottom:8px}
+.kv{display:grid;grid-template-columns:minmax(0,1fr) auto 64px;gap:3px 10px;align-items:center}
+.kv .k{color:var(--muted)}
+.kv .v{font-family:var(--f-mono);font-variant-numeric:tabular-nums;text-align:right;font-size:.82rem}
+.pr{height:6px;background:var(--bg);border-radius:3px;position:relative;overflow:hidden}
+.pr span{position:absolute;inset:0 auto 0 0;border-radius:3px}
+.pill{display:inline-block;font-family:var(--f-disp);font-weight:600;font-size:.74rem;letter-spacing:.05em;text-transform:uppercase;padding:1px 7px;border-radius:10px;color:#fff}
+.src{margin-top:8px;font-size:.76rem;color:var(--muted);display:grid;gap:2px;overflow-wrap:anywhere}
+.src a{color:var(--accent)}
+.empty{color:var(--muted);font-size:.85rem}
+footer.note{grid-column:1/-1;color:var(--muted);font-size:.76rem;margin:0}
+@media (max-width:900px){
+  body{padding-block:10px}
+  .app{grid-template-columns:minmax(0,1fr);grid-template-rows:none;height:auto}
+  aside{overflow:visible}
+  .mapwrap{height:68vh;min-height:380px}
+  .list{max-height:340px}
+}
+
+/* Entwicklungen */
+.dev{margin-top:22px;display:grid;gap:12px}
+.dev h2{font-family:var(--f-disp);font-weight:700;font-size:1.3rem;margin:0}
+.dev .lead{color:var(--muted);font-size:.88rem;margin:0;max-width:75ch}
+.devgrid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:16px}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:12px;min-width:0;display:grid;gap:8px;align-content:start}
+.panel h3{font-family:var(--f-disp);font-weight:600;font-size:1rem;margin:0}
+.panel .ph{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;justify-content:space-between}
+.panel .note2{font-size:.76rem;color:var(--muted);margin:0}
+.panel svg{width:100%;display:block;overflow:visible}
+.ax text{font-family:var(--f-mono);font-size:10px;fill:var(--muted)}
+.ax path,.ax line{stroke:var(--line)}
+.grid line{stroke:var(--line);stroke-dasharray:2 3}
+.diag{stroke:var(--muted);stroke-dasharray:4 4;stroke-width:1}
+.sdot{stroke:var(--panel);stroke-width:1;cursor:pointer}
+.sdot.sel{stroke:var(--sel);stroke-width:2.4}
+.axlab{font-family:var(--f-disp);font-size:11px;fill:var(--muted);letter-spacing:.04em}
+.zone{font-family:var(--f-disp);font-size:11px;fill:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1px solid var(--line);border-radius:4px;padding:6px 10px;background:var(--bg);font-size:.8rem;min-width:0}
+.chip b{font-family:var(--f-mono);font-size:.95rem;display:block}
+.seg.sm button{font-size:.78rem;padding:4px 8px}
+.leg2{display:flex;flex-wrap:wrap;gap:6px 12px;font-size:.76rem;color:var(--muted)}
+.leg2 i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:-1px}
+.chg{max-height:300px;overflow:auto;display:grid;gap:2px;padding-right:4px}
+.crow{display:grid;grid-template-columns:minmax(0,1fr) 150px 58px;gap:8px;align-items:center;font-size:.8rem;padding:2px 4px;border-radius:3px;cursor:pointer}
+.crow:hover{background:var(--bg)} .crow.sel{background:color-mix(in srgb,var(--accent) 14%,transparent)}
+.crow .cn{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.crow .cv{font-family:var(--f-mono);font-size:.76rem;text-align:right;font-variant-numeric:tabular-nums}
+.cbar{position:relative;height:10px}
+.cbar .z{position:absolute;left:50%;top:-2px;bottom:-2px;width:1px;background:var(--muted)}
+.cbar .b{position:absolute;top:1px;bottom:1px;border-radius:2px}
+.crow:focus-visible{outline:2px solid var(--accent)}
+.panel.wide{grid-column:1/-1}
+.ctl2{display:flex;flex-wrap:wrap;gap:8px}
+.negrid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:16px;align-items:start}
+.netbl{max-height:330px;overflow:auto;font-size:.8rem}
+.netbl .tr{display:grid;grid-template-columns:minmax(0,1fr) 54px 54px 62px 56px 56px;gap:6px;align-items:center;padding:3px 4px;border-radius:3px;cursor:pointer}
+.netbl .th{position:sticky;top:0;background:var(--panel);color:var(--muted);font-size:.72rem;cursor:default;border-bottom:1px solid var(--line)}
+.netbl .tr:not(.th):hover{background:var(--bg)} .netbl .tr.sel{background:color-mix(in srgb,var(--accent) 14%,transparent)}
+.netbl .n{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.netbl .v{font-family:var(--f-mono);font-size:.76rem;text-align:right;font-variant-numeric:tabular-nums}
+.netbl .up{color:var(--dear)} .netbl .dn{color:var(--cheap)} .netbl .na{color:var(--muted)}
+@media (max-width:900px){.devgrid,.negrid{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:520px){.crow{grid-template-columns:minmax(0,1fr) 90px 48px}}
+@media (max-width:520px){.netbl .tr{grid-template-columns:minmax(0,1fr) 44px 44px 48px 46px 46px;gap:4px;font-size:.74rem}}
+
+</style>
+
+<div class="app">
+  <header class="top">
+    <h1>Netzkosten-Atlas Deutschland</h1>
+    <p class="sub">Wo Netzanschluss und Netzausbau günstig oder teuer sind · __N__ Verteilnetzbetreiber · Netzausbaupläne 2026, BKZ und Netzentgelte 2026</p>
+  </header>
+
+  <div class="mapwrap" id="mapwrap">
+    <svg id="map" role="img" aria-label="Karte Deutschlands mit Verteilnetzbetreibern, eingefärbt nach der gewählten Kennzahl"></svg>
+    <div class="legend" id="legend"></div>
+    <div class="tip" id="tip" hidden></div>
+    <div class="zoomctl"><button type="button" id="zin" aria-label="Hineinzoomen">+</button><button type="button" id="zout" aria-label="Herauszoomen">−</button><button type="button" id="zreset" aria-label="Ansicht zurücksetzen">⟲</button></div>
+  </div>
+
+  <aside>
+    <div class="ctl">
+      <div>
+        <label class="lab" for="metric">Kennzahl</label>
+        <select id="metric"></select>
+      </div>
+      <p class="mdesc" id="mdesc"></p>
+      <div>
+        <div class="lab" id="typlab">Netztyp</div>
+        <div class="seg" role="group" aria-labelledby="typlab" id="typ">
+          <button type="button" data-v="all" aria-pressed="true">Alle</button>
+          <button type="button" data-v="Stadt" aria-pressed="false">Stadtnetze</button>
+          <button type="button" data-v="Fläche" aria-pressed="false">Flächennetze</button>
+        </div>
+      </div>
+      <label class="chk"><input type="checkbox" id="shade"> Netzgebiete ohne Daten ausblenden</label>
+    </div>
+
+    <div class="card" id="card"><p class="empty">Netzgebiet auf der Karte oder Eintrag in der Rangliste anklicken, um den Steckbrief eines Netzbetreibers zu sehen.</p></div>
+
+    <div class="listbox">
+      <div class="listhead"><span class="lab" id="listtitle">Rangliste</span><span class="lab" id="listcount"></span></div>
+      <div class="list" id="list" role="list"></div>
+    </div>
+  </aside>
+
+  <footer class="note">Flächen = Netzgebiete der Mittelspannung, genähert auf Gemeindeebene: Stichproben-Abfrage bei VNBdigital (ca. 9.400 Punkte), Zuordnung jeder Gemeinde zum häufigsten Netzbetreiber; Geometrie © GeoBasis-DE / BKG 2026 (VG250-EW, dl-de/by-2-0). Gemeinden mit mehreren Netzbetreibern erscheinen nur beim überwiegenden. Mausrad/Pinch zum Zoomen. NAP-Kennwerte: geschätzte Kosten ÷ Menge laut Netzausbauplan 2026 (2025–2035, netzdimensionierender Ausbau; vereinzelt NAP 2024 als Fallback). BKZ: veröffentlicht oder Proxy = Leistungspreis ≥2.500 h 2026. Netzentgelte ohne Umlagen, Konzessionsabgabe und USt. Daten: Preisblätter der VNB, VNBdigital (Stand 9. Nov. 2026).</footer>
+</div>
+
+<section class="dev" aria-labelledby="devh">
+  <h2 id="devh">Entwicklungen</h2>
+  <p class="lead">Wie haben sich die Kostenansätze vom Netzausbauplan 2024 zum Netzausbauplan 2026 verändert, wann soll das Geld verbaut werden, und wie entwickeln sich die Netzentgelte (Leistungspreise) von 2025 bis 2027? Beide Grafiken folgen dem Netztyp-Filter oben; ein angeklickter Netzbetreiber wird hervorgehoben bzw. einzeln gezeigt.</p>
+  <div class="chips" id="devchips"></div>
+  <div class="devgrid">
+    <div class="panel">
+      <div class="ph"><h3 id="sch">Kostenansätze NAP 2024 → NAP 2026</h3>
+        <div class="seg sm" role="group" aria-label="Kennzahl für den Vergleich" id="devm">
+          <button type="button" data-v="ms" aria-pressed="true">MS €/m</button>
+          <button type="button" data-v="ns" aria-pressed="false">NS €/m</button>
+          <button type="button" data-v="hs" aria-pressed="false">HS €/m</button>
+          <button type="button" data-v="ons" aria-pressed="false">ONS T€</button>
+        </div></div>
+      <svg id="scatter" role="img" aria-label="Säulen: Median NAP 2024 und NAP 2026 nach Netztyp"></svg>
+      <div class="lab" id="chglab">Veränderung je Netzbetreiber</div>
+      <div class="chg" id="chg" role="list"></div>
+      <p class="note2">Nur Netzbetreiber mit Werten in beiden Plänen (Zeiträume T+5 und T+10). Achtung: Der NAP 2024 enthielt teils reinen Ersatz, der NAP 2026 nur netzdimensionierenden Ausbau.</p>
+    </div>
+    <div class="panel">
+      <div class="ph"><h3 id="invh">Geplanter Ausbaubedarf je Zeitraum (NAP 2026)</h3>
+        <div class="seg sm" role="group" aria-label="Darstellung" id="invm">
+          <button type="button" data-v="year" aria-pressed="true">je Jahr</button>
+          <button type="button" data-v="sum" aria-pressed="false">Summe</button>
+        </div></div>
+      <svg id="inv" role="img" aria-label="Gestapelte Säulen: geplanter Ausbaubedarf nach Netzebene und Zeitraum"></svg>
+      <div class="leg2" id="invleg"></div>
+      <p class="note2" id="invnote"></p>
+    </div>
+    <div class="panel wide">
+      <div class="ph"><h3 id="neh">Netzentgelte 2025 → 2026 → 2027 (vorläufig)</h3>
+        <div class="ctl2">
+        <div class="seg sm" role="group" aria-label="Kennzahl Netzentgelt" id="nem">
+          <button type="button" data-v="ref" aria-pressed="true">Referenz ct/kWh</button>
+          <button type="button" data-v="lpg" aria-pressed="false">LP ≥2.500 h</button>
+          <button type="button" data-v="lpk" aria-pressed="false">LP &lt;2.500 h</button>
+        </div>
+        <div class="seg sm" role="group" aria-label="Netzebene" id="nel">
+          <button type="button" data-v="MS" aria-pressed="true">MS</button>
+          <button type="button" data-v="MS/NS" aria-pressed="false">MS/NS</button>
+          <button type="button" data-v="NS" aria-pressed="false">NS</button>
+        </div></div></div>
+      <div class="chips" id="nechips"></div>
+      <div class="negrid">
+        <svg id="neline" role="img" aria-label="Linien: Netzentgelt je Netzbetreiber 2025, 2026 und 2027"></svg>
+        <div class="netbl" id="netbl" role="table"></div>
+      </div>
+      <p class="note2" id="nenote"></p>
+    </div>
+  </div>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script>
+const DATA = __DATA__;
+const GEO = __GEO__;
+const NG = __NG__;
+const BYN = new Map(DATA.map(d => [d.n, d]));
+const BLN = {BW:"Baden-Württemberg",BY:"Bayern",BE:"Berlin",BB:"Brandenburg",HB:"Bremen",HH:"Hamburg",HE:"Hessen",MV:"Mecklenburg-Vorpommern",NI:"Niedersachsen",NW:"Nordrhein-Westfalen",RP:"Rheinland-Pfalz",SL:"Saarland",SN:"Sachsen",ST:"Sachsen-Anhalt",SH:"Schleswig-Holstein",TH:"Thüringen"};
+const M = [
+  {k:"idx",  l:"Gesamtindex (0 = günstig, 1 = teuer)", u:"", f:2, d:"Mittlerer Perzentilrang über MS- und NS-Leitung, Ortsnetzstation, Umspannwerk, BKZ MS und Netzentgelt MS. Nur VNB mit mindestens 3 Kennzahlen."},
+  {k:"ms",   l:"MS-Leitung (Netzausbauplan)", u:"€/m", f:0, d:"Geschätzte Kosten je Meter Mittelspannungsleitung laut Netzausbauplan 2026, Zeiträume 2025–2035."},
+  {k:"ns",   l:"NS-Leitung (Netzausbauplan)", u:"€/m", f:0, d:"Geschätzte Kosten je Meter Niederspannungsleitung laut Netzausbauplan."},
+  {k:"hs",   l:"HS-Leitung (Netzausbauplan)", u:"€/m", f:0, d:"Geschätzte Kosten je Meter 110-kV-Leitung (Kabel/Freileitung, Trassen- oder Stromkreis-km je nach NAP)."},
+  {k:"ons",  l:"Ortsnetzstation (Netzausbauplan)", u:"T€", f:0, d:"Geschätzte Kosten je Ortsnetzstation MS/NS (Neubau, Verstärkung, Ersatz)."},
+  {k:"uw",   l:"Umspannwerk (Netzausbauplan)", u:"Mio. €", f:1, d:"Geschätzte Kosten je Umspannwerks-Standortmaßnahme (HS/MS bzw. HöS/HS)."},
+  {k:"bkz",  l:"Baukostenzuschuss MS 2026", u:"€/kW", f:0, d:"BKZ für Anschluss in der Mittelspannung. Wo nicht veröffentlicht: Proxy = Leistungspreis ≥2.500 h 2026 (Grundlage des BNetzA-BKZ-Modells; wo beides vorliegt, weicht der veröffentlichte BKZ um Faktor 0,5–1,4 ab, Median ≈ 1)."},
+  {k:"nne",  l:"Netzentgelt MS-Kunde 1 MW / 4.000 h", u:"ct/kWh", f:2, d:"Leistungs- plus Arbeitspreis 2026 für einen Referenzkunden in der Mittelspannung."},
+  {k:"nnens",l:"Netzentgelt NS-RLM 100 kW / 1.600 h", u:"ct/kWh", f:2, d:"Leistungs- plus Arbeitspreis 2026 für einen Referenzkunden mit Leistungsmessung in der Niederspannung."}
+];
+const ALLM = M.filter(m=>m.k!=="idx");
+let cur = "idx", typ = "all", selected = null, shade = false;
+try { const s = JSON.parse(localStorage.getItem("nka") || "{}"); if (s.cur && M.find(m=>m.k===s.cur)) cur = s.cur; if (s.typ) typ = s.typ; if (typeof s.shade === "boolean") shade = s.shade; } catch(e) {}
+const save = () => { try { localStorage.setItem("nka", JSON.stringify({cur, typ, shade})); } catch(e) {} };
+
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const fmt = (v, f) => v == null ? "–" : v.toLocaleString("de-DE", {minimumFractionDigits: f, maximumFractionDigits: f});
+const meta = k => M.find(m => m.k === k);
+
+// percentile within all VNB with a value (independent of filter, so colours stay comparable)
+const pct = {};
+ALLM.concat([meta("idx")]).forEach(m => {
+  const vals = DATA.map(d => d[m.k]).filter(v => v != null).sort((a,b)=>a-b);
+  pct[m.k] = v => { if (v == null || vals.length < 2) return null; let lo = 0; while (lo < vals.length && vals[lo] < v) lo++; let hi = lo; while (hi < vals.length && vals[hi] === v) hi++; return ((lo + hi - 1) / 2) / (vals.length - 1); };
+});
+function colorFor(p){ if (p == null) return css("--nodata"); return d3.interpolateRgbBasis([css("--cheap"), css("--mid"), css("--dear")])(p); }
+
+const sel = document.getElementById("metric");
+M.forEach(m => { const o = document.createElement("option"); o.value = m.k; o.textContent = m.l + (m.u ? ` [${m.u}]` : ""); sel.appendChild(o); });
+sel.value = cur;
+sel.addEventListener("change", () => { cur = sel.value; save(); render(); });
+document.querySelectorAll("#typ button").forEach(b => {
+  b.setAttribute("aria-pressed", b.dataset.v === typ);
+  b.addEventListener("click", () => { typ = b.dataset.v; document.querySelectorAll("#typ button").forEach(x => x.setAttribute("aria-pressed", x === b)); save(); render(); });
+});
+const shadeBox = document.getElementById("shade"); shadeBox.checked = shade;
+shadeBox.addEventListener("change", () => { shade = shadeBox.checked; save(); render(); });
+
+const svg = d3.select("#map"), wrap = document.getElementById("mapwrap"), tip = document.getElementById("tip");
+const gZoom = svg.append("g"), gAreas = gZoom.append("g"), gStates = gZoom.append("g"), gLab = gZoom.append("g");
+const zoom = d3.zoom().scaleExtent([1, 24]).on("zoom", ev => { gZoom.attr("transform", ev.transform); gLab.selectAll("text").attr("font-size", 10 / ev.transform.k); });
+svg.call(zoom).on("dblclick.zoom", null);
+document.getElementById("zin").onclick = () => svg.transition().duration(250).call(zoom.scaleBy, 1.8);
+document.getElementById("zout").onclick = () => svg.transition().duration(250).call(zoom.scaleBy, 1 / 1.8);
+document.getElementById("zreset").onclick = () => svg.transition().duration(300).call(zoom.transform, d3.zoomIdentity);
+let proj, path;
+function layout(){
+  const w = wrap.clientWidth, h = wrap.clientHeight;
+  svg.attr("viewBox", `0 0 ${w} ${h}`);
+  proj = d3.geoMercator().fitExtent([[14, 14], [w - 14, h - 14]], GEO);
+  path = d3.geoPath(proj);
+  gStates.selectAll("path").data(GEO.features).join("path").attr("class", "state").attr("d", path);
+  gLab.selectAll("text").data(GEO.features).join("text").attr("class", "slab")
+    .attr("transform", d => { const c = path.centroid(d); return `translate(${c[0]},${c[1]})`; })
+    .attr("text-anchor", "middle").text(d => d.properties.c)
+    .attr("dy", d => ({BE:-10, HB:-9, HH:-10})[d.properties.c] || 0);
+  gAreas.selectAll("path").data(NG.features, f => f.properties.id).join("path").attr("d", path);
+}
+const visible = d => typ === "all" || d.t === typ;
+
+function render(){
+  const m = meta(cur);
+  document.getElementById("mdesc").textContent = m.d;
+  const shown = DATA.filter(visible);
+  const areaOf = f => f.properties.n ? BYN.get(f.properties.n) : null;
+  gAreas.selectAll("path").data(NG.features, f => f.properties.id).join("path")
+    .attr("d", path)
+    .attr("class", f => { const d = areaOf(f); if (!d) return "area other"; return "area atlas" + (d[cur] == null ? " nodata" : "") + (visible(d) ? "" : " dim") + (d.n === selected ? " sel" : ""); })
+    .style("fill", f => { const d = areaOf(f); return d && d[cur] != null ? colorFor(pct[cur](d[cur])) : null; })
+    .style("display", f => shade && !(areaOf(f) && visible(areaOf(f))) ? "none" : null)
+    .attr("tabindex", f => areaOf(f) ? 0 : null).attr("role", f => areaOf(f) ? "button" : null)
+    .attr("aria-label", f => { const d = areaOf(f); return d ? `${d.n}: ${m.l} ${fmt(d[cur], m.f)} ${m.u}` : null; })
+    .on("click", (ev, f) => { const d = areaOf(f); if (d) select(d.n); })
+    .on("keydown", (ev, f) => { const d = areaOf(f); if (d && (ev.key === "Enter" || ev.key === " ")) { ev.preventDefault(); select(d.n); } })
+    .on("mousemove", (ev, f) => { const d = areaOf(f);
+      showTip(ev, d ? `<b>${d.n}</b>${BLN[d.bl] || d.bla} · ${d.t}netz<br>${m.l}: ${fmt(d[cur], m.f)} ${d[cur]==null ? "" : m.u}`
+                    : `<b>${f.properties.v}</b>nicht im Datensatz`); })
+    .on("mouseleave", hideTip);
+  gAreas.selectAll("path.sel").raise();
+
+  // legend
+  const vals = DATA.map(d => d[cur]).filter(v => v != null);
+  const lo = d3.min(vals), hi = d3.max(vals), med = d3.median(vals);
+  document.getElementById("legend").innerHTML =
+    `<div class="lt">${m.l}${m.u ? " · " + m.u : ""}</div><div class="bar"></div>
+     <div class="ends"><span>${fmt(lo, m.f)} günstig</span><span>Median ${fmt(med, m.f)}</span><span>${fmt(hi, m.f)} teuer</span></div>
+     <div class="shape"><span><i style="width:10px;height:10px;border-radius:2px;background:var(--nodata)"></i>keine Angabe</span><span><i style="width:10px;height:10px;border-radius:2px;background:var(--land);border:1px solid var(--landline)"></i>Netzbetreiber nicht im Datensatz</span></div>`;
+
+  // list
+  const ranked = shown.filter(d => d[cur] != null).sort((a,b) => a[cur] - b[cur]);
+  const missing = shown.filter(d => d[cur] == null).sort((a,b) => a.n.localeCompare(b.n, "de"));
+  document.getElementById("listtitle").textContent = "Rangliste · günstig → teuer";
+  document.getElementById("listcount").textContent = `${ranked.length} mit Wert`;
+  const list = document.getElementById("list");
+  list.innerHTML = "";
+  ranked.concat(missing).forEach((d, i) => {
+    const r = document.createElement("div");
+    r.className = "row" + (d.n === selected ? " sel" : ""); r.tabIndex = 0; r.setAttribute("role", "listitem"); r.dataset.n = d.n;
+    const has = d[cur] != null;
+    r.innerHTML = `<span class="rk">${has ? i + 1 : ""}</span><span class="nm">${d.n}<small>${d.bl}</small></span>
+      <span class="vl">${fmt(d[cur], m.f)}<span class="sw" style="background:${colorFor(pct[cur](d[cur]))}"></span></span>`;
+    r.addEventListener("click", () => select(d.n));
+    r.addEventListener("keydown", ev => { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); select(d.n); } });
+    list.appendChild(r);
+  });
+  renderCard();
+  if (typeof renderDev === 'function' && document.getElementById('scatter')) renderDev();
+}
+
+function select(n){
+  selected = selected === n ? null : n;
+  render();
+  const row = document.querySelector(`.row[data-n="${CSS.escape(n)}"]`);
+  if (row && selected) row.scrollIntoView({block: "nearest"});
+}
+
+function renderCard(){
+  const card = document.getElementById("card");
+  const d = DATA.find(x => x.n === selected);
+  if (!d) { card.innerHTML = `<p class="empty">Netzgebiet auf der Karte oder Eintrag in der Rangliste anklicken, um den Steckbrief eines Netzbetreibers zu sehen.</p>`; return; }
+  const katCol = {"günstig": css("--cheap"), "mittel": css("--mid"), "teuer": css("--dear")}[d.kat];
+  const rows = ALLM.map(m => {
+    const p = pct[m.k](d[m.k]);
+    const extra = m.k === "bkz" && d.bb ? ` <small style="color:var(--muted)">(${d.bb === "veröffentlicht" ? "veröff." : "Proxy"})</small>` : "";
+    return `<span class="k">${m.l.replace(/ \(Netzausbauplan\)| 2026/,"")}${extra}</span><span class="v">${fmt(d[m.k], m.f)} ${d[m.k]==null ? "" : m.u}</span>
+      <span class="pr" title="${p==null ? "keine Angabe" : "Perzentil " + Math.round(p*100)}">${p==null ? "" : `<span style="width:${Math.max(6, p*100)}%;background:${colorFor(p)}"></span>`}</span>`;
+  }).join("");
+  const link = (u, t) => u ? `<a href="${u}" target="_blank" rel="noopener">${t}</a>` : "";
+  card.innerHTML = `<h2>${d.n}</h2>
+    <div class="meta">${BLN[d.bl] || d.bla}${d.bla !== d.bl ? " (" + d.bla + ")" : ""} · ${d.t}netz ·
+      Gesamtindex ${d.idx == null ? "– (zu wenige Kennzahlen)" : fmt(d.idx, 2)} ${d.kat ? `<span class="pill" style="background:${katCol};color:var(--panel)">${d.kat}</span>` : ""}</div>
+    <div class="kv">${rows}</div>
+    <div class="src">
+      ${d.nap ? `<span>${d.napurl ? `<a href="${d.napurl}" target="_blank" rel="noopener">${d.naped}</a>` : d.naped} vom ${new Date(d.nap).toLocaleDateString("de-DE")} (VNBdigital)</span>` : ""}
+      ${d.srcne ? `<span>${link(d.srcne, "Preisblatt Netzentgelte 2026")}${d.stne ? " · Stand " + d.stne : ""}</span>` : ""}
+      ${d.srcb ? `<span>${link(d.srcb, "Preisblatt Baukostenzuschuss")}</span>` : ""}
+    </div>`;
+}
+
+function showTip(ev, html){
+  const r = wrap.getBoundingClientRect();
+  tip.innerHTML = html; tip.hidden = false;
+  let x = ev.clientX - r.left + 14, y = ev.clientY - r.top + 12;
+  if (x + tip.offsetWidth > r.width - 6) x = ev.clientX - r.left - tip.offsetWidth - 12;
+  if (y + tip.offsetHeight > r.height - 6) y = ev.clientY - r.top - tip.offsetHeight - 10;
+  tip.style.left = x + "px"; tip.style.top = y + "px";
+}
+function hideTip(){ tip.hidden = true; }
+
+
+const DEV = __DEV__;
+const NNE = __NNE__;
+let nem = "ref", nel = "MS";
+let devm = "ms", invm = "year";
+const LV = [["HöS/HS","HöS/HS-UW"],["HS","HS-Leitungen"],["HS/MS","HS/MS-UW"],["MS","MS-Leitungen"],["MS/NS","Ortsnetzstationen"],["NS","NS-Leitungen"]];
+const LVC = ["--lv1","--lv2","--lv3","--lv4","--lv5","--lv6"];
+const PER = [["T5","2025–2030",6],["T10","2031–2035",5],["Z","2036–2045",10]];
+document.querySelectorAll("#devm button").forEach(b=>b.addEventListener("click",()=>{devm=b.dataset.v;document.querySelectorAll("#devm button").forEach(x=>x.setAttribute("aria-pressed",x===b));renderDev();}));
+["nem","nel"].forEach(id=>document.querySelectorAll(`#${id} button`).forEach(b=>b.addEventListener("click",()=>{ if(id==="nem") nem=b.dataset.v; else nel=b.dataset.v; document.querySelectorAll(`#${id} button`).forEach(x=>x.setAttribute("aria-pressed",x===b)); renderNE(); })));
+document.querySelectorAll("#invm button").forEach(b=>b.addEventListener("click",()=>{invm=b.dataset.v;document.querySelectorAll("#invm button").forEach(x=>x.setAttribute("aria-pressed",x===b));renderDev();}));
+function renderDev(){
+  const vis = new Set(DATA.filter(visible).map(d=>d.n));
+  const U = {ms:"€/m",ns:"€/m",hs:"€/m",ons:"T€"}[devm];
+  const pts = Object.entries(DEV).filter(([n,v])=>vis.has(n) && v.a[devm] && v.b[devm]).map(([n,v])=>({n,a:v.a[devm],b:v.b[devm],t:(DATA.find(d=>d.n===n)||{}).t}));
+  // chips
+  const med = (arr)=>arr.length?d3.median(arr):null;
+  const chg = pts.map(p=>p.b/p.a-1);
+  const up = chg.filter(c=>c>0.05).length, down = chg.filter(c=>c<-0.05).length;
+  const pct = v=> v==null?"–":(v>0?"+":"")+Math.round(v*100).toLocaleString("de-DE")+" %";
+  document.getElementById("devchips").innerHTML =
+    `<div class="chip">Median NAP 2024<b>${fmt(med(pts.map(p=>p.a)),0)} ${U}</b></div>
+     <div class="chip">Median NAP 2026<b>${fmt(med(pts.map(p=>p.b)),0)} ${U}</b></div>
+     <div class="chip">Median Veränderung je VNB<b>${pct(med(chg))}</b></div>
+     <div class="chip">teurer / billiger angesetzt (±5 %)<b>${up} / ${down} von ${pts.length}</b></div>`;
+  // medians 2024 vs 2026, grouped by Netztyp
+  const sv = d3.select("#scatter"); const W = sv.node().clientWidth || 600, H = 230;
+  sv.attr("viewBox",`0 0 ${W} ${H}`).attr("height",H).selectAll("*").remove();
+  const groups = ["Fläche","Stadt"].filter(t=>typ==="all"||typ===t);
+  const gdat = groups.map(t=>{ const q=pts.filter(p=>p.t===t); return {t, n:q.length, a:med(q.map(p=>p.a)), b:med(q.map(p=>p.b))}; });
+  const sp = selected ? pts.find(p=>p.n===selected) : null;
+  if (sp) gdat.push({t:selected.length>22?selected.slice(0,21)+"…":selected, n:1, a:sp.a, b:sp.b, own:true});
+  const m={l:46,r:10,t:22,b:36};
+  const x0=d3.scaleBand().domain(gdat.map(d=>d.t)).range([m.l,W-m.r]).padding(0.28);
+  const x1=d3.scaleBand().domain(["a","b"]).range([0,x0.bandwidth()]).padding(0.08);
+  const y=d3.scaleLinear().domain([0,(d3.max(gdat,d=>Math.max(d.a||0,d.b||0))||1)*1.18]).nice().range([H-m.b,m.t]);
+  sv.append("g").attr("class","grid").selectAll("line").data(y.ticks(4)).join("line").attr("x1",m.l).attr("x2",W-m.r).attr("y1",d=>y(d)).attr("y2",d=>y(d));
+  sv.append("g").attr("class","ax").attr("transform",`translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4).tickFormat(d=>fmt(d,0)));
+  sv.append("text").attr("class","axlab").attr("x",m.l-40).attr("y",12).text(`Median [${U}]`);
+  const gg=sv.append("g").selectAll("g").data(gdat).join("g").attr("transform",d=>`translate(${x0(d.t)},0)`);
+  gg.selectAll("rect").data(d=>[["a",d.a,d],["b",d.b,d]]).join("rect").attr("x",e=>x1(e[0])).attr("width",x1.bandwidth())
+    .attr("y",e=>y(e[1]||0)).attr("height",e=>y(0)-y(e[1]||0)).style("fill",e=>e[0]==="a"?"var(--nodata)":"var(--accent)")
+    .on("mousemove",(ev,e)=>devTip(ev,`<b>${e[2].t}${e[2].own?"":"netze ("+e[2].n+")"}</b>${e[0]==="a"?"NAP 2024":"NAP 2026"}: ${fmt(e[1],0)} ${U}`)).on("mouseleave",()=>dt.hidden=true);
+  gg.selectAll("text.v").data(d=>[["a",d.a],["b",d.b]]).join("text").attr("class","zone").attr("text-anchor","middle")
+    .attr("x",e=>x1(e[0])+x1.bandwidth()/2).attr("y",e=>y(e[1]||0)-4).text(e=>fmt(e[1],0));
+  gg.append("text").attr("class","zone").attr("text-anchor","middle").attr("x",x0.bandwidth()/2).attr("y",H-m.b+16)
+    .style("font-weight",d=>d.own?"700":null).text(d=>d.own?d.t:`${d.t} (${d.n})`);
+  gg.append("text").attr("class","zone").attr("text-anchor","middle").attr("x",x0.bandwidth()/2).attr("y",H-m.b+30)
+    .text(d=>d.a&&d.b?pct(d.b/d.a-1):"");
+  sv.append("g").attr("transform",`translate(${W-m.r-150},4)`).call(g=>{ [["NAP 2024","var(--nodata)"],["NAP 2026","var(--accent)"]].forEach(([l,c],i)=>{ g.append("rect").attr("x",i*75).attr("y",0).attr("width",10).attr("height",10).attr("rx",2).style("fill",c); g.append("text").attr("class","zone").attr("x",i*75+14).attr("y",9).text(l); }); });
+  // change list
+  document.getElementById("chglab").textContent = `Veränderung je Netzbetreiber (${U}), sortiert`;
+  const lst = pts.map(p=>({...p,c:p.b/p.a-1})).sort((a,b)=>b.c-a.c);
+  const cmax = Math.min(0.6, d3.max(lst,p=>Math.abs(p.c))||1);
+  const box=document.getElementById("chg"); box.innerHTML="";
+  lst.forEach(p=>{ const r=document.createElement("div"); r.className="crow"+(p.n===selected?" sel":""); r.tabIndex=0; r.setAttribute("role","listitem");
+    const w=Math.min(50,Math.abs(p.c)/cmax*50); const col=p.c>0?"var(--dear)":"var(--cheap)";
+    r.title=`${p.n}: ${fmt(p.a,0)} → ${fmt(p.b,0)} ${U}`;
+    r.innerHTML=`<span class="cn">${p.n}</span><span class="cbar"><span class="z"></span><span class="b" style="${p.c>0?`left:50%`:`right:50%`};width:${w}%;background:${col}"></span></span><span class="cv">${pct(p.c)}</span>`;
+    r.addEventListener("click",()=>select(p.n)); r.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();select(p.n);}});
+    box.appendChild(r); });
+  const sr=box.querySelector(".crow.sel"); if(sr) sr.scrollIntoView({block:"nearest"});
+  // investment bars
+  const iv = d3.select("#inv"); const W2 = iv.node().clientWidth || 500, H2 = Math.max(260, Math.min(380, W2*0.7));
+  iv.attr("viewBox",`0 0 ${W2} ${H2}`).attr("height",H2).selectAll("*").remove();
+  const sel1 = selected && DEV[selected] && Object.keys(DEV[selected].inv).length ? selected : null;
+  const src = sel1 ? [selected] : [...vis].filter(n=>DEV[n] && Object.keys(DEV[n].inv).length);
+  document.getElementById("invh").textContent = sel1 ? `Geplanter Ausbaubedarf: ${sel1}` : "Geplanter Ausbaubedarf je Zeitraum (NAP 2026)";
+  const rows = PER.map(([p,lab,yrs])=>{ const o={p,lab}; let base=0; LV.forEach(([ne])=>{ let v=0; src.forEach(n=>{v+=((DEV[n].inv[p]||{})[ne]||0);}); v = v/1000/(invm==="year"?yrs:1); o[ne]=[base,base+v]; base+=v;}); o.tot=base; return o; });
+  const m2={l:48,r:10,t:16,b:28};
+  const xb = d3.scaleBand().domain(PER.map(p=>p[1])).range([m2.l,W2-m2.r]).padding(0.32);
+  const yb = d3.scaleLinear().domain([0,(d3.max(rows,r=>r.tot)||1)*1.12]).nice().range([H2-m2.b,m2.t]);
+  const ymx=yb.domain()[1], ybd = ymx<0.1?3:ymx<1?2:ymx<10?1:0;
+  iv.append("g").attr("class","grid").selectAll("line").data(yb.ticks(5)).join("line").attr("x1",m2.l).attr("x2",W2-m2.r).attr("y1",d=>yb(d)).attr("y2",d=>yb(d));
+  iv.append("g").attr("class","ax").attr("transform",`translate(0,${H2-m2.b})`).call(d3.axisBottom(xb).tickSize(0)).select(".domain").remove();
+  iv.append("g").attr("class","ax").attr("transform",`translate(${m2.l},0)`).call(d3.axisLeft(yb).ticks(5).tickFormat(d=>fmt(d,ybd)));
+  iv.append("text").attr("class","axlab").attr("x",m2.l-40).attr("y",10).text(invm==="year"?"Mrd. € pro Jahr":"Mrd. € je Zeitraum");
+  LV.forEach(([ne],i)=>{ iv.append("g").selectAll("rect").data(rows).join("rect").attr("x",r=>xb(r.lab)).attr("width",xb.bandwidth())
+    .attr("y",r=>yb(r[ne][1])).attr("height",r=>Math.max(0,yb(r[ne][0])-yb(r[ne][1]))).style("fill",`var(${LVC[i]})`)
+    .on("mousemove",(e,r)=>devTip(e,`<b>${r.lab} · ${LV[i][1]}</b>${fmt(r[ne][1]-r[ne][0],2)} Mrd. €${invm==="year"?" pro Jahr":""}`)).on("mouseleave",()=>dt.hidden=true); });
+  iv.append("g").selectAll("text").data(rows).join("text").attr("class","zone").attr("text-anchor","middle").attr("x",r=>xb(r.lab)+xb.bandwidth()/2).attr("y",r=>yb(r.tot)-4).text(r=>fmt(r.tot,r.tot<0.1?3:r.tot<10?2:1));
+  document.getElementById("invleg").innerHTML = LV.map(([ne,l],i)=>`<span><i style="background:var(${LVC[i]})"></i>${l}</span>`).join("");
+  const tot = rows.reduce((s,r)=>s+(r.tot*(invm==="year"?PER.find(p=>p[0]===r.p)[2]:1)),0);
+  renderNE();
+  document.getElementById("invnote").textContent = (sel1 ? "" : `Summe über ${src.length} Netzbetreiber mit NAP 2026. `) + `Gesamt 2025–2045: ${fmt(tot,1)} Mrd. €. „Je Jahr“ teilt durch die Länge des Zeitraums (6, 5 bzw. 10 Jahre). Netzdimensionierender Ausbau ohne reinen Ersatz, nicht inflationiert; Netze BW nur in Mrd. € gerundet angegeben.`;
+}
+
+const YRS=["2025","2026","2027"];
+function neVal(t){ if(!t) return null; return nem==="ref" ? t[2]/40 + t[3] : nem==="lpg" ? t[2] : t[0]; }
+function renderNE(){
+  const vis = new Set(DATA.filter(visible).map(d=>d.n));
+  const U = nem==="ref" ? "ct/kWh" : "€/kW·a";
+  const rows = Object.entries(NNE).filter(([n])=>vis.has(n)).map(([n,v])=>{ const o={n,t:(DATA.find(d=>d.n===n)||{}).t}; YRS.forEach(y=>o[y]=neVal((v[y]||{})[nel])); return o; })
+    .filter(o=>o["2026"]!=null);
+  const pct = v=> v==null?"–":(v>0?"+":"")+Math.round(v*100).toLocaleString("de-DE")+" %";
+  const d1 = rows.filter(o=>o["2025"]!=null).map(o=>o["2026"]/o["2025"]-1), d2 = rows.filter(o=>o["2027"]!=null).map(o=>o["2027"]/o["2026"]-1);
+  const med = a=>a.length?d3.median(a):null;
+  document.getElementById("nechips").innerHTML =
+    `<div class="chip">Median 2026 (${rows.length} VNB)<b>${fmt(med(rows.map(o=>o["2026"])),2)} ${U}</b></div>
+     <div class="chip">Median Veränderung 2025 → 2026<b>${pct(med(d1))} <small>(n=${d1.length})</small></b></div>
+     <div class="chip">Median Veränderung 2026 → 2027 (vorl.)<b>${pct(med(d2))} <small>(n=${d2.length})</small></b></div>`;
+  // lines
+  const sv=d3.select("#neline"); const W=sv.node().clientWidth||500, H=290; sv.attr("viewBox",`0 0 ${W} ${H}`).attr("height",H).selectAll("*").remove();
+  const m={l:44,r:14,t:16,b:26};
+  const x=d3.scalePoint().domain(YRS).range([m.l+10,W-m.r-10]);
+  const all=rows.flatMap(o=>YRS.map(y=>o[y]).filter(v=>v!=null));
+  const y=d3.scaleLinear().domain([0,(d3.max(all)||1)*1.08]).nice().range([H-m.b,m.t]);
+  sv.append("g").attr("class","grid").selectAll("line").data(y.ticks(5)).join("line").attr("x1",m.l).attr("x2",W-m.r).attr("y1",d=>y(d)).attr("y2",d=>y(d));
+  sv.append("g").attr("class","ax").attr("transform",`translate(${m.l},0)`).call(d3.axisLeft(y).ticks(5).tickFormat(d=>fmt(d,nem==="ref"?1:0)));
+  sv.append("g").attr("class","ax").attr("transform",`translate(0,${H-m.b})`).call(d3.axisBottom(x).tickSize(0).tickFormat(d=>d==="2027"?"2027 (vorl.)":d)).select(".domain").remove();
+  sv.append("text").attr("class","axlab").attr("x",m.l-40).attr("y",10).text(`${nel} [${U}]`);
+  const ln=d3.line().defined(d=>d[1]!=null).x(d=>x(d[0])).y(d=>y(d[1]));
+  // median line (paired steps chained from 2026 median)
+  const m26=med(rows.map(o=>o["2026"]));
+  const mpts=[["2025",d1.length?m26/(1+med(d1)):null],["2026",m26],["2027",d2.length?m26*(1+med(d2)):null]];
+  const ordered=[...rows].sort((a,b)=>(a.n===selected)-(b.n===selected));
+  ordered.forEach(o=>{ const pts=YRS.map(yy=>[yy,o[yy]]); const own=o.n===selected;
+    const g=sv.append("g").style("cursor","pointer").on("click",()=>select(o.n))
+      .on("mousemove",ev=>devTip(ev,`<b>${o.n}</b>${YRS.map(yy=>`${yy}: ${o[yy]==null?"–":fmt(o[yy],2)}`).join(" · ")} ${U}`)).on("mouseleave",()=>dt.hidden=true);
+    g.append("path").attr("d",ln(pts)).attr("fill","none").style("stroke",own?"var(--accent)":"var(--nodata)").attr("stroke-width",own?3:1.3).attr("opacity",own?1:.75);
+    g.selectAll("circle").data(pts.filter(d=>d[1]!=null)).join("circle").attr("cx",d=>x(d[0])).attr("cy",d=>y(d[1])).attr("r",own?4.5:2.6).style("fill",own?"var(--accent)":"var(--nodata)");
+    g.append("path").attr("d",ln(pts)).attr("fill","none").attr("stroke","transparent").attr("stroke-width",10); });
+  sv.append("path").attr("d",ln(mpts)).attr("fill","none").style("stroke","var(--ink)").attr("stroke-width",2.5).attr("stroke-dasharray","6 4");
+  sv.append("g").selectAll("circle").data(mpts.filter(d=>d[1]!=null)).join("circle").attr("cx",d=>x(d[0])).attr("cy",d=>y(d[1])).attr("r",4).style("fill","var(--ink)");
+  sv.append("text").attr("class","zone").attr("x",x("2026")+8).attr("y",y(m26)-8).style("font-weight","700").text(`Median ${fmt(m26,2)}`);
+  // table
+  const tb=document.getElementById("netbl");
+  const sorted=[...rows].sort((a,b)=>a["2026"]-b["2026"]);
+  const cls=v=>v==null?"na":v>0.02?"up":v<-0.02?"dn":"";
+  tb.innerHTML=`<div class="tr th" role="row"><span>Netzbetreiber</span><span class="v">2025</span><span class="v">2026</span><span class="v">2027 v.</span><span class="v">Δ 25→26</span><span class="v">Δ 26→27</span></div>`;
+  sorted.forEach(o=>{ const r=document.createElement("div"); r.className="tr"+(o.n===selected?" sel":""); r.setAttribute("role","row"); r.tabIndex=0;
+    const a=o["2025"]!=null?o["2026"]/o["2025"]-1:null, b=o["2027"]!=null?o["2027"]/o["2026"]-1:null;
+    const f=v=>v==null?'<span class="v na">–</span>':`<span class="v">${fmt(v,2)}</span>`;
+    r.innerHTML=`<span class="n">${o.n}</span>${f(o["2025"])}${f(o["2026"])}${f(o["2027"])}<span class="v ${cls(a)}">${pct(a)}</span><span class="v ${cls(b)}">${pct(b)}</span>`;
+    r.addEventListener("click",()=>select(o.n)); r.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();select(o.n);}});
+    tb.appendChild(r); });
+  const sr=tb.querySelector(".tr.sel"); if(sr) sr.scrollIntoView({block:"nearest"});
+  const def = nem==="ref" ? "Referenzkunde 1 MW, 4.000 Benutzungsstunden: Leistungspreis ≥2.500 h ÷ 40 + Arbeitspreis ≥2.500 h." : nem==="lpg" ? "Jahresleistungspreis für Entnahmestellen ≥2.500 Benutzungsstunden." : "Jahresleistungspreis für Entnahmestellen <2.500 Benutzungsstunden.";
+  document.getElementById("nenote").textContent = `${def} Netto, ohne Umlagen, Konzessionsabgabe und USt. 2026 ist durch den Bundeszuschuss zu den Übertragungsnetzkosten (6,5 Mrd. €) gesenkt; 2027 sind vorläufige Preisblätter (Veröffentlichung 15.10.2026) mit geringerem Zuschuss (rund 5,5 Mrd. €), die endgültigen Preise folgen bis Ende Dezember. Vergleichswerte 2025 und 2027 liegen bisher für ${d1.length} bzw. ${d2.length} der ${rows.length} Netzbetreiber vor; die gestrichelte Linie verkettet die Median-Veränderungen dieser Paare ab dem Median 2026.`;
+}
+const dt = document.createElement("div"); dt.className="tip"; dt.hidden=true; dt.style.position="fixed"; document.body.appendChild(dt);
+function devTip(e,html){ dt.innerHTML=html; dt.hidden=false; let x=e.clientX+14,y=e.clientY+12; if(x+dt.offsetWidth>innerWidth-8)x=e.clientX-dt.offsetWidth-12; if(y+dt.offsetHeight>innerHeight-8)y=e.clientY-dt.offsetHeight-10; dt.style.left=x+"px"; dt.style.top=y+"px"; }
+
+layout(); render();
+new ResizeObserver(() => { layout(); render(); }).observe(wrap);
+new ResizeObserver(() => renderDev()).observe(document.querySelector('.devgrid'));
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change", render);
+new MutationObserver(render).observe(document.documentElement, {attributes: true, attributeFilter: ["data-theme"]});
+</script>

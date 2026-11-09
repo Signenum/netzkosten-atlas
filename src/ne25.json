@@ -1,0 +1,488 @@
+{
+"SWM Infrastruktur GmbH & Co. KG": {
+"src": "https://www.swm-infrastruktur.de/dam/swm-infrastruktur/dokumente/strom/netzzugang-netznutzungsentgelte/preisblaetter-2025/strom-preisblatt-2025.pdf",
+"stand": "12/2024",
+"HS": [
+20.55,
+6.25,
+165.21,
+0.46
+],
+"HS/MS": [
+20.37,
+6.36,
+169.52,
+0.39
+],
+"MS": [
+21.78,
+6.62,
+175.12,
+0.49
+],
+"MS/NS": [
+22.06,
+6.88,
+183.54,
+0.42
+],
+"NS": [
+27.99,
+7.75,
+198.37,
+0.93
+]
+},
+"N-ERGIE Netz GmbH": {
+"src": "https://n-ergie-netz.de/public/remotemedien/media/nng/produkte_und_dienstleistungen_2/netzentgelte_1/netzentgelte_strom/ne_strom_2025_end/N_Preisblatt_Gesamt_2025_end.pdf",
+"stand": "18.12.2024",
+"HS": [
+22.94,
+6.37,
+163.22,
+0.76
+],
+"HS/MS": [
+24.27,
+6.4,
+161.02,
+0.93
+],
+"MS": [
+25.13,
+7.03,
+180.61,
+0.81
+],
+"MS/NS": [
+28.26,
+8.54,
+225.43,
+0.65
+],
+"NS": [
+39.03,
+9.01,
+213.98,
+2.01
+]
+},
+"Stromnetz Berlin GmbH": {
+"src": "https://www.stromnetz.berlin/files/globalassets/dokumente/entgelte/zugang/Entgelte-01-01-2025/NNE-B-2025_20241231.pdf",
+"stand": "31.12.2024",
+"HS": [
+5.41,
+4.76,
+66.19,
+2.33
+],
+"HS/MS": [
+6.31,
+5.44,
+73.01,
+2.77
+],
+"MS": [
+7.48,
+6.36,
+83.83,
+3.31
+],
+"MS/NS": [
+8.57,
+7.92,
+117.68,
+3.55
+],
+"NS": [
+11.02,
+9.29,
+120.18,
+4.92
+]
+},
+"TEN Thüringer Energienetze GmbH & Co. KG": {
+"src": "https://www.thueringer-energienetze.com/Content/Documents/Energiepartner/TEN_Strom_NE_2025.pdf",
+"stand": "01.01.2025",
+"HS": [
+36.33,
+5.22,
+152.69,
+0.56
+],
+"HS/MS": [
+38.06,
+6.01,
+168.63,
+0.79
+],
+"MS": [
+38.31,
+6.75,
+180.56,
+1.06
+],
+"MS/NS": [
+38.57,
+7.71,
+195.18,
+1.44
+],
+"NS": [
+43.55,
+8.51,
+184.63,
+2.86
+]
+},
+"Westfalen Weser Netz GmbH": {
+"src": "https://ww-netz.com/fileadmin/WWN/Wir/Unternehmen/Netzdaten/Strom/Netzentgelte/2024-11-11_Preisblatt.pdf",
+"stand": "11.11.2024 vorläufig",
+"HS": [
+14.42,
+7.64,
+178.8,
+1.06
+],
+"HS/MS": [
+14.67,
+7.82,
+164.06,
+1.85
+],
+"MS": [
+15.5,
+7.99,
+163.73,
+2.06
+],
+"MS/NS": [
+15.82,
+8.15,
+149.25,
+2.81
+],
+"NS": [
+16.1,
+8.37,
+101.08,
+4.97
+]
+},
+"enercity Netz GmbH": {
+"src": "https://www.enercity-netz.de/assets/cms/eng/partner/preisarchiv-strom/preisblatt-netznutzung-strom-2025-jahr.pdf",
+"stand": "01.01.2025",
+"HS": [
+7.81,
+6.74,
+157.6,
+0.75
+],
+"HS/MS": [
+9.94,
+7.25,
+165.67,
+1.02
+],
+"MS": [
+13.21,
+8.28,
+172.77,
+1.89
+],
+"MS/NS": [
+17.22,
+8.44,
+173.08,
+2.21
+],
+"NS": [
+20.89,
+8.4,
+103.53,
+5.09
+]
+},
+"MVV Netze GmbH": {
+"src": "https://www.mvv-netze.de/fileadmin/user_upload_mvv-netze/Dokumente/energie_beziehen/netzentgelte/strom/241009_MVV_Netze_vorl_Preisblaetter_Strom_2025_Ma.pdf",
+"stand": "09.10.2024 vorläufig",
+"HS": [
+12.03,
+3.74,
+99.63,
+0.24
+],
+"HS/MS": [
+13.87,
+4.19,
+110.62,
+0.32
+],
+"MS": [
+19.77,
+5.91,
+146.79,
+0.83
+],
+"MS/NS": [
+23.3,
+6.33,
+150.82,
+1.23
+],
+"NS": [
+22.83,
+8.35,
+138.21,
+3.74
+]
+},
+"EAM Netz GmbH": {
+"src": "https://www.eam-netz.de/fileadmin/user_upload/Ueber_Uns/Netzinformation/Netzentgelte/strom/241010_Preisblatt_EAM_Netz_Strom_2025_-_unter_Vorbehalt.pdf",
+"stand": "10.10.2024 vorläufig",
+"HS/MS": [
+35.04,
+6.39,
+179.28,
+0.62
+],
+"MS": [
+35.52,
+6.46,
+181.2,
+0.63
+],
+"MS/NS": [
+67.56,
+7.62,
+181.32,
+3.07
+],
+"NS": [
+93.24,
+6.8,
+182.16,
+3.24
+]
+},
+"NEW Netz GmbH": {
+"src": "https://www.new-netz.de/mediathek/Preisblatt_NN_Strom_2025.pdf",
+"stand": "01.01.2025",
+"HS/MS": [
+22.43,
+6.1,
+155.35,
+0.79
+],
+"MS": [
+23.0,
+6.26,
+159.2,
+0.81
+],
+"MS/NS": [
+24.04,
+6.54,
+166.4,
+0.84
+],
+"NS": [
+36.56,
+6.84,
+168.68,
+1.55
+]
+},
+"EWE NETZ GmbH": {
+"src": "https://ewe-netz.de/-/media/ewe-netz/downloads/2025_01_06_ewe_netz_nne_strom_2025.pdf",
+"stand": "06.01.2025",
+"HS/MS": [
+17.52,
+3.7,
+80.64,
+1.17
+],
+"MS": [
+16.92,
+4.1,
+82.76,
+1.47
+],
+"MS/NS": [
+18.83,
+4.52,
+77.03,
+2.19
+],
+"NS": [
+16.27,
+5.59,
+63.74,
+3.69
+]
+},
+"RheinNetz GmbH (RNG)": {
+"src": "https://rheinnetz.de/vorlaeufige-netzentgelte-strom-ab-dem-01012025.pdfx",
+"stand": "25.10.2024 vorläufig",
+"HS": [
+17.49,
+4.5,
+111.97,
+0.72
+],
+"HS/MS": [
+21.46,
+5.24,
+127.5,
+0.99
+],
+"MS": [
+25.2,
+5.36,
+122.21,
+1.48
+],
+"MS/NS": [
+27.04,
+6.81,
+168.24,
+1.17
+],
+"NS": [
+34.13,
+7.57,
+176.41,
+1.88
+]
+},
+"Badenova Netze GmbH": {
+"src": "https://badenovanetze.de/downloads/ueber-badenovanetze/veroeffentlichungen/strom/netzentgelte/strom-netzentgelte-preisblatt-2025.pdf",
+"stand": "2025",
+"HS": [
+39.22,
+7.62,
+217.1,
+0.51
+],
+"HS/MS": [
+44.87,
+7.93,
+189.73,
+2.14
+],
+"MS": [
+45.5,
+8.32,
+197.97,
+2.22
+],
+"MS/NS": [
+50.17,
+8.87,
+198.5,
+2.94
+],
+"NS": [
+52.2,
+8.98,
+178.72,
+3.92
+]
+},
+"Netze ODR GmbH": {
+"src": "https://netze-odr.de/fileadmin/Netze-ODR/Dokumente/Unternehmen/Veroeffentlichungen/Netzentgelte/Netzentgelte_Strom_2025.pdf",
+"stand": "2025",
+"HS/MS": [
+16.42,
+8.52,
+192.77,
+1.47
+],
+"MS": [
+16.53,
+8.59,
+191.79,
+1.58
+],
+"MS/NS": [
+21.42,
+8.41,
+174.93,
+2.27
+],
+"NS": [
+10.83,
+6.93,
+149.46,
+1.38
+]
+},
+"e-netz Südhessen AG": {
+"src": "https://e-netz-suedhessen.de/fileadmin/download/Preisblatt_Strom_2025.pdf",
+"stand": "2025",
+"HS": [
+38.18,
+5.3,
+162.48,
+0.32
+],
+"HS/MS": [
+44.76,
+6.17,
+188.96,
+0.4
+],
+"MS": [
+56.4,
+7.11,
+214.88,
+0.77
+],
+"MS/NS": [
+69.19,
+7.47,
+219.94,
+1.44
+],
+"NS": [
+81.85,
+7.74,
+221.99,
+2.14
+]
+},
+"Stuttgart Netze": {
+"src": "https://www.stuttgart-netze.de/media/filer_public/68/43/6843a795-e2cf-4080-b70b-0b73111f62a0/preise_und_regelungen_2025_v11.pdf",
+"stand": "2025",
+"HS": [
+20.24,
+6.29,
+148.45,
+1.16
+],
+"HS/MS": [
+21.32,
+6.61,
+154.63,
+1.28
+],
+"MS": [
+22.36,
+7.62,
+156.27,
+2.27
+],
+"MS/NS": [
+29.89,
+8.05,
+164.28,
+2.67
+],
+"NS": [
+36.49,
+9.49,
+174.78,
+3.96
+]
+}
+}
