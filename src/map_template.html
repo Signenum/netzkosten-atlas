@@ -36,8 +36,8 @@ h1{font-family:var(--f-disp);font-weight:700;font-size:1.65rem;letter-spacing:.0
 svg#map{width:100%;height:100%;display:block}
 .state{fill:none;stroke:var(--ink);stroke-opacity:.55;stroke-width:1;vector-effect:non-scaling-stroke;pointer-events:none}
 .area{stroke:var(--panel);stroke-width:.5;vector-effect:non-scaling-stroke}
-.area.other{fill:url(#hatch) var(--land);stroke:var(--landline);cursor:pointer}
-.area.other:hover{fill:url(#hatchh) var(--landline)}
+.area.other{fill:var(--land);stroke:var(--landline);cursor:pointer}
+.area.other:hover{fill:var(--landline)}
 #hatch rect,#hatchh rect{fill:var(--land)} #hatch path{stroke:var(--landline);stroke-width:1.1} #hatchh path{stroke:var(--muted);stroke-width:1.4}
 .area.atlas{cursor:pointer}
 .card .gh{display:inline-block;margin-top:8px;font-weight:600;color:var(--accent)}
@@ -271,8 +271,8 @@ const M = [
 const ALLM = M.filter(m=>m.k!=="idx" && m.k!=="vnb");
 const PAL = ["#8fb9a8","#f0c27a","#a3b6dc","#e3a093","#bfd394","#c6a3d0","#93cdd6","#dcbf98"];
 let cur = "vnb", typ = "all", selected = null, shade = false;
-try { const s = JSON.parse(localStorage.getItem("nka") || "{}"); if (s.cur && M.find(m=>m.k===s.cur)) cur = s.cur; if (s.typ) typ = s.typ; if (typeof s.shade === "boolean") shade = s.shade; } catch(e) {}
-const save = () => { try { localStorage.setItem("nka", JSON.stringify({cur, typ, shade})); } catch(e) {} };
+try { const s = JSON.parse(localStorage.getItem("nka2") || "{}"); if (s.cur && M.find(m=>m.k===s.cur)) cur = s.cur; if (s.typ) typ = s.typ; if (typeof s.shade === "boolean") shade = s.shade; } catch(e) {}
+const save = () => { try { localStorage.setItem("nka2", JSON.stringify({cur, typ, shade})); } catch(e) {} };
 
 const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
 const fmt = (v, f) => v == null ? "–" : v.toLocaleString("de-DE", {minimumFractionDigits: f, maximumFractionDigits: f});
@@ -331,7 +331,7 @@ function render(){
   gAreas.selectAll("path").data(NG.features, f => f.properties.id).join("path")
     .attr("d", path)
     .attr("class", f => { const d = areaOf(f); if (!d) return "area other" + (selected === "id:" + f.properties.id ? " sel" : ""); return "area atlas" + (d[cur] == null ? " nodata" : "") + (visible(d) ? "" : " dim") + (d.n === selected ? " sel" : ""); })
-    .style("fill", f => { const d = areaOf(f); return d && d[cur] != null ? colorFor(pct[cur](d[cur])) : null; })
+    .style("fill", f => { const d = areaOf(f); if (!d) return css("--land") || "#dde5e2"; return d[cur] != null ? colorFor(pct[cur](d[cur])) : (css("--nodata") || "#a8b3b0"); })
     .style("display", f => shade && !(areaOf(f) && visible(areaOf(f))) ? "none" : null)
     .attr("tabindex", 0).attr("role", "button")
     .attr("aria-label", f => { const d = areaOf(f); return d ? `${d.n}: ${m.l} ${fmt(d[cur], m.f)} ${m.u}` : `${f.properties.v}: noch keine Daten`; })
@@ -349,7 +349,7 @@ function render(){
   document.getElementById("legend").innerHTML =
     `<div class="lt">${m.l}${m.u ? " · " + m.u : ""}</div><div class="bar"></div>
      <div class="ends"><span>${fmt(lo, m.f)} günstig</span><span>Median ${fmt(med, m.f)}</span><span>${fmt(hi, m.f)} teuer</span></div>
-     <div class="shape"><span><i style="width:10px;height:10px;border-radius:2px;background:var(--nodata)"></i>keine Angabe</span><span><i style="width:10px;height:10px;border-radius:2px;background:repeating-linear-gradient(45deg,var(--land) 0 2px,var(--landline) 2px 3px);border:1px solid var(--landline)"></i>noch keine Daten (anklickbar)</span></div>`;
+     <div class="shape"><span><i style="width:10px;height:10px;border-radius:2px;background:var(--nodata)"></i>keine Angabe</span><span><i style="width:10px;height:10px;border-radius:2px;background:var(--land);border:1px solid var(--landline)"></i>Netzbetreiber ohne erfasste Kennzahl (anklickbar)</span></div>`;
 
   // list
   const ranked = shown.filter(d => d[cur] != null).sort((a,b) => a[cur] - b[cur]);
