@@ -109,3 +109,15 @@ def key(name):
     for pat,k in RULES:
         if pat in n: return k
     raise KeyError(name)
+
+# Zusätzliche Netzbetreiber ohne Netzausbauplan (nur Preisblatt-Daten), gepflegt in extra_vnb.json:
+# {"<Name wie in ne.json/bkz.json>": {"disp": Anzeigename, "bl": Bundesland, "typ": "Stadt"|"Fläche", "id": VNBdigital-ID}}
+import json as _json, os as _os
+_EX = _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'extra_vnb.json')
+EXTRA = _json.load(open(_EX, encoding='utf-8')) if _os.path.exists(_EX) else {}
+for _n, _v in EXTRA.items():
+    META['x:' + _n] = (_v['disp'], _v['bl'], _v['typ'])
+_key_rules = key
+def key(name):
+    if name in EXTRA: return 'x:' + name
+    return _key_rules(name)

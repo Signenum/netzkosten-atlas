@@ -1,0 +1,116 @@
+{
+ "SWP Stadtwerke Pforzheim GmbH & Co. KG": {
+  "disp": "Stadtwerke Pforzheim",
+  "bl": "BW",
+  "typ": "Stadt",
+  "id": "516"
+ },
+ "e-regio Netz GmbH": {
+  "disp": "e-regio Netz (Euskirchen)",
+  "bl": "NW/RP",
+  "typ": "Fläche",
+  "id": "McJLd6A47sSAzLyoN"
+ },
+ "Stadtwerke Bayreuth Energie und Wasser GmbH": {
+  "disp": "Stadtwerke Bayreuth",
+  "bl": "BY",
+  "typ": "Stadt",
+  "id": "74"
+ },
+ "Stadtwerke Bamberg Energie- und Wasserversorgungs GmbH": {
+  "disp": "Stadtwerke Bamberg",
+  "bl": "BY",
+  "typ": "Stadt",
+  "id": "70"
+ },
+ "Stadtwerke Baden-Baden": {
+  "disp": "Stadtwerke Baden-Baden",
+  "bl": "BW",
+  "typ": "Stadt",
+  "id": "61"
+ },
+ "Stadtwerke Schwäbisch Hall GmbH": {
+  "disp": "Stadtwerke Schwäbisch Hall",
+  "bl": "BW",
+  "typ": "Fläche",
+  "id": "7067"
+ },
+ "Stadtwerke Mühlacker GmbH": {
+  "disp": "Stadtwerke Mühlacker",
+  "bl": "BW",
+  "typ": "Stadt",
+  "id": "431"
+ },
+ "LokalWerke GmbH": {
+  "disp": "LokalWerke",
+  "bl": "NW",
+  "typ": "Fläche",
+  "id": "8"
+ },
+ "Albwerk GmbH & Co. KG": {
+  "disp": "Albwerk (Geislingen)",
+  "bl": "BW",
+  "typ": "Fläche",
+  "id": "219"
+ },
+ "Stadtwerke Ludwigsburg-Kornwestheim GmbH": {
+  "disp": "Stadtwerke Ludwigsburg-Kornwestheim",
+  "bl": "BW",
+  "typ": "Stadt",
+  "id": "7479"
+ },
+ "Gelsenwasser Energienetze GmbH": {
+  "disp": "Gelsenwasser Energienetze",
+  "bl": "NI/NW",
+  "typ": "Fläche",
+  "id": "7653"
+ },
+ "ESTW - Erlanger Stadtwerke AG": {
+  "disp": "Erlanger Stadtwerke (ESTW)",
+  "bl": "BY",
+  "typ": "Stadt",
+  "id": "179"
+ },
+ "Stadtwerke Tübingen GmbH": {
+  "disp": "Stadtwerke Tübingen",
+  "bl": "BW",
+  "typ": "Stadt",
+  "id": "640"
+ },
+ "ÜZ Mainfranken eG": {
+  "disp": "ÜZ Mainfranken",
+  "bl": "BY",
+  "typ": "Fläche",
+  "id": "401"
+ },
+ "KEW Kommunale Energie- und Wasserversorgung AG": {
+  "disp": "KEW Neunkirchen",
+  "bl": "SL",
+  "typ": "Stadt",
+  "id": "461"
+ },
+ "Creos Deutschland GmbH": {
+  "disp": "Creos Deutschland",
+  "bl": "SL",
+  "typ": "Fläche",
+  "id": "962"
+ },
+ "Stadtwerke Ingolstadt Netze GmbH": {
+  "disp": "Stadtwerke Ingolstadt Netze",
+  "bl": "BY",
+  "typ": "Stadt",
+  "id": "314"
+ },
+ "Energieversorgung Rüsselsheim GmbH": {
+  "disp": "Energieversorgung Rüsselsheim",
+  "bl": "HE",
+  "typ": "Stadt",
+  "id": "7558"
+ },
+ "Stadtwerke Service Meerbusch Willich GmbH & Co. KG": {
+  "disp": "Stadtwerke Meerbusch Willich",
+  "bl": "NW",
+  "typ": "Stadt",
+  "id": "6sLLPkCrCueDwk6a8"
+ }
+}

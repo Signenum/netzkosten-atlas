@@ -21,6 +21,8 @@ grid = json.load(open(D + 'grid.json'))
 res = json.load(open(D + 'res.json'))
 names = json.load(open(D + 'names.json'))
 vmap = json.load(open(D + 'vnbmap.json'))
+_ex = json.load(open(os.path.join(os.path.dirname(D[:-1]), 'extra_vnb.json'), encoding='utf-8'))
+vmap.update({v['id']: v['disp'] for v in _ex.values() if v.get('id')})
 
 tree = STRtree(G)
 votes = defaultdict(lambda: defaultdict(float))

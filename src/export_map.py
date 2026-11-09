@@ -28,7 +28,7 @@ for r in g.itertuples(index=False):
         naped='Netzausbauplan 2026' + (' (teils NAP 2024)' if is26 and (sub.Ed!='NAP 2026').any() else '') if is26 else 'Netzausbauplan 2024'
         fid=(napsrc26 if is26 else napsrc).get(key(row.Bez))
         if fid: napurl='https://www.vnbdigital.de/gateway/files?serviceName=vnb&fileId='+fid
-    out.append(dict(n=r.VNB,bl=r.BL1,bla=r.BL,t=r.Typ,lat=C[r.VNB][0],lon=C[r.VNB][1],ms=num(r.MS),ns=num(r.NS),hs=num(r.HS),ons=num(r.ONS),uw=num(r.UW),
+    out.append(dict(n=r.VNB,bl=r.BL1,bla=r.BL,t=r.Typ,lat=C.get(r.VNB,[51,10])[0],lon=C.get(r.VNB,[51,10])[1],ms=num(r.MS),ns=num(r.NS),hs=num(r.HS),ons=num(r.ONS),uw=num(r.UW),
         bkz=num(r.BKZ),bb=None if pd.isna(r.Bb) else r.Bb,nne=num(r.NNE),nnens=num(r.NNENS),idx=num(getattr(r,'_20') if False else g.loc[g.VNB==r.VNB,idx].iloc[0]),
         kat=None if pd.isna(g.loc[g.VNB==r.VNB,kat].iloc[0]) else g.loc[g.VNB==r.VNB,kat].iloc[0],
         nap=nap,naped=naped,napurl=napurl,srcne=srcne.get(r.VNB,(None,None))[0],stne=srcne.get(r.VNB,(None,None))[1],srcb=srcb.get(r.VNB)))
