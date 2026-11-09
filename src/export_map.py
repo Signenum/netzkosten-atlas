@@ -18,7 +18,6 @@ C=json.load(open(os.path.dirname(os.path.abspath(__file__))+'/coords.json'))
 out=[]
 num=lambda x: None if pd.isna(x) else round(float(x),4)
 for r in g.itertuples(index=False):
-    if r.VNB not in C: print('nocoord',r.VNB); continue
     sub=raw[raw.VNB==r.VNB]
     nap=naped=napurl=None
     if len(sub):

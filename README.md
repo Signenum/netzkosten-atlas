@@ -8,7 +8,7 @@ Der Atlas vergleicht die Verteilnetzbetreiber (VNB) mit öffentlich verfügbaren
 - **Netzentgelte** 2026 (Jahresleistungspreissystem), dazu 2025 und 2027 (vorläufig), wo verfügbar
 - **Entwicklungen**: Kostenansätze NAP 2024 → NAP 2026, geplanter Ausbaubedarf je Zeitraum, Netzentgelte 2025 → 2027
 
-Die Karte zeigt die **Netzgebiete der Mittelspannung**, genähert auf Gemeindeebene.
+Die Karte zeigt die **Netzgebiete der Mittelspannung aller rund 630 Verteilnetzbetreiber**, genähert auf Gemeindeebene. Die Ansicht „Netzbetreiber“ färbt jedes Netzgebiet ein; die Kennzahl-Ansichten zeigen Gebiete ohne erfasste Daten schraffiert.
 
 ![Vorschau](docs/vorschau.png)
 

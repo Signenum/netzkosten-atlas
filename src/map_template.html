@@ -258,6 +258,7 @@ const keyOf = f => f.properties.n && BYN.get(f.properties.n) ? f.properties.n : 
 const BLN = {BW:"Baden-Württemberg",BY:"Bayern",BE:"Berlin",BB:"Brandenburg",HB:"Bremen",HH:"Hamburg",HE:"Hessen",MV:"Mecklenburg-Vorpommern",NI:"Niedersachsen",NW:"Nordrhein-Westfalen",RP:"Rheinland-Pfalz",SL:"Saarland",SN:"Sachsen",ST:"Sachsen-Anhalt",SH:"Schleswig-Holstein",TH:"Thüringen"};
 const M = [
   {k:"idx",  l:"Gesamtindex (0 = günstig, 1 = teuer)", u:"", f:2, d:"Mittlerer Perzentilrang über MS- und NS-Leitung, Ortsnetzstation, Umspannwerk, BKZ MS und Netzentgelt MS. Nur VNB mit mindestens 3 Kennzahlen."},
+  {k:"vnb",  l:"Netzbetreiber (alle Netzgebiete)", u:"", f:0, d:"Jedes Netzgebiet der Mittelspannung in eigener Farbe: alle rund 630 Verteilnetzbetreiber, genähert auf Gemeindeebene. Anklicken zeigt Name, Einwohner und – falls erfasst – die Kennzahlen."},
   {k:"ms",   l:"MS-Leitung (Netzausbauplan)", u:"€/m", f:0, d:"Geschätzte Kosten je Meter Mittelspannungsleitung laut Netzausbauplan 2026, Zeiträume 2025–2035."},
   {k:"ns",   l:"NS-Leitung (Netzausbauplan)", u:"€/m", f:0, d:"Geschätzte Kosten je Meter Niederspannungsleitung laut Netzausbauplan."},
   {k:"hs",   l:"HS-Leitung (Netzausbauplan)", u:"€/m", f:0, d:"Geschätzte Kosten je Meter 110-kV-Leitung (Kabel/Freileitung, Trassen- oder Stromkreis-km je nach NAP)."},
@@ -267,8 +268,9 @@ const M = [
   {k:"nne",  l:"Netzentgelt MS-Kunde 1 MW / 4.000 h", u:"ct/kWh", f:2, d:"Leistungs- plus Arbeitspreis 2026 für einen Referenzkunden in der Mittelspannung."},
   {k:"nnens",l:"Netzentgelt NS-RLM 100 kW / 1.600 h", u:"ct/kWh", f:2, d:"Leistungs- plus Arbeitspreis 2026 für einen Referenzkunden mit Leistungsmessung in der Niederspannung."}
 ];
-const ALLM = M.filter(m=>m.k!=="idx");
-let cur = "idx", typ = "all", selected = null, shade = false;
+const ALLM = M.filter(m=>m.k!=="idx" && m.k!=="vnb");
+const PAL = ["#8fb9a8","#f0c27a","#a3b6dc","#e3a093","#bfd394","#c6a3d0","#93cdd6","#dcbf98"];
+let cur = "vnb", typ = "all", selected = null, shade = false;
 try { const s = JSON.parse(localStorage.getItem("nka") || "{}"); if (s.cur && M.find(m=>m.k===s.cur)) cur = s.cur; if (s.typ) typ = s.typ; if (typeof s.shade === "boolean") shade = s.shade; } catch(e) {}
 const save = () => { try { localStorage.setItem("nka", JSON.stringify({cur, typ, shade})); } catch(e) {} };
 
@@ -325,6 +327,7 @@ function render(){
   document.getElementById("mdesc").textContent = m.d;
   const shown = DATA.filter(visible);
   const areaOf = f => f.properties.n ? BYN.get(f.properties.n) : null;
+  if (cur === "vnb") { renderVNB(m); return; }
   gAreas.selectAll("path").data(NG.features, f => f.properties.id).join("path")
     .attr("d", path)
     .attr("class", f => { const d = areaOf(f); if (!d) return "area other" + (selected === "id:" + f.properties.id ? " sel" : ""); return "area atlas" + (d[cur] == null ? " nodata" : "") + (visible(d) ? "" : " dim") + (d.n === selected ? " sel" : ""); })
@@ -365,6 +368,36 @@ function render(){
     r.addEventListener("keydown", ev => { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); select(d.n); } });
     list.appendChild(r);
   });
+  renderCard();
+  if (typeof renderDev === 'function' && document.getElementById('scatter')) renderDev();
+}
+
+function renderVNB(m){
+  const sel = f => selected === keyOf(f);
+  gAreas.selectAll("path").data(NG.features, f => f.properties.id).join("path")
+    .attr("d", path)
+    .attr("class", f => "area atlas" + (sel(f) ? " sel" : ""))
+    .style("fill", f => PAL[(f.properties.c || 0) % PAL.length]).style("display", null)
+    .attr("tabindex", 0).attr("role", "button").attr("aria-label", f => f.properties.n || f.properties.v)
+    .on("click", (ev, f) => select(keyOf(f)))
+    .on("keydown", (ev, f) => { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); select(keyOf(f)); } })
+    .on("mousemove", (ev, f) => showTip(ev, `<b>${f.properties.n || f.properties.v}</b>${(f.properties.l || []).join(", ")}<br>${fmt(f.properties.g, 0)} Gemeinden · ca. ${fmtE(f.properties.e)} Einwohner${f.properties.n ? "" : "<br>noch keine Kennzahlen"}`))
+    .on("mouseleave", hideTip);
+  gAreas.selectAll("path.sel").raise();
+  const nAtlas = NG.features.filter(f => f.properties.n).length;
+  document.getElementById("legend").innerHTML = `<div class="lt">Netzbetreiber · ${NG.features.length} Netzgebiete</div>
+    <div class="ends" style="justify-content:flex-start;gap:4px">${PAL.map(c => `<i style="display:inline-block;width:14px;height:10px;border-radius:2px;background:${c}"></i>`).join("")}</div>
+    <div class="shape"><span>Farben unterscheiden nur Nachbarn · ${nAtlas} davon mit Kennzahlen</span></div>`;
+  const feats = [...NG.features].sort((a, b) => (b.properties.e || 0) - (a.properties.e || 0));
+  document.getElementById("listtitle").textContent = "Netzbetreiber · nach Einwohnern";
+  document.getElementById("listcount").textContent = `${feats.length} Gebiete`;
+  const list = document.getElementById("list"); list.innerHTML = "";
+  feats.forEach((f, i) => { const p = f.properties, k = keyOf(f);
+    const r = document.createElement("div"); r.className = "row" + (selected === k ? " sel" : ""); r.tabIndex = 0; r.setAttribute("role", "listitem"); r.dataset.n = k;
+    r.innerHTML = `<span class="rk">${i + 1}</span><span class="nm">${p.n || p.v}<small>${(p.l || []).map(l => Object.keys(BLN).find(c => BLN[c] === l) || l).join("/")}</small></span>
+      <span class="vl">${fmtE(p.e)}<span class="sw" style="background:${PAL[(p.c || 0) % PAL.length]}"></span></span>`;
+    r.addEventListener("click", () => select(k)); r.addEventListener("keydown", ev => { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); select(k); } });
+    list.appendChild(r); });
   renderCard();
   if (typeof renderDev === 'function' && document.getElementById('scatter')) renderDev();
 }

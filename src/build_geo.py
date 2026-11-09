@@ -79,11 +79,18 @@ for gi, x in assign.items():
     st = stats[x]; st[0] += 1
     st[1] += int(d.EWZ[gi]) if d.EWZ[gi] == d.EWZ[gi] else 0
     if isinstance(d.LAN[gi], str): st[2].add(d.LAN[gi])
+# Gebietsfarben: benachbarte Netzgebiete bekommen verschiedene Farben (Greedy-Färbung, 8 Farben)
+_tree = STRtree(simp); col = {}
+_order = sorted(range(len(keys)), key=lambda i: -simp[i].area)
+for i in _order:
+    if simp[i].is_empty: col[i] = 0; continue
+    used = {col[j] for j in _tree.query(simp[i].buffer(0.002), predicate='intersects') if j in col and j != i}
+    col[i] = next(c for c in range(20) if c not in used) % 8
 feats = []
-for x, u in zip(keys, simp):
+for i, (x, u) in enumerate(zip(keys, simp)):
     if u.is_empty: continue
     g, e, l = stats[x]
-    feats.append({'type': 'Feature', 'properties': {'id': x, 'v': names.get(x, '?'), 'n': vmap.get(x), 'g': g, 'e': e, 'l': sorted(l)}, 'geometry': rnd(u)})
+    feats.append({'type': 'Feature', 'properties': {'id': x, 'v': names.get(x, '?'), 'n': vmap.get(x), 'g': g, 'e': e, 'l': sorted(l), 'c': col[i]}, 'geometry': rnd(u)})
 json.dump({'type': 'FeatureCollection', 'features': feats}, open(D + 'netzgebiete.geojson', 'w'), ensure_ascii=False, separators=(',', ':'))
 
 CODE = {"Baden-Württemberg": "BW", "Bayern": "BY", "Berlin": "BE", "Brandenburg": "BB", "Bremen": "HB", "Hamburg": "HH", "Hessen": "HE",
