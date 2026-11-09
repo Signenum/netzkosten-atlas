@@ -1,3 +1,7 @@
 __pycache__/
 src/geo/gem.pkl
 *.pyc
+src/atlas_fragment.html
+src/geo/netzgebiete.geojson
+src/geo/gemeinde_vnb.csv
+src/geo/laender.geojson

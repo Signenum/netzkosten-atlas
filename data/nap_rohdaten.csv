@@ -1,0 +1,1056 @@
+VNB,NAP-Bezeichnung,NAP-Datum,Netzebene,Zeitraum,Art,Menge,Einheit,Kosten Mio. €,spez. Kosten,Einheit spez.,Ausgabe
+AVU Netz,AVU Netz,2026-11-02,HS,T5,Leitung,15.0,km,15.0,1000.0,€/m,NAP 2026
+AVU Netz,AVU Netz,2026-11-02,HS/MS,T5,Anlage,7.0,UW,26.0,3714.28571428571,T€/UW,NAP 2026
+AVU Netz,AVU Netz,2026-11-02,HS,T10,Leitung,1.0,km,1.0,1000.0,€/m,NAP 2026
+AVU Netz,AVU Netz,2026-11-02,HS/MS,T10,Anlage,1.0,UW,8.0,8000.0,T€/UW,NAP 2026
+AVU Netz,AVU Netz,2026-11-02,HS,Z,Leitung,15.0,km,18.0,1200.0,€/m,NAP 2026
+AVU Netz,AVU Netz,2026-11-02,HS/MS,Z,Anlage,5.0,UW,38.0,7600.0,T€/UW,NAP 2026
+AVU Netz,AVU Netz,2026-11-02,MS,T5,Leitung,6.1,km,1.2,196.72131147541,€/m,NAP 2026
+AVU Netz,AVU Netz,2026-11-02,MS/NS,T5,Anlage,51.0,ONS,2.0,39.2156862745098,T€/Stück,NAP 2026
+AVU Netz,AVU Netz,2026-11-02,NS,T5,Leitung,41.4,km,8.3,200.48309178744,€/m,NAP 2026
+AVU Netz,AVU Netz,2026-11-02,MS,T10,Leitung,12.3,km,2.5,203.252032520325,€/m,NAP 2026
+AVU Netz,AVU Netz,2026-11-02,MS/NS,T10,Anlage,122.0,ONS,4.8,39.344262295082,T€/Stück,NAP 2026
+AVU Netz,AVU Netz,2026-11-02,NS,T10,Leitung,54.1,km,10.8,199.630314232902,€/m,NAP 2026
+AVU Netz,AVU Netz,2026-11-02,MS,Z,Leitung,12.9,km,2.6,201.550387596899,€/m,NAP 2026
+AVU Netz,AVU Netz,2026-11-02,MS/NS,Z,Anlage,120.0,ONS,3.8,31.6666666666667,T€/Stück,NAP 2026
+AVU Netz,AVU Netz,2026-11-02,NS,Z,Leitung,98.9,km,19.8,200.202224469161,€/m,NAP 2026
+AllgäuNetz,AllgäuNetz,2026-10-30,HS,T5,Leitung,10.0,km,2.24,224.0,€/m,NAP 2026
+AllgäuNetz,AllgäuNetz,2026-10-30,HS/MS,T5,Anlage,5.0,UW,18.55,3710.0,T€/UW,NAP 2026
+AllgäuNetz,AllgäuNetz,2026-10-30,HS,T10,Leitung,75.9,km,31.57,415.942028985507,€/m,NAP 2026
+AllgäuNetz,AllgäuNetz,2026-10-30,HS/MS,T10,Anlage,2.0,UW,17.24,8620.0,T€/UW,NAP 2026
+AllgäuNetz,AllgäuNetz,2026-10-30,HS,Z,Leitung,11.0,km,7.44,676.363636363636,€/m,NAP 2026
+AllgäuNetz,AllgäuNetz,2026-10-30,HS/MS,Z,Anlage,12.0,UW,45.73,3810.83333333333,T€/UW,NAP 2026
+AllgäuNetz,AllgäuNetz,2026-10-30,MS,T5,Leitung,115.0,km,18.74,162.95652173913,€/m,NAP 2026
+AllgäuNetz,AllgäuNetz,2026-10-30,MS/NS,T5,Anlage,405.0,ONS,27.08,66.8641975308642,T€/Stück,NAP 2026
+AllgäuNetz,AllgäuNetz,2026-10-30,MS,T10,Leitung,302.0,km,27.6,91.3907284768212,€/m,NAP 2026
+AllgäuNetz,AllgäuNetz,2026-10-30,MS/NS,T10,Anlage,523.0,ONS,50.11,95.8126195028681,T€/Stück,NAP 2026
+AllgäuNetz,AllgäuNetz,2026-10-30,MS,Z,Leitung,337.0,km,41.43,122.937685459941,€/m,NAP 2026
+AllgäuNetz,AllgäuNetz,2026-10-30,MS/NS,Z,Anlage,816.0,ONS,82.19,100.723039215686,T€/Stück,NAP 2026
+AllgäuNetz,AllgäuNetz,2026-10-30,NS,T5,Leitung,305.0,km,48.62,159.409836065574,€/m,NAP 2026
+AllgäuNetz,AllgäuNetz,2026-10-30,NS,T10,Leitung,335.0,km,48.27,144.089552238806,€/m,NAP 2026
+AllgäuNetz,AllgäuNetz,2026-10-30,NS,Z,Leitung,1161.0,km,84.51,72.7906976744186,€/m,NAP 2026
+Avacon Netz,Avacon Netz,2026-11-02,HS,T5,Leitung,5417.0,km,6609.0,1220.04799704634,€/m,NAP 2026
+Avacon Netz,Avacon Netz,2026-11-02,HS/MS,T5,Anlage,236.0,UW,2667.0,11300.8474576271,T€/UW,NAP 2026
+Avacon Netz,Avacon Netz,2026-11-02,HS,T10,Leitung,669.0,km,1466.0,2191.33034379671,€/m,NAP 2026
+Avacon Netz,Avacon Netz,2026-11-02,HS/MS,T10,Anlage,21.0,UW,315.0,15000.0,T€/UW,NAP 2026
+Avacon Netz,Avacon Netz,2026-11-02,HS,Z,Leitung,838.0,km,1610.0,1921.24105011933,€/m,NAP 2026
+Avacon Netz,Avacon Netz,2026-11-02,HS/MS,Z,Anlage,10.0,UW,214.0,21400.0,T€/UW,NAP 2026
+Avacon Netz,Avacon Netz,2026-11-02,MS,T5,Leitung,2144.0,km,536.0,250.0,€/m,NAP 2026
+Avacon Netz,Avacon Netz,2026-11-02,MS/NS,T5,Anlage,3416.0,ONS,330.0,96.6042154566745,T€/Stück,NAP 2026
+Avacon Netz,Avacon Netz,2026-11-02,NS,T5,Leitung,1568.0,km,450.0,286.989795918367,€/m,NAP 2026
+Avacon Netz,Avacon Netz,2026-11-02,MS,T10,Leitung,870.0,km,218.0,250.574712643678,€/m,NAP 2026
+Avacon Netz,Avacon Netz,2026-11-02,MS/NS,T10,Anlage,1952.0,ONS,190.0,97.3360655737705,T€/Stück,NAP 2026
+Avacon Netz,Avacon Netz,2026-11-02,NS,T10,Leitung,1041.0,km,330.0,317.00288184438,€/m,NAP 2026
+Avacon Netz,Avacon Netz,2026-11-02,MS,Z,Leitung,1821.0,km,455.0,249.862712795167,€/m,NAP 2026
+Avacon Netz,Avacon Netz,2026-11-02,MS/NS,Z,Anlage,2259.0,ONS,180.0,79.6812749003984,T€/Stück,NAP 2026
+Avacon Netz,Avacon Netz,2026-11-02,NS,Z,Leitung,1821.0,km,620.0,340.472267984624,€/m,NAP 2026
+badenovaNETZE (Freiburg),badenovaNETZE,2026-10-29,HS,T5,Leitung,69.0,km,149.9,2172.46376811594,€/m,NAP 2026
+badenovaNETZE (Freiburg),badenovaNETZE,2026-10-29,HS/MS,T5,Anlage,14.0,UW,185.2,13228.5714285714,T€/UW,NAP 2026
+badenovaNETZE (Freiburg),badenovaNETZE,2026-10-29,HS,T10,Leitung,10.0,km,17.7,1770.0,€/m,NAP 2026
+badenovaNETZE (Freiburg),badenovaNETZE,2026-10-29,HS/MS,T10,Anlage,5.0,UW,53.1,10620.0,T€/UW,NAP 2026
+badenovaNETZE (Freiburg),badenovaNETZE,2026-10-29,HS,Z,Leitung,16.0,km,41.4,2587.5,€/m,NAP 2026
+badenovaNETZE (Freiburg),badenovaNETZE,2026-10-29,HS/MS,Z,Anlage,2.0,UW,21.0,10500.0,T€/UW,NAP 2026
+badenovaNETZE (Freiburg),badenovaNETZE,2026-10-29,MS,T5,Leitung,137.0,km,56.0,408.759124087591,€/m,NAP 2026
+badenovaNETZE (Freiburg),badenovaNETZE,2026-10-29,MS/NS,T5,Anlage,511.0,ONS,50.1,98.0430528375734,T€/Stück,NAP 2026
+badenovaNETZE (Freiburg),badenovaNETZE,2026-10-29,NS,T5,Leitung,310.0,km,33.9,109.354838709677,€/m,NAP 2026
+badenovaNETZE (Freiburg),badenovaNETZE,2026-10-29,MS,T10,Leitung,131.0,km,47.2,360.30534351145,€/m,NAP 2026
+badenovaNETZE (Freiburg),badenovaNETZE,2026-10-29,MS/NS,T10,Anlage,345.0,ONS,20.9,60.5797101449275,T€/Stück,NAP 2026
+badenovaNETZE (Freiburg),badenovaNETZE,2026-10-29,NS,T10,Leitung,150.0,km,16.5,110.0,€/m,NAP 2026
+badenovaNETZE (Freiburg),badenovaNETZE,2026-10-29,MS,Z,Leitung,328.0,km,120.9,368.59756097561,€/m,NAP 2026
+badenovaNETZE (Freiburg),badenovaNETZE,2026-10-29,MS/NS,Z,Anlage,448.0,ONS,24.5,54.6875,T€/Stück,NAP 2026
+badenovaNETZE (Freiburg),badenovaNETZE,2026-10-29,NS,Z,Leitung,392.0,km,43.4,110.714285714286,€/m,NAP 2026
+Bayernwerk Netz,Bayernwerk Netz,2026-10-30,HS,T5,Leitung,1249.0,km,1642.5,1315.05204163331,€/m,NAP 2026
+Bayernwerk Netz,Bayernwerk Netz,2026-10-30,HS/MS,T5,Anlage,104.0,UW,1695.1,16299.0384615385,T€/UW,NAP 2026
+Bayernwerk Netz,Bayernwerk Netz,2026-10-30,HS,T10,Leitung,1378.0,km,2159.2,1566.90856313498,€/m,NAP 2026
+Bayernwerk Netz,Bayernwerk Netz,2026-10-30,HS/MS,T10,Anlage,210.0,UW,4145.7,19741.4285714286,T€/UW,NAP 2026
+Bayernwerk Netz,Bayernwerk Netz,2026-10-30,HS,Z,Leitung,1188.0,km,1891.7,1592.34006734007,€/m,NAP 2026
+Bayernwerk Netz,Bayernwerk Netz,2026-10-30,HS/MS,Z,Anlage,97.0,UW,1543.7,15914.4329896907,T€/UW,NAP 2026
+Bayernwerk Netz,Bayernwerk Netz,2026-10-30,MS,T5,Leitung,15532.0,km,2121.7,136.601854236415,€/m,NAP 2026
+Bayernwerk Netz,Bayernwerk Netz,2026-10-30,MS/NS,T5,Anlage,17492.0,ONS,1176.9,67.2821861422365,T€/Stück,NAP 2026
+Bayernwerk Netz,Bayernwerk Netz,2026-10-30,NS,T5,Leitung,12116.0,km,1627.3,134.31000330142,€/m,NAP 2026
+Bayernwerk Netz,Bayernwerk Netz,2026-10-30,MS,T10,Leitung,11209.0,km,1523.9,135.953251851191,€/m,NAP 2026
+Bayernwerk Netz,Bayernwerk Netz,2026-10-30,MS/NS,T10,Anlage,15110.0,ONS,1232.8,81.5883520847121,T€/Stück,NAP 2026
+Bayernwerk Netz,Bayernwerk Netz,2026-10-30,NS,T10,Leitung,11220.0,km,1488.7,132.682709447415,€/m,NAP 2026
+Bayernwerk Netz,Bayernwerk Netz,2026-10-30,MS,Z,Leitung,16457.0,km,2348.7,142.71738469952,€/m,NAP 2026
+Bayernwerk Netz,Bayernwerk Netz,2026-10-30,MS/NS,Z,Anlage,9689.0,ONS,730.4,75.3844566002684,T€/Stück,NAP 2026
+Bayernwerk Netz,Bayernwerk Netz,2026-10-30,NS,Z,Leitung,12541.0,km,1674.7,133.537995375169,€/m,NAP 2026
+Bielefelder Netz,Bielefelder Netz,2026-11-02,HS,T5,Leitung,20.0,km,37.9,1895.0,€/m,NAP 2026
+Bielefelder Netz,Bielefelder Netz,2026-11-02,HS/MS,T5,Anlage,8.0,UW,45.5,5687.5,T€/UW,NAP 2026
+Bielefelder Netz,Bielefelder Netz,2026-11-02,HS,T10,Leitung,6.4,km,15.0,2343.75,€/m,NAP 2026
+Bielefelder Netz,Bielefelder Netz,2026-11-02,HS/MS,T10,Anlage,7.0,UW,20.35,2907.14285714286,T€/UW,NAP 2026
+Bielefelder Netz,Bielefelder Netz,2026-11-02,HS,Z,Leitung,10.0,km,19.0,1900.0,€/m,NAP 2026
+Bielefelder Netz,Bielefelder Netz,2026-11-02,HS/MS,Z,Anlage,16.0,UW,26.5,1656.25,T€/UW,NAP 2026
+Bielefelder Netz,Bielefelder Netz,2026-11-02,MS,T5,Leitung,262.0,km,47.4,180.916030534351,€/m,NAP 2026
+Bielefelder Netz,Bielefelder Netz,2026-11-02,MS/NS,T5,Anlage,177.0,ONS,21.3,120.338983050847,T€/Stück,NAP 2026
+Bielefelder Netz,Bielefelder Netz,2026-11-02,NS,T5,Leitung,210.0,km,29.1,138.571428571429,€/m,NAP 2026
+Bielefelder Netz,Bielefelder Netz,2026-11-02,MS,T10,Leitung,196.0,km,41.2,210.204081632653,€/m,NAP 2026
+Bielefelder Netz,Bielefelder Netz,2026-11-02,MS/NS,T10,Anlage,260.0,ONS,32.1,123.461538461538,T€/Stück,NAP 2026
+Bielefelder Netz,Bielefelder Netz,2026-11-02,NS,T10,Leitung,150.0,km,22.7,151.333333333333,€/m,NAP 2026
+Bielefelder Netz,Bielefelder Netz,2026-11-02,MS,Z,Leitung,444.0,km,93.2,209.90990990991,€/m,NAP 2026
+Bielefelder Netz,Bielefelder Netz,2026-11-02,MS/NS,Z,Anlage,610.0,ONS,71.3,116.885245901639,T€/Stück,NAP 2026
+Bielefelder Netz,Bielefelder Netz,2026-11-02,NS,Z,Leitung,247.0,km,37.3,151.012145748988,€/m,NAP 2026
+Bonn-Netz,Bonn-Netz,2026-11-02,HS/MS,T5,Anlage,3.0,UW,8.3,2766.66666666667,T€/UW,NAP 2026
+Bonn-Netz,Bonn-Netz,2026-11-02,HS/MS,T10,Anlage,4.0,UW,13.2,3300.0,T€/UW,NAP 2026
+Bonn-Netz,Bonn-Netz,2026-11-02,HS/MS,Z,Anlage,3.0,UW,12.5,4166.66666666667,T€/UW,NAP 2026
+Bonn-Netz,Bonn-Netz,2026-11-02,MS,T5,Leitung,94.2,km,44.3,470.276008492569,€/m,NAP 2026
+Bonn-Netz,Bonn-Netz,2026-11-02,MS/NS,T5,Anlage,48.0,ONS,3.7,77.0833333333333,T€/Stück,NAP 2026
+Bonn-Netz,Bonn-Netz,2026-11-02,NS,T5,Leitung,9.0,km,4.0,444.444444444444,€/m,NAP 2026
+Bonn-Netz,Bonn-Netz,2026-11-02,MS,T10,Leitung,94.0,km,47.0,500.0,€/m,NAP 2026
+Bonn-Netz,Bonn-Netz,2026-11-02,MS/NS,T10,Anlage,125.0,ONS,9.3,74.4,T€/Stück,NAP 2026
+Bonn-Netz,Bonn-Netz,2026-11-02,NS,T10,Leitung,148.0,km,59.2,400.0,€/m,NAP 2026
+Bonn-Netz,Bonn-Netz,2026-11-02,MS,Z,Leitung,78.0,km,39.0,500.0,€/m,NAP 2026
+Bonn-Netz,Bonn-Netz,2026-11-02,MS/NS,Z,Anlage,300.0,ONS,22.5,75.0,T€/Stück,NAP 2026
+Bonn-Netz,Bonn-Netz,2026-11-02,NS,Z,Leitung,118.0,km,47.0,398.305084745763,€/m,NAP 2026
+Braunschweiger Netz,Braunschweiger Netz,2026-11-02,HS,T5,Leitung,4.927,km,15.3,3105.33793383398,€/m,NAP 2026
+Braunschweiger Netz,Braunschweiger Netz,2026-11-02,HS/MS,T5,Anlage,3.0,UW,12.2,4066.66666666667,T€/UW,NAP 2026
+Braunschweiger Netz,Braunschweiger Netz,2026-11-02,HS,T10,Leitung,7.433,km,25.0,3363.37952374546,€/m,NAP 2026
+Braunschweiger Netz,Braunschweiger Netz,2026-11-02,HS/MS,T10,Anlage,3.0,UW,11.0,3666.66666666667,T€/UW,NAP 2026
+Braunschweiger Netz,Braunschweiger Netz,2026-11-02,HS/MS,Z,Anlage,3.0,UW,40.0,13333.3333333333,T€/UW,NAP 2026
+Braunschweiger Netz,Braunschweiger Netz,2026-11-02,MS,T5,Leitung,17.0,km,7.04,414.117647058824,€/m,NAP 2026
+Braunschweiger Netz,Braunschweiger Netz,2026-11-02,MS/NS,T5,Anlage,134.0,ONS,10.05,75.0,T€/Stück,NAP 2026
+Braunschweiger Netz,Braunschweiger Netz,2026-11-02,NS,T5,Leitung,72.0,km,24.79,344.305555555556,€/m,NAP 2026
+Braunschweiger Netz,Braunschweiger Netz,2026-11-02,MS,T10,Leitung,91.0,km,35.85,393.956043956044,€/m,NAP 2026
+Braunschweiger Netz,Braunschweiger Netz,2026-11-02,MS/NS,T10,Anlage,149.0,ONS,11.3,75.8389261744967,T€/Stück,NAP 2026
+Braunschweiger Netz,Braunschweiger Netz,2026-11-02,NS,T10,Leitung,81.0,km,27.34,337.530864197531,€/m,NAP 2026
+Braunschweiger Netz,Braunschweiger Netz,2026-11-02,MS,Z,Leitung,91.0,km,35.9,394.505494505495,€/m,NAP 2026
+Braunschweiger Netz,Braunschweiger Netz,2026-11-02,MS/NS,Z,Anlage,67.0,ONS,6.75,100.746268656716,T€/Stück,NAP 2026
+Braunschweiger Netz,Braunschweiger Netz,2026-11-02,NS,Z,Leitung,37.0,km,12.29,332.162162162162,€/m,NAP 2026
+Dortmunder Netz,Dortmunder Netz,2026-11-02,HS/MS,T5,Anlage,1.0,UW,3.0,3000.0,T€/UW,NAP 2026
+Dortmunder Netz,Dortmunder Netz,2026-11-02,HS/MS,T10,Anlage,2.0,UW,17.6,8800.0,T€/UW,NAP 2026
+Dortmunder Netz,Dortmunder Netz,2026-11-02,HS/MS,Z,Anlage,7.0,UW,35.5,5071.42857142857,T€/UW,NAP 2026
+Dortmunder Netz,Dortmunder Netz,2026-11-02,MS,T5,Leitung,140.0,km,41.0,292.857142857143,€/m,NAP 2026
+Dortmunder Netz,Dortmunder Netz,2026-11-02,MS/NS,T5,Anlage,50.0,ONS,9.4,188.0,T€/Stück,NAP 2026
+Dortmunder Netz,Dortmunder Netz,2026-11-02,NS,T5,Leitung,30.0,km,6.4,213.333333333333,€/m,NAP 2026
+Dortmunder Netz,Dortmunder Netz,2026-11-02,MS,T10,Leitung,123.0,km,48.6,395.121951219512,€/m,NAP 2026
+Dortmunder Netz,Dortmunder Netz,2026-11-02,MS/NS,T10,Anlage,288.0,ONS,43.2,150.0,T€/Stück,NAP 2026
+Dortmunder Netz,Dortmunder Netz,2026-11-02,NS,T10,Leitung,60.0,km,15.0,250.0,€/m,NAP 2026
+Dortmunder Netz,Dortmunder Netz,2026-11-02,MS,Z,Leitung,418.0,km,154.6,369.856459330144,€/m,NAP 2026
+Dortmunder Netz,Dortmunder Netz,2026-11-02,MS/NS,Z,Anlage,1152.0,ONS,172.8,150.0,T€/Stück,NAP 2026
+Dortmunder Netz,Dortmunder Netz,2026-11-02,NS,Z,Leitung,240.0,km,59.9,249.583333333333,€/m,NAP 2026
+E-Werk Netze (Mittelbaden),E-Werk Netze,2026-11-02,HS/MS,T5,Anlage,16.0,UW,125.1,7818.75,T€/UW,NAP 2026
+E-Werk Netze (Mittelbaden),E-Werk Netze,2026-11-02,HS/MS,T10,Anlage,10.0,UW,94.3,9430.0,T€/UW,NAP 2026
+E-Werk Netze (Mittelbaden),E-Werk Netze,2026-11-02,HS,Z,Leitung,11.0,km,20.0,1818.18181818182,€/m,NAP 2026
+E-Werk Netze (Mittelbaden),E-Werk Netze,2026-11-02,HS/MS,Z,Anlage,4.0,UW,100.0,25000.0,T€/UW,NAP 2026
+E-Werk Netze (Mittelbaden),E-Werk Netze,2026-11-02,MS,T5,Leitung,328.0,km,89.3,272.256097560976,€/m,NAP 2026
+E-Werk Netze (Mittelbaden),E-Werk Netze,2026-11-02,MS/NS,T5,Anlage,250.0,ONS,47.5,190.0,T€/Stück,NAP 2026
+E-Werk Netze (Mittelbaden),E-Werk Netze,2026-11-02,NS,T5,Leitung,378.0,km,56.2,148.677248677249,€/m,NAP 2026
+E-Werk Netze (Mittelbaden),E-Werk Netze,2026-11-02,MS,T10,Leitung,328.0,km,91.5,278.963414634146,€/m,NAP 2026
+E-Werk Netze (Mittelbaden),E-Werk Netze,2026-11-02,MS/NS,T10,Anlage,242.0,ONS,46.1,190.495867768595,T€/Stück,NAP 2026
+E-Werk Netze (Mittelbaden),E-Werk Netze,2026-11-02,NS,T10,Leitung,403.0,km,60.2,149.379652605459,€/m,NAP 2026
+E-Werk Netze (Mittelbaden),E-Werk Netze,2026-11-02,MS,Z,Leitung,656.0,km,174.0,265.243902439024,€/m,NAP 2026
+E-Werk Netze (Mittelbaden),E-Werk Netze,2026-11-02,MS/NS,Z,Anlage,484.0,ONS,67.8,140.082644628099,T€/Stück,NAP 2026
+E-Werk Netze (Mittelbaden),E-Werk Netze,2026-11-02,NS,Z,Leitung,1008.0,km,150.6,149.404761904762,€/m,NAP 2026
+E.DIS Netz,E.DIS Netz,2026-10-30,HS,T5,Leitung,880.0,km,2136.0,2427.27272727273,€/m,NAP 2026
+E.DIS Netz,E.DIS Netz,2026-10-30,HS/MS,T5,Anlage,59.0,UW,575.0,9745.76271186441,T€/UW,NAP 2026
+E.DIS Netz,E.DIS Netz,2026-10-30,HS,T10,Leitung,1414.0,km,3223.0,2279.34936350778,€/m,NAP 2026
+E.DIS Netz,E.DIS Netz,2026-10-30,HS/MS,T10,Anlage,27.0,UW,300.0,11111.1111111111,T€/UW,NAP 2026
+E.DIS Netz,E.DIS Netz,2026-10-30,HS,Z,Leitung,958.0,km,2187.0,2282.88100208768,€/m,NAP 2026
+E.DIS Netz,E.DIS Netz,2026-10-30,HS/MS,Z,Anlage,48.0,UW,615.0,12812.5,T€/UW,NAP 2026
+E.DIS Netz,E.DIS Netz,2026-10-30,MS,T5,Leitung,2193.0,km,222.0,101.231190150479,€/m,NAP 2026
+E.DIS Netz,E.DIS Netz,2026-10-30,MS/NS,T5,Anlage,5757.0,ONS,507.0,88.0667014069828,T€/Stück,NAP 2026
+E.DIS Netz,E.DIS Netz,2026-10-30,NS,T5,Leitung,628.0,km,88.0,140.127388535032,€/m,NAP 2026
+E.DIS Netz,E.DIS Netz,2026-10-30,MS,T10,Leitung,2857.0,km,295.0,103.255162758138,€/m,NAP 2026
+E.DIS Netz,E.DIS Netz,2026-10-30,MS/NS,T10,Anlage,2632.0,ONS,232.0,88.145896656535,T€/Stück,NAP 2026
+E.DIS Netz,E.DIS Netz,2026-10-30,NS,T10,Leitung,1281.0,km,180.0,140.515222482436,€/m,NAP 2026
+E.DIS Netz,E.DIS Netz,2026-10-30,MS,Z,Leitung,2173.0,km,231.0,106.30464795214,€/m,NAP 2026
+E.DIS Netz,E.DIS Netz,2026-10-30,MS/NS,Z,Anlage,2873.0,ONS,263.0,91.5419422206753,T€/Stück,NAP 2026
+E.DIS Netz,E.DIS Netz,2026-10-30,NS,Z,Leitung,2172.0,km,304.0,139.963167587477,€/m,NAP 2026
+EAM Netz,"EAM Netz (Summe Teilnetze, alle Zeiträume)",2026-10-30,HS,T5,Leitung,6.0,km,11.0,1833.33333333333,€/m,NAP 2026
+EAM Netz,"EAM Netz (Summe Teilnetze, alle Zeiträume)",2026-10-30,MS,T5,Leitung,2985.5,km,895.5,299.949757159605,€/m,NAP 2026
+EAM Netz,"EAM Netz (Summe Teilnetze, alle Zeiträume)",2026-10-30,NS,T5,Leitung,1386.1,km,161.7,116.658249765529,€/m,NAP 2026
+ELE Verteilnetz (Gelsenkirchen),ELE Verteilnetz,2026-10-29,MS,T5,Leitung,66.0,km,21.7,328.787878787879,€/m,NAP 2026
+ELE Verteilnetz (Gelsenkirchen),ELE Verteilnetz,2026-10-29,MS/NS,T5,Anlage,185.0,ONS,15.3,82.7027027027027,T€/Stück,NAP 2026
+ELE Verteilnetz (Gelsenkirchen),ELE Verteilnetz,2026-10-29,NS,T5,Leitung,129.0,km,28.2,218.604651162791,€/m,NAP 2026
+ELE Verteilnetz (Gelsenkirchen),ELE Verteilnetz,2026-10-29,MS,T10,Leitung,144.0,km,43.5,302.083333333333,€/m,NAP 2026
+ELE Verteilnetz (Gelsenkirchen),ELE Verteilnetz,2026-10-29,MS/NS,T10,Anlage,249.0,ONS,16.9,67.8714859437751,T€/Stück,NAP 2026
+ELE Verteilnetz (Gelsenkirchen),ELE Verteilnetz,2026-10-29,NS,T10,Leitung,200.0,km,41.9,209.5,€/m,NAP 2026
+ELE Verteilnetz (Gelsenkirchen),ELE Verteilnetz,2026-10-29,MS,Z,Leitung,286.0,km,86.2,301.398601398601,€/m,NAP 2026
+ELE Verteilnetz (Gelsenkirchen),ELE Verteilnetz,2026-10-29,MS/NS,Z,Anlage,470.0,ONS,31.8,67.6595744680851,T€/Stück,NAP 2026
+ELE Verteilnetz (Gelsenkirchen),ELE Verteilnetz,2026-10-29,NS,Z,Leitung,376.0,km,79.2,210.63829787234,€/m,NAP 2026
+ENERVIE Vernetzt (Hagen),ENERVIE Vernetzt,2026-10-21,HS,T5,Leitung,7.0,km,28.0,4000.0,€/m,NAP 2026
+ENERVIE Vernetzt (Hagen),ENERVIE Vernetzt,2026-10-21,HS/MS,T5,Anlage,2.0,UW,29.5,14750.0,T€/UW,NAP 2026
+ENERVIE Vernetzt (Hagen),ENERVIE Vernetzt,2026-10-21,HS,T10,Leitung,4.0,km,23.5,5875.0,€/m,NAP 2026
+ENERVIE Vernetzt (Hagen),ENERVIE Vernetzt,2026-10-21,HS/MS,T10,Anlage,1.0,UW,21.5,21500.0,T€/UW,NAP 2026
+ENERVIE Vernetzt (Hagen),ENERVIE Vernetzt,2026-10-21,MS,T5,Leitung,21.0,km,11.6,552.380952380952,€/m,NAP 2026
+ENERVIE Vernetzt (Hagen),ENERVIE Vernetzt,2026-10-21,MS/NS,T5,Anlage,46.0,ONS,13.2,286.95652173913,T€/Stück,NAP 2026
+ENERVIE Vernetzt (Hagen),ENERVIE Vernetzt,2026-10-21,NS,T5,Leitung,47.0,km,18.3,389.36170212766,€/m,NAP 2026
+ENERVIE Vernetzt (Hagen),ENERVIE Vernetzt,2026-10-21,MS,T10,Leitung,177.0,km,54.2,306.214689265537,€/m,NAP 2026
+ENERVIE Vernetzt (Hagen),ENERVIE Vernetzt,2026-10-21,MS/NS,T10,Anlage,497.0,ONS,21.3,42.8571428571429,T€/Stück,NAP 2026
+ENERVIE Vernetzt (Hagen),ENERVIE Vernetzt,2026-10-21,NS,T10,Leitung,294.0,km,72.8,247.619047619048,€/m,NAP 2026
+ENERVIE Vernetzt (Hagen),ENERVIE Vernetzt,2026-10-21,MS,Z,Leitung,340.0,km,122.0,358.823529411765,€/m,NAP 2026
+ENERVIE Vernetzt (Hagen),ENERVIE Vernetzt,2026-10-21,MS/NS,Z,Anlage,465.0,ONS,22.7,48.8172043010753,T€/Stück,NAP 2026
+ENERVIE Vernetzt (Hagen),ENERVIE Vernetzt,2026-10-21,NS,Z,Leitung,409.0,km,118.7,290.220048899756,€/m,NAP 2026
+EWE NETZ,EWE NETZ,2026-11-02,HS/MS,T5,Anlage,75.0,UW,559.5,7460.0,T€/UW,NAP 2026
+EWE NETZ,EWE NETZ,2026-11-02,HS/MS,T10,Anlage,63.0,UW,320.1,5080.95238095238,T€/UW,NAP 2026
+EWE NETZ,EWE NETZ,2026-11-02,HS/MS,Z,Anlage,76.0,UW,420.9,5538.15789473684,T€/UW,NAP 2026
+EWE NETZ,EWE NETZ,2026-11-02,MS,T5,Leitung,2516.0,km,524.8,208.585055643879,€/m,NAP 2026
+EWE NETZ,EWE NETZ,2026-11-02,MS/NS,T5,Anlage,13166.0,ONS,505.0,38.3563724745557,T€/Stück,NAP 2026
+EWE NETZ,EWE NETZ,2026-11-02,NS,T5,Leitung,1919.0,km,197.3,102.813965607087,€/m,NAP 2026
+EWE NETZ,EWE NETZ,2026-11-02,MS,T10,Leitung,2549.0,km,544.2,213.495488426834,€/m,NAP 2026
+EWE NETZ,EWE NETZ,2026-11-02,MS/NS,T10,Anlage,2855.0,ONS,132.9,46.5499124343258,T€/Stück,NAP 2026
+EWE NETZ,EWE NETZ,2026-11-02,NS,T10,Leitung,1790.0,km,184.1,102.849162011173,€/m,NAP 2026
+EWE NETZ,EWE NETZ,2026-11-02,MS,Z,Leitung,3772.0,km,757.5,200.821845174973,€/m,NAP 2026
+EWE NETZ,EWE NETZ,2026-11-02,MS/NS,Z,Anlage,3554.0,ONS,153.1,43.0782217220034,T€/Stück,NAP 2026
+EWE NETZ,EWE NETZ,2026-11-02,NS,Z,Leitung,2968.0,km,305.2,102.830188679245,€/m,NAP 2026
+EWR Netz (Worms),EWR Netz,2026-11-03,HS,T5,Leitung,9.0,km,5.1,566.666666666667,€/m,NAP 2026
+EWR Netz (Worms),EWR Netz,2026-11-03,HS/MS,T5,Anlage,11.0,UW,63.75,5795.45454545455,T€/UW,NAP 2026
+EWR Netz (Worms),EWR Netz,2026-11-03,HS/MS,T10,Anlage,2.0,UW,20.0,10000.0,T€/UW,NAP 2026
+EWR Netz (Worms),EWR Netz,2026-11-03,HS,Z,Leitung,8.0,km,5.0,625.0,€/m,NAP 2026
+EWR Netz (Worms),EWR Netz,2026-11-03,HS/MS,Z,Anlage,11.0,UW,52.0,4727.27272727273,T€/UW,NAP 2026
+EWR Netz (Worms),EWR Netz,2026-11-03,MS,T5,Leitung,115.0,km,28.435,247.260869565217,€/m,NAP 2026
+EWR Netz (Worms),EWR Netz,2026-11-03,MS/NS,T5,Anlage,4.0,ONS,6.0,1500.0,T€/Stück,NAP 2026
+EWR Netz (Worms),EWR Netz,2026-11-03,NS,T5,Leitung,70.0,km,12.6,180.0,€/m,NAP 2026
+EWR Netz (Worms),EWR Netz,2026-11-03,MS,T10,Leitung,177.0,km,35.303,199.45197740113,€/m,NAP 2026
+EWR Netz (Worms),EWR Netz,2026-11-03,MS/NS,T10,Anlage,461.0,ONS,34.2,74.1865509761388,T€/Stück,NAP 2026
+EWR Netz (Worms),EWR Netz,2026-11-03,NS,T10,Leitung,210.0,km,37.3,177.619047619048,€/m,NAP 2026
+EWR Netz (Worms),EWR Netz,2026-11-03,MS,Z,Leitung,358.0,km,89.5,250.0,€/m,NAP 2026
+EWR Netz (Worms),EWR Netz,2026-11-03,MS/NS,Z,Anlage,1382.0,ONS,138.0,99.8552821997106,T€/Stück,NAP 2026
+EWR Netz (Worms),EWR Netz,2026-11-03,NS,Z,Leitung,742.0,km,111.6,150.404312668464,€/m,NAP 2026
+Energienetze Mittelrhein,Energienetze Mittelrhein,2026-10-30,HS/MS,T5,Anlage,4.0,UW,11.6,2900.0,T€/UW,NAP 2026
+Energienetze Mittelrhein,Energienetze Mittelrhein,2026-10-30,HS/MS,Z,Anlage,9.0,UW,73.6,8177.77777777778,T€/UW,NAP 2026
+Energienetze Mittelrhein,Energienetze Mittelrhein,2026-10-30,MS,T5,Leitung,61.0,km,3.4,55.7377049180328,€/m,NAP 2026
+Energienetze Mittelrhein,Energienetze Mittelrhein,2026-10-30,MS/NS,T5,Anlage,66.0,ONS,5.7,86.3636363636364,T€/Stück,NAP 2026
+Energienetze Mittelrhein,Energienetze Mittelrhein,2026-10-30,NS,T5,Leitung,81.0,km,9.8,120.987654320988,€/m,NAP 2026
+Energienetze Mittelrhein,Energienetze Mittelrhein,2026-10-30,MS,T10,Leitung,485.0,km,136.7,281.855670103093,€/m,NAP 2026
+Energienetze Mittelrhein,Energienetze Mittelrhein,2026-10-30,MS/NS,T10,Anlage,400.0,ONS,29.3,73.25,T€/Stück,NAP 2026
+Energienetze Mittelrhein,Energienetze Mittelrhein,2026-10-30,NS,T10,Leitung,796.0,km,210.8,264.824120603015,€/m,NAP 2026
+Energienetze Mittelrhein,Energienetze Mittelrhein,2026-10-30,MS,Z,Leitung,840.0,km,240.0,285.714285714286,€/m,NAP 2026
+Energienetze Mittelrhein,Energienetze Mittelrhein,2026-10-30,MS/NS,Z,Anlage,831.0,ONS,66.9,80.5054151624549,T€/Stück,NAP 2026
+Energienetze Mittelrhein,Energienetze Mittelrhein,2026-10-30,NS,Z,Leitung,2041.0,km,466.8,228.711415972562,€/m,NAP 2026
+Energienetze Offenbach,Energienetze Offenbach (ENO),2026-10-30,HS,T5,Leitung,112.0,km,227.0,2026.78571428571,€/m,NAP 2026
+Energienetze Offenbach,Energienetze Offenbach (ENO),2026-10-30,HS/MS,T5,Anlage,11.0,UW,214.0,19454.5454545455,T€/UW,NAP 2026
+Energienetze Offenbach,Energienetze Offenbach (ENO),2026-10-30,HS/MS,T10,Anlage,2.0,UW,31.0,15500.0,T€/UW,NAP 2026
+Energienetze Offenbach,Energienetze Offenbach (ENO),2026-10-30,MS,T5,Leitung,130.0,km,48.2,370.769230769231,€/m,NAP 2026
+Energienetze Offenbach,Energienetze Offenbach (ENO),2026-10-30,MS/NS,T5,Anlage,114.0,ONS,15.6,136.842105263158,T€/Stück,NAP 2026
+Energienetze Offenbach,Energienetze Offenbach (ENO),2026-10-30,NS,T5,Leitung,181.0,km,32.0,176.795580110497,€/m,NAP 2026
+Energienetze Offenbach,Energienetze Offenbach (ENO),2026-10-30,MS,T10,Leitung,90.0,km,56.8,631.111111111111,€/m,NAP 2026
+Energienetze Offenbach,Energienetze Offenbach (ENO),2026-10-30,MS/NS,T10,Anlage,174.0,ONS,18.1,104.022988505747,T€/Stück,NAP 2026
+Energienetze Offenbach,Energienetze Offenbach (ENO),2026-10-30,NS,T10,Leitung,166.0,km,47.2,284.33734939759,€/m,NAP 2026
+Energienetze Offenbach,Energienetze Offenbach (ENO),2026-10-30,MS,Z,Leitung,45.0,km,26.0,577.777777777778,€/m,NAP 2026
+Energienetze Offenbach,Energienetze Offenbach (ENO),2026-10-30,MS/NS,Z,Anlage,84.0,ONS,7.3,86.9047619047619,T€/Stück,NAP 2026
+Energienetze Offenbach,Energienetze Offenbach (ENO),2026-10-30,NS,Z,Leitung,165.0,km,46.8,283.636363636364,€/m,NAP 2026
+EVH Halle Netz,EVH Halle Netz,2026-10-30,HS/MS,T5,Anlage,6.0,UW,161.1,26850.0,T€/UW,NAP 2026
+EVH Halle Netz,EVH Halle Netz,2026-10-30,HS/MS,T10,Anlage,3.0,UW,25.0,8333.33333333333,T€/UW,NAP 2026
+EVH Halle Netz,EVH Halle Netz,2026-10-30,MS,T5,Leitung,162.0,km,48.6,300.0,€/m,NAP 2026
+EVH Halle Netz,EVH Halle Netz,2026-10-30,MS/NS,T5,Anlage,133.0,ONS,20.0,150.375939849624,T€/Stück,NAP 2026
+EVH Halle Netz,EVH Halle Netz,2026-10-30,NS,T5,Leitung,324.0,km,97.2,300.0,€/m,NAP 2026
+EVH Halle Netz,EVH Halle Netz,2026-10-30,MS,T10,Leitung,51.0,km,15.3,300.0,€/m,NAP 2026
+EVH Halle Netz,EVH Halle Netz,2026-10-30,MS/NS,T10,Anlage,103.0,ONS,15.5,150.485436893204,T€/Stück,NAP 2026
+EVH Halle Netz,EVH Halle Netz,2026-10-30,NS,T10,Leitung,157.0,km,47.1,300.0,€/m,NAP 2026
+EVH Halle Netz,EVH Halle Netz,2026-10-30,MS,Z,Leitung,101.0,km,30.3,300.0,€/m,NAP 2026
+EVH Halle Netz,EVH Halle Netz,2026-10-30,MS/NS,Z,Anlage,128.0,ONS,19.2,150.0,T€/Stück,NAP 2026
+EVH Halle Netz,EVH Halle Netz,2026-10-30,NS,Z,Leitung,181.0,km,54.3,300.0,€/m,NAP 2026
+FairNetz (Reutlingen),FairNetz,2026-10-30,MS,T5,Leitung,203.0,km,125.0,615.76354679803,€/m,NAP 2026
+FairNetz (Reutlingen),FairNetz,2026-10-30,MS/NS,T5,Anlage,376.0,ONS,38.0,101.063829787234,T€/Stück,NAP 2026
+FairNetz (Reutlingen),FairNetz,2026-10-30,NS,T5,Leitung,122.0,km,30.0,245.901639344262,€/m,NAP 2026
+FairNetz (Reutlingen),FairNetz,2026-10-30,MS,T10,Leitung,171.0,km,66.0,385.964912280702,€/m,NAP 2026
+FairNetz (Reutlingen),FairNetz,2026-10-30,MS/NS,T10,Anlage,141.0,ONS,5.0,35.4609929078014,T€/Stück,NAP 2026
+FairNetz (Reutlingen),FairNetz,2026-10-30,NS,T10,Leitung,234.0,km,59.0,252.136752136752,€/m,NAP 2026
+FairNetz (Reutlingen),FairNetz,2026-10-30,MS,Z,Leitung,308.0,km,123.0,399.350649350649,€/m,NAP 2026
+FairNetz (Reutlingen),FairNetz,2026-10-30,MS/NS,Z,Anlage,208.0,ONS,8.0,38.4615384615385,T€/Stück,NAP 2026
+FairNetz (Reutlingen),FairNetz,2026-10-30,NS,Z,Leitung,335.0,km,87.0,259.701492537313,€/m,NAP 2026
+Stromnetz Hamburg / Hamburger Energienetze,Stromnetz Hamburg / Hamburger Energienetze,2026-11-02,HS,T5,Leitung,180.0,km,1631.0,9061.11111111111,€/m,NAP 2026
+Stromnetz Hamburg / Hamburger Energienetze,Stromnetz Hamburg / Hamburger Energienetze,2026-11-02,HS/MS,T5,Anlage,13.0,UW,216.0,16615.3846153846,T€/UW,NAP 2026
+Stromnetz Hamburg / Hamburger Energienetze,Stromnetz Hamburg / Hamburger Energienetze,2026-11-02,HS,T10,Leitung,36.0,km,424.0,11777.7777777778,€/m,NAP 2026
+Stromnetz Hamburg / Hamburger Energienetze,Stromnetz Hamburg / Hamburger Energienetze,2026-11-02,HS/MS,T10,Anlage,13.0,UW,142.0,10923.0769230769,T€/UW,NAP 2026
+Stromnetz Hamburg / Hamburger Energienetze,Stromnetz Hamburg / Hamburger Energienetze,2026-11-02,HS,Z,Leitung,251.0,km,1299.0,5175.29880478088,€/m,NAP 2026
+Stromnetz Hamburg / Hamburger Energienetze,Stromnetz Hamburg / Hamburger Energienetze,2026-11-02,HS/MS,Z,Anlage,15.0,UW,78.0,5200.0,T€/UW,NAP 2026
+Stromnetz Hamburg / Hamburger Energienetze,Stromnetz Hamburg / Hamburger Energienetze,2026-11-02,MS,T5,Leitung,885.0,km,550.0,621.468926553672,€/m,NAP 2026
+Stromnetz Hamburg / Hamburger Energienetze,Stromnetz Hamburg / Hamburger Energienetze,2026-11-02,MS/NS,T5,Anlage,758.0,ONS,136.0,179.419525065963,T€/Stück,NAP 2026
+Stromnetz Hamburg / Hamburger Energienetze,Stromnetz Hamburg / Hamburger Energienetze,2026-11-02,NS,T5,Leitung,781.0,km,355.0,454.545454545455,€/m,NAP 2026
+Stromnetz Hamburg / Hamburger Energienetze,Stromnetz Hamburg / Hamburger Energienetze,2026-11-02,MS,T10,Leitung,934.0,km,566.0,605.995717344754,€/m,NAP 2026
+Stromnetz Hamburg / Hamburger Energienetze,Stromnetz Hamburg / Hamburger Energienetze,2026-11-02,MS/NS,T10,Anlage,925.0,ONS,185.0,200.0,T€/Stück,NAP 2026
+Stromnetz Hamburg / Hamburger Energienetze,Stromnetz Hamburg / Hamburger Energienetze,2026-11-02,NS,T10,Leitung,865.0,km,400.0,462.42774566474,€/m,NAP 2026
+Stromnetz Hamburg / Hamburger Energienetze,Stromnetz Hamburg / Hamburger Energienetze,2026-11-02,MS,Z,Leitung,2089.0,km,1255.0,600.765916706558,€/m,NAP 2026
+Stromnetz Hamburg / Hamburger Energienetze,Stromnetz Hamburg / Hamburger Energienetze,2026-11-02,MS/NS,Z,Anlage,1703.0,ONS,339.0,199.06048150323,T€/Stück,NAP 2026
+Stromnetz Hamburg / Hamburger Energienetze,Stromnetz Hamburg / Hamburger Energienetze,2026-11-02,NS,Z,Leitung,1730.0,km,800.0,462.42774566474,€/m,NAP 2026
+Harz Energie Netz,Harz Energie Netz,2026-11-02,HS,T5,Leitung,142.0,km,23.6,166.197183098592,€/m,NAP 2026
+Harz Energie Netz,Harz Energie Netz,2026-11-02,HS/MS,T5,Anlage,9.0,UW,22.5,2500.0,T€/UW,NAP 2026
+Harz Energie Netz,Harz Energie Netz,2026-11-02,HS,T10,Leitung,16.0,km,12.5,781.25,€/m,NAP 2026
+Harz Energie Netz,Harz Energie Netz,2026-11-02,HS/MS,T10,Anlage,1.0,UW,3.5,3500.0,T€/UW,NAP 2026
+Harz Energie Netz,Harz Energie Netz,2026-11-02,HS,Z,Leitung,67.0,km,58.2,868.656716417911,€/m,NAP 2026
+Harz Energie Netz,Harz Energie Netz,2026-11-02,HS/MS,Z,Anlage,8.0,UW,57.6,7200.0,T€/UW,NAP 2026
+Harz Energie Netz,Harz Energie Netz,2026-11-02,MS,T5,Leitung,137.0,km,35.4,258.394160583942,€/m,NAP 2026
+Harz Energie Netz,Harz Energie Netz,2026-11-02,MS/NS,T5,Anlage,389.0,ONS,44.9,115.424164524422,T€/Stück,NAP 2026
+Harz Energie Netz,Harz Energie Netz,2026-11-02,NS,T5,Leitung,307.0,km,81.4,265.14657980456,€/m,NAP 2026
+Harz Energie Netz,Harz Energie Netz,2026-11-02,MS,T10,Leitung,133.0,km,33.2,249.624060150376,€/m,NAP 2026
+Harz Energie Netz,Harz Energie Netz,2026-11-02,MS/NS,T10,Anlage,536.0,ONS,28.3,52.7985074626866,T€/Stück,NAP 2026
+Harz Energie Netz,Harz Energie Netz,2026-11-02,NS,T10,Leitung,256.0,km,80.6,314.84375,€/m,NAP 2026
+Harz Energie Netz,Harz Energie Netz,2026-11-02,MS,Z,Leitung,250.0,km,85.1,340.4,€/m,NAP 2026
+Harz Energie Netz,Harz Energie Netz,2026-11-02,MS/NS,Z,Anlage,1082.0,ONS,30.1,27.818853974122,T€/Stück,NAP 2026
+Harz Energie Netz,Harz Energie Netz,2026-11-02,NS,Z,Leitung,1125.0,km,365.5,324.888888888889,€/m,NAP 2026
+LEW Verteilnetz,LEW Verteilnetz,2026-10-30,HS,T5,Leitung,274.0,km,495.0,1806.56934306569,€/m,NAP 2026
+LEW Verteilnetz,LEW Verteilnetz,2026-10-30,HS/MS,T5,Anlage,34.0,UW,354.0,10411.7647058824,T€/UW,NAP 2026
+LEW Verteilnetz,LEW Verteilnetz,2026-10-30,HS,T10,Leitung,240.0,km,486.0,2025.0,€/m,NAP 2026
+LEW Verteilnetz,LEW Verteilnetz,2026-10-30,HS/MS,T10,Anlage,45.0,UW,378.0,8400.0,T€/UW,NAP 2026
+LEW Verteilnetz,LEW Verteilnetz,2026-10-30,HS,Z,Leitung,371.0,km,936.0,2522.91105121294,€/m,NAP 2026
+LEW Verteilnetz,LEW Verteilnetz,2026-10-30,HS/MS,Z,Anlage,115.0,UW,632.0,5495.65217391304,T€/UW,NAP 2026
+LEW Verteilnetz,LEW Verteilnetz,2026-10-30,MS,T5,Leitung,1554.0,km,311.0,200.1287001287,€/m,NAP 2026
+LEW Verteilnetz,LEW Verteilnetz,2026-10-30,MS/NS,T5,Anlage,2423.0,ONS,264.0,108.955839867932,T€/Stück,NAP 2026
+LEW Verteilnetz,LEW Verteilnetz,2026-10-30,NS,T5,Leitung,1133.0,km,187.0,165.04854368932,€/m,NAP 2026
+LEW Verteilnetz,LEW Verteilnetz,2026-10-30,MS,T10,Leitung,1554.0,km,311.0,200.1287001287,€/m,NAP 2026
+LEW Verteilnetz,LEW Verteilnetz,2026-10-30,MS/NS,T10,Anlage,2423.0,ONS,264.0,108.955839867932,T€/Stück,NAP 2026
+LEW Verteilnetz,LEW Verteilnetz,2026-10-30,NS,T10,Leitung,1133.0,km,187.0,165.04854368932,€/m,NAP 2026
+LEW Verteilnetz,LEW Verteilnetz,2026-10-30,MS,Z,Leitung,3107.0,km,621.0,199.871258448664,€/m,NAP 2026
+LEW Verteilnetz,LEW Verteilnetz,2026-10-30,MS/NS,Z,Anlage,4847.0,ONS,527.0,108.727047658345,T€/Stück,NAP 2026
+LEW Verteilnetz,LEW Verteilnetz,2026-10-30,NS,Z,Leitung,2266.0,km,374.0,165.04854368932,€/m,NAP 2026
+LSW Netz (Wolfsburg),LSW Netz,2026-11-02,HS,T5,Leitung,85.0,km,115.6,1360.0,€/m,NAP 2026
+LSW Netz (Wolfsburg),LSW Netz,2026-11-02,HS/MS,T5,Anlage,8.0,UW,89.2,11150.0,T€/UW,NAP 2026
+LSW Netz (Wolfsburg),LSW Netz,2026-11-02,HS,T10,Leitung,36.0,km,79.5,2208.33333333333,€/m,NAP 2026
+LSW Netz (Wolfsburg),LSW Netz,2026-11-02,HS,Z,Leitung,21.0,km,51.0,2428.57142857143,€/m,NAP 2026
+LSW Netz (Wolfsburg),LSW Netz,2026-11-02,HS/MS,Z,Anlage,8.0,UW,106.5,13312.5,T€/UW,NAP 2026
+LSW Netz (Wolfsburg),LSW Netz,2026-11-02,MS,T5,Leitung,172.0,km,28.9,168.023255813953,€/m,NAP 2026
+LSW Netz (Wolfsburg),LSW Netz,2026-11-02,MS/NS,T5,Anlage,230.0,ONS,20.8,90.4347826086957,T€/Stück,NAP 2026
+LSW Netz (Wolfsburg),LSW Netz,2026-11-02,NS,T5,Leitung,139.0,km,14.0,100.719424460432,€/m,NAP 2026
+LSW Netz (Wolfsburg),LSW Netz,2026-11-02,MS,T10,Leitung,161.0,km,28.0,173.913043478261,€/m,NAP 2026
+LSW Netz (Wolfsburg),LSW Netz,2026-11-02,MS/NS,T10,Anlage,228.0,ONS,18.3,80.2631578947368,T€/Stück,NAP 2026
+LSW Netz (Wolfsburg),LSW Netz,2026-11-02,NS,T10,Leitung,164.0,km,16.3,99.390243902439,€/m,NAP 2026
+LSW Netz (Wolfsburg),LSW Netz,2026-11-02,MS,Z,Leitung,286.0,km,49.8,174.125874125874,€/m,NAP 2026
+LSW Netz (Wolfsburg),LSW Netz,2026-11-02,MS/NS,Z,Anlage,411.0,ONS,32.8,79.8053527980535,T€/Stück,NAP 2026
+LSW Netz (Wolfsburg),LSW Netz,2026-11-02,NS,Z,Leitung,292.0,km,29.2,100.0,€/m,NAP 2026
+MVV Netze (Mannheim),MVV Netze,2026-10-30,HS,T5,Leitung,59.0,km,462.0,7830.50847457627,€/m,NAP 2026
+MVV Netze (Mannheim),MVV Netze,2026-10-30,HS/MS,T5,Anlage,5.0,UW,79.0,15800.0,T€/UW,NAP 2026
+MVV Netze (Mannheim),MVV Netze,2026-10-30,HS,T10,Leitung,10.0,km,61.0,6100.0,€/m,NAP 2026
+MVV Netze (Mannheim),MVV Netze,2026-10-30,HS/MS,T10,Anlage,1.0,UW,17.0,17000.0,T€/UW,NAP 2026
+MVV Netze (Mannheim),MVV Netze,2026-10-30,MS,T5,Leitung,92.0,km,67.0,728.260869565217,€/m,NAP 2026
+MVV Netze (Mannheim),MVV Netze,2026-10-30,MS/NS,T5,Anlage,176.0,ONS,36.0,204.545454545455,T€/Stück,NAP 2026
+MVV Netze (Mannheim),MVV Netze,2026-10-30,NS,T5,Leitung,133.0,km,41.0,308.270676691729,€/m,NAP 2026
+MVV Netze (Mannheim),MVV Netze,2026-10-30,MS,T10,Leitung,48.0,km,32.0,666.666666666667,€/m,NAP 2026
+MVV Netze (Mannheim),MVV Netze,2026-10-30,MS/NS,T10,Anlage,149.0,ONS,26.0,174.496644295302,T€/Stück,NAP 2026
+MVV Netze (Mannheim),MVV Netze,2026-10-30,NS,T10,Leitung,246.0,km,78.0,317.073170731707,€/m,NAP 2026
+MVV Netze (Mannheim),MVV Netze,2026-10-30,MS,Z,Leitung,47.0,km,22.0,468.085106382979,€/m,NAP 2026
+MVV Netze (Mannheim),MVV Netze,2026-10-30,MS/NS,Z,Anlage,271.0,ONS,42.0,154.981549815498,T€/Stück,NAP 2026
+MVV Netze (Mannheim),MVV Netze,2026-10-30,NS,Z,Leitung,346.0,km,174.0,502.890173410405,€/m,NAP 2026
+Mainfranken Netze (Würzburg),Mainfranken Netze,2026-10-30,HS,T5,Leitung,15.0,km,51.81,3454.0,€/m,NAP 2026
+Mainfranken Netze (Würzburg),Mainfranken Netze,2026-10-30,HS/MS,T5,Anlage,3.0,UW,89.71,29903.3333333333,T€/UW,NAP 2026
+Mainfranken Netze (Würzburg),Mainfranken Netze,2026-10-30,HS,T10,Leitung,13.0,km,52.47,4036.15384615385,€/m,NAP 2026
+Mainfranken Netze (Würzburg),Mainfranken Netze,2026-10-30,HS/MS,T10,Anlage,2.0,UW,67.76,33880.0,T€/UW,NAP 2026
+Mainfranken Netze (Würzburg),Mainfranken Netze,2026-10-30,HS,Z,Leitung,3.6,km,11.62,3227.77777777778,€/m,NAP 2026
+Mainfranken Netze (Würzburg),Mainfranken Netze,2026-10-30,HS/MS,Z,Anlage,2.0,UW,49.74,24870.0,T€/UW,NAP 2026
+Mainfranken Netze (Würzburg),Mainfranken Netze,2026-10-30,MS,T5,Leitung,130.0,km,61.94,476.461538461538,€/m,NAP 2026
+Mainfranken Netze (Würzburg),Mainfranken Netze,2026-10-30,MS/NS,T5,Anlage,277.0,ONS,34.33,123.935018050542,T€/Stück,NAP 2026
+Mainfranken Netze (Würzburg),Mainfranken Netze,2026-10-30,NS,T5,Leitung,183.0,km,41.68,227.75956284153,€/m,NAP 2026
+Mainfranken Netze (Würzburg),Mainfranken Netze,2026-10-30,MS,T10,Leitung,111.0,km,38.65,348.198198198198,€/m,NAP 2026
+Mainfranken Netze (Würzburg),Mainfranken Netze,2026-10-30,MS/NS,T10,Anlage,136.0,ONS,16.0,117.647058823529,T€/Stück,NAP 2026
+Mainfranken Netze (Würzburg),Mainfranken Netze,2026-10-30,NS,T10,Leitung,453.0,km,103.0,227.373068432671,€/m,NAP 2026
+Mainfranken Netze (Würzburg),Mainfranken Netze,2026-10-30,MS,Z,Leitung,104.0,km,29.67,285.288461538462,€/m,NAP 2026
+Mainfranken Netze (Würzburg),Mainfranken Netze,2026-10-30,MS/NS,Z,Anlage,255.0,ONS,31.51,123.56862745098,T€/Stück,NAP 2026
+Mainfranken Netze (Würzburg),Mainfranken Netze,2026-10-30,NS,Z,Leitung,490.0,km,111.49,227.530612244898,€/m,NAP 2026
+Mainzer Netze,Mainzer Netze,2026-10-30,HS,T5,Leitung,24.0,km,129.1,5379.16666666667,€/m,NAP 2026
+Mainzer Netze,Mainzer Netze,2026-10-30,HS/MS,T5,Anlage,6.0,UW,239.0,39833.3333333333,T€/UW,NAP 2026
+Mainzer Netze,Mainzer Netze,2026-10-30,HS,T10,Leitung,63.0,km,227.5,3611.11111111111,€/m,NAP 2026
+Mainzer Netze,Mainzer Netze,2026-10-30,HS/MS,T10,Anlage,12.0,UW,340.0,28333.3333333333,T€/UW,NAP 2026
+Mainzer Netze,Mainzer Netze,2026-10-30,HS,Z,Leitung,86.0,km,306.2,3560.46511627907,€/m,NAP 2026
+Mainzer Netze,Mainzer Netze,2026-10-30,HS/MS,Z,Anlage,5.0,UW,169.1,33820.0,T€/UW,NAP 2026
+Mainzer Netze,Mainzer Netze,2026-10-30,MS,T5,Leitung,141.0,km,64.5,457.446808510638,€/m,NAP 2026
+Mainzer Netze,Mainzer Netze,2026-10-30,MS/NS,T5,Anlage,200.0,ONS,16.8,84.0,T€/Stück,NAP 2026
+Mainzer Netze,Mainzer Netze,2026-10-30,NS,T5,Leitung,131.0,km,65.3,498.473282442748,€/m,NAP 2026
+Mainzer Netze,Mainzer Netze,2026-10-30,MS,T10,Leitung,235.0,km,129.8,552.340425531915,€/m,NAP 2026
+Mainzer Netze,Mainzer Netze,2026-10-30,MS/NS,T10,Anlage,353.0,ONS,33.6,95.1841359773371,T€/Stück,NAP 2026
+Mainzer Netze,Mainzer Netze,2026-10-30,NS,T10,Leitung,270.0,km,180.0,666.666666666667,€/m,NAP 2026
+Mainzer Netze,Mainzer Netze,2026-10-30,MS,Z,Leitung,230.0,km,122.1,530.869565217391,€/m,NAP 2026
+Mainzer Netze,Mainzer Netze,2026-10-30,MS/NS,Z,Anlage,330.0,ONS,38.6,116.969696969697,T€/Stück,NAP 2026
+Mainzer Netze,Mainzer Netze,2026-10-30,NS,Z,Leitung,140.0,km,202.9,1449.28571428571,€/m,NAP 2026
+MITNETZ Strom,MITNETZ Strom,2026-10-31,HS,T5,Leitung,801.0,km,654.0,816.479400749064,€/m,NAP 2026
+MITNETZ Strom,MITNETZ Strom,2026-10-31,HS/MS,T5,Anlage,71.0,UW,726.0,10225.3521126761,T€/UW,NAP 2026
+MITNETZ Strom,MITNETZ Strom,2026-10-31,HS,T10,Leitung,807.0,km,662.0,820.322180916976,€/m,NAP 2026
+MITNETZ Strom,MITNETZ Strom,2026-10-31,HS/MS,T10,Anlage,29.0,UW,375.0,12931.0344827586,T€/UW,NAP 2026
+MITNETZ Strom,MITNETZ Strom,2026-10-31,HS,Z,Leitung,682.0,km,597.0,875.366568914956,€/m,NAP 2026
+MITNETZ Strom,MITNETZ Strom,2026-10-31,HS/MS,Z,Anlage,40.0,UW,314.0,7850.0,T€/UW,NAP 2026
+MITNETZ Strom,MITNETZ Strom,2026-10-31,MS,T5,Leitung,4740.0,km,827.0,174.472573839662,€/m,NAP 2026
+MITNETZ Strom,MITNETZ Strom,2026-10-31,MS/NS,T5,Anlage,7602.0,ONS,744.0,97.8689818468824,T€/Stück,NAP 2026
+MITNETZ Strom,MITNETZ Strom,2026-10-31,NS,T5,Leitung,3339.0,km,853.0,255.465708295897,€/m,NAP 2026
+MITNETZ Strom,MITNETZ Strom,2026-10-31,MS,T10,Leitung,1706.0,km,427.0,250.293083235639,€/m,NAP 2026
+MITNETZ Strom,MITNETZ Strom,2026-10-31,MS/NS,T10,Anlage,2323.0,ONS,143.0,61.5583297460181,T€/Stück,NAP 2026
+MITNETZ Strom,MITNETZ Strom,2026-10-31,NS,T10,Leitung,2438.0,km,610.0,250.205086136177,€/m,NAP 2026
+MITNETZ Strom,MITNETZ Strom,2026-10-31,MS,Z,Leitung,1582.0,km,396.0,250.31605562579,€/m,NAP 2026
+MITNETZ Strom,MITNETZ Strom,2026-10-31,MS/NS,Z,Anlage,4249.0,ONS,436.0,102.612379383384,T€/Stück,NAP 2026
+MITNETZ Strom,MITNETZ Strom,2026-10-31,NS,Z,Leitung,4408.0,km,1102.0,250.0,€/m,NAP 2026
+Mittelhessen Netz (Gießen),Mittelhessen Netz,2026-11-02,MS,T5,Leitung,182.3,km,63.7,349.424026330225,€/m,NAP 2026
+Mittelhessen Netz (Gießen),Mittelhessen Netz,2026-11-02,MS/NS,T5,Anlage,723.0,ONS,110.4,152.697095435685,T€/Stück,NAP 2026
+Mittelhessen Netz (Gießen),Mittelhessen Netz,2026-11-02,NS,T5,Leitung,59.8,km,8.5,142.140468227425,€/m,NAP 2026
+Mittelhessen Netz (Gießen),Mittelhessen Netz,2026-11-02,MS,T10,Leitung,44.0,km,20.0,454.545454545455,€/m,NAP 2026
+Mittelhessen Netz (Gießen),Mittelhessen Netz,2026-11-02,MS/NS,T10,Anlage,116.0,ONS,18.5,159.48275862069,T€/Stück,NAP 2026
+Mittelhessen Netz (Gießen),Mittelhessen Netz,2026-11-02,NS,T10,Leitung,166.0,km,40.7,245.180722891566,€/m,NAP 2026
+Mittelhessen Netz (Gießen),Mittelhessen Netz,2026-11-02,MS,Z,Leitung,81.0,km,37.0,456.79012345679,€/m,NAP 2026
+Mittelhessen Netz (Gießen),Mittelhessen Netz,2026-11-02,MS/NS,Z,Anlage,221.0,ONS,36.0,162.89592760181,T€/Stück,NAP 2026
+Mittelhessen Netz (Gießen),Mittelhessen Netz,2026-11-02,NS,Z,Leitung,508.0,km,186.5,367.125984251969,€/m,NAP 2026
+N-ERGIE Netz,N-ERGIE Netz,2026-10-30,HS,T5,Leitung,181.0,km,429.0,2370.16574585635,€/m,NAP 2026
+N-ERGIE Netz,N-ERGIE Netz,2026-10-30,HS/MS,T5,Anlage,22.0,UW,335.0,15227.2727272727,T€/UW,NAP 2026
+N-ERGIE Netz,N-ERGIE Netz,2026-10-30,HS,T10,Leitung,167.0,km,570.0,3413.17365269461,€/m,NAP 2026
+N-ERGIE Netz,N-ERGIE Netz,2026-10-30,HS/MS,T10,Anlage,23.0,UW,302.0,13130.4347826087,T€/UW,NAP 2026
+N-ERGIE Netz,N-ERGIE Netz,2026-10-30,HS,Z,Leitung,641.0,km,1787.0,2787.83151326053,€/m,NAP 2026
+N-ERGIE Netz,N-ERGIE Netz,2026-10-30,HS/MS,Z,Anlage,43.0,UW,700.0,16279.0697674419,T€/UW,NAP 2026
+N-ERGIE Netz,N-ERGIE Netz,2026-10-30,MS,T5,Leitung,430.0,km,145.0,337.209302325581,€/m,NAP 2026
+N-ERGIE Netz,N-ERGIE Netz,2026-10-30,MS/NS,T5,Anlage,486.0,ONS,82.0,168.724279835391,T€/Stück,NAP 2026
+N-ERGIE Netz,N-ERGIE Netz,2026-10-30,NS,T5,Leitung,312.0,km,81.0,259.615384615385,€/m,NAP 2026
+N-ERGIE Netz,N-ERGIE Netz,2026-10-30,MS,T10,Leitung,529.0,km,180.0,340.264650283554,€/m,NAP 2026
+N-ERGIE Netz,N-ERGIE Netz,2026-10-30,MS/NS,T10,Anlage,633.0,ONS,107.0,169.036334913112,T€/Stück,NAP 2026
+N-ERGIE Netz,N-ERGIE Netz,2026-10-30,NS,T10,Leitung,421.0,km,109.0,258.907363420428,€/m,NAP 2026
+N-ERGIE Netz,N-ERGIE Netz,2026-10-30,MS,Z,Leitung,1289.0,km,437.0,339.022498060512,€/m,NAP 2026
+N-ERGIE Netz,N-ERGIE Netz,2026-10-30,MS/NS,Z,Anlage,1497.0,ONS,254.0,169.672678690715,T€/Stück,NAP 2026
+N-ERGIE Netz,N-ERGIE Netz,2026-10-30,NS,Z,Leitung,983.0,km,255.0,259.40996948118,€/m,NAP 2026
+NEW Netz (Mönchengladbach),NEW Netz,2026-10-30,HS/MS,T5,Anlage,8.0,UW,46.6,5825.0,T€/UW,NAP 2026
+NEW Netz (Mönchengladbach),NEW Netz,2026-10-30,HS/MS,T10,Anlage,6.0,UW,38.0,6333.33333333333,T€/UW,NAP 2026
+NEW Netz (Mönchengladbach),NEW Netz,2026-10-30,HS/MS,Z,Anlage,15.0,UW,90.5,6033.33333333333,T€/UW,NAP 2026
+NEW Netz (Mönchengladbach),NEW Netz,2026-10-30,MS,T5,Leitung,114.0,km,38.4,336.842105263158,€/m,NAP 2026
+NEW Netz (Mönchengladbach),NEW Netz,2026-10-30,MS/NS,T5,Anlage,502.0,ONS,49.3,98.207171314741,T€/Stück,NAP 2026
+NEW Netz (Mönchengladbach),NEW Netz,2026-10-30,NS,T5,Leitung,144.0,km,33.3,231.25,€/m,NAP 2026
+NEW Netz (Mönchengladbach),NEW Netz,2026-10-30,MS,T10,Leitung,205.0,km,69.6,339.512195121951,€/m,NAP 2026
+NEW Netz (Mönchengladbach),NEW Netz,2026-10-30,MS/NS,T10,Anlage,909.0,ONS,89.7,98.6798679867987,T€/Stück,NAP 2026
+NEW Netz (Mönchengladbach),NEW Netz,2026-10-30,NS,T10,Leitung,262.0,km,60.7,231.679389312977,€/m,NAP 2026
+NEW Netz (Mönchengladbach),NEW Netz,2026-10-30,MS,Z,Leitung,429.0,km,145.8,339.86013986014,€/m,NAP 2026
+NEW Netz (Mönchengladbach),NEW Netz,2026-10-30,MS/NS,Z,Anlage,1903.0,ONS,187.9,98.7388334209144,T€/Stück,NAP 2026
+NEW Netz (Mönchengladbach),NEW Netz,2026-10-30,NS,Z,Leitung,551.0,km,126.9,230.308529945554,€/m,NAP 2026
+NGN Niederrhein (Krefeld),NGN Netzgesellschaft Niederrhein,2026-10-30,HS,T5,Leitung,20.0,km,28.9,1445.0,€/m,NAP 2026
+NGN Niederrhein (Krefeld),NGN Netzgesellschaft Niederrhein,2026-10-30,HS/MS,T5,Anlage,5.0,UW,35.5,7100.0,T€/UW,NAP 2026
+NGN Niederrhein (Krefeld),NGN Netzgesellschaft Niederrhein,2026-10-30,HS,T10,Leitung,21.0,km,36.4,1733.33333333333,€/m,NAP 2026
+NGN Niederrhein (Krefeld),NGN Netzgesellschaft Niederrhein,2026-10-30,HS/MS,T10,Anlage,3.0,UW,26.5,8833.33333333333,T€/UW,NAP 2026
+NGN Niederrhein (Krefeld),NGN Netzgesellschaft Niederrhein,2026-10-30,HS,Z,Leitung,15.0,km,30.0,2000.0,€/m,NAP 2026
+NGN Niederrhein (Krefeld),NGN Netzgesellschaft Niederrhein,2026-10-30,HS/MS,Z,Anlage,3.0,UW,24.0,8000.0,T€/UW,NAP 2026
+NGN Niederrhein (Krefeld),NGN Netzgesellschaft Niederrhein,2026-10-30,MS,T5,Leitung,17.0,km,9.8,576.470588235294,€/m,NAP 2026
+NGN Niederrhein (Krefeld),NGN Netzgesellschaft Niederrhein,2026-10-30,MS/NS,T5,Anlage,14.0,ONS,1.2,85.7142857142857,T€/Stück,NAP 2026
+NGN Niederrhein (Krefeld),NGN Netzgesellschaft Niederrhein,2026-10-30,NS,T5,Leitung,22.0,km,8.8,400.0,€/m,NAP 2026
+NGN Niederrhein (Krefeld),NGN Netzgesellschaft Niederrhein,2026-10-30,MS,T10,Leitung,56.0,km,27.7,494.642857142857,€/m,NAP 2026
+NGN Niederrhein (Krefeld),NGN Netzgesellschaft Niederrhein,2026-10-30,MS/NS,T10,Anlage,140.0,ONS,12.5,89.2857142857143,T€/Stück,NAP 2026
+NGN Niederrhein (Krefeld),NGN Netzgesellschaft Niederrhein,2026-10-30,NS,T10,Leitung,52.0,km,17.8,342.307692307692,€/m,NAP 2026
+NGN Niederrhein (Krefeld),NGN Netzgesellschaft Niederrhein,2026-10-30,MS,Z,Leitung,53.0,km,26.9,507.547169811321,€/m,NAP 2026
+NGN Niederrhein (Krefeld),NGN Netzgesellschaft Niederrhein,2026-10-30,MS/NS,Z,Anlage,140.0,ONS,14.5,103.571428571429,T€/Stück,NAP 2026
+NGN Niederrhein (Krefeld),NGN Netzgesellschaft Niederrhein,2026-10-30,NS,Z,Leitung,68.0,km,29.1,427.941176470588,€/m,NAP 2026
+NRM Netzdienste Rhein-Main (Frankfurt),NRM Netzdienste Rhein-Main,2026-10-30,HS,T5,Leitung,70.0,km,630.0,9000.0,€/m,NAP 2026
+NRM Netzdienste Rhein-Main (Frankfurt),NRM Netzdienste Rhein-Main,2026-10-30,HS/MS,T5,Anlage,4.0,UW,127.0,31750.0,T€/UW,NAP 2026
+NRM Netzdienste Rhein-Main (Frankfurt),NRM Netzdienste Rhein-Main,2026-10-30,HS,T10,Leitung,2.0,km,8.0,4000.0,€/m,NAP 2026
+NRM Netzdienste Rhein-Main (Frankfurt),NRM Netzdienste Rhein-Main,2026-10-30,HS/MS,T10,Anlage,9.0,UW,267.0,29666.6666666667,T€/UW,NAP 2026
+NRM Netzdienste Rhein-Main (Frankfurt),NRM Netzdienste Rhein-Main,2026-10-30,HS,Z,Leitung,14.0,km,105.0,7500.0,€/m,NAP 2026
+NRM Netzdienste Rhein-Main (Frankfurt),NRM Netzdienste Rhein-Main,2026-10-30,HS/MS,Z,Anlage,2.0,UW,80.0,40000.0,T€/UW,NAP 2026
+Netz Leipzig,Netz Leipzig,2026-11-01,MS,T5,Leitung,150.0,km,30.0,200.0,€/m,NAP 2026
+Netz Leipzig,Netz Leipzig,2026-11-01,MS/NS,T5,Anlage,104.0,ONS,13.7,131.730769230769,T€/Stück,NAP 2026
+Netz Leipzig,Netz Leipzig,2026-11-01,NS,T5,Leitung,147.0,km,26.0,176.87074829932,€/m,NAP 2026
+Netz Leipzig,Netz Leipzig,2026-11-01,MS,T10,Leitung,221.0,km,44.0,199.095022624434,€/m,NAP 2026
+Netz Leipzig,Netz Leipzig,2026-11-01,MS/NS,T10,Anlage,122.0,ONS,16.2,132.786885245902,T€/Stück,NAP 2026
+Netz Leipzig,Netz Leipzig,2026-11-01,NS,T10,Leitung,166.0,km,30.0,180.722891566265,€/m,NAP 2026
+Netz Leipzig,Netz Leipzig,2026-11-01,MS,Z,Leitung,205.0,km,40.0,195.121951219512,€/m,NAP 2026
+Netz Leipzig,Netz Leipzig,2026-11-01,MS/NS,Z,Anlage,174.0,ONS,22.8,131.034482758621,T€/Stück,NAP 2026
+Netz Leipzig,Netz Leipzig,2026-11-01,NS,Z,Leitung,267.0,km,48.0,179.775280898876,€/m,NAP 2026
+Netze BW,Netze BW,2026-10-30,HS,T5,Leitung,1800.0,km,2300.0,1277.77777777778,€/m,NAP 2026
+Netze BW,Netze BW,2026-10-30,HS/MS,T5,Anlage,179.0,UW,2900.0,16201.1173184358,T€/UW,NAP 2026
+Netze BW,Netze BW,2026-10-30,HS,T10,Leitung,900.0,km,1200.0,1333.33333333333,€/m,NAP 2026
+Netze BW,Netze BW,2026-10-30,HS/MS,T10,Anlage,123.0,UW,1800.0,14634.1463414634,T€/UW,NAP 2026
+Netze BW,Netze BW,2026-10-30,HS,Z,Leitung,200.0,km,200.0,1000.0,€/m,NAP 2026
+Netze BW,Netze BW,2026-10-30,HS/MS,Z,Anlage,75.0,UW,1400.0,18666.6666666667,T€/UW,NAP 2026
+Netze BW,Netze BW,2026-10-30,MS,T5,Leitung,4561.0,km,1000.0,219.250164437623,€/m,NAP 2026
+Netze BW,Netze BW,2026-10-30,MS/NS,T5,Anlage,2568.0,ONS,300.0,116.822429906542,T€/Stück,NAP 2026
+Netze BW,Netze BW,2026-10-30,NS,T5,Leitung,9092.0,km,1400.0,153.981522217334,€/m,NAP 2026
+Netze BW,Netze BW,2026-10-30,MS,T10,Leitung,7867.0,km,1800.0,228.803864243041,€/m,NAP 2026
+Netze BW,Netze BW,2026-10-30,MS/NS,T10,Anlage,6490.0,ONS,600.0,92.4499229583975,T€/Stück,NAP 2026
+Netze BW,Netze BW,2026-10-30,NS,T10,Leitung,5261.0,km,800.0,152.06234556168,€/m,NAP 2026
+Netze BW,Netze BW,2026-10-30,MS,Z,Leitung,14447.0,km,3300.0,228.421125493182,€/m,NAP 2026
+Netze BW,Netze BW,2026-10-30,MS/NS,Z,Anlage,7724.0,ONS,800.0,103.573278094252,T€/Stück,NAP 2026
+Netze BW,Netze BW,2026-10-30,NS,Z,Leitung,7026.0,km,1100.0,156.561343580985,€/m,NAP 2026
+Netze ODR,Netze ODR,2026-10-30,MS,T5,Leitung,653.0,km,137.7,210.872894333844,€/m,NAP 2026
+Netze ODR,Netze ODR,2026-10-30,MS/NS,T5,Anlage,1610.0,ONS,151.6,94.1614906832298,T€/Stück,NAP 2026
+Netze ODR,Netze ODR,2026-10-30,NS,T5,Leitung,971.0,km,231.9,238.825952626159,€/m,NAP 2026
+Netze ODR,Netze ODR,2026-10-30,MS,T10,Leitung,680.0,km,137.1,201.617647058824,€/m,NAP 2026
+Netze ODR,Netze ODR,2026-10-30,MS/NS,T10,Anlage,868.0,ONS,69.4,79.9539170506913,T€/Stück,NAP 2026
+Netze ODR,Netze ODR,2026-10-30,NS,T10,Leitung,721.0,km,144.2,200.0,€/m,NAP 2026
+Netze ODR,Netze ODR,2026-10-30,MS,Z,Leitung,2449.0,km,489.9,200.040832993058,€/m,NAP 2026
+Netze ODR,Netze ODR,2026-10-30,MS/NS,Z,Anlage,1679.0,ONS,137.3,81.7748659916617,T€/Stück,NAP 2026
+Netze ODR,Netze ODR,2026-10-30,NS,Z,Leitung,2059.0,km,411.9,200.048567265663,€/m,NAP 2026
+Netzgesellschaft Düsseldorf,Netzgesellschaft Düsseldorf,2026-11-02,MS,T5,Leitung,135.0,km,38.4,284.444444444444,€/m,NAP 2026
+Netzgesellschaft Düsseldorf,Netzgesellschaft Düsseldorf,2026-11-02,MS/NS,T5,Anlage,600.0,ONS,51.0,85.0,T€/Stück,NAP 2026
+Netzgesellschaft Düsseldorf,Netzgesellschaft Düsseldorf,2026-11-02,NS,T5,Leitung,135.0,km,30.2,223.703703703704,€/m,NAP 2026
+Netzgesellschaft Düsseldorf,Netzgesellschaft Düsseldorf,2026-11-02,MS,T10,Leitung,215.0,km,66.0,306.976744186047,€/m,NAP 2026
+Netzgesellschaft Düsseldorf,Netzgesellschaft Düsseldorf,2026-11-02,MS/NS,T10,Anlage,600.0,ONS,51.0,85.0,T€/Stück,NAP 2026
+Netzgesellschaft Düsseldorf,Netzgesellschaft Düsseldorf,2026-11-02,NS,T10,Leitung,215.0,km,49.0,227.906976744186,€/m,NAP 2026
+Netzgesellschaft Düsseldorf,Netzgesellschaft Düsseldorf,2026-11-02,MS,Z,Leitung,465.0,km,143.6,308.817204301075,€/m,NAP 2026
+Netzgesellschaft Düsseldorf,Netzgesellschaft Düsseldorf,2026-11-02,MS/NS,Z,Anlage,1200.0,ONS,102.0,85.0,T€/Stück,NAP 2026
+Netzgesellschaft Düsseldorf,Netzgesellschaft Düsseldorf,2026-11-02,NS,Z,Leitung,465.0,km,107.0,230.10752688172,€/m,NAP 2026
+Netzgesellschaft Potsdam,Netzgesellschaft Potsdam,2026-10-30,HS,T5,Leitung,2.5,km,5.9,2360.0,€/m,NAP 2026
+Netzgesellschaft Potsdam,Netzgesellschaft Potsdam,2026-10-30,HS/MS,T5,Anlage,3.0,UW,12.7,4233.33333333333,T€/UW,NAP 2026
+Netzgesellschaft Potsdam,Netzgesellschaft Potsdam,2026-10-30,HS,T10,Leitung,9.54,km,18.8,1970.6498951782,€/m,NAP 2026
+Netzgesellschaft Potsdam,Netzgesellschaft Potsdam,2026-10-30,HS/MS,T10,Anlage,3.0,UW,53.3,17766.6666666667,T€/UW,NAP 2026
+Netzgesellschaft Potsdam,Netzgesellschaft Potsdam,2026-10-30,MS,T5,Leitung,263.0,km,130.0,494.296577946768,€/m,NAP 2026
+Netzgesellschaft Potsdam,Netzgesellschaft Potsdam,2026-10-30,MS/NS,T5,Anlage,69.0,ONS,10.0,144.927536231884,T€/Stück,NAP 2026
+Netzgesellschaft Potsdam,Netzgesellschaft Potsdam,2026-10-30,NS,T5,Leitung,102.0,km,42.0,411.764705882353,€/m,NAP 2026
+Netzgesellschaft Potsdam,Netzgesellschaft Potsdam,2026-10-30,MS,T10,Leitung,127.0,km,77.0,606.299212598425,€/m,NAP 2026
+Netzgesellschaft Potsdam,Netzgesellschaft Potsdam,2026-10-30,MS/NS,T10,Anlage,101.0,ONS,16.0,158.415841584158,T€/Stück,NAP 2026
+Netzgesellschaft Potsdam,Netzgesellschaft Potsdam,2026-10-30,NS,T10,Leitung,120.0,km,58.0,483.333333333333,€/m,NAP 2026
+Netzgesellschaft Potsdam,Netzgesellschaft Potsdam,2026-10-30,MS,Z,Leitung,109.0,km,71.0,651.376146788991,€/m,NAP 2026
+Netzgesellschaft Potsdam,Netzgesellschaft Potsdam,2026-10-30,MS/NS,Z,Anlage,95.0,ONS,20.0,210.526315789474,T€/Stück,NAP 2026
+Netzgesellschaft Potsdam,Netzgesellschaft Potsdam,2026-10-30,NS,Z,Leitung,143.0,km,89.0,622.377622377622,€/m,NAP 2026
+Oberhausener Netzgesellschaft,Oberhausener Netzgesellschaft,2026-11-02,MS,T5,Leitung,65.0,km,23.4,360.0,€/m,NAP 2026
+Oberhausener Netzgesellschaft,Oberhausener Netzgesellschaft,2026-11-02,MS/NS,T5,Anlage,70.0,ONS,2.4,34.2857142857143,T€/Stück,NAP 2026
+Oberhausener Netzgesellschaft,Oberhausener Netzgesellschaft,2026-11-02,NS,T5,Leitung,40.0,km,12.8,320.0,€/m,NAP 2026
+Oberhausener Netzgesellschaft,Oberhausener Netzgesellschaft,2026-11-02,MS,T10,Leitung,54.0,km,19.4,359.259259259259,€/m,NAP 2026
+Oberhausener Netzgesellschaft,Oberhausener Netzgesellschaft,2026-11-02,MS/NS,T10,Anlage,107.0,ONS,3.2,29.9065420560748,T€/Stück,NAP 2026
+Oberhausener Netzgesellschaft,Oberhausener Netzgesellschaft,2026-11-02,NS,T10,Leitung,129.0,km,41.4,320.93023255814,€/m,NAP 2026
+Oberhausener Netzgesellschaft,Oberhausener Netzgesellschaft,2026-11-02,MS,Z,Leitung,108.0,km,38.9,360.185185185185,€/m,NAP 2026
+Oberhausener Netzgesellschaft,Oberhausener Netzgesellschaft,2026-11-02,MS/NS,Z,Anlage,213.0,ONS,6.3,29.5774647887324,T€/Stück,NAP 2026
+Oberhausener Netzgesellschaft,Oberhausener Netzgesellschaft,2026-11-02,NS,Z,Leitung,259.0,km,82.8,319.69111969112,€/m,NAP 2026
+OsthessenNetz,OsthessenNetz,2026-10-30,MS,T5,Leitung,43.0,km,7.0,162.790697674419,€/m,NAP 2026
+OsthessenNetz,OsthessenNetz,2026-10-30,MS/NS,T5,Anlage,58.0,ONS,5.0,86.2068965517241,T€/Stück,NAP 2026
+OsthessenNetz,OsthessenNetz,2026-10-30,NS,T5,Leitung,60.0,km,4.0,66.6666666666667,€/m,NAP 2026
+OsthessenNetz,OsthessenNetz,2026-10-30,MS,T10,Leitung,151.0,km,35.0,231.788079470199,€/m,NAP 2026
+OsthessenNetz,OsthessenNetz,2026-10-30,MS/NS,T10,Anlage,70.0,ONS,6.0,85.7142857142857,T€/Stück,NAP 2026
+OsthessenNetz,OsthessenNetz,2026-10-30,NS,T10,Leitung,182.0,km,16.0,87.9120879120879,€/m,NAP 2026
+OsthessenNetz,OsthessenNetz,2026-10-30,MS,Z,Leitung,250.0,km,58.0,232.0,€/m,NAP 2026
+OsthessenNetz,OsthessenNetz,2026-10-30,MS/NS,Z,Anlage,260.0,ONS,23.0,88.4615384615385,T€/Stück,NAP 2026
+OsthessenNetz,OsthessenNetz,2026-10-30,NS,Z,Leitung,195.0,km,17.0,87.1794871794872,€/m,NAP 2026
+Pfalzwerke Netz,Pfalzwerke Netz,2026-11-02,MS,T5,Leitung,260.0,km,85.4,328.461538461538,€/m,NAP 2026
+Pfalzwerke Netz,Pfalzwerke Netz,2026-11-02,MS/NS,T5,Anlage,218.0,ONS,29.3,134.403669724771,T€/Stück,NAP 2026
+Pfalzwerke Netz,Pfalzwerke Netz,2026-11-02,NS,T5,Leitung,385.0,km,66.5,172.727272727273,€/m,NAP 2026
+Pfalzwerke Netz,Pfalzwerke Netz,2026-11-02,MS,T10,Leitung,404.0,km,143.5,355.19801980198,€/m,NAP 2026
+Pfalzwerke Netz,Pfalzwerke Netz,2026-11-02,MS/NS,T10,Anlage,329.0,ONS,55.4,168.38905775076,T€/Stück,NAP 2026
+Pfalzwerke Netz,Pfalzwerke Netz,2026-11-02,NS,T10,Leitung,167.0,km,52.4,313.77245508982,€/m,NAP 2026
+Pfalzwerke Netz,Pfalzwerke Netz,2026-11-02,MS,Z,Leitung,1246.0,km,467.5,375.200642054575,€/m,NAP 2026
+Pfalzwerke Netz,Pfalzwerke Netz,2026-11-02,MS/NS,Z,Anlage,818.0,ONS,142.8,174.572127139364,T€/Stück,NAP 2026
+Pfalzwerke Netz,Pfalzwerke Netz,2026-11-02,NS,Z,Leitung,1554.0,km,421.0,270.913770913771,€/m,NAP 2026
+Regensburg Netz,Regensburg Netz,2026-10-30,MS,T5,Leitung,103.0,km,41.5,402.912621359223,€/m,NAP 2026
+Regensburg Netz,Regensburg Netz,2026-10-30,MS/NS,T5,Anlage,171.0,ONS,15.0,87.719298245614,T€/Stück,NAP 2026
+Regensburg Netz,Regensburg Netz,2026-10-30,NS,T5,Leitung,125.0,km,37.5,300.0,€/m,NAP 2026
+Regensburg Netz,Regensburg Netz,2026-10-30,MS,T10,Leitung,92.0,km,36.8,400.0,€/m,NAP 2026
+Regensburg Netz,Regensburg Netz,2026-10-30,MS/NS,T10,Anlage,163.0,ONS,14.7,90.1840490797546,T€/Stück,NAP 2026
+Regensburg Netz,Regensburg Netz,2026-10-30,NS,T10,Leitung,127.0,km,38.1,300.0,€/m,NAP 2026
+Regensburg Netz,Regensburg Netz,2026-10-30,MS,Z,Leitung,195.0,km,78.0,400.0,€/m,NAP 2026
+Regensburg Netz,Regensburg Netz,2026-10-30,MS/NS,Z,Anlage,196.0,ONS,20.4,104.081632653061,T€/Stück,NAP 2026
+Regensburg Netz,Regensburg Netz,2026-10-30,NS,Z,Leitung,247.0,km,74.1,300.0,€/m,NAP 2026
+Regionetz (Aachen),Regionetz,2026-10-29,HS,T5,Leitung,7.0,km,15.0,2142.85714285714,€/m,NAP 2026
+Regionetz (Aachen),Regionetz,2026-10-29,HS/MS,T5,Anlage,11.0,UW,45.1,4100.0,T€/UW,NAP 2026
+Regionetz (Aachen),Regionetz,2026-10-29,HS/MS,T10,Anlage,5.0,UW,22.0,4400.0,T€/UW,NAP 2026
+Regionetz (Aachen),Regionetz,2026-10-29,HS,Z,Leitung,10.0,km,35.8,3580.0,€/m,NAP 2026
+Regionetz (Aachen),Regionetz,2026-10-29,HS/MS,Z,Anlage,14.0,UW,27.4,1957.14285714286,T€/UW,NAP 2026
+Regionetz (Aachen),Regionetz,2026-10-29,MS,T5,Leitung,274.0,km,89.4,326.277372262774,€/m,NAP 2026
+Regionetz (Aachen),Regionetz,2026-10-29,MS/NS,T5,Anlage,606.0,ONS,67.0,110.561056105611,T€/Stück,NAP 2026
+Regionetz (Aachen),Regionetz,2026-10-29,NS,T5,Leitung,322.0,km,100.4,311.801242236025,€/m,NAP 2026
+Regionetz (Aachen),Regionetz,2026-10-29,MS,T10,Leitung,254.0,km,82.1,323.228346456693,€/m,NAP 2026
+Regionetz (Aachen),Regionetz,2026-10-29,MS/NS,T10,Anlage,502.0,ONS,50.4,100.398406374502,T€/Stück,NAP 2026
+Regionetz (Aachen),Regionetz,2026-10-29,NS,T10,Leitung,259.0,km,83.7,323.166023166023,€/m,NAP 2026
+Regionetz (Aachen),Regionetz,2026-10-29,MS,Z,Leitung,302.0,km,105.6,349.668874172185,€/m,NAP 2026
+Regionetz (Aachen),Regionetz,2026-10-29,MS/NS,Z,Anlage,411.0,ONS,43.1,104.866180048662,T€/Stück,NAP 2026
+Regionetz (Aachen),Regionetz,2026-10-29,NS,Z,Leitung,409.0,km,132.1,322.982885085575,€/m,NAP 2026
+RheinNetz (Köln),RheinNetz,2026-11-02,HS,T5,Leitung,89.1,km,426.0,4781.14478114478,€/m,NAP 2026
+RheinNetz (Köln),RheinNetz,2026-11-02,HS/MS,T5,Anlage,10.0,UW,72.5,7250.0,T€/UW,NAP 2026
+RheinNetz (Köln),RheinNetz,2026-11-02,HS,T10,Leitung,50.5,km,320.3,6342.57425742574,€/m,NAP 2026
+RheinNetz (Köln),RheinNetz,2026-11-02,HS/MS,T10,Anlage,13.0,UW,317.0,24384.6153846154,T€/UW,NAP 2026
+RheinNetz (Köln),RheinNetz,2026-11-02,HS,Z,Leitung,50.0,km,400.0,8000.0,€/m,NAP 2026
+RheinNetz (Köln),RheinNetz,2026-11-02,HS/MS,Z,Anlage,10.0,UW,260.0,26000.0,T€/UW,NAP 2026
+RheinNetz (Köln),RheinNetz,2026-11-02,MS,T5,Leitung,374.0,km,168.0,449.197860962567,€/m,NAP 2026
+RheinNetz (Köln),RheinNetz,2026-11-02,MS/NS,T5,Anlage,1233.0,ONS,73.0,59.2051905920519,T€/Stück,NAP 2026
+RheinNetz (Köln),RheinNetz,2026-11-02,NS,T5,Leitung,377.0,km,135.0,358.090185676393,€/m,NAP 2026
+RheinNetz (Köln),RheinNetz,2026-11-02,MS,T10,Leitung,588.0,km,249.0,423.469387755102,€/m,NAP 2026
+RheinNetz (Köln),RheinNetz,2026-11-02,MS/NS,T10,Anlage,1174.0,ONS,88.0,74.9574105621806,T€/Stück,NAP 2026
+RheinNetz (Köln),RheinNetz,2026-11-02,NS,T10,Leitung,912.0,km,206.0,225.877192982456,€/m,NAP 2026
+RheinNetz (Köln),RheinNetz,2026-11-02,MS,Z,Leitung,1270.0,km,553.0,435.433070866142,€/m,NAP 2026
+RheinNetz (Köln),RheinNetz,2026-11-02,MS/NS,Z,Anlage,2310.0,ONS,173.0,74.8917748917749,T€/Stück,NAP 2026
+RheinNetz (Köln),RheinNetz,2026-11-02,NS,Z,Leitung,2129.0,km,776.0,364.490371066228,€/m,NAP 2026
+SWE Netz (Erfurt),SWE Netz (Erfurt),2026-11-03,HS/MS,T5,Anlage,1.0,UW,25.0,25000.0,T€/UW,NAP 2026
+SWE Netz (Erfurt),SWE Netz (Erfurt),2026-11-03,HS/MS,Z,Anlage,5.0,UW,18.1,3620.0,T€/UW,NAP 2026
+SWE Netz (Erfurt),SWE Netz (Erfurt),2026-11-03,MS,T5,Leitung,40.0,km,20.0,500.0,€/m,NAP 2026
+SWE Netz (Erfurt),SWE Netz (Erfurt),2026-11-03,MS/NS,T5,Anlage,241.0,ONS,26.2,108.713692946058,T€/Stück,NAP 2026
+SWE Netz (Erfurt),SWE Netz (Erfurt),2026-11-03,NS,T5,Leitung,10.0,km,2.3,230.0,€/m,NAP 2026
+SWE Netz (Erfurt),SWE Netz (Erfurt),2026-11-03,MS,T10,Leitung,26.0,km,13.0,500.0,€/m,NAP 2026
+SWE Netz (Erfurt),SWE Netz (Erfurt),2026-11-03,MS/NS,T10,Anlage,157.0,ONS,17.5,111.464968152866,T€/Stück,NAP 2026
+SWE Netz (Erfurt),SWE Netz (Erfurt),2026-11-03,NS,T10,Leitung,16.0,km,3.8,237.5,€/m,NAP 2026
+SWE Netz (Erfurt),SWE Netz (Erfurt),2026-11-03,MS,Z,Leitung,31.0,km,15.0,483.870967741936,€/m,NAP 2026
+SWE Netz (Erfurt),SWE Netz (Erfurt),2026-11-03,MS/NS,Z,Anlage,162.0,ONS,25.0,154.320987654321,T€/Stück,NAP 2026
+SWE Netz (Erfurt),SWE Netz (Erfurt),2026-11-03,NS,Z,Leitung,43.0,km,9.2,213.953488372093,€/m,NAP 2026
+SWKiel Netz,SWKiel Netz,2026-10-30,HS,T5,Leitung,45.0,km,127.5,2833.33333333333,€/m,NAP 2026
+SWKiel Netz,SWKiel Netz,2026-10-30,HS/MS,T5,Anlage,6.0,UW,63.0,10500.0,T€/UW,NAP 2026
+SWKiel Netz,SWKiel Netz,2026-10-30,HS,T10,Leitung,6.0,km,18.0,3000.0,€/m,NAP 2026
+SWKiel Netz,SWKiel Netz,2026-10-30,HS/MS,T10,Anlage,1.0,UW,1.5,1500.0,T€/UW,NAP 2026
+SWKiel Netz,SWKiel Netz,2026-10-30,HS/MS,Z,Anlage,3.0,UW,4.5,1500.0,T€/UW,NAP 2026
+SWKiel Netz,SWKiel Netz,2026-10-30,MS,T5,Leitung,78.0,km,58.0,743.589743589744,€/m,NAP 2026
+SWKiel Netz,SWKiel Netz,2026-10-30,MS/NS,T5,Anlage,25.0,ONS,3.0,120.0,T€/Stück,NAP 2026
+SWKiel Netz,SWKiel Netz,2026-10-30,NS,T5,Leitung,63.0,km,26.0,412.698412698413,€/m,NAP 2026
+SWKiel Netz,SWKiel Netz,2026-10-30,MS,T10,Leitung,107.0,km,88.0,822.429906542056,€/m,NAP 2026
+SWKiel Netz,SWKiel Netz,2026-10-30,MS/NS,T10,Anlage,93.0,ONS,2.0,21.505376344086,T€/Stück,NAP 2026
+SWKiel Netz,SWKiel Netz,2026-10-30,NS,T10,Leitung,66.0,km,28.0,424.242424242424,€/m,NAP 2026
+SWKiel Netz,SWKiel Netz,2026-10-30,MS,Z,Leitung,12.0,km,9.0,750.0,€/m,NAP 2026
+SWKiel Netz,SWKiel Netz,2026-10-30,MS/NS,Z,Anlage,176.0,ONS,4.0,22.7272727272727,T€/Stück,NAP 2026
+SWKiel Netz,SWKiel Netz,2026-10-30,NS,Z,Leitung,109.0,km,47.0,431.192660550459,€/m,NAP 2026
+SWM Infrastruktur (München),SWM Infrastruktur,2026-11-02,HS,T5,Leitung,190.0,km,790.7,4161.57894736842,€/m,NAP 2026
+SWM Infrastruktur (München),SWM Infrastruktur,2026-11-02,HS/MS,T5,Anlage,5.0,UW,601.9,120380.0,T€/UW,NAP 2026
+SWM Infrastruktur (München),SWM Infrastruktur,2026-11-02,HS,T10,Leitung,11.0,km,208.3,18936.3636363636,€/m,NAP 2026
+SWM Infrastruktur (München),SWM Infrastruktur,2026-11-02,HS,Z,Leitung,144.0,km,597.0,4145.83333333333,€/m,NAP 2026
+SWM Infrastruktur (München),SWM Infrastruktur,2026-11-02,HS/MS,Z,Anlage,18.0,UW,946.7,52594.4444444444,T€/UW,NAP 2026
+SWM Infrastruktur (München),SWM Infrastruktur,2026-11-02,MS,T5,Leitung,553.0,km,420.3,760.03616636528,€/m,NAP 2026
+SWM Infrastruktur (München),SWM Infrastruktur,2026-11-02,MS/NS,T5,Anlage,2173.0,ONS,301.0,138.518177634607,T€/Stück,NAP 2026
+SWM Infrastruktur (München),SWM Infrastruktur,2026-11-02,NS,T5,Leitung,945.0,km,499.1,528.148148148148,€/m,NAP 2026
+SWM Infrastruktur (München),SWM Infrastruktur,2026-11-02,MS,T10,Leitung,359.0,km,201.8,562.116991643454,€/m,NAP 2026
+SWM Infrastruktur (München),SWM Infrastruktur,2026-11-02,MS/NS,T10,Anlage,1908.0,ONS,285.8,149.79035639413,T€/Stück,NAP 2026
+SWM Infrastruktur (München),SWM Infrastruktur,2026-11-02,NS,T10,Leitung,601.0,km,236.9,394.176372712146,€/m,NAP 2026
+SWM Infrastruktur (München),SWM Infrastruktur,2026-11-02,MS,Z,Leitung,536.0,km,297.5,555.037313432836,€/m,NAP 2026
+SWM Infrastruktur (München),SWM Infrastruktur,2026-11-02,MS/NS,Z,Anlage,3710.0,ONS,554.2,149.380053908356,T€/Stück,NAP 2026
+SWM Infrastruktur (München),SWM Infrastruktur,2026-11-02,NS,Z,Leitung,1054.0,km,659.6,625.806451612903,€/m,NAP 2026
+SWO Netz (Osnabrück),SWO Netz (Osnabrück),2026-10-30,MS,T5,Leitung,146.0,km,51.2,350.684931506849,€/m,NAP 2026
+SWO Netz (Osnabrück),SWO Netz (Osnabrück),2026-10-30,MS/NS,T5,Anlage,65.0,ONS,3.8,58.4615384615385,T€/Stück,NAP 2026
+SWO Netz (Osnabrück),SWO Netz (Osnabrück),2026-10-30,NS,T5,Leitung,95.0,km,22.1,232.631578947368,€/m,NAP 2026
+SWO Netz (Osnabrück),SWO Netz (Osnabrück),2026-10-30,MS,T10,Leitung,108.0,km,34.0,314.814814814815,€/m,NAP 2026
+SWO Netz (Osnabrück),SWO Netz (Osnabrück),2026-10-30,MS/NS,T10,Anlage,63.0,ONS,7.4,117.460317460317,T€/Stück,NAP 2026
+SWO Netz (Osnabrück),SWO Netz (Osnabrück),2026-10-30,NS,T10,Leitung,193.0,km,40.5,209.844559585492,€/m,NAP 2026
+SWO Netz (Osnabrück),SWO Netz (Osnabrück),2026-10-30,MS,Z,Leitung,185.0,km,53.8,290.810810810811,€/m,NAP 2026
+SWO Netz (Osnabrück),SWO Netz (Osnabrück),2026-10-30,MS/NS,Z,Anlage,170.0,ONS,19.8,116.470588235294,T€/Stück,NAP 2026
+SWO Netz (Osnabrück),SWO Netz (Osnabrück),2026-10-30,NS,Z,Leitung,206.0,km,58.5,283.980582524272,€/m,NAP 2026
+SWS Netze Solingen,SWS Netze Solingen,2026-10-28,MS,T5,Leitung,63.1,km,16.6,263.074484944532,€/m,NAP 2026
+SWS Netze Solingen,SWS Netze Solingen,2026-10-28,MS/NS,T5,Anlage,395.0,ONS,28.4,71.8987341772152,T€/Stück,NAP 2026
+SWS Netze Solingen,SWS Netze Solingen,2026-10-28,NS,T5,Leitung,145.0,km,38.3,264.137931034483,€/m,NAP 2026
+SWS Netze Solingen,SWS Netze Solingen,2026-10-28,MS,T10,Leitung,73.1,km,19.3,264.021887824897,€/m,NAP 2026
+SWS Netze Solingen,SWS Netze Solingen,2026-10-28,MS/NS,T10,Anlage,373.0,ONS,26.9,72.1179624664879,T€/Stück,NAP 2026
+SWS Netze Solingen,SWS Netze Solingen,2026-10-28,NS,T10,Leitung,164.0,km,43.3,264.024390243902,€/m,NAP 2026
+SWS Netze Solingen,SWS Netze Solingen,2026-10-28,MS,Z,Leitung,114.9,km,30.3,263.707571801567,€/m,NAP 2026
+SWS Netze Solingen,SWS Netze Solingen,2026-10-28,MS/NS,Z,Anlage,265.0,ONS,19.1,72.0754716981132,T€/Stück,NAP 2026
+SWS Netze Solingen,SWS Netze Solingen,2026-10-28,NS,Z,Leitung,299.9,km,79.2,264.088029343114,€/m,NAP 2026
+SachsenNetze (Dresden),SachsenNetze (Dresden),2026-10-28,HS/MS,T5,Anlage,3.0,UW,15.0,5000.0,T€/UW,NAP 2026
+SachsenNetze (Dresden),SachsenNetze (Dresden),2026-10-28,HS/MS,T10,Anlage,5.0,UW,36.0,7200.0,T€/UW,NAP 2026
+SachsenNetze (Dresden),SachsenNetze (Dresden),2026-10-28,HS/MS,Z,Anlage,8.0,UW,66.0,8250.0,T€/UW,NAP 2026
+SachsenNetze (Dresden),SachsenNetze (Dresden),2026-10-28,MS,T5,Leitung,84.0,km,30.0,357.142857142857,€/m,NAP 2026
+SachsenNetze (Dresden),SachsenNetze (Dresden),2026-10-28,MS/NS,T5,Anlage,212.0,ONS,26.0,122.641509433962,T€/Stück,NAP 2026
+SachsenNetze (Dresden),SachsenNetze (Dresden),2026-10-28,NS,T5,Leitung,126.0,km,31.0,246.031746031746,€/m,NAP 2026
+SachsenNetze (Dresden),SachsenNetze (Dresden),2026-10-28,MS,T10,Leitung,93.0,km,40.0,430.10752688172,€/m,NAP 2026
+SachsenNetze (Dresden),SachsenNetze (Dresden),2026-10-28,MS/NS,T10,Anlage,138.0,ONS,17.0,123.188405797101,T€/Stück,NAP 2026
+SachsenNetze (Dresden),SachsenNetze (Dresden),2026-10-28,NS,T10,Leitung,88.0,km,22.0,250.0,€/m,NAP 2026
+SachsenNetze (Dresden),SachsenNetze (Dresden),2026-10-28,MS,Z,Leitung,129.0,km,83.0,643.410852713178,€/m,NAP 2026
+SachsenNetze (Dresden),SachsenNetze (Dresden),2026-10-28,MS/NS,Z,Anlage,124.0,ONS,15.0,120.967741935484,T€/Stück,NAP 2026
+SachsenNetze (Dresden),SachsenNetze (Dresden),2026-10-28,NS,Z,Leitung,268.0,km,66.0,246.268656716418,€/m,NAP 2026
+SachsenNetze HS.HD,SachsenNetze HS.HD,2026-10-28,HS,T5,Leitung,176.0,km,380.0,2159.09090909091,€/m,NAP 2026
+SachsenNetze HS.HD,SachsenNetze HS.HD,2026-10-28,HS/MS,T5,Anlage,17.0,UW,154.0,9058.82352941176,T€/UW,NAP 2026
+SachsenNetze HS.HD,SachsenNetze HS.HD,2026-10-28,HS,T10,Leitung,182.0,km,204.0,1120.87912087912,€/m,NAP 2026
+SachsenNetze HS.HD,SachsenNetze HS.HD,2026-10-28,HS/MS,T10,Anlage,24.0,UW,198.0,8250.0,T€/UW,NAP 2026
+SachsenNetze HS.HD,SachsenNetze HS.HD,2026-10-28,HS,Z,Leitung,234.0,km,499.0,2132.47863247863,€/m,NAP 2026
+SachsenNetze HS.HD,SachsenNetze HS.HD,2026-10-28,HS/MS,Z,Anlage,16.0,UW,117.0,7312.5,T€/UW,NAP 2026
+SachsenNetze HS.HD,SachsenNetze HS.HD,2026-10-28,MS,T5,Leitung,776.0,km,207.0,266.752577319588,€/m,NAP 2026
+SachsenNetze HS.HD,SachsenNetze HS.HD,2026-10-28,MS/NS,T5,Anlage,1880.0,ONS,199.0,105.851063829787,T€/Stück,NAP 2026
+SachsenNetze HS.HD,SachsenNetze HS.HD,2026-10-28,NS,T5,Leitung,761.0,km,151.0,198.423127463863,€/m,NAP 2026
+SachsenNetze HS.HD,SachsenNetze HS.HD,2026-10-28,MS,T10,Leitung,789.0,km,211.0,267.427122940431,€/m,NAP 2026
+SachsenNetze HS.HD,SachsenNetze HS.HD,2026-10-28,MS/NS,T10,Anlage,717.0,ONS,76.0,105.997210599721,T€/Stück,NAP 2026
+SachsenNetze HS.HD,SachsenNetze HS.HD,2026-10-28,NS,T10,Leitung,751.0,km,149.0,198.402130492676,€/m,NAP 2026
+SachsenNetze HS.HD,SachsenNetze HS.HD,2026-10-28,MS,Z,Leitung,1367.0,km,365.0,267.008046817849,€/m,NAP 2026
+SachsenNetze HS.HD,SachsenNetze HS.HD,2026-10-28,MS/NS,Z,Anlage,376.0,ONS,40.0,106.382978723404,T€/Stück,NAP 2026
+SachsenNetze HS.HD,SachsenNetze HS.HD,2026-10-28,NS,Z,Leitung,833.0,km,165.0,198.079231692677,€/m,NAP 2026
+Schleswig-Holstein Netz,Schleswig-Holstein Netz,2026-10-31,HS,T5,Leitung,571.0,km,1674.9,2933.27495621716,€/m,NAP 2026
+Schleswig-Holstein Netz,Schleswig-Holstein Netz,2026-10-31,HS/MS,T5,Anlage,121.0,UW,584.8,4833.05785123967,T€/UW,NAP 2026
+Schleswig-Holstein Netz,Schleswig-Holstein Netz,2026-10-31,HS,T10,Leitung,230.0,km,813.2,3535.65217391304,€/m,NAP 2026
+Schleswig-Holstein Netz,Schleswig-Holstein Netz,2026-10-31,HS/MS,T10,Anlage,32.0,UW,189.2,5912.5,T€/UW,NAP 2026
+Schleswig-Holstein Netz,Schleswig-Holstein Netz,2026-10-31,HS,Z,Leitung,188.0,km,570.4,3034.04255319149,€/m,NAP 2026
+Schleswig-Holstein Netz,Schleswig-Holstein Netz,2026-10-31,HS/MS,Z,Anlage,170.0,UW,870.0,5117.64705882353,T€/UW,NAP 2026
+Schleswig-Holstein Netz,Schleswig-Holstein Netz,2026-10-31,MS,T5,Leitung,5620.0,km,963.8,171.494661921708,€/m,NAP 2026
+Schleswig-Holstein Netz,Schleswig-Holstein Netz,2026-10-31,MS/NS,T5,Anlage,2179.0,ONS,211.2,96.925195043598,T€/Stück,NAP 2026
+Schleswig-Holstein Netz,Schleswig-Holstein Netz,2026-10-31,NS,T5,Leitung,660.0,km,54.3,82.2727272727273,€/m,NAP 2026
+Schleswig-Holstein Netz,Schleswig-Holstein Netz,2026-10-31,MS,T10,Leitung,1354.0,km,278.4,205.612998522895,€/m,NAP 2026
+Schleswig-Holstein Netz,Schleswig-Holstein Netz,2026-10-31,MS/NS,T10,Anlage,3648.0,ONS,288.0,78.9473684210526,T€/Stück,NAP 2026
+Schleswig-Holstein Netz,Schleswig-Holstein Netz,2026-10-31,NS,T10,Leitung,547.0,km,86.4,157.952468007313,€/m,NAP 2026
+Schleswig-Holstein Netz,Schleswig-Holstein Netz,2026-10-31,MS,Z,Leitung,2035.0,km,403.2,198.132678132678,€/m,NAP 2026
+Schleswig-Holstein Netz,Schleswig-Holstein Netz,2026-10-31,MS/NS,Z,Anlage,5472.0,ONS,422.4,77.1929824561404,T€/Stück,NAP 2026
+Schleswig-Holstein Netz,Schleswig-Holstein Netz,2026-10-31,NS,Z,Leitung,806.0,km,124.8,154.838709677419,€/m,NAP 2026
+Stadtnetze Münster,Stadtnetze Münster,2026-10-29,HS,T5,Leitung,13.8,km,24.1,1746.3768115942,€/m,NAP 2026
+Stadtnetze Münster,Stadtnetze Münster,2026-10-29,HS/MS,T5,Anlage,4.0,UW,49.3,12325.0,T€/UW,NAP 2026
+Stadtnetze Münster,Stadtnetze Münster,2026-10-29,HS,T10,Leitung,5.5,km,12.4,2254.54545454545,€/m,NAP 2026
+Stadtnetze Münster,Stadtnetze Münster,2026-10-29,HS/MS,T10,Anlage,3.0,UW,54.6,18200.0,T€/UW,NAP 2026
+Stadtnetze Münster,Stadtnetze Münster,2026-10-29,HS/MS,Z,Anlage,1.0,UW,10.0,10000.0,T€/UW,NAP 2026
+Stadtnetze Münster,Stadtnetze Münster,2026-10-29,MS,T5,Leitung,142.5,km,64.4,451.929824561404,€/m,NAP 2026
+Stadtnetze Münster,Stadtnetze Münster,2026-10-29,MS/NS,T5,Anlage,155.0,ONS,17.8,114.838709677419,T€/Stück,NAP 2026
+Stadtnetze Münster,Stadtnetze Münster,2026-10-29,NS,T5,Leitung,588.0,km,135.2,229.931972789116,€/m,NAP 2026
+Stadtnetze Münster,Stadtnetze Münster,2026-10-29,MS,T10,Leitung,250.0,km,75.0,300.0,€/m,NAP 2026
+Stadtnetze Münster,Stadtnetze Münster,2026-10-29,MS/NS,T10,Anlage,305.0,ONS,45.7,149.836065573771,T€/Stück,NAP 2026
+Stadtnetze Münster,Stadtnetze Münster,2026-10-29,NS,T10,Leitung,480.0,km,110.4,230.0,€/m,NAP 2026
+Stadtnetze Münster,Stadtnetze Münster,2026-10-29,MS,Z,Leitung,500.0,km,150.0,300.0,€/m,NAP 2026
+Stadtnetze Münster,Stadtnetze Münster,2026-10-29,MS/NS,Z,Anlage,610.0,ONS,91.5,150.0,T€/Stück,NAP 2026
+Stadtnetze Münster,Stadtnetze Münster,2026-10-29,NS,Z,Leitung,960.0,km,220.8,230.0,€/m,NAP 2026
+Stadtwerke Heidelberg Netze,Stadtwerke Heidelberg Netze,2026-11-02,MS,T5,Leitung,8.0,km,11.5,1437.5,€/m,NAP 2026
+Stadtwerke Heidelberg Netze,Stadtwerke Heidelberg Netze,2026-11-02,MS/NS,T5,Anlage,71.0,ONS,9.0,126.760563380282,T€/Stück,NAP 2026
+Stadtwerke Heidelberg Netze,Stadtwerke Heidelberg Netze,2026-11-02,NS,T5,Leitung,21.0,km,10.7,509.52380952381,€/m,NAP 2026
+Stadtwerke Heidelberg Netze,Stadtwerke Heidelberg Netze,2026-11-02,MS,T10,Leitung,52.0,km,39.9,767.307692307692,€/m,NAP 2026
+Stadtwerke Heidelberg Netze,Stadtwerke Heidelberg Netze,2026-11-02,MS/NS,T10,Anlage,55.0,ONS,8.6,156.363636363636,T€/Stück,NAP 2026
+Stadtwerke Heidelberg Netze,Stadtwerke Heidelberg Netze,2026-11-02,NS,T10,Leitung,175.0,km,55.1,314.857142857143,€/m,NAP 2026
+Stadtwerke Heidelberg Netze,Stadtwerke Heidelberg Netze,2026-11-02,MS,Z,Leitung,24.0,km,13.3,554.166666666667,€/m,NAP 2026
+Stadtwerke Heidelberg Netze,Stadtwerke Heidelberg Netze,2026-11-02,MS/NS,Z,Anlage,55.0,ONS,7.1,129.090909090909,T€/Stück,NAP 2026
+Stadtwerke Heidelberg Netze,Stadtwerke Heidelberg Netze,2026-11-02,NS,Z,Leitung,121.0,km,33.9,280.165289256198,€/m,NAP 2026
+Stadtwerke Herne,Stadtwerke Herne,2026-10-30,MS,T5,Leitung,35.0,km,17.3,494.285714285714,€/m,NAP 2026
+Stadtwerke Herne,Stadtwerke Herne,2026-10-30,MS/NS,T5,Anlage,25.0,ONS,2.0,80.0,T€/Stück,NAP 2026
+Stadtwerke Herne,Stadtwerke Herne,2026-10-30,NS,T5,Leitung,30.0,km,12.8,426.666666666667,€/m,NAP 2026
+Stadtwerke Herne,Stadtwerke Herne,2026-10-30,MS,T10,Leitung,35.0,km,17.3,494.285714285714,€/m,NAP 2026
+Stadtwerke Herne,Stadtwerke Herne,2026-10-30,MS/NS,T10,Anlage,25.0,ONS,2.0,80.0,T€/Stück,NAP 2026
+Stadtwerke Herne,Stadtwerke Herne,2026-10-30,NS,T10,Leitung,30.0,km,12.8,426.666666666667,€/m,NAP 2026
+Stadtwerke Herne,Stadtwerke Herne,2026-10-30,MS,Z,Leitung,69.0,km,34.6,501.449275362319,€/m,NAP 2026
+Stadtwerke Herne,Stadtwerke Herne,2026-10-30,MS/NS,Z,Anlage,50.0,ONS,4.0,80.0,T€/Stück,NAP 2026
+Stadtwerke Herne,Stadtwerke Herne,2026-10-30,NS,Z,Leitung,61.0,km,25.5,418.032786885246,€/m,NAP 2026
+Stadtwerke Jena Netze,Stadtwerke Jena Netze,2026-10-30,MS,T5,Leitung,34.0,km,10.1,297.058823529412,€/m,NAP 2026
+Stadtwerke Jena Netze,Stadtwerke Jena Netze,2026-10-30,MS/NS,T5,Anlage,186.0,ONS,34.45,185.215053763441,T€/Stück,NAP 2026
+Stadtwerke Jena Netze,Stadtwerke Jena Netze,2026-10-30,NS,T5,Leitung,78.0,km,22.74,291.538461538462,€/m,NAP 2026
+Stadtwerke Jena Netze,Stadtwerke Jena Netze,2026-10-30,MS,T10,Leitung,22.0,km,6.615,300.681818181818,€/m,NAP 2026
+Stadtwerke Jena Netze,Stadtwerke Jena Netze,2026-10-30,MS/NS,T10,Anlage,93.0,ONS,17.26,185.591397849462,T€/Stück,NAP 2026
+Stadtwerke Jena Netze,Stadtwerke Jena Netze,2026-10-30,NS,T10,Leitung,65.0,km,19.2,295.384615384615,€/m,NAP 2026
+Stadtwerke Jena Netze,Stadtwerke Jena Netze,2026-10-30,MS,Z,Leitung,55.0,km,17.05,310.0,€/m,NAP 2026
+Stadtwerke Jena Netze,Stadtwerke Jena Netze,2026-10-30,MS/NS,Z,Anlage,124.0,ONS,23.02,185.645161290323,T€/Stück,NAP 2026
+Stadtwerke Jena Netze,Stadtwerke Jena Netze,2026-10-30,NS,Z,Leitung,119.0,km,34.81,292.521008403361,€/m,NAP 2026
+Stadtwerke Karlsruhe Netzservice,Stadtwerke Karlsruhe Netzservice,2026-10-30,MS,T5,Leitung,59.0,km,24.3,411.864406779661,€/m,NAP 2026
+Stadtwerke Karlsruhe Netzservice,Stadtwerke Karlsruhe Netzservice,2026-10-30,MS/NS,T5,Anlage,120.0,ONS,9.6,80.0,T€/Stück,NAP 2026
+Stadtwerke Karlsruhe Netzservice,Stadtwerke Karlsruhe Netzservice,2026-10-30,NS,T5,Leitung,323.0,km,80.75,250.0,€/m,NAP 2026
+Stadtwerke Karlsruhe Netzservice,Stadtwerke Karlsruhe Netzservice,2026-10-30,MS,T10,Leitung,28.7,km,11.48,400.0,€/m,NAP 2026
+Stadtwerke Karlsruhe Netzservice,Stadtwerke Karlsruhe Netzservice,2026-10-30,MS/NS,T10,Anlage,120.0,ONS,9.6,80.0,T€/Stück,NAP 2026
+Stadtwerke Karlsruhe Netzservice,Stadtwerke Karlsruhe Netzservice,2026-10-30,NS,T10,Leitung,71.0,km,17.75,250.0,€/m,NAP 2026
+Stadtwerke Karlsruhe Netzservice,Stadtwerke Karlsruhe Netzservice,2026-10-30,MS,Z,Leitung,16.2,km,6.48,400.0,€/m,NAP 2026
+Stadtwerke Karlsruhe Netzservice,Stadtwerke Karlsruhe Netzservice,2026-10-30,MS/NS,Z,Anlage,237.0,ONS,18.96,80.0,T€/Stück,NAP 2026
+Stadtwerke Karlsruhe Netzservice,Stadtwerke Karlsruhe Netzservice,2026-10-30,NS,Z,Leitung,21.0,km,5.25,250.0,€/m,NAP 2026
+Stadtwerke Rostock Netzgesellschaft,Stadtwerke Rostock Netzgesellschaft,2026-10-29,HS/MS,T5,Anlage,2.0,UW,10.4,5200.0,T€/UW,NAP 2026
+Stadtwerke Rostock Netzgesellschaft,Stadtwerke Rostock Netzgesellschaft,2026-10-29,HS/MS,T10,Anlage,3.0,UW,43.8,14600.0,T€/UW,NAP 2026
+Stadtwerke Rostock Netzgesellschaft,Stadtwerke Rostock Netzgesellschaft,2026-10-29,HS,Z,Leitung,2.0,km,10.0,5000.0,€/m,NAP 2026
+Stadtwerke Rostock Netzgesellschaft,Stadtwerke Rostock Netzgesellschaft,2026-10-29,HS/MS,Z,Anlage,4.0,UW,42.5,10625.0,T€/UW,NAP 2026
+Stadtwerke Rostock Netzgesellschaft,Stadtwerke Rostock Netzgesellschaft,2026-10-29,MS,T5,Leitung,64.0,km,14.3,223.4375,€/m,NAP 2026
+Stadtwerke Rostock Netzgesellschaft,Stadtwerke Rostock Netzgesellschaft,2026-10-29,MS/NS,T5,Anlage,50.0,ONS,6.0,120.0,T€/Stück,NAP 2026
+Stadtwerke Rostock Netzgesellschaft,Stadtwerke Rostock Netzgesellschaft,2026-10-29,NS,T5,Leitung,64.0,km,10.9,170.3125,€/m,NAP 2026
+Stadtwerke Rostock Netzgesellschaft,Stadtwerke Rostock Netzgesellschaft,2026-10-29,MS,T10,Leitung,85.0,km,17.0,200.0,€/m,NAP 2026
+Stadtwerke Rostock Netzgesellschaft,Stadtwerke Rostock Netzgesellschaft,2026-10-29,MS/NS,T10,Anlage,43.0,ONS,5.2,120.93023255814,T€/Stück,NAP 2026
+Stadtwerke Rostock Netzgesellschaft,Stadtwerke Rostock Netzgesellschaft,2026-10-29,NS,T10,Leitung,114.0,km,22.8,200.0,€/m,NAP 2026
+Stadtwerke Rostock Netzgesellschaft,Stadtwerke Rostock Netzgesellschaft,2026-10-29,MS,Z,Leitung,190.0,km,37.9,199.473684210526,€/m,NAP 2026
+Stadtwerke Rostock Netzgesellschaft,Stadtwerke Rostock Netzgesellschaft,2026-10-29,MS/NS,Z,Anlage,151.0,ONS,18.1,119.867549668874,T€/Stück,NAP 2026
+Stadtwerke Rostock Netzgesellschaft,Stadtwerke Rostock Netzgesellschaft,2026-10-29,NS,Z,Leitung,458.0,km,91.5,199.781659388646,€/m,NAP 2026
+Stadtwerke Saarbrücken Netz,Stadtwerke Saarbrücken Netz,2026-11-02,HS,T5,Leitung,7.0,km,22.0,3142.85714285714,€/m,NAP 2026
+Stadtwerke Saarbrücken Netz,Stadtwerke Saarbrücken Netz,2026-11-02,HS/MS,T5,Anlage,2.0,UW,29.4,14700.0,T€/UW,NAP 2026
+Stadtwerke Saarbrücken Netz,Stadtwerke Saarbrücken Netz,2026-11-02,HS,Z,Leitung,5.0,km,15.0,3000.0,€/m,NAP 2026
+Stadtwerke Saarbrücken Netz,Stadtwerke Saarbrücken Netz,2026-11-02,HS/MS,Z,Anlage,5.0,UW,5.0,1000.0,T€/UW,NAP 2026
+Stadtwerke Saarbrücken Netz,Stadtwerke Saarbrücken Netz,2026-11-02,MS,T5,Leitung,19.0,km,12.4,652.631578947368,€/m,NAP 2026
+Stadtwerke Saarbrücken Netz,Stadtwerke Saarbrücken Netz,2026-11-02,MS/NS,T5,Anlage,101.0,ONS,7.4,73.2673267326733,T€/Stück,NAP 2026
+Stadtwerke Saarbrücken Netz,Stadtwerke Saarbrücken Netz,2026-11-02,NS,T5,Leitung,24.0,km,7.2,300.0,€/m,NAP 2026
+Stadtwerke Saarbrücken Netz,Stadtwerke Saarbrücken Netz,2026-11-02,MS,T10,Leitung,53.0,km,21.0,396.22641509434,€/m,NAP 2026
+Stadtwerke Saarbrücken Netz,Stadtwerke Saarbrücken Netz,2026-11-02,MS/NS,T10,Anlage,101.0,ONS,7.4,73.2673267326733,T€/Stück,NAP 2026
+Stadtwerke Saarbrücken Netz,Stadtwerke Saarbrücken Netz,2026-11-02,NS,T10,Leitung,176.0,km,31.9,181.25,€/m,NAP 2026
+Stadtwerke Saarbrücken Netz,Stadtwerke Saarbrücken Netz,2026-11-02,MS,Z,Leitung,140.0,km,89.0,635.714285714286,€/m,NAP 2026
+Stadtwerke Saarbrücken Netz,Stadtwerke Saarbrücken Netz,2026-11-02,MS/NS,Z,Anlage,158.0,ONS,16.0,101.26582278481,T€/Stück,NAP 2026
+Stadtwerke Saarbrücken Netz,Stadtwerke Saarbrücken Netz,2026-11-02,NS,Z,Leitung,420.0,km,123.1,293.095238095238,€/m,NAP 2026
+SWU Netze (Ulm/Neu-Ulm),SWU Netze (Ulm/Neu-Ulm),2026-11-02,HS,T5,Leitung,3.0,km,2.6,866.666666666667,€/m,NAP 2026
+SWU Netze (Ulm/Neu-Ulm),SWU Netze (Ulm/Neu-Ulm),2026-11-02,HS/MS,T5,Anlage,5.0,UW,43.1,8620.0,T€/UW,NAP 2026
+SWU Netze (Ulm/Neu-Ulm),SWU Netze (Ulm/Neu-Ulm),2026-11-02,HS,T10,Leitung,36.0,km,29.0,805.555555555556,€/m,NAP 2026
+SWU Netze (Ulm/Neu-Ulm),SWU Netze (Ulm/Neu-Ulm),2026-11-02,HS/MS,T10,Anlage,3.0,UW,65.0,21666.6666666667,T€/UW,NAP 2026
+SWU Netze (Ulm/Neu-Ulm),SWU Netze (Ulm/Neu-Ulm),2026-11-02,HS,Z,Leitung,8.0,km,9.6,1200.0,€/m,NAP 2026
+SWU Netze (Ulm/Neu-Ulm),SWU Netze (Ulm/Neu-Ulm),2026-11-02,HS/MS,Z,Anlage,1.0,UW,35.0,35000.0,T€/UW,NAP 2026
+SWU Netze (Ulm/Neu-Ulm),SWU Netze (Ulm/Neu-Ulm),2026-11-02,MS,T5,Leitung,136.0,km,56.97,418.897058823529,€/m,NAP 2026
+SWU Netze (Ulm/Neu-Ulm),SWU Netze (Ulm/Neu-Ulm),2026-11-02,MS/NS,T5,Anlage,50.0,ONS,14.54,290.8,T€/Stück,NAP 2026
+SWU Netze (Ulm/Neu-Ulm),SWU Netze (Ulm/Neu-Ulm),2026-11-02,NS,T5,Leitung,320.0,km,121.85,380.78125,€/m,NAP 2026
+SWU Netze (Ulm/Neu-Ulm),SWU Netze (Ulm/Neu-Ulm),2026-11-02,MS,T10,Leitung,169.0,km,71.21,421.360946745562,€/m,NAP 2026
+SWU Netze (Ulm/Neu-Ulm),SWU Netze (Ulm/Neu-Ulm),2026-11-02,MS/NS,T10,Anlage,165.0,ONS,18.16,110.060606060606,T€/Stück,NAP 2026
+SWU Netze (Ulm/Neu-Ulm),SWU Netze (Ulm/Neu-Ulm),2026-11-02,NS,T10,Leitung,401.0,km,152.3,379.800498753117,€/m,NAP 2026
+SWU Netze (Ulm/Neu-Ulm),SWU Netze (Ulm/Neu-Ulm),2026-11-02,MS,Z,Leitung,339.0,km,142.42,420.117994100295,€/m,NAP 2026
+SWU Netze (Ulm/Neu-Ulm),SWU Netze (Ulm/Neu-Ulm),2026-11-02,MS/NS,Z,Anlage,330.0,ONS,36.33,110.090909090909,T€/Stück,NAP 2026
+SWU Netze (Ulm/Neu-Ulm),SWU Netze (Ulm/Neu-Ulm),2026-11-02,NS,Z,Leitung,801.0,km,304.6,380.274656679151,€/m,NAP 2026
+Stadtwerke Wiesbaden Netz,Stadtwerke Wiesbaden Netz,2026-10-30,HS,T5,Leitung,24.0,km,89.1,3712.5,€/m,NAP 2026
+Stadtwerke Wiesbaden Netz,Stadtwerke Wiesbaden Netz,2026-10-30,HS/MS,T5,Anlage,7.0,UW,157.5,22500.0,T€/UW,NAP 2026
+Stadtwerke Wiesbaden Netz,Stadtwerke Wiesbaden Netz,2026-10-30,HS,T10,Leitung,5.0,km,9.5,1900.0,€/m,NAP 2026
+Stadtwerke Wiesbaden Netz,Stadtwerke Wiesbaden Netz,2026-10-30,HS,Z,Leitung,28.0,km,130.0,4642.85714285714,€/m,NAP 2026
+Stadtwerke Wiesbaden Netz,Stadtwerke Wiesbaden Netz,2026-10-30,HS/MS,Z,Anlage,3.0,UW,55.0,18333.3333333333,T€/UW,NAP 2026
+Stadtwerke Wiesbaden Netz,Stadtwerke Wiesbaden Netz,2026-10-30,MS,T5,Leitung,54.0,km,28.6,529.62962962963,€/m,NAP 2026
+Stadtwerke Wiesbaden Netz,Stadtwerke Wiesbaden Netz,2026-10-30,MS/NS,T5,Anlage,120.0,ONS,11.0,91.6666666666667,T€/Stück,NAP 2026
+Stadtwerke Wiesbaden Netz,Stadtwerke Wiesbaden Netz,2026-10-30,NS,T5,Leitung,50.0,km,20.0,400.0,€/m,NAP 2026
+Stadtwerke Wiesbaden Netz,Stadtwerke Wiesbaden Netz,2026-10-30,MS,T10,Leitung,50.0,km,25.0,500.0,€/m,NAP 2026
+Stadtwerke Wiesbaden Netz,Stadtwerke Wiesbaden Netz,2026-10-30,MS/NS,T10,Anlage,130.0,ONS,11.1,85.3846153846154,T€/Stück,NAP 2026
+Stadtwerke Wiesbaden Netz,Stadtwerke Wiesbaden Netz,2026-10-30,NS,T10,Leitung,54.0,km,21.6,400.0,€/m,NAP 2026
+Stadtwerke Wiesbaden Netz,Stadtwerke Wiesbaden Netz,2026-10-30,MS,Z,Leitung,110.0,km,55.0,500.0,€/m,NAP 2026
+Stadtwerke Wiesbaden Netz,Stadtwerke Wiesbaden Netz,2026-10-30,MS/NS,Z,Anlage,358.0,ONS,30.3,84.6368715083799,T€/Stück,NAP 2026
+Stadtwerke Wiesbaden Netz,Stadtwerke Wiesbaden Netz,2026-10-30,NS,Z,Leitung,150.0,km,60.0,400.0,€/m,NAP 2026
+Stromnetz Berlin,Stromnetz Berlin,2026-11-02,HS,T5,Leitung,426.0,km,1600.0,3755.86854460094,€/m,NAP 2026
+Stromnetz Berlin,Stromnetz Berlin,2026-11-02,HS/MS,T5,Anlage,3.0,UW,265.0,88333.3333333333,T€/UW,NAP 2026
+Stromnetz Berlin,Stromnetz Berlin,2026-11-02,HS,T10,Leitung,102.0,km,760.0,7450.98039215686,€/m,NAP 2026
+Stromnetz Berlin,Stromnetz Berlin,2026-11-02,HS/MS,T10,Anlage,3.0,UW,133.0,44333.3333333333,T€/UW,NAP 2026
+Stromnetz Berlin,Stromnetz Berlin,2026-11-02,HS,Z,Leitung,400.0,km,800.0,2000.0,€/m,NAP 2026
+Stromnetz Berlin,Stromnetz Berlin,2026-11-02,HS/MS,Z,Anlage,9.0,UW,600.0,66666.6666666667,T€/UW,NAP 2026
+Stuttgart Netze,Stuttgart Netze,2026-10-30,HS,T5,Leitung,26.0,km,55.0,2115.38461538462,€/m,NAP 2026
+Stuttgart Netze,Stuttgart Netze,2026-10-30,HS/MS,T5,Anlage,2.0,UW,13.0,6500.0,T€/UW,NAP 2026
+Stuttgart Netze,Stuttgart Netze,2026-10-30,HS,T10,Leitung,45.0,km,102.0,2266.66666666667,€/m,NAP 2026
+Stuttgart Netze,Stuttgart Netze,2026-10-30,HS/MS,T10,Anlage,4.0,UW,116.0,29000.0,T€/UW,NAP 2026
+Stuttgart Netze,Stuttgart Netze,2026-10-30,HS,Z,Leitung,48.0,km,96.0,2000.0,€/m,NAP 2026
+Stuttgart Netze,Stuttgart Netze,2026-10-30,HS/MS,Z,Anlage,2.0,UW,51.0,25500.0,T€/UW,NAP 2026
+Stuttgart Netze,Stuttgart Netze,2026-10-30,MS,T5,Leitung,142.0,km,88.0,619.718309859155,€/m,NAP 2026
+Stuttgart Netze,Stuttgart Netze,2026-10-30,MS/NS,T5,Anlage,158.0,ONS,20.0,126.582278481013,T€/Stück,NAP 2026
+Stuttgart Netze,Stuttgart Netze,2026-10-30,NS,T5,Leitung,273.0,km,164.0,600.732600732601,€/m,NAP 2026
+Stuttgart Netze,Stuttgart Netze,2026-10-30,MS,T10,Leitung,216.0,km,136.0,629.62962962963,€/m,NAP 2026
+Stuttgart Netze,Stuttgart Netze,2026-10-30,MS/NS,T10,Anlage,61.0,ONS,5.0,81.9672131147541,T€/Stück,NAP 2026
+Stuttgart Netze,Stuttgart Netze,2026-10-30,NS,T10,Leitung,266.0,km,160.0,601.503759398496,€/m,NAP 2026
+Stuttgart Netze,Stuttgart Netze,2026-10-30,MS,Z,Leitung,586.0,km,352.0,600.682593856655,€/m,NAP 2026
+Stuttgart Netze,Stuttgart Netze,2026-10-30,MS/NS,Z,Anlage,248.0,ONS,19.0,76.6129032258065,T€/Stück,NAP 2026
+Stuttgart Netze,Stuttgart Netze,2026-10-30,NS,Z,Leitung,808.0,km,485.0,600.247524752475,€/m,NAP 2026
+Städtische Werke Netz+Service (Kassel),Städtische Werke Netz+Service (Kassel),2026-10-30,HS,T5,Leitung,30.0,km,44.5,1483.33333333333,€/m,NAP 2026
+Städtische Werke Netz+Service (Kassel),Städtische Werke Netz+Service (Kassel),2026-10-30,HS/MS,T5,Anlage,7.0,UW,141.8,20257.1428571429,T€/UW,NAP 2026
+Städtische Werke Netz+Service (Kassel),Städtische Werke Netz+Service (Kassel),2026-10-30,MS,T5,Leitung,84.0,km,41.0,488.095238095238,€/m,NAP 2026
+Städtische Werke Netz+Service (Kassel),Städtische Werke Netz+Service (Kassel),2026-10-30,MS/NS,T5,Anlage,85.0,ONS,11.9,140.0,T€/Stück,NAP 2026
+Städtische Werke Netz+Service (Kassel),Städtische Werke Netz+Service (Kassel),2026-10-30,NS,T5,Leitung,12.0,km,2.7,225.0,€/m,NAP 2026
+Städtische Werke Netz+Service (Kassel),Städtische Werke Netz+Service (Kassel),2026-10-30,MS,T10,Leitung,92.0,km,54.3,590.217391304348,€/m,NAP 2026
+Städtische Werke Netz+Service (Kassel),Städtische Werke Netz+Service (Kassel),2026-10-30,MS/NS,T10,Anlage,63.0,ONS,9.2,146.031746031746,T€/Stück,NAP 2026
+Städtische Werke Netz+Service (Kassel),Städtische Werke Netz+Service (Kassel),2026-10-30,NS,T10,Leitung,80.0,km,24.3,303.75,€/m,NAP 2026
+Städtische Werke Netz+Service (Kassel),Städtische Werke Netz+Service (Kassel),2026-10-30,MS,Z,Leitung,210.0,km,126.0,600.0,€/m,NAP 2026
+Städtische Werke Netz+Service (Kassel),Städtische Werke Netz+Service (Kassel),2026-10-30,MS/NS,Z,Anlage,155.0,ONS,23.3,150.322580645161,T€/Stück,NAP 2026
+Städtische Werke Netz+Service (Kassel),Städtische Werke Netz+Service (Kassel),2026-10-30,NS,Z,Leitung,160.0,km,46.5,290.625,€/m,NAP 2026
+Syna,Syna,2026-11-02,MS,T5,Leitung,1342.0,km,393.0,292.846497764531,€/m,NAP 2026
+Syna,Syna,2026-11-02,MS/NS,T5,Anlage,2094.0,ONS,196.1,93.6485195797517,T€/Stück,NAP 2026
+Syna,Syna,2026-11-02,NS,T5,Leitung,3727.0,km,782.6,209.981218137913,€/m,NAP 2026
+Syna,Syna,2026-11-02,MS,T10,Leitung,1709.0,km,495.7,290.052662375658,€/m,NAP 2026
+Syna,Syna,2026-11-02,MS/NS,T10,Anlage,2673.0,ONS,245.0,91.6573138795361,T€/Stück,NAP 2026
+Syna,Syna,2026-11-02,NS,T10,Leitung,3224.0,km,676.9,209.956575682382,€/m,NAP 2026
+Syna,Syna,2026-11-02,MS,Z,Leitung,1127.0,km,327.0,290.150842945874,€/m,NAP 2026
+Syna,Syna,2026-11-02,MS/NS,Z,Anlage,1044.0,ONS,94.5,90.5172413793104,T€/Stück,NAP 2026
+Syna,Syna,2026-11-02,NS,Z,Leitung,1571.0,km,329.9,209.993634627626,€/m,NAP 2026
+Syna,Syna,2026-11-02,HS,T5,Leitung,90.0,km,205.7,2285.55555555556,€/m,NAP 2026
+Syna,Syna,2026-11-02,HS/MS,T5,Anlage,11.0,UW,63.8,5800.0,T€/UW,NAP 2026
+Syna,Syna,2026-11-02,HS,T10,Leitung,145.0,km,108.5,748.275862068966,€/m,NAP 2026
+Syna,Syna,2026-11-02,HS/MS,T10,Anlage,5.0,UW,34.8,6960.0,T€/UW,NAP 2026
+Syna,Syna,2026-11-02,HS,Z,Leitung,78.0,km,48.0,615.384615384615,€/m,NAP 2026
+Syna,Syna,2026-11-02,HS/MS,Z,Anlage,6.0,UW,40.5,6750.0,T€/UW,NAP 2026
+TEN Thüringer Energienetze,TEN Thüringer Energienetze,2026-11-02,HS,T5,Leitung,494.0,km,202.1,409.109311740891,€/m,NAP 2026
+TEN Thüringer Energienetze,TEN Thüringer Energienetze,2026-11-02,HS/MS,T5,Anlage,25.0,UW,254.4,10176.0,T€/UW,NAP 2026
+TEN Thüringer Energienetze,TEN Thüringer Energienetze,2026-11-02,HS,T10,Leitung,573.0,km,632.5,1103.83944153578,€/m,NAP 2026
+TEN Thüringer Energienetze,TEN Thüringer Energienetze,2026-11-02,HS/MS,T10,Anlage,70.0,UW,1016.0,14514.2857142857,T€/UW,NAP 2026
+TEN Thüringer Energienetze,TEN Thüringer Energienetze,2026-11-02,HS,Z,Leitung,633.0,km,716.2,1131.43759873618,€/m,NAP 2026
+TEN Thüringer Energienetze,TEN Thüringer Energienetze,2026-11-02,HS/MS,Z,Anlage,39.0,UW,737.5,18910.2564102564,T€/UW,NAP 2026
+TEN Thüringer Energienetze,TEN Thüringer Energienetze,2026-11-02,MS,T5,Leitung,690.0,km,158.0,228.985507246377,€/m,NAP 2026
+TEN Thüringer Energienetze,TEN Thüringer Energienetze,2026-11-02,MS/NS,T5,Anlage,641.0,ONS,117.5,183.307332293292,T€/Stück,NAP 2026
+TEN Thüringer Energienetze,TEN Thüringer Energienetze,2026-11-02,NS,T5,Leitung,685.0,km,106.0,154.744525547445,€/m,NAP 2026
+TEN Thüringer Energienetze,TEN Thüringer Energienetze,2026-11-02,MS,T10,Leitung,653.0,km,130.0,199.081163859112,€/m,NAP 2026
+TEN Thüringer Energienetze,TEN Thüringer Energienetze,2026-11-02,MS/NS,T10,Anlage,810.0,ONS,163.5,201.851851851852,T€/Stück,NAP 2026
+TEN Thüringer Energienetze,TEN Thüringer Energienetze,2026-11-02,NS,T10,Leitung,645.0,km,110.0,170.542635658915,€/m,NAP 2026
+TEN Thüringer Energienetze,TEN Thüringer Energienetze,2026-11-02,MS,Z,Leitung,1127.0,km,200.0,177.462289263532,€/m,NAP 2026
+TEN Thüringer Energienetze,TEN Thüringer Energienetze,2026-11-02,MS/NS,Z,Anlage,1398.0,ONS,331.0,236.766809728183,T€/Stück,NAP 2026
+TEN Thüringer Energienetze,TEN Thüringer Energienetze,2026-11-02,NS,Z,Leitung,1113.0,km,220.0,197.663971248877,€/m,NAP 2026
+TWL Netze (Ludwigshafen),TWL Netze (Ludwigshafen),2026-10-27,HS/MS,T5,Anlage,2.0,UW,10.9,5450.0,T€/UW,NAP 2026
+TWL Netze (Ludwigshafen),TWL Netze (Ludwigshafen),2026-10-27,HS/MS,T10,Anlage,2.0,UW,4.05,2025.0,T€/UW,NAP 2026
+TWL Netze (Ludwigshafen),TWL Netze (Ludwigshafen),2026-10-27,HS/MS,Z,Anlage,1.0,UW,16.0,16000.0,T€/UW,NAP 2026
+TWL Netze (Ludwigshafen),TWL Netze (Ludwigshafen),2026-10-27,MS,T5,Leitung,25.0,km,6.1,244.0,€/m,NAP 2026
+TWL Netze (Ludwigshafen),TWL Netze (Ludwigshafen),2026-10-27,MS/NS,T5,Anlage,1.0,ONS,0.8,800.0,T€/Stück,NAP 2026
+TWL Netze (Ludwigshafen),TWL Netze (Ludwigshafen),2026-10-27,NS,T5,Leitung,11.0,km,1.5,136.363636363636,€/m,NAP 2026
+TWL Netze (Ludwigshafen),TWL Netze (Ludwigshafen),2026-10-27,MS,T10,Leitung,14.0,km,5.6,400.0,€/m,NAP 2026
+TWL Netze (Ludwigshafen),TWL Netze (Ludwigshafen),2026-10-27,MS/NS,T10,Anlage,11.0,ONS,1.4,127.272727272727,T€/Stück,NAP 2026
+TWL Netze (Ludwigshafen),TWL Netze (Ludwigshafen),2026-10-27,NS,T10,Leitung,7.0,km,2.5,357.142857142857,€/m,NAP 2026
+TWL Netze (Ludwigshafen),TWL Netze (Ludwigshafen),2026-10-27,MS,Z,Leitung,2.0,km,0.8,400.0,€/m,NAP 2026
+TWL Netze (Ludwigshafen),TWL Netze (Ludwigshafen),2026-10-27,MS/NS,Z,Anlage,26.0,ONS,4.3,165.384615384615,T€/Stück,NAP 2026
+TWL Netze (Ludwigshafen),TWL Netze (Ludwigshafen),2026-10-27,NS,Z,Leitung,17.0,km,6.0,352.941176470588,€/m,NAP 2026
+TraveNetz (Lübeck),TraveNetz,2026-11-02,HS,T5,Leitung,7.0,km,8.0,1142.85714285714,€/m,NAP 2026
+TraveNetz (Lübeck),TraveNetz,2026-11-02,HS/MS,T5,Anlage,8.0,UW,80.5,10062.5,T€/UW,NAP 2026
+TraveNetz (Lübeck),TraveNetz,2026-11-02,HS/MS,T10,Anlage,2.0,UW,17.0,8500.0,T€/UW,NAP 2026
+TraveNetz (Lübeck),TraveNetz,2026-11-02,HS,Z,Leitung,21.0,km,57.0,2714.28571428571,€/m,NAP 2026
+TraveNetz (Lübeck),TraveNetz,2026-11-02,HS/MS,Z,Anlage,5.0,UW,50.0,10000.0,T€/UW,NAP 2026
+TraveNetz (Lübeck),TraveNetz,2026-11-02,MS,T5,Leitung,282.0,km,87.5,310.283687943262,€/m,NAP 2026
+TraveNetz (Lübeck),TraveNetz,2026-11-02,MS/NS,T5,Anlage,336.0,ONS,33.6,100.0,T€/Stück,NAP 2026
+TraveNetz (Lübeck),TraveNetz,2026-11-02,NS,T5,Leitung,146.0,km,37.0,253.424657534247,€/m,NAP 2026
+TraveNetz (Lübeck),TraveNetz,2026-11-02,MS,T10,Leitung,142.0,km,43.0,302.816901408451,€/m,NAP 2026
+TraveNetz (Lübeck),TraveNetz,2026-11-02,MS/NS,T10,Anlage,258.0,ONS,25.8,100.0,T€/Stück,NAP 2026
+TraveNetz (Lübeck),TraveNetz,2026-11-02,NS,T10,Leitung,127.0,km,32.8,258.267716535433,€/m,NAP 2026
+TraveNetz (Lübeck),TraveNetz,2026-11-02,MS,Z,Leitung,98.0,km,29.0,295.918367346939,€/m,NAP 2026
+TraveNetz (Lübeck),TraveNetz,2026-11-02,MS/NS,Z,Anlage,320.0,ONS,32.0,100.0,T€/Stück,NAP 2026
+TraveNetz (Lübeck),TraveNetz,2026-11-02,NS,Z,Leitung,128.0,km,31.1,242.96875,€/m,NAP 2026
+VSE Verteilnetz,VSE Verteilnetz,2026-11-02,HS,T5,Leitung,185.0,km,124.8,674.594594594595,€/m,NAP 2026
+VSE Verteilnetz,VSE Verteilnetz,2026-11-02,HS/MS,T5,Anlage,19.0,UW,83.0,4368.42105263158,T€/UW,NAP 2026
+VSE Verteilnetz,VSE Verteilnetz,2026-11-02,HS,T10,Leitung,61.0,km,207.5,3401.6393442623,€/m,NAP 2026
+VSE Verteilnetz,VSE Verteilnetz,2026-11-02,HS/MS,T10,Anlage,5.0,UW,27.3,5460.0,T€/UW,NAP 2026
+WEMAG Netz,WEMAG Netz,2026-11-02,HS,T5,Leitung,280.0,km,230.0,821.428571428571,€/m,NAP 2026
+WEMAG Netz,WEMAG Netz,2026-11-02,HS/MS,T5,Anlage,19.0,UW,180.0,9473.68421052632,T€/UW,NAP 2026
+WEMAG Netz,WEMAG Netz,2026-11-02,HS,T10,Leitung,400.0,km,310.0,775.0,€/m,NAP 2026
+WEMAG Netz,WEMAG Netz,2026-11-02,HS/MS,T10,Anlage,5.0,UW,90.0,18000.0,T€/UW,NAP 2026
+WEMAG Netz,WEMAG Netz,2026-11-02,HS,Z,Leitung,520.0,km,590.0,1134.61538461538,€/m,NAP 2026
+WEMAG Netz,WEMAG Netz,2026-11-02,HS/MS,Z,Anlage,18.0,UW,280.0,15555.5555555556,T€/UW,NAP 2026
+WEMAG Netz,WEMAG Netz,2026-11-02,MS,T5,Leitung,448.0,km,80.0,178.571428571429,€/m,NAP 2026
+WEMAG Netz,WEMAG Netz,2026-11-02,MS/NS,T5,Anlage,509.0,ONS,60.0,117.878192534381,T€/Stück,NAP 2026
+WEMAG Netz,WEMAG Netz,2026-11-02,NS,T5,Leitung,499.0,km,40.0,80.1603206412826,€/m,NAP 2026
+WEMAG Netz,WEMAG Netz,2026-11-02,MS,T10,Leitung,600.0,km,110.0,183.333333333333,€/m,NAP 2026
+WEMAG Netz,WEMAG Netz,2026-11-02,MS/NS,T10,Anlage,800.0,ONS,90.0,112.5,T€/Stück,NAP 2026
+WEMAG Netz,WEMAG Netz,2026-11-02,NS,T10,Leitung,892.0,km,70.0,78.47533632287,€/m,NAP 2026
+WEMAG Netz,WEMAG Netz,2026-11-02,MS,Z,Leitung,702.0,km,130.0,185.185185185185,€/m,NAP 2026
+WEMAG Netz,WEMAG Netz,2026-11-02,MS/NS,Z,Anlage,783.0,ONS,80.0,102.171136653895,T€/Stück,NAP 2026
+WEMAG Netz,WEMAG Netz,2026-11-02,NS,Z,Leitung,873.0,km,70.0,80.1832760595647,€/m,NAP 2026
+Westfalen Weser Netz,Westfalen Weser Netz,2026-11-02,HS,T5,Leitung,102.0,km,190.8,1870.58823529412,€/m,NAP 2026
+Westfalen Weser Netz,Westfalen Weser Netz,2026-11-02,HS/MS,T5,Anlage,57.0,UW,96.4,1691.22807017544,T€/UW,NAP 2026
+Westfalen Weser Netz,Westfalen Weser Netz,2026-11-02,HS,T10,Leitung,105.0,km,348.5,3319.04761904762,€/m,NAP 2026
+Westfalen Weser Netz,Westfalen Weser Netz,2026-11-02,HS/MS,T10,Anlage,29.0,UW,71.6,2468.96551724138,T€/UW,NAP 2026
+Westfalen Weser Netz,Westfalen Weser Netz,2026-11-02,HS,Z,Leitung,431.0,km,1015.7,2356.61252900232,€/m,NAP 2026
+Westfalen Weser Netz,Westfalen Weser Netz,2026-11-02,HS/MS,Z,Anlage,53.0,UW,200.9,3790.56603773585,T€/UW,NAP 2026
+Westfalen Weser Netz,Westfalen Weser Netz,2026-11-02,MS,T5,Leitung,728.0,km,191.3,262.774725274725,€/m,NAP 2026
+Westfalen Weser Netz,Westfalen Weser Netz,2026-11-02,MS/NS,T5,Anlage,1511.0,ONS,63.8,42.223692918597,T€/Stück,NAP 2026
+Westfalen Weser Netz,Westfalen Weser Netz,2026-11-02,NS,T5,Leitung,853.0,km,155.8,182.649472450176,€/m,NAP 2026
+Westfalen Weser Netz,Westfalen Weser Netz,2026-11-02,MS,T10,Leitung,439.0,km,120.4,274.259681093394,€/m,NAP 2026
+Westfalen Weser Netz,Westfalen Weser Netz,2026-11-02,MS/NS,T10,Anlage,1480.0,ONS,56.1,37.9054054054054,T€/Stück,NAP 2026
+Westfalen Weser Netz,Westfalen Weser Netz,2026-11-02,NS,T10,Leitung,511.0,km,100.1,195.890410958904,€/m,NAP 2026
+Westfalen Weser Netz,Westfalen Weser Netz,2026-11-02,MS,Z,Leitung,889.0,km,220.7,248.256467941507,€/m,NAP 2026
+Westfalen Weser Netz,Westfalen Weser Netz,2026-11-02,MS/NS,Z,Anlage,3184.0,ONS,143.4,45.0376884422111,T€/Stück,NAP 2026
+Westfalen Weser Netz,Westfalen Weser Netz,2026-11-02,NS,Z,Leitung,1597.0,km,269.5,168.753913587977,€/m,NAP 2026
+Westnetz,Westnetz,2026-10-30,HS,T5,Leitung,1606.0,km,1477.0,919.676214196762,€/m,NAP 2026
+Westnetz,Westnetz,2026-10-30,HS/MS,T5,Anlage,150.0,UW,1651.0,11006.6666666667,T€/UW,NAP 2026
+Westnetz,Westnetz,2026-10-30,HS,T10,Leitung,1344.0,km,2089.0,1554.31547619048,€/m,NAP 2026
+Westnetz,Westnetz,2026-10-30,HS/MS,T10,Anlage,118.0,UW,1069.0,9059.32203389831,T€/UW,NAP 2026
+Westnetz,Westnetz,2026-10-30,HS,Z,Leitung,2796.0,km,3439.0,1229.97138769671,€/m,NAP 2026
+Westnetz,Westnetz,2026-10-30,HS/MS,Z,Anlage,142.0,UW,1122.0,7901.40845070423,T€/UW,NAP 2026
+Westnetz,Westnetz,2026-10-30,MS,T5,Leitung,12895.0,km,2071.0,160.604885614579,€/m,NAP 2026
+Westnetz,Westnetz,2026-10-30,MS/NS,T5,Anlage,33771.0,ONS,2397.0,70.978058097184,T€/Stück,NAP 2026
+Westnetz,Westnetz,2026-10-30,NS,T5,Leitung,6644.0,km,1017.0,153.070439494281,€/m,NAP 2026
+Westnetz,Westnetz,2026-10-30,MS,T10,Leitung,6963.0,km,1083.0,155.536406721241,€/m,NAP 2026
+Westnetz,Westnetz,2026-10-30,MS/NS,T10,Anlage,3637.0,ONS,604.0,166.070937585922,T€/Stück,NAP 2026
+Westnetz,Westnetz,2026-10-30,NS,T10,Leitung,6390.0,km,863.0,135.054773082942,€/m,NAP 2026
+Westnetz,Westnetz,2026-10-30,MS,Z,Leitung,8992.0,km,1394.0,155.026690391459,€/m,NAP 2026
+Westnetz,Westnetz,2026-10-30,MS/NS,Z,Anlage,2704.0,ONS,449.0,166.050295857988,T€/Stück,NAP 2026
+Westnetz,Westnetz,2026-10-30,NS,Z,Leitung,13273.0,km,1792.0,135.01092443306,€/m,NAP 2026
+e-netz Südhessen,e-netz Südhessen,2026-10-29,HS/MS,T5,Anlage,17.0,UW,141.3,8311.76470588235,T€/UW,NAP 2026
+e-netz Südhessen,e-netz Südhessen,2026-10-29,HS/MS,T10,Anlage,5.0,UW,59.0,11800.0,T€/UW,NAP 2026
+e-netz Südhessen,e-netz Südhessen,2026-10-29,HS/MS,Z,Anlage,14.0,UW,152.8,10914.2857142857,T€/UW,NAP 2026
+e-netz Südhessen,e-netz Südhessen,2026-10-29,MS,T5,Leitung,163.0,km,69.8,428.220858895706,€/m,NAP 2026
+e-netz Südhessen,e-netz Südhessen,2026-10-29,MS/NS,T5,Anlage,417.0,ONS,25.7,61.6306954436451,T€/Stück,NAP 2026
+e-netz Südhessen,e-netz Südhessen,2026-10-29,NS,T5,Leitung,107.0,km,33.4,312.14953271028,€/m,NAP 2026
+e-netz Südhessen,e-netz Südhessen,2026-10-29,MS,T10,Leitung,126.0,km,39.5,313.492063492064,€/m,NAP 2026
+e-netz Südhessen,e-netz Südhessen,2026-10-29,MS/NS,T10,Anlage,1468.0,ONS,78.2,53.2697547683924,T€/Stück,NAP 2026
+e-netz Südhessen,e-netz Südhessen,2026-10-29,NS,T10,Leitung,292.0,km,69.3,237.328767123288,€/m,NAP 2026
+e-netz Südhessen,e-netz Südhessen,2026-10-29,MS,Z,Leitung,140.0,km,44.3,316.428571428571,€/m,NAP 2026
+e-netz Südhessen,e-netz Südhessen,2026-10-29,MS/NS,Z,Anlage,1074.0,ONS,98.4,91.6201117318436,T€/Stück,NAP 2026
+e-netz Südhessen,e-netz Südhessen,2026-10-29,NS,Z,Leitung,406.0,km,96.5,237.684729064039,€/m,NAP 2026
+enercity Netz (Hannover),enercity Netz,2026-10-30,HS,T5,Leitung,122.0,km,314.0,2573.77049180328,€/m,NAP 2026
+enercity Netz (Hannover),enercity Netz,2026-10-30,HS/MS,T5,Anlage,13.0,UW,287.0,22076.9230769231,T€/UW,NAP 2026
+enercity Netz (Hannover),enercity Netz,2026-10-30,HS,T10,Leitung,75.0,km,144.0,1920.0,€/m,NAP 2026
+enercity Netz (Hannover),enercity Netz,2026-10-30,HS/MS,T10,Anlage,4.0,UW,72.0,18000.0,T€/UW,NAP 2026
+enercity Netz (Hannover),enercity Netz,2026-10-30,HS,Z,Leitung,4.0,km,6.0,1500.0,€/m,NAP 2026
+enercity Netz (Hannover),enercity Netz,2026-10-30,HS/MS,Z,Anlage,2.0,UW,9.0,4500.0,T€/UW,NAP 2026
+enercity Netz (Hannover),enercity Netz,2026-10-30,MS,T5,Leitung,164.0,km,144.0,878.048780487805,€/m,NAP 2026
+enercity Netz (Hannover),enercity Netz,2026-10-30,MS/NS,T5,Anlage,161.0,ONS,23.0,142.857142857143,T€/Stück,NAP 2026
+enercity Netz (Hannover),enercity Netz,2026-10-30,NS,T5,Leitung,129.0,km,40.0,310.077519379845,€/m,NAP 2026
+enercity Netz (Hannover),enercity Netz,2026-10-30,MS,T10,Leitung,247.0,km,118.0,477.732793522267,€/m,NAP 2026
+enercity Netz (Hannover),enercity Netz,2026-10-30,MS/NS,T10,Anlage,253.0,ONS,38.0,150.197628458498,T€/Stück,NAP 2026
+enercity Netz (Hannover),enercity Netz,2026-10-30,NS,T10,Leitung,272.0,km,79.0,290.441176470588,€/m,NAP 2026
+enercity Netz (Hannover),enercity Netz,2026-10-30,MS,Z,Leitung,1198.0,km,499.0,416.52754590985,€/m,NAP 2026
+enercity Netz (Hannover),enercity Netz,2026-10-30,MS/NS,Z,Anlage,623.0,ONS,91.0,146.067415730337,T€/Stück,NAP 2026
+enercity Netz (Hannover),enercity Netz,2026-10-30,NS,Z,Leitung,982.0,km,287.0,292.260692464358,€/m,NAP 2026
+energis-Netzgesellschaft,energis-Netzgesellschaft,2026-11-02,MS,T5,Leitung,333.5,km,67.0,200.899550224888,€/m,NAP 2026
+energis-Netzgesellschaft,energis-Netzgesellschaft,2026-11-02,MS/NS,T5,Anlage,300.0,ONS,30.0,100.0,T€/Stück,NAP 2026
+energis-Netzgesellschaft,energis-Netzgesellschaft,2026-11-02,NS,T5,Leitung,666.4,km,143.0,214.585834333734,€/m,NAP 2026
+energis-Netzgesellschaft,energis-Netzgesellschaft,2026-11-02,MS,T10,Leitung,368.8,km,74.0,200.650759219089,€/m,NAP 2026
+energis-Netzgesellschaft,energis-Netzgesellschaft,2026-11-02,MS/NS,T10,Anlage,332.0,ONS,33.0,99.3975903614458,T€/Stück,NAP 2026
+energis-Netzgesellschaft,energis-Netzgesellschaft,2026-11-02,NS,T10,Leitung,736.9,km,158.0,214.411724793052,€/m,NAP 2026
+energis-Netzgesellschaft,energis-Netzgesellschaft,2026-11-02,MS,Z,Leitung,713.5,km,143.0,200.42046250876,€/m,NAP 2026
+energis-Netzgesellschaft,energis-Netzgesellschaft,2026-11-02,MS/NS,Z,Anlage,643.0,ONS,64.0,99.5334370139969,T€/Stück,NAP 2026
+energis-Netzgesellschaft,energis-Netzgesellschaft,2026-11-02,NS,Z,Leitung,1425.7,km,307.0,215.332818966122,€/m,NAP 2026
+inetz (Chemnitz),inetz (Chemnitz),2026-11-03,HS/MS,T5,Anlage,1.0,UW,10.0,10000.0,T€/UW,NAP 2026
+inetz (Chemnitz),inetz (Chemnitz),2026-11-03,HS,T10,Leitung,19.0,km,47.5,2500.0,€/m,NAP 2026
+inetz (Chemnitz),inetz (Chemnitz),2026-11-03,HS/MS,T10,Anlage,2.0,UW,35.0,17500.0,T€/UW,NAP 2026
+inetz (Chemnitz),inetz (Chemnitz),2026-11-03,HS,Z,Leitung,5.0,km,15.0,3000.0,€/m,NAP 2026
+inetz (Chemnitz),inetz (Chemnitz),2026-11-03,HS/MS,Z,Anlage,3.0,UW,50.0,16666.6666666667,T€/UW,NAP 2026
+inetz (Chemnitz),inetz (Chemnitz),2026-11-03,MS,T5,Leitung,163.0,km,40.5,248.466257668712,€/m,NAP 2026
+inetz (Chemnitz),inetz (Chemnitz),2026-11-03,MS/NS,T5,Anlage,230.0,ONS,30.9,134.347826086957,T€/Stück,NAP 2026
+inetz (Chemnitz),inetz (Chemnitz),2026-11-03,NS,T5,Leitung,226.0,km,56.9,251.769911504425,€/m,NAP 2026
+inetz (Chemnitz),inetz (Chemnitz),2026-11-03,MS,T10,Leitung,135.0,km,55.6,411.851851851852,€/m,NAP 2026
+inetz (Chemnitz),inetz (Chemnitz),2026-11-03,MS/NS,T10,Anlage,170.0,ONS,24.5,144.117647058824,T€/Stück,NAP 2026
+inetz (Chemnitz),inetz (Chemnitz),2026-11-03,NS,T10,Leitung,181.0,km,63.4,350.276243093923,€/m,NAP 2026
+inetz (Chemnitz),inetz (Chemnitz),2026-11-03,MS,Z,Leitung,125.0,km,57.2,457.6,€/m,NAP 2026
+inetz (Chemnitz),inetz (Chemnitz),2026-11-03,MS/NS,Z,Anlage,264.0,ONS,37.6,142.424242424242,T€/Stück,NAP 2026
+inetz (Chemnitz),inetz (Chemnitz),2026-11-03,NS,Z,Leitung,302.0,km,105.7,350.0,€/m,NAP 2026
+naturenergie netze,naturenergie netze,2026-11-02,HS,T5,Leitung,1.0,km,2.0,2000.0,€/m,NAP 2026
+naturenergie netze,naturenergie netze,2026-11-02,HS/MS,T5,Anlage,5.0,UW,58.5,11700.0,T€/UW,NAP 2026
+naturenergie netze,naturenergie netze,2026-11-02,HS,T10,Leitung,23.0,km,46.5,2021.73913043478,€/m,NAP 2026
+naturenergie netze,naturenergie netze,2026-11-02,HS/MS,T10,Anlage,3.0,UW,44.0,14666.6666666667,T€/UW,NAP 2026
+naturenergie netze,naturenergie netze,2026-11-02,HS,Z,Leitung,38.0,km,60.5,1592.10526315789,€/m,NAP 2026
+naturenergie netze,naturenergie netze,2026-11-02,HS/MS,Z,Anlage,4.0,UW,45.0,11250.0,T€/UW,NAP 2026
+naturenergie netze,naturenergie netze,2026-11-02,MS,T5,Leitung,77.0,km,27.9,362.337662337662,€/m,NAP 2026
+naturenergie netze,naturenergie netze,2026-11-02,MS/NS,T5,Anlage,96.0,ONS,5.8,60.4166666666667,T€/Stück,NAP 2026
+naturenergie netze,naturenergie netze,2026-11-02,NS,T5,Leitung,410.0,km,125.0,304.878048780488,€/m,NAP 2026
+naturenergie netze,naturenergie netze,2026-11-02,MS,T10,Leitung,131.0,km,65.3,498.473282442748,€/m,NAP 2026
+naturenergie netze,naturenergie netze,2026-11-02,MS/NS,T10,Anlage,73.0,ONS,5.5,75.3424657534247,T€/Stück,NAP 2026
+naturenergie netze,naturenergie netze,2026-11-02,NS,T10,Leitung,317.0,km,127.3,401.577287066246,€/m,NAP 2026
+naturenergie netze,naturenergie netze,2026-11-02,MS,Z,Leitung,281.0,km,144.3,513.523131672598,€/m,NAP 2026
+naturenergie netze,naturenergie netze,2026-11-02,MS/NS,Z,Anlage,160.0,ONS,12.0,75.0,T€/Stück,NAP 2026
+naturenergie netze,naturenergie netze,2026-11-02,NS,Z,Leitung,282.0,km,112.4,398.581560283688,€/m,NAP 2026
+ovag Netz,ovag Netz,2026-10-30,HS/MS,T5,Anlage,30.0,UW,102.9,3430.0,T€/UW,NAP 2026
+ovag Netz,ovag Netz,2026-10-30,HS/MS,T10,Anlage,11.0,UW,91.0,8272.72727272727,T€/UW,NAP 2026
+ovag Netz,ovag Netz,2026-10-30,HS/MS,Z,Anlage,8.0,UW,70.4,8800.0,T€/UW,NAP 2026
+ovag Netz,ovag Netz,2026-10-30,MS,T5,Leitung,290.0,km,118.1,407.241379310345,€/m,NAP 2026
+ovag Netz,ovag Netz,2026-10-30,MS/NS,T5,Anlage,163.0,ONS,5.9,36.1963190184049,T€/Stück,NAP 2026
+ovag Netz,ovag Netz,2026-10-30,NS,T5,Leitung,52.0,km,7.2,138.461538461538,€/m,NAP 2026
+ovag Netz,ovag Netz,2026-10-30,MS,T10,Leitung,247.0,km,92.0,372.46963562753,€/m,NAP 2026
+ovag Netz,ovag Netz,2026-10-30,MS/NS,T10,Anlage,499.0,ONS,11.2,22.4448897795591,T€/Stück,NAP 2026
+ovag Netz,ovag Netz,2026-10-30,NS,T10,Leitung,150.0,km,20.6,137.333333333333,€/m,NAP 2026
+ovag Netz,ovag Netz,2026-10-30,MS,Z,Leitung,514.0,km,171.9,334.43579766537,€/m,NAP 2026
+ovag Netz,ovag Netz,2026-10-30,MS/NS,Z,Anlage,1188.0,ONS,31.8,26.7676767676768,T€/Stück,NAP 2026
+ovag Netz,ovag Netz,2026-10-30,NS,Z,Leitung,368.0,km,50.5,137.228260869565,€/m,NAP 2026
+swa Netze (Augsburg),swa Netze,2026-10-30,HS,T5,Leitung,3.0,km,4.4,1466.66666666667,€/m,NAP 2026
+swa Netze (Augsburg),swa Netze,2026-10-30,HS/MS,T5,Anlage,5.0,UW,15.8,3160.0,T€/UW,NAP 2026
+swa Netze (Augsburg),swa Netze,2026-10-30,HS,T10,Leitung,11.0,km,17.0,1545.45454545455,€/m,NAP 2026
+swa Netze (Augsburg),swa Netze,2026-10-30,HS/MS,T10,Anlage,5.0,UW,37.0,7400.0,T€/UW,NAP 2026
+swa Netze (Augsburg),swa Netze,2026-10-30,HS,Z,Leitung,27.0,km,41.0,1518.51851851852,€/m,NAP 2026
+swa Netze (Augsburg),swa Netze,2026-10-30,HS/MS,Z,Anlage,9.0,UW,69.0,7666.66666666667,T€/UW,NAP 2026
+swa Netze (Augsburg),swa Netze,2026-10-30,MS,T5,Leitung,64.0,km,31.5,492.1875,€/m,NAP 2026
+swa Netze (Augsburg),swa Netze,2026-10-30,MS/NS,T5,Anlage,120.0,ONS,21.6,180.0,T€/Stück,NAP 2026
+swa Netze (Augsburg),swa Netze,2026-10-30,NS,T5,Leitung,72.0,km,32.2,447.222222222222,€/m,NAP 2026
+swa Netze (Augsburg),swa Netze,2026-10-30,MS,T10,Leitung,59.0,km,31.0,525.423728813559,€/m,NAP 2026
+swa Netze (Augsburg),swa Netze,2026-10-30,MS/NS,T10,Anlage,113.0,ONS,20.0,176.991150442478,T€/Stück,NAP 2026
+swa Netze (Augsburg),swa Netze,2026-10-30,NS,T10,Leitung,72.0,km,33.0,458.333333333333,€/m,NAP 2026
+swa Netze (Augsburg),swa Netze,2026-10-30,MS,Z,Leitung,159.0,km,87.0,547.169811320755,€/m,NAP 2026
+swa Netze (Augsburg),swa Netze,2026-10-30,MS/NS,Z,Anlage,341.0,ONS,61.0,178.885630498534,T€/Stück,NAP 2026
+swa Netze (Augsburg),swa Netze,2026-10-30,NS,Z,Leitung,242.0,km,116.0,479.338842975207,€/m,NAP 2026
+wesernetz Bremen,wesernetz Bremen,2026-11-02,HS,T5,Leitung,40.0,km,68.0,1700.0,€/m,NAP 2026
+wesernetz Bremen,wesernetz Bremen,2026-11-02,HS/MS,T5,Anlage,11.0,UW,183.0,16636.3636363636,T€/UW,NAP 2026
+wesernetz Bremen,wesernetz Bremen,2026-11-02,HS,T10,Leitung,85.0,km,145.0,1705.88235294118,€/m,NAP 2026
+wesernetz Bremen,wesernetz Bremen,2026-11-02,HS/MS,T10,Anlage,8.0,UW,133.0,16625.0,T€/UW,NAP 2026
+wesernetz Bremen,wesernetz Bremen,2026-11-02,HS,Z,Leitung,90.0,km,161.0,1788.88888888889,€/m,NAP 2026
+wesernetz Bremen,wesernetz Bremen,2026-11-02,HS/MS,Z,Anlage,28.0,UW,467.0,16678.5714285714,T€/UW,NAP 2026
+wesernetz Bremen,wesernetz Bremen,2026-11-02,MS,T5,Leitung,275.0,km,109.0,396.363636363636,€/m,NAP 2026
+wesernetz Bremen,wesernetz Bremen,2026-11-02,MS/NS,T5,Anlage,606.0,ONS,47.0,77.5577557755776,T€/Stück,NAP 2026
+wesernetz Bremen,wesernetz Bremen,2026-11-02,MS,T10,Leitung,644.0,km,256.0,397.515527950311,€/m,NAP 2026
+wesernetz Bremen,wesernetz Bremen,2026-11-02,MS/NS,T10,Anlage,593.0,ONS,46.0,77.5716694772344,T€/Stück,NAP 2026
+wesernetz Bremen,wesernetz Bremen,2026-11-02,MS,Z,Leitung,1308.0,km,520.0,397.553516819572,€/m,NAP 2026
+wesernetz Bremen,wesernetz Bremen,2026-11-02,MS/NS,Z,Anlage,1093.0,ONS,84.0,76.8526989935956,T€/Stück,NAP 2026
+FairNetz (Reutlingen),FairNetz,2026-10-30,HS/MS,T5,Anlage,4.0,UW,121.0,30250.0,T€/UW,NAP 2026
+FairNetz (Reutlingen),FairNetz,2026-10-30,HS/MS,T10,Anlage,4.0,UW,72.0,18000.0,T€/UW,NAP 2026
+FairNetz (Reutlingen),FairNetz,2026-10-30,HS,Z,Leitung,5.0,km,14.0,2800.0,€/m,NAP 2026
+FairNetz (Reutlingen),FairNetz,2026-10-30,HS/MS,Z,Anlage,2.0,UW,46.0,23000.0,T€/UW,NAP 2026
+Netzgesellschaft Düsseldorf,Netzgesellschaft Düsseldorf,2026-11-02,HS,T5,Leitung,17.0,km,118.0,6941.17647058824,€/m,NAP 2026
+Netzgesellschaft Düsseldorf,Netzgesellschaft Düsseldorf,2026-11-02,HS/MS,T5,Anlage,3.0,UW,77.0,25666.6666666667,T€/UW,NAP 2026
+Netzgesellschaft Düsseldorf,Netzgesellschaft Düsseldorf,2026-11-02,HS/MS,T10,Anlage,2.0,UW,19.0,9500.0,T€/UW,NAP 2026
+Netzgesellschaft Düsseldorf,Netzgesellschaft Düsseldorf,2026-11-02,HS,Z,Leitung,16.0,km,48.0,3000.0,€/m,NAP 2026
+NRM Netzdienste Rhein-Main (Frankfurt),NRM Netzdienste Rhein-Main,2026-10-30,MS,T5,Leitung,99.0,km,74.0,747.474747474748,€/m,NAP 2026
+NRM Netzdienste Rhein-Main (Frankfurt),NRM Netzdienste Rhein-Main,2026-10-30,MS/NS,T5,Anlage,66.0,ONS,7.0,106.060606060606,T€/Stück,NAP 2026
+NRM Netzdienste Rhein-Main (Frankfurt),NRM Netzdienste Rhein-Main,2026-10-30,NS,T5,Leitung,174.0,km,100.0,574.712643678161,€/m,NAP 2026
+NRM Netzdienste Rhein-Main (Frankfurt),NRM Netzdienste Rhein-Main,2026-10-30,MS,T10,Leitung,144.0,km,115.0,798.611111111111,€/m,NAP 2026
+NRM Netzdienste Rhein-Main (Frankfurt),NRM Netzdienste Rhein-Main,2026-10-30,MS/NS,T10,Anlage,81.0,ONS,9.0,111.111111111111,T€/Stück,NAP 2026
+NRM Netzdienste Rhein-Main (Frankfurt),NRM Netzdienste Rhein-Main,2026-10-30,NS,T10,Leitung,361.0,km,217.0,601.108033240997,€/m,NAP 2026
+NRM Netzdienste Rhein-Main (Frankfurt),NRM Netzdienste Rhein-Main,2026-10-30,MS,Z,Leitung,416.0,km,333.0,800.480769230769,€/m,NAP 2026
+NRM Netzdienste Rhein-Main (Frankfurt),NRM Netzdienste Rhein-Main,2026-10-30,MS/NS,Z,Anlage,153.0,ONS,19.0,124.183006535948,T€/Stück,NAP 2026
+NRM Netzdienste Rhein-Main (Frankfurt),NRM Netzdienste Rhein-Main,2026-10-30,NS,Z,Leitung,816.0,km,500.0,612.745098039216,€/m,NAP 2026
+AVU Netz,AVU Netz,2024-04-29,MS+NS,T5,Leitung,103.0,km,15.3,148.543689320388,€/m,NAP 2024 (Fallback)
+AVU Netz,AVU Netz,2024-04-29,MS+NS,T5,Anlage,129.0,St,13.1,101.550387596899,T€/Stück,NAP 2024 (Fallback)
+Bonn-Netz,Bonn-Netz,2025-06-30,MS+NS,T5,Leitung,98.6,km,36.6,371.196754563895,€/m,NAP 2024 (Fallback)
+Bonn-Netz,Bonn-Netz,2025-06-30,MS+NS,T5,Anlage,92.0,St,6.4,69.5652173913043,T€/Stück,NAP 2024 (Fallback)
+Bonn-Netz,Bonn-Netz,2025-06-30,MS+NS,T10,Leitung,48.0,km,16.8,350.0,€/m,NAP 2024 (Fallback)
+Bonn-Netz,Bonn-Netz,2025-06-30,MS+NS,T10,Anlage,125.0,St,9.4,75.2,T€/Stück,NAP 2024 (Fallback)
+Bonn-Netz,Bonn-Netz,2025-06-30,MS+NS,Z,Leitung,120.0,km,41.9,349.166666666667,€/m,NAP 2024 (Fallback)
+Bonn-Netz,Bonn-Netz,2025-06-30,MS+NS,Z,Anlage,304.0,St,35.0,115.131578947368,T€/Stück,NAP 2024 (Fallback)
+Stadtwerke Hamm,Stadtwerke Hamm,2024-04-30,MS,T10,Leitung,61.0,km,10.0,163.934426229508,€/m,NAP 2024 (Fallback)
+Stadtwerke Hamm,Stadtwerke Hamm,2024-04-30,MS/NS,T10,Anlage,41.0,ONS,4.0,97.5609756097561,T€/Stück,NAP 2024 (Fallback)
+Stadtwerke Hamm,Stadtwerke Hamm,2024-04-30,HS/MS,Z,Anlage,5.0,UW,5.0,1000.0,T€/UW,NAP 2024 (Fallback)
+Stadtwerke Hamm,Stadtwerke Hamm,2024-04-30,MS,Z,Leitung,160.0,km,24.0,150.0,€/m,NAP 2024 (Fallback)
+Netze Duisburg,Netze Duisburg,2024-04-25,HS,T5,Leitung,17.0,km,37.0,2176.47058823529,€/m,NAP 2024 (Fallback)
+Netze Duisburg,Netze Duisburg,2024-04-25,HS/MS,T5,Anlage,6.0,UW,94.0,15666.6666666667,T€/UW,NAP 2024 (Fallback)
+Netze Duisburg,Netze Duisburg,2024-04-25,HS,T10,Leitung,24.0,km,76.0,3166.66666666667,€/m,NAP 2024 (Fallback)
+Netze Duisburg,Netze Duisburg,2024-04-25,HS/MS,T10,Anlage,7.0,UW,72.0,10285.7142857143,T€/UW,NAP 2024 (Fallback)
+Netze Duisburg,Netze Duisburg,2024-04-25,HS,Z,Leitung,34.0,km,102.0,3000.0,€/m,NAP 2024 (Fallback)
+Netze Duisburg,Netze Duisburg,2024-04-25,HS/MS,Z,Anlage,8.0,UW,36.0,4500.0,T€/UW,NAP 2024 (Fallback)
+Netze Duisburg,Netze Duisburg,2024-04-25,MS,T5,Leitung,116.0,km,38.0,327.586206896552,€/m,NAP 2024 (Fallback)
+Netze Duisburg,Netze Duisburg,2024-04-25,MS/NS,T5,Anlage,255.0,ONS,21.0,82.3529411764706,T€/Stück,NAP 2024 (Fallback)
+Netze Duisburg,Netze Duisburg,2024-04-25,MS,T10,Leitung,135.0,km,47.0,348.148148148148,€/m,NAP 2024 (Fallback)
+Netze Duisburg,Netze Duisburg,2024-04-25,MS/NS,T10,Anlage,285.0,ONS,24.0,84.2105263157895,T€/Stück,NAP 2024 (Fallback)
+Netze Duisburg,Netze Duisburg,2024-04-25,MS,Z,Leitung,324.0,km,113.0,348.765432098765,€/m,NAP 2024 (Fallback)
+Netze Duisburg,Netze Duisburg,2024-04-25,MS/NS,Z,Anlage,684.0,ONS,57.0,83.3333333333333,T€/Stück,NAP 2024 (Fallback)
+Netze Magdeburg,Netze Magdeburg,2024-04-29,MS,T10,Leitung,47.0,km,19.8,421.276595744681,€/m,NAP 2024 (Fallback)
+Netze Magdeburg,Netze Magdeburg,2024-04-29,NS,T10,Leitung,74.0,km,32.7,441.891891891892,€/m,NAP 2024 (Fallback)
+Pfalzwerke Netz,Pfalzwerke Netz,2024-08-07,HS,Z,Leitung,362.0,km,262.87,726.160220994475,€/m,NAP 2024 (Fallback)
+Pfalzwerke Netz,Pfalzwerke Netz,2024-08-07,HS/MS,Z,Anlage,40.0,UW,149.63,3740.75,T€/UW,NAP 2024 (Fallback)
+Celle-Uelzen Netz (SVO),SVO Netz / Celle-Uelzen Netz,2024-09-12,MS,T5,Leitung,162.91,km,37.56,230.556749125284,€/m,NAP 2024 (Fallback)
+Celle-Uelzen Netz (SVO),SVO Netz / Celle-Uelzen Netz,2024-09-12,MS/NS,T5,Anlage,366.0,ONS,20.15,55.0546448087432,T€/Stück,NAP 2024 (Fallback)
+Celle-Uelzen Netz (SVO),SVO Netz / Celle-Uelzen Netz,2024-09-12,MS,T10,Leitung,427.0,km,88.2,206.55737704918,€/m,NAP 2024 (Fallback)
+Celle-Uelzen Netz (SVO),SVO Netz / Celle-Uelzen Netz,2024-09-12,MS/NS,T10,Anlage,387.0,ONS,28.64,74.0051679586563,T€/Stück,NAP 2024 (Fallback)
+Celle-Uelzen Netz (SVO),SVO Netz / Celle-Uelzen Netz,2024-09-12,NS,T5,Leitung,14.6,km,2.29,156.849315068493,€/m,NAP 2024 (Fallback)
+Celle-Uelzen Netz (SVO),SVO Netz / Celle-Uelzen Netz,2024-09-12,NS,T10,Leitung,153.0,km,19.89,130.0,€/m,NAP 2024 (Fallback)
+Celle-Uelzen Netz (SVO),SVO Netz / Celle-Uelzen Netz,2024-09-12,NS,Z,Leitung,147.0,km,23.5,159.863945578231,€/m,NAP 2024 (Fallback)
+Stadtwerke Karlsruhe Netzservice,Stadtwerke Karlsruhe Netzservice,2024-04-30,HS,T5,Leitung,18.9,km,24.0,1269.84126984127,€/m,NAP 2024 (Fallback)
+Stadtwerke Karlsruhe Netzservice,Stadtwerke Karlsruhe Netzservice,2024-04-30,HS/MS,T5,Anlage,2.0,UW,14.0,7000.0,T€/UW,NAP 2024 (Fallback)
+Stadtwerke Karlsruhe Netzservice,Stadtwerke Karlsruhe Netzservice,2024-04-30,HS,T10,Leitung,24.3,km,30.0,1234.56790123457,€/m,NAP 2024 (Fallback)
+Stadtwerke Karlsruhe Netzservice,Stadtwerke Karlsruhe Netzservice,2024-04-30,HS/MS,T10,Anlage,2.0,UW,13.0,6500.0,T€/UW,NAP 2024 (Fallback)
+Stadtwerke Karlsruhe Netzservice,Stadtwerke Karlsruhe Netzservice,2024-04-30,HS,Z,Leitung,9.0,km,11.0,1222.22222222222,€/m,NAP 2024 (Fallback)
+Stadtwerke Karlsruhe Netzservice,Stadtwerke Karlsruhe Netzservice,2024-04-30,HS/MS,Z,Anlage,5.0,UW,46.0,9200.0,T€/UW,NAP 2024 (Fallback)
+WSW Netz (Wuppertal),WSW Netz (Wuppertal),2024-09-23,HS,T5,Leitung,6.7,km,4.4,656.716417910448,€/m,NAP 2024 (Fallback)
+WSW Netz (Wuppertal),WSW Netz (Wuppertal),2024-09-23,HS/MS,T5,Anlage,1.0,UW,3.1,3100.0,T€/UW,NAP 2024 (Fallback)
+WSW Netz (Wuppertal),WSW Netz (Wuppertal),2024-09-23,MS,T5,Leitung,161.7,km,56.6,350.030921459493,€/m,NAP 2024 (Fallback)
+WSW Netz (Wuppertal),WSW Netz (Wuppertal),2024-09-23,NS,T5,Leitung,117.3,km,29.3,249.786871270247,€/m,NAP 2024 (Fallback)
+WSW Netz (Wuppertal),WSW Netz (Wuppertal),2024-09-23,HS,T10,Leitung,48.4,km,32.0,661.157024793389,€/m,NAP 2024 (Fallback)
+WSW Netz (Wuppertal),WSW Netz (Wuppertal),2024-09-23,HS/MS,T10,Anlage,1.0,UW,3.1,3100.0,T€/UW,NAP 2024 (Fallback)
+WSW Netz (Wuppertal),WSW Netz (Wuppertal),2024-09-23,MS,T10,Leitung,269.5,km,94.3,349.907235621521,€/m,NAP 2024 (Fallback)
+WSW Netz (Wuppertal),WSW Netz (Wuppertal),2024-09-23,NS,T10,Leitung,195.5,km,48.9,250.127877237852,€/m,NAP 2024 (Fallback)

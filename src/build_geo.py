@@ -75,7 +75,8 @@ CODE = {"Baden-Württemberg": "BW", "Bayern": "BY", "Berlin": "BE", "Brandenburg
         "Mecklenburg-Vorpommern": "MV", "Niedersachsen": "NI", "Nordrhein-Westfalen": "NW", "Rheinland-Pfalz": "RP", "Saarland": "SL",
         "Sachsen": "SN", "Sachsen-Anhalt": "ST", "Schleswig-Holstein": "SH", "Thüringen": "TH"}
 lg = defaultdict(list)
-for gi in range(len(G)): lg[d.LAN[gi]].append(G[gi])
+for gi in range(len(G)):
+    if isinstance(d.LAN[gi], str) and d.LAN[gi] in CODE: lg[d.LAN[gi]].append(G[gi])
 lf = [{'type': 'Feature', 'properties': {'n': k, 'c': CODE.get(k, k)}, 'geometry': rnd(unary_union(v).simplify(0.003, preserve_topology=True))} for k, v in lg.items()]
 json.dump({'type': 'FeatureCollection', 'features': lf}, open(D + 'laender.geojson', 'w'), ensure_ascii=False, separators=(',', ':'))
 inatlas = sum(1 for f in feats if f['properties']['n'])

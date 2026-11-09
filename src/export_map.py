@@ -80,3 +80,13 @@ for yr,fn in (('2025','ne25.json'),('2026','ne.json'),('2027','ne27.json')):
 t=open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'index.html')).read().replace('__NNE__',json.dumps(NNE,ensure_ascii=False,separators=(',',':')))
 open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'index.html'),'w').write(t)
 print('nne',len(NNE),{y:sum(1 for d in NNE.values() if y in d) for y in ('2025','2026','2027')})
+
+# Eigenständiges HTML-Dokument für das Repository (index.html) + Fragment für die Artifact-Veröffentlichung
+_p = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'index.html')
+_t = open(_p).read()
+if not _t.lstrip().lower().startswith('<!doctype'):
+    open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'atlas_fragment.html'), 'w').write(_t)
+    _i = _t.index('</style>') + len('</style>')
+    _t = ('<!doctype html>\n<html lang="de">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1">\n'
+          + _t[:_i] + '\n</head>\n<body>\n' + _t[_i:] + '\n</body>\n</html>\n')
+    open(_p, 'w').write(_t)

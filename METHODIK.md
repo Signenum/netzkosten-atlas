@@ -60,5 +60,11 @@ Folgen: Gemeinden, die sich mehrere Netzbetreiber teilen, erscheinen nur beim ü
 - `ne25.json`, `ne.json`, `ne27.json`, `bkz.json`: Preisblatt-Werte mit Quelle und Stand
 - `build_eval.py`: erzeugt die Excel-Auswertung
 - `add_nne_sheet.py`: Blatt „NNE_Entwicklung“
+- `prep_vg250.py`: bereitet die VG250-Gemeinden vor (aus [dimfalk/vg250](https://github.com/dimfalk/vg250), `data/vg250.rda`)
+- `geo/stichproben_raw.txt` + `geo/decode_raw.py`: Ergebnisse der VNBdigital-Abfrage (Raster + Stützpunkte, Netzbetreiber-IDs) → `res.json`, `names.json`
+- `geo/vnbmap.json`: geprüfte Zuordnung VNBdigital-ID → Netzbetreiber im Atlas
 - `build_geo.py`: Netzgebiete aus Stichproben und Gemeindegrenzen
+- `export_csv.py`: CSV-Dateien in `data/`
 - `export_map.py` + `map_template.html`: erzeugt `index.html`
+
+Reihenfolge: `prep_vg250.py` → `geo/decode_raw.py` → `build_geo.py` → `build_eval.py` → `add_nne_sheet.py` → Excel-Formeln neu berechnen (z. B. LibreOffice) → `export_map.py` → `export_csv.py`. Benötigt Python 3.11+ mit pandas, openpyxl, shapely, numpy (und rdata für `prep_vg250.py`).
