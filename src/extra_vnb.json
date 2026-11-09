@@ -298,5 +298,35 @@
   "bl": "HE",
   "typ": "Stadt",
   "id": "EQ5hdQYCuitLBWrqu"
+ },
+ "Stadtwerke Schwäbisch Gmünd GmbH": {
+  "disp": "Stadtwerke Schwäbisch Gmünd",
+  "bl": "BW",
+  "typ": "Stadt",
+  "id": "582"
+ },
+ "NHF Netzgesellschaft Heilbronn-Franken mbH": {
+  "disp": "NHF Netzgesellschaft Heilbronn-Franken",
+  "bl": "BW",
+  "typ": "Stadt",
+  "id": "280"
+ },
+ "Stadtwerke Peine GmbH": {
+  "disp": "Stadtwerke Peine",
+  "bl": "NI",
+  "typ": "Stadt",
+  "id": "511"
+ },
+ "ENRW Energieversorgung Rottweil GmbH & Co. KG": {
+  "disp": "ENRW Energieversorgung Rottweil",
+  "bl": "BW",
+  "typ": "Stadt",
+  "id": "558"
+ },
+ "Zwickauer Energieversorgung GmbH": {
+  "disp": "Zwickauer Energieversorgung",
+  "bl": "SN",
+  "typ": "Stadt",
+  "id": "762"
  }
 }

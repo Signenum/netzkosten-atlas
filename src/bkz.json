@@ -212,5 +212,10 @@
   "MS/NS": 185.38,
   "NS": 111.92,
   "src": "https://www.enwag.de/de/Netze/Veroeffentlichungen-Auskuenfte/Stromnetzdaten1/NNE-Strom-enwag-NEU-Z026-final.pdf"
+ },
+ "ENRW Energieversorgung Rottweil GmbH & Co. KG": {
+  "MS": 177.75,
+  "NS": 108.67,
+  "src": "https://www.enrw.de/ceasy/resource/?id=1473&download=1"
  }
 }

@@ -1202,7 +1202,7 @@ Solling (Landkreis Northeim),Northeim,Niedersachsen,1087,Westfalen Weser Netz Gm
 Edemissen,Peine,Niedersachsen,7137,Avacon Netz GmbH,Avacon Netz,3.0
 Hohenhameln,Peine,Niedersachsen,7137,Avacon Netz GmbH,Avacon Netz,2.0
 Lengede,Peine,Niedersachsen,7137,Avacon Netz GmbH,Avacon Netz,2.0
-Peine,Peine,Niedersachsen,511,Stadtwerke Peine GmbH,,5.0
+Peine,Peine,Niedersachsen,511,Stadtwerke Peine GmbH,Stadtwerke Peine,5.0
 Vechelde,Peine,Niedersachsen,7137,Avacon Netz GmbH,Avacon Netz,1.0
 Wendeburg,Peine,Niedersachsen,7137,Avacon Netz GmbH,Avacon Netz,2.0
 Ilsede,Peine,Niedersachsen,7137,Avacon Netz GmbH,Avacon Netz,5.0
@@ -5278,7 +5278,7 @@ Geislingen an der Steige,Göppingen,Baden-Württemberg,219,Albwerk GmbH & Co. KG
 Kuchen,Göppingen,Baden-Württemberg,7772,stauferwerk GmbH & Co. KG,,0
 Göppingen,Göppingen,Baden-Württemberg,7645,Energieversorgung Filstal GmbH & Co. KG,Energieversorgung Filstal,4.0
 Schlat,Göppingen,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,0
-Wäschenbeuren,Göppingen,Baden-Württemberg,582,Stadtwerke Schwäbisch Gmünd GmbH,,0
+Wäschenbeuren,Göppingen,Baden-Württemberg,582,Stadtwerke Schwäbisch Gmünd GmbH,Stadtwerke Schwäbisch Gmünd,0
 Wangen,Göppingen,Baden-Württemberg,7645,Energieversorgung Filstal GmbH & Co. KG,Energieversorgung Filstal,0
 Donzdorf,Göppingen,Baden-Württemberg,7772,stauferwerk GmbH & Co. KG,,2.0
 Gingen an der Fils,Göppingen,Baden-Württemberg,7772,stauferwerk GmbH & Co. KG,,0
@@ -5373,7 +5373,7 @@ Welzheim,Rems-Murr-Kreis,Baden-Württemberg,1010,Netze ODR GmbH,Netze ODR,1.0
 Leutenbach,Rems-Murr-Kreis,Baden-Württemberg,1064,Syna GmbH,Syna,1.0
 Schwaikheim,Rems-Murr-Kreis,Baden-Württemberg,1064,Syna GmbH,Syna,0
 Winnenden,Rems-Murr-Kreis,Baden-Württemberg,1064,Syna GmbH,Syna,3.0
-Heilbronn,Heilbronn,Baden-Württemberg,280,NHF Netzgesellschaft Heilbronn-Franken mbH,,6.0
+Heilbronn,Heilbronn,Baden-Württemberg,280,NHF Netzgesellschaft Heilbronn-Franken mbH,NHF Netzgesellschaft Heilbronn-Franken,6.0
 Bad Wimpfen,Heilbronn,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,0
 Gundelsheim,Heilbronn,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,0
 Leingarten,Heilbronn,Baden-Württemberg,7769,NHL Netzgesellschaft Heilbronner Land GmbH & Co.,,1.0
@@ -5390,7 +5390,7 @@ Cleebronn,Heilbronn,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,0
 Eppingen,Heilbronn,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,4.0
 Gemmingen,Heilbronn,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,0
 Ittlingen,Heilbronn,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,0
-Flein,Heilbronn,Baden-Württemberg,280,NHF Netzgesellschaft Heilbronn-Franken mbH,,0
+Flein,Heilbronn,Baden-Württemberg,280,NHF Netzgesellschaft Heilbronn-Franken mbH,NHF Netzgesellschaft Heilbronn-Franken,0
 Talheim,Heilbronn,Baden-Württemberg,7769,NHL Netzgesellschaft Heilbronner Land GmbH & Co.,,1.0
 Lauffen am Neckar,Heilbronn,Baden-Württemberg,7769,NHL Netzgesellschaft Heilbronner Land GmbH & Co.,,0
 Neckarwestheim,Heilbronn,Baden-Württemberg,7769,NHL Netzgesellschaft Heilbronner Land GmbH & Co.,,0
@@ -5414,7 +5414,7 @@ Abstatt,Heilbronn,Baden-Württemberg,1064,Syna GmbH,Syna,1.0
 Beilstein,Heilbronn,Baden-Württemberg,1064,Syna GmbH,Syna,1.0
 Ilsfeld,Heilbronn,Baden-Württemberg,1064,Syna GmbH,Syna,0
 Untergruppenbach,Heilbronn,Baden-Württemberg,1064,Syna GmbH,Syna,0
-Massenbachhausen,Heilbronn,Baden-Württemberg,280,NHF Netzgesellschaft Heilbronn-Franken mbH,,0
+Massenbachhausen,Heilbronn,Baden-Württemberg,280,NHF Netzgesellschaft Heilbronn-Franken mbH,NHF Netzgesellschaft Heilbronn-Franken,0
 Schwaigern,Heilbronn,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,1.0
 Eberstadt,Heilbronn,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,0
 Ellhofen,Heilbronn,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,0
@@ -5497,7 +5497,7 @@ Niederstotzingen,Heidenheim,Baden-Württemberg,1010,Netze ODR GmbH,Netze ODR,0
 Sontheim an der Brenz,Heidenheim,Baden-Württemberg,1010,Netze ODR GmbH,Netze ODR,1.0
 Abtsgmünd,Ostalbkreis,Baden-Württemberg,1010,Netze ODR GmbH,Netze ODR,1.0
 Gschwend,Ostalbkreis,Baden-Württemberg,1010,Netze ODR GmbH,Netze ODR,1.0
-Lorch,Ostalbkreis,Baden-Württemberg,582,Stadtwerke Schwäbisch Gmünd GmbH,,0
+Lorch,Ostalbkreis,Baden-Württemberg,582,Stadtwerke Schwäbisch Gmünd GmbH,Stadtwerke Schwäbisch Gmünd,0
 Neresheim,Ostalbkreis,Baden-Württemberg,1010,Netze ODR GmbH,Netze ODR,2.0
 Oberkochen,Ostalbkreis,Baden-Württemberg,1010,Netze ODR GmbH,Netze ODR,1.0
 Essingen,Ostalbkreis,Baden-Württemberg,1010,Netze ODR GmbH,Netze ODR,2.0
@@ -5527,13 +5527,13 @@ Böbingen an der Rems,Ostalbkreis,Baden-Württemberg,1010,Netze ODR GmbH,Netze O
 Heubach,Ostalbkreis,Baden-Württemberg,1010,Netze ODR GmbH,Netze ODR,1.0
 Heuchlingen,Ostalbkreis,Baden-Württemberg,1010,Netze ODR GmbH,Netze ODR,0
 Mögglingen,Ostalbkreis,Baden-Württemberg,1010,Netze ODR GmbH,Netze ODR,0
-Schwäbisch Gmünd,Ostalbkreis,Baden-Württemberg,582,Stadtwerke Schwäbisch Gmünd GmbH,,5.0
+Schwäbisch Gmünd,Ostalbkreis,Baden-Württemberg,582,Stadtwerke Schwäbisch Gmünd GmbH,Stadtwerke Schwäbisch Gmünd,5.0
 Waldstetten,Ostalbkreis,Baden-Württemberg,1010,Netze ODR GmbH,Netze ODR,1.0
-Durlangen,Ostalbkreis,Baden-Württemberg,582,Stadtwerke Schwäbisch Gmünd GmbH,,0
-Mutlangen,Ostalbkreis,Baden-Württemberg,582,Stadtwerke Schwäbisch Gmünd GmbH,,0
+Durlangen,Ostalbkreis,Baden-Württemberg,582,Stadtwerke Schwäbisch Gmünd GmbH,Stadtwerke Schwäbisch Gmünd,0
+Mutlangen,Ostalbkreis,Baden-Württemberg,582,Stadtwerke Schwäbisch Gmünd GmbH,Stadtwerke Schwäbisch Gmünd,0
 Ruppertshofen,Ostalbkreis,Baden-Württemberg,1010,Netze ODR GmbH,Netze ODR,1.0
 Spraitbach,Ostalbkreis,Baden-Württemberg,1010,Netze ODR GmbH,Netze ODR,0
-Täferrot,Ostalbkreis,Baden-Württemberg,582,Stadtwerke Schwäbisch Gmünd GmbH,,0
+Täferrot,Ostalbkreis,Baden-Württemberg,582,Stadtwerke Schwäbisch Gmünd GmbH,Stadtwerke Schwäbisch Gmünd,0
 Stödtlen,Ostalbkreis,Baden-Württemberg,479,N-ERGIE Netz GmbH,N-ERGIE Netz,0
 Tannhausen,Ostalbkreis,Baden-Württemberg,1010,Netze ODR GmbH,Netze ODR,0
 Unterschneidheim,Ostalbkreis,Baden-Württemberg,1010,Netze ODR GmbH,Netze ODR,1.0
@@ -5875,16 +5875,16 @@ Oberharmersbach,Ortenaukreis,Baden-Württemberg,366,E-Werk Netze GmbH & Co. KG,E
 Zell am Harmersbach,Ortenaukreis,Baden-Württemberg,366,E-Werk Netze GmbH & Co. KG,E-Werk Netze (Mittelbaden),1.0
 Rheinau,Ortenaukreis,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,0
 Dornhan,Rottweil,Baden-Württemberg,201,Stadtwerke Freudenstadt GmbH & Co. KG,,0
-Dunningen,Rottweil,Baden-Württemberg,558,ENRW Energieversorgung Rottweil GmbH & Co. KG,,0
-Eschbronn,Rottweil,Baden-Württemberg,558,ENRW Energieversorgung Rottweil GmbH & Co. KG,,0
+Dunningen,Rottweil,Baden-Württemberg,558,ENRW Energieversorgung Rottweil GmbH & Co. KG,ENRW Energieversorgung Rottweil,0
+Eschbronn,Rottweil,Baden-Württemberg,558,ENRW Energieversorgung Rottweil GmbH & Co. KG,ENRW Energieversorgung Rottweil,0
 Epfendorf,Rottweil,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,0
 Oberndorf am Neckar,Rottweil,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,1.0
 Fluorn-Winzeln,Rottweil,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,1.0
 Dietingen,Rottweil,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,1.0
-Rottweil,Rottweil,Baden-Württemberg,558,ENRW Energieversorgung Rottweil GmbH & Co. KG,,4.0
+Rottweil,Rottweil,Baden-Württemberg,558,ENRW Energieversorgung Rottweil GmbH & Co. KG,ENRW Energieversorgung Rottweil,4.0
 Wellendingen,Rottweil,Baden-Württemberg,65,Überlandwerk Eppler GmbH,,0
-Zimmern ob Rottweil,Rottweil,Baden-Württemberg,558,ENRW Energieversorgung Rottweil GmbH & Co. KG,,1.0
-Deißlingen,Rottweil,Baden-Württemberg,558,ENRW Energieversorgung Rottweil GmbH & Co. KG,,1.0
+Zimmern ob Rottweil,Rottweil,Baden-Württemberg,558,ENRW Energieversorgung Rottweil GmbH & Co. KG,ENRW Energieversorgung Rottweil,1.0
+Deißlingen,Rottweil,Baden-Württemberg,558,ENRW Energieversorgung Rottweil GmbH & Co. KG,ENRW Energieversorgung Rottweil,1.0
 Schenkenzell,Rottweil,Baden-Württemberg,366,E-Werk Netze GmbH & Co. KG,E-Werk Netze (Mittelbaden),1.0
 Schiltach,Rottweil,Baden-Württemberg,366,E-Werk Netze GmbH & Co. KG,E-Werk Netze (Mittelbaden),1.0
 Aichhalden,Rottweil,Baden-Württemberg,366,E-Werk Netze GmbH & Co. KG,E-Werk Netze (Mittelbaden),0
@@ -5894,7 +5894,7 @@ Schramberg,Rottweil,Baden-Württemberg,7277,Stadtwerke Schramberg GmbH & Co. KG,
 Sulz am Neckar,Rottweil,Baden-Württemberg,619,Stromversorgung Sulz am Neckar GmbH,,0
 Vöhringen,Rottweil,Baden-Württemberg,619,Stromversorgung Sulz am Neckar GmbH,,1.0
 Bösingen,Rottweil,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,0
-Villingendorf,Rottweil,Baden-Württemberg,558,ENRW Energieversorgung Rottweil GmbH & Co. KG,,0
+Villingendorf,Rottweil,Baden-Württemberg,558,ENRW Energieversorgung Rottweil GmbH & Co. KG,ENRW Energieversorgung Rottweil,0
 Bad Dürrheim,Schwarzwald-Baar-Kreis,Baden-Württemberg,636,Energieversorgung Trossingen GmbH,,0
 Blumberg,Schwarzwald-Baar-Kreis,Baden-Württemberg,7011,Energieversorgung Südbaar GmbH & Co. KG,,2.0
 Königsfeld im Schwarzwald,Schwarzwald-Baar-Kreis,Baden-Württemberg,7323,naturenergie netze GmbH,naturenergie netze,2.0
@@ -5908,7 +5908,7 @@ Gütenbach,Schwarzwald-Baar-Kreis,Baden-Württemberg,7214,Netze BW GmbH,Netze BW
 Schönwald im Schwarzwald,Schwarzwald-Baar-Kreis,Baden-Württemberg,634,EGT Energie GmbH,,1.0
 Schonach im Schwarzwald,Schwarzwald-Baar-Kreis,Baden-Württemberg,634,EGT Energie GmbH,,1.0
 Triberg im Schwarzwald,Schwarzwald-Baar-Kreis,Baden-Württemberg,634,EGT Energie GmbH,,0
-Dauchingen,Schwarzwald-Baar-Kreis,Baden-Württemberg,558,ENRW Energieversorgung Rottweil GmbH & Co. KG,,0
+Dauchingen,Schwarzwald-Baar-Kreis,Baden-Württemberg,558,ENRW Energieversorgung Rottweil GmbH & Co. KG,ENRW Energieversorgung Rottweil,0
 Mönchweiler,Schwarzwald-Baar-Kreis,Baden-Württemberg,634,EGT Energie GmbH,,0
 Niedereschach,Schwarzwald-Baar-Kreis,Baden-Württemberg,656,Stadtwerke Villingen-Schwenningen GmbH,,0
 Tuningen,Schwarzwald-Baar-Kreis,Baden-Württemberg,636,Energieversorgung Trossingen GmbH,,0
@@ -9878,11 +9878,11 @@ Lichtentanne,Zwickau,Sachsen,1081,Mitteldeutsche Netzgesellschaft Strom mbH,MITN
 Mülsen,Zwickau,Sachsen,1081,Mitteldeutsche Netzgesellschaft Strom mbH,MITNETZ Strom,1.0
 Neukirchen/Pleiße,Zwickau,Sachsen,1081,Mitteldeutsche Netzgesellschaft Strom mbH,MITNETZ Strom,0
 Oberlungwitz,Zwickau,Sachsen,1081,Mitteldeutsche Netzgesellschaft Strom mbH,MITNETZ Strom,0
-Reinsdorf,Zwickau,Sachsen,762,Zwickauer Energieversorgung GmbH,,0
+Reinsdorf,Zwickau,Sachsen,762,Zwickauer Energieversorgung GmbH,Zwickauer Energieversorgung,0
 Werdau,Zwickau,Sachsen,924,Stadtwerke Werdau GmbH,,4.0
 Wildenfels,Zwickau,Sachsen,1081,Mitteldeutsche Netzgesellschaft Strom mbH,MITNETZ Strom,0
-Wilkau-Haßlau,Zwickau,Sachsen,762,Zwickauer Energieversorgung GmbH,,0
-Zwickau,Zwickau,Sachsen,762,Zwickauer Energieversorgung GmbH,,5.0
+Wilkau-Haßlau,Zwickau,Sachsen,762,Zwickauer Energieversorgung GmbH,Zwickauer Energieversorgung,0
+Zwickau,Zwickau,Sachsen,762,Zwickauer Energieversorgung GmbH,Zwickauer Energieversorgung,5.0
 Crimmitschau,Zwickau,Sachsen,1081,Mitteldeutsche Netzgesellschaft Strom mbH,MITNETZ Strom,3.0
 Dennheritz,Zwickau,Sachsen,1081,Mitteldeutsche Netzgesellschaft Strom mbH,MITNETZ Strom,0
 Crinitzberg,Zwickau,Sachsen,1081,Mitteldeutsche Netzgesellschaft Strom mbH,MITNETZ Strom,1.0
