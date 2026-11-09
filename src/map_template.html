@@ -36,8 +36,9 @@ h1{font-family:var(--f-disp);font-weight:700;font-size:1.65rem;letter-spacing:.0
 svg#map{width:100%;height:100%;display:block}
 .state{fill:none;stroke:var(--ink);stroke-opacity:.55;stroke-width:1;vector-effect:non-scaling-stroke;pointer-events:none}
 .area{stroke:var(--panel);stroke-width:.5;vector-effect:non-scaling-stroke}
-.area.other{fill:var(--land);stroke:var(--landline);cursor:pointer}
-.area.other:hover{fill:color-mix(in srgb,var(--land) 70%,var(--ink));}
+.area.other{fill:url(#hatch);stroke:var(--landline);cursor:pointer}
+.area.other:hover{fill:url(#hatchh)}
+#hatch rect,#hatchh rect{fill:var(--land)} #hatch path{stroke:var(--landline);stroke-width:1.1} #hatchh path{stroke:var(--muted);stroke-width:1.4}
 .area.atlas{cursor:pointer}
 .card .gh{display:inline-block;margin-top:8px;font-weight:600;color:var(--accent)}
 .area.nodata{fill:var(--nodata);opacity:.5}
@@ -295,6 +296,9 @@ const shadeBox = document.getElementById("shade"); shadeBox.checked = shade;
 shadeBox.addEventListener("change", () => { shade = shadeBox.checked; save(); render(); });
 
 const svg = d3.select("#map"), wrap = document.getElementById("mapwrap"), tip = document.getElementById("tip");
+const defs = svg.append("defs");
+[["hatch"], ["hatchh"]].forEach(([id]) => { const pt = defs.append("pattern").attr("id", id).attr("patternUnits", "userSpaceOnUse").attr("width", 5).attr("height", 5).attr("patternTransform", "rotate(45)");
+  pt.append("rect").attr("width", 5).attr("height", 5); pt.append("path").attr("d", "M0 0V5"); });
 const gZoom = svg.append("g"), gAreas = gZoom.append("g"), gStates = gZoom.append("g"), gLab = gZoom.append("g");
 const zoom = d3.zoom().scaleExtent([1, 24]).on("zoom", ev => { gZoom.attr("transform", ev.transform); gLab.selectAll("text").attr("font-size", 10 / ev.transform.k); });
 svg.call(zoom).on("dblclick.zoom", null);
@@ -342,7 +346,7 @@ function render(){
   document.getElementById("legend").innerHTML =
     `<div class="lt">${m.l}${m.u ? " · " + m.u : ""}</div><div class="bar"></div>
      <div class="ends"><span>${fmt(lo, m.f)} günstig</span><span>Median ${fmt(med, m.f)}</span><span>${fmt(hi, m.f)} teuer</span></div>
-     <div class="shape"><span><i style="width:10px;height:10px;border-radius:2px;background:var(--nodata)"></i>keine Angabe</span><span><i style="width:10px;height:10px;border-radius:2px;background:var(--land);border:1px solid var(--landline)"></i>Netzbetreiber nicht im Datensatz</span></div>`;
+     <div class="shape"><span><i style="width:10px;height:10px;border-radius:2px;background:var(--nodata)"></i>keine Angabe</span><span><i style="width:10px;height:10px;border-radius:2px;background:repeating-linear-gradient(45deg,var(--land) 0 2px,var(--landline) 2px 3px);border:1px solid var(--landline)"></i>noch keine Daten (anklickbar)</span></div>`;
 
   // list
   const ranked = shown.filter(d => d[cur] != null).sort((a,b) => a[cur] - b[cur]);
