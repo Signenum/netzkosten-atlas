@@ -36,8 +36,10 @@ h1{font-family:var(--f-disp);font-weight:700;font-size:1.65rem;letter-spacing:.0
 svg#map{width:100%;height:100%;display:block}
 .state{fill:none;stroke:var(--ink);stroke-opacity:.55;stroke-width:1;vector-effect:non-scaling-stroke;pointer-events:none}
 .area{stroke:var(--panel);stroke-width:.5;vector-effect:non-scaling-stroke}
-.area.other{fill:var(--land);stroke:var(--landline)}
+.area.other{fill:var(--land);stroke:var(--landline);cursor:pointer}
+.area.other:hover{fill:color-mix(in srgb,var(--land) 70%,var(--ink));}
 .area.atlas{cursor:pointer}
+.card .gh{display:inline-block;margin-top:8px;font-weight:600;color:var(--accent)}
 .area.nodata{fill:var(--nodata);opacity:.5}
 .area.dim{opacity:.18}
 .area.sel{stroke:var(--sel);stroke-width:2.4}
@@ -246,6 +248,12 @@ const DATA = __DATA__;
 const GEO = __GEO__;
 const NG = __NG__;
 const BYN = new Map(DATA.map(d => [d.n, d]));
+const NGID = new Map(NG.features.map(f => [f.properties.id, f.properties]));
+const NGBYN = new Map();
+NG.features.forEach(f => { const p = f.properties; if (!p.n) return; const a = NGBYN.get(p.n) || {g: 0, e: 0}; a.g += p.g || 0; a.e += p.e || 0; NGBYN.set(p.n, a); });
+const REPO = "https://github.com/Signenum/netzkosten-atlas";
+const fmtE = e => e >= 1e6 ? fmt(e / 1e6, 2) + " Mio." : fmt(Math.round(e / 1000) * 1000, 0);
+const keyOf = f => f.properties.n && BYN.get(f.properties.n) ? f.properties.n : "id:" + f.properties.id;
 const BLN = {BW:"Baden-Württemberg",BY:"Bayern",BE:"Berlin",BB:"Brandenburg",HB:"Bremen",HH:"Hamburg",HE:"Hessen",MV:"Mecklenburg-Vorpommern",NI:"Niedersachsen",NW:"Nordrhein-Westfalen",RP:"Rheinland-Pfalz",SL:"Saarland",SN:"Sachsen",ST:"Sachsen-Anhalt",SH:"Schleswig-Holstein",TH:"Thüringen"};
 const M = [
   {k:"idx",  l:"Gesamtindex (0 = günstig, 1 = teuer)", u:"", f:2, d:"Mittlerer Perzentilrang über MS- und NS-Leitung, Ortsnetzstation, Umspannwerk, BKZ MS und Netzentgelt MS. Nur VNB mit mindestens 3 Kennzahlen."},
@@ -315,16 +323,16 @@ function render(){
   const areaOf = f => f.properties.n ? BYN.get(f.properties.n) : null;
   gAreas.selectAll("path").data(NG.features, f => f.properties.id).join("path")
     .attr("d", path)
-    .attr("class", f => { const d = areaOf(f); if (!d) return "area other"; return "area atlas" + (d[cur] == null ? " nodata" : "") + (visible(d) ? "" : " dim") + (d.n === selected ? " sel" : ""); })
+    .attr("class", f => { const d = areaOf(f); if (!d) return "area other" + (selected === "id:" + f.properties.id ? " sel" : ""); return "area atlas" + (d[cur] == null ? " nodata" : "") + (visible(d) ? "" : " dim") + (d.n === selected ? " sel" : ""); })
     .style("fill", f => { const d = areaOf(f); return d && d[cur] != null ? colorFor(pct[cur](d[cur])) : null; })
     .style("display", f => shade && !(areaOf(f) && visible(areaOf(f))) ? "none" : null)
-    .attr("tabindex", f => areaOf(f) ? 0 : null).attr("role", f => areaOf(f) ? "button" : null)
-    .attr("aria-label", f => { const d = areaOf(f); return d ? `${d.n}: ${m.l} ${fmt(d[cur], m.f)} ${m.u}` : null; })
-    .on("click", (ev, f) => { const d = areaOf(f); if (d) select(d.n); })
-    .on("keydown", (ev, f) => { const d = areaOf(f); if (d && (ev.key === "Enter" || ev.key === " ")) { ev.preventDefault(); select(d.n); } })
+    .attr("tabindex", 0).attr("role", "button")
+    .attr("aria-label", f => { const d = areaOf(f); return d ? `${d.n}: ${m.l} ${fmt(d[cur], m.f)} ${m.u}` : `${f.properties.v}: noch keine Daten`; })
+    .on("click", (ev, f) => select(keyOf(f)))
+    .on("keydown", (ev, f) => { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); select(keyOf(f)); } })
     .on("mousemove", (ev, f) => { const d = areaOf(f);
       showTip(ev, d ? `<b>${d.n}</b>${BLN[d.bl] || d.bla} · ${d.t}netz<br>${m.l}: ${fmt(d[cur], m.f)} ${d[cur]==null ? "" : m.u}`
-                    : `<b>${f.properties.v}</b>nicht im Datensatz`); })
+                    : `<b>${f.properties.v}</b>noch keine Daten · anklicken für Details`); })
     .on("mouseleave", hideTip);
   gAreas.selectAll("path.sel").raise();
 
@@ -366,6 +374,19 @@ function select(n){
 
 function renderCard(){
   const card = document.getElementById("card");
+  if (selected && selected.startsWith("id:")) {
+    const p = NGID.get(selected.slice(3));
+    if (p) {
+      const t = encodeURIComponent("Preisblatt: " + p.v), b = encodeURIComponent(`Netzbetreiber: ${p.v}\nVNBdigital-ID: ${p.id}\n\nLink zum Preisblatt Netzentgelte (und ggf. Baukostenzuschuss):\n\nJahr / Stand:\n`);
+      card.innerHTML = `<h2>${p.v}</h2>
+        <div class="meta">${(p.l || []).join(", ")} · Netzgebiet Mittelspannung, genähert</div>
+        <div class="kv"><span class="k">Gemeinden (überwiegend)</span><span class="v">${fmt(p.g, 0)}</span><span class="pr"></span>
+          <span class="k">Einwohner darin</span><span class="v">ca. ${fmtE(p.e)}</span><span class="pr"></span></div>
+        <p class="empty" style="margin-top:10px">Für diesen Netzbetreiber sind noch keine Kennzahlen erfasst. Er ist nicht im Datensatz, weil bisher nur die größeren Netzbetreiber und Netzbetreiber mit Netzausbauplan ausgewertet sind.</p>
+        <a class="gh" href="${REPO}/issues/new?title=${t}&body=${b}" target="_blank" rel="noopener">Preisblatt melden (GitHub) →</a>`;
+      return;
+    }
+  }
   const d = DATA.find(x => x.n === selected);
   if (!d) { card.innerHTML = `<p class="empty">Netzgebiet auf der Karte oder Eintrag in der Rangliste anklicken, um den Steckbrief eines Netzbetreibers zu sehen.</p>`; return; }
   const katCol = {"günstig": css("--cheap"), "mittel": css("--mid"), "teuer": css("--dear")}[d.kat];
@@ -378,7 +399,8 @@ function renderCard(){
   const link = (u, t) => u ? `<a href="${u}" target="_blank" rel="noopener">${t}</a>` : "";
   card.innerHTML = `<h2>${d.n}</h2>
     <div class="meta">${BLN[d.bl] || d.bla}${d.bla !== d.bl ? " (" + d.bla + ")" : ""} · ${d.t}netz ·
-      Gesamtindex ${d.idx == null ? "– (zu wenige Kennzahlen)" : fmt(d.idx, 2)} ${d.kat ? `<span class="pill" style="background:${katCol};color:var(--panel)">${d.kat}</span>` : ""}</div>
+      Gesamtindex ${d.idx == null ? "– (zu wenige Kennzahlen)" : fmt(d.idx, 2)} ${d.kat ? `<span class="pill" style="background:${katCol};color:var(--panel)">${d.kat}</span>` : ""}
+      ${NGBYN.get(d.n) ? `<br>Netzgebiet (MS, genähert): ${fmt(NGBYN.get(d.n).g, 0)} Gemeinden, ca. ${fmtE(NGBYN.get(d.n).e)} Einwohner` : ""}</div>
     <div class="kv">${rows}</div>
     <div class="src">
       ${d.nap ? `<span>${d.napurl ? `<a href="${d.napurl}" target="_blank" rel="noopener">${d.naped}</a>` : d.naped} vom ${new Date(d.nap).toLocaleDateString("de-DE")} (VNBdigital)</span>` : ""}

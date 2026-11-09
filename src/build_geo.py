@@ -64,11 +64,24 @@ def rnd(geom, nd=4):
         return [r(e) for e in c]
     return {'type': m['type'], 'coordinates': r(m['coordinates'])}
 
+import shapely
+keys = list(groups)
+dis = [unary_union(groups[x]) for x in keys]
+try:  # gemeinsame Vereinfachung: Nachbargebiete teilen sich exakt dieselbe Grenzlinie (keine Spalten)
+    simp = list(shapely.coverage_simplify(dis, 0.003))
+except Exception as e:
+    print('coverage_simplify fehlgeschlagen, Einzelvereinfachung:', e)
+    simp = [g.simplify(0.003, preserve_topology=True) for g in dis]
+stats = defaultdict(lambda: [0, 0, set()])
+for gi, x in assign.items():
+    st = stats[x]; st[0] += 1
+    st[1] += int(d.EWZ[gi]) if d.EWZ[gi] == d.EWZ[gi] else 0
+    if isinstance(d.LAN[gi], str): st[2].add(d.LAN[gi])
 feats = []
-for x, gs in groups.items():
-    u = unary_union(gs).simplify(0.003, preserve_topology=True)
+for x, u in zip(keys, simp):
     if u.is_empty: continue
-    feats.append({'type': 'Feature', 'properties': {'id': x, 'v': names.get(x, '?'), 'n': vmap.get(x)}, 'geometry': rnd(u)})
+    g, e, l = stats[x]
+    feats.append({'type': 'Feature', 'properties': {'id': x, 'v': names.get(x, '?'), 'n': vmap.get(x), 'g': g, 'e': e, 'l': sorted(l)}, 'geometry': rnd(u)})
 json.dump({'type': 'FeatureCollection', 'features': feats}, open(D + 'netzgebiete.geojson', 'w'), ensure_ascii=False, separators=(',', ':'))
 
 CODE = {"Baden-Württemberg": "BW", "Bayern": "BY", "Berlin": "BE", "Brandenburg": "BB", "Bremen": "HB", "Hamburg": "HH", "Hessen": "HE",
@@ -77,7 +90,8 @@ CODE = {"Baden-Württemberg": "BW", "Bayern": "BY", "Berlin": "BE", "Brandenburg
 lg = defaultdict(list)
 for gi in range(len(G)):
     if isinstance(d.LAN[gi], str) and d.LAN[gi] in CODE: lg[d.LAN[gi]].append(G[gi])
-lf = [{'type': 'Feature', 'properties': {'n': k, 'c': CODE.get(k, k)}, 'geometry': rnd(unary_union(v).simplify(0.003, preserve_topology=True))} for k, v in lg.items()]
+_lk = list(lg); _lu = list(shapely.coverage_simplify([unary_union(lg[k]) for k in _lk], 0.003))
+lf = [{'type': 'Feature', 'properties': {'n': k, 'c': CODE.get(k, k)}, 'geometry': rnd(u)} for k, u in zip(_lk, _lu)]
 json.dump({'type': 'FeatureCollection', 'features': lf}, open(D + 'laender.geojson', 'w'), ensure_ascii=False, separators=(',', ':'))
 inatlas = sum(1 for f in feats if f['properties']['n'])
 print('Gebiete', len(feats), 'davon im Atlas', inatlas, 'Gemeinden ohne Stichprobe', sum(1 for gi in range(len(G)) if not votes[gi]))

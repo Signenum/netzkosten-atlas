@@ -34,6 +34,7 @@ Die Excel-Datei `Netzkosten_Auswertung_Deutschland.xlsx` enthält alle Rohdaten,
 | `data/bkz.csv` | Veröffentlichte Baukostenzuschüsse mit Quelle |
 | `data/netzgebiete.geojson` | Netzgebiete (Mittelspannung), genähert auf Gemeindeebene |
 | `data/gemeinde_vnb.csv` | Zuordnung Gemeinde → Netzbetreiber (Mittelspannung) |
+| `data/fehlende_preisblaetter.csv` | Welche Preisblätter noch fehlen, sortiert nach Einwohnern – Mithilfe willkommen |
 | `src/` | Python-Skripte, mit denen Excel, Karte und Daten erzeugt werden |
 | `METHODIK.md` | Berechnung, Annahmen und Grenzen |
 
