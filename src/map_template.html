@@ -41,7 +41,7 @@ svg#map{width:100%;height:100%;display:block}
 #hatch rect,#hatchh rect{fill:var(--land)} #hatch path{stroke:var(--landline);stroke-width:1.1} #hatchh path{stroke:var(--muted);stroke-width:1.4}
 .area.atlas{cursor:pointer}
 .card .gh{display:inline-block;margin-top:8px;font-weight:600;color:var(--accent)}
-.area.nodata{fill:var(--nodata);opacity:.5}
+.area.nodata{fill:var(--nodata);opacity:.85}
 .area.dim{opacity:.18}
 .area.sel{stroke:var(--sel);stroke-width:2.4}
 .area.atlas:hover{stroke:var(--ink);stroke-width:1.4}
@@ -300,7 +300,7 @@ const defs = svg.append("defs");
 [["hatch"], ["hatchh"]].forEach(([id]) => { const pt = defs.append("pattern").attr("id", id).attr("patternUnits", "userSpaceOnUse").attr("width", 5).attr("height", 5).attr("patternTransform", "rotate(45)");
   pt.append("rect").attr("width", 5).attr("height", 5); pt.append("path").attr("d", "M0 0V5"); });
 const gZoom = svg.append("g"), gAreas = gZoom.append("g"), gStates = gZoom.append("g"), gLab = gZoom.append("g");
-const zoom = d3.zoom().scaleExtent([1, 24]).on("zoom", ev => { gZoom.attr("transform", ev.transform); gLab.selectAll("text").attr("font-size", 10 / ev.transform.k); });
+const zoom = d3.zoom().scaleExtent([1, 24]).on("zoom", ev => { gZoom.attr("transform", ev.transform); defs.selectAll("pattern").attr("patternTransform", `rotate(45) scale(${1 / ev.transform.k})`); gLab.selectAll("text").attr("font-size", 10 / ev.transform.k); });
 svg.call(zoom).on("dblclick.zoom", null);
 document.getElementById("zin").onclick = () => svg.transition().duration(250).call(zoom.scaleBy, 1.8);
 document.getElementById("zout").onclick = () => svg.transition().duration(250).call(zoom.scaleBy, 1 / 1.8);
