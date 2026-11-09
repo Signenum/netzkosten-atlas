@@ -180,11 +180,6 @@ swa Netze (Augsburg),2026,HS/MS,6.44,4.35,109.81,0.22,16.12.2025,https://www.swa
 swa Netze (Augsburg),2026,MS,13.86,4.99,132.5,0.25,16.12.2025,https://www.swa-netze.de/fileadmin/content/17_swa_Netze/Downloads/Strom/02_Netzzugang_und_Entgelte/04_Preisblaetter/Preisblatt_2026.pdf
 swa Netze (Augsburg),2026,MS/NS,14.85,5.35,138.06,0.42,16.12.2025,https://www.swa-netze.de/fileadmin/content/17_swa_Netze/Downloads/Strom/02_Netzzugang_und_Entgelte/04_Preisblaetter/Preisblatt_2026.pdf
 swa Netze (Augsburg),2026,NS,22.04,6.68,138.62,2.01,16.12.2025,https://www.swa-netze.de/fileadmin/content/17_swa_Netze/Downloads/Strom/02_Netzzugang_und_Entgelte/04_Preisblaetter/Preisblatt_2026.pdf
-wesernetz Bremen,2026,HS,,,90.55,0.45,"vorläufig 15.10.2025, Zuordnung aus Reihenfolge",https://www.wesernetz.de/-/media/wesernetz/downloads-aktuell/fuer-partner/energielieferanten/stromnetz/stromentgelte/hb/nenu_hb_104_118_preisblatt_1_strom_netznutzung_2026_web.pdf
-wesernetz Bremen,2026,HS/MS,,,114.99,0.23,"vorläufig 15.10.2025, Zuordnung aus Reihenfolge",https://www.wesernetz.de/-/media/wesernetz/downloads-aktuell/fuer-partner/energielieferanten/stromnetz/stromentgelte/hb/nenu_hb_104_118_preisblatt_1_strom_netznutzung_2026_web.pdf
-wesernetz Bremen,2026,MS,,,106.5,1.35,"vorläufig 15.10.2025, Zuordnung aus Reihenfolge",https://www.wesernetz.de/-/media/wesernetz/downloads-aktuell/fuer-partner/energielieferanten/stromnetz/stromentgelte/hb/nenu_hb_104_118_preisblatt_1_strom_netznutzung_2026_web.pdf
-wesernetz Bremen,2026,MS/NS,,,114.52,1.33,"vorläufig 15.10.2025, Zuordnung aus Reihenfolge",https://www.wesernetz.de/-/media/wesernetz/downloads-aktuell/fuer-partner/energielieferanten/stromnetz/stromentgelte/hb/nenu_hb_104_118_preisblatt_1_strom_netznutzung_2026_web.pdf
-wesernetz Bremen,2026,NS,,,84.94,3.58,"vorläufig 15.10.2025, Zuordnung aus Reihenfolge",https://www.wesernetz.de/-/media/wesernetz/downloads-aktuell/fuer-partner/energielieferanten/stromnetz/stromentgelte/hb/nenu_hb_104_118_preisblatt_1_strom_netznutzung_2026_web.pdf
 Netz Leipzig,2026,HS/MS,8.4,4.48,101.41,0.76,final 2026,https://files.l.de/lde-typo3/Netz/Downloads/Netznutzung/Strom/Netz_Leipzig_Preisblatt_NNE_Strom_2026_final.pdf
 Netz Leipzig,2026,MS,12.16,5.19,101.62,1.62,final 2026,https://files.l.de/lde-typo3/Netz/Downloads/Netznutzung/Strom/Netz_Leipzig_Preisblatt_NNE_Strom_2026_final.pdf
 Netz Leipzig,2026,MS/NS,13.12,5.42,103.16,1.82,final 2026,https://files.l.de/lde-typo3/Netz/Downloads/Netznutzung/Strom/Netz_Leipzig_Preisblatt_NNE_Strom_2026_final.pdf
@@ -360,6 +355,239 @@ Stadtwerke Meerbusch Willich,2026,HS/MS,21.09,5.74,146.0,0.74,2026,https://stadt
 Stadtwerke Meerbusch Willich,2026,MS,22.49,5.94,149.35,0.86,2026,https://stadtwerke-service.de/wp-content/uploads/sites/6/2025/12/Anlage-a_Preisblatt_des_Netzbetreibers_final.pdf
 Stadtwerke Meerbusch Willich,2026,MS/NS,23.45,6.19,155.59,0.9,2026,https://stadtwerke-service.de/wp-content/uploads/sites/6/2025/12/Anlage-a_Preisblatt_des_Netzbetreibers_final.pdf
 Stadtwerke Meerbusch Willich,2026,NS,32.24,7.42,175.77,1.67,2026,https://stadtwerke-service.de/wp-content/uploads/sites/6/2025/12/Anlage-a_Preisblatt_des_Netzbetreibers_final.pdf
+E.DIS Netz,2026,HS,8.49,2.04,49.25,0.41,endgültig 10.12.2025,https://www.e-dis-netz.de/content/dam/revu-global/e-dis-netz/dokumente/Preisblaetter_Netzentgelte_Strom_20260101.pdf
+E.DIS Netz,2026,HS/MS,10.3,2.47,59.74,0.49,endgültig 10.12.2025,https://www.e-dis-netz.de/content/dam/revu-global/e-dis-netz/dokumente/Preisblaetter_Netzentgelte_Strom_20260101.pdf
+E.DIS Netz,2026,MS,23.54,2.51,58.11,1.13,endgültig 10.12.2025,https://www.e-dis-netz.de/content/dam/revu-global/e-dis-netz/dokumente/Preisblaetter_Netzentgelte_Strom_20260101.pdf
+E.DIS Netz,2026,MS/NS,33.0,3.11,77.31,1.33,endgültig 10.12.2025,https://www.e-dis-netz.de/content/dam/revu-global/e-dis-netz/dokumente/Preisblaetter_Netzentgelte_Strom_20260101.pdf
+E.DIS Netz,2026,NS,33.17,4.76,57.13,3.8,endgültig 10.12.2025,https://www.e-dis-netz.de/content/dam/revu-global/e-dis-netz/dokumente/Preisblaetter_Netzentgelte_Strom_20260101.pdf
+Schleswig-Holstein Netz,2026,HS,9.91,1.5,22.48,1.0,endgültig 10.12.2025,https://www.sh-netz.com/content/dam/revu-global/sh-netz/Documents/Schleswig-Holstein-Netz/Netzentgelte/Strom/Allgemeine-Netzentgelte/2026_netzentgelte/finale_netzentgelte_strom_ab_20260101.pdf
+Schleswig-Holstein Netz,2026,HS/MS,14.21,2.39,50.09,0.95,endgültig 10.12.2025,https://www.sh-netz.com/content/dam/revu-global/sh-netz/Documents/Schleswig-Holstein-Netz/Netzentgelte/Strom/Allgemeine-Netzentgelte/2026_netzentgelte/finale_netzentgelte_strom_ab_20260101.pdf
+Schleswig-Holstein Netz,2026,MS,17.21,2.64,53.34,1.19,endgültig 10.12.2025,https://www.sh-netz.com/content/dam/revu-global/sh-netz/Documents/Schleswig-Holstein-Netz/Netzentgelte/Strom/Allgemeine-Netzentgelte/2026_netzentgelte/finale_netzentgelte_strom_ab_20260101.pdf
+Schleswig-Holstein Netz,2026,MS/NS,24.77,4.01,86.47,1.54,endgültig 10.12.2025,https://www.sh-netz.com/content/dam/revu-global/sh-netz/Documents/Schleswig-Holstein-Netz/Netzentgelte/Strom/Allgemeine-Netzentgelte/2026_netzentgelte/finale_netzentgelte_strom_ab_20260101.pdf
+Schleswig-Holstein Netz,2026,NS,37.71,6.6,122.88,3.19,endgültig 10.12.2025,https://www.sh-netz.com/content/dam/revu-global/sh-netz/Documents/Schleswig-Holstein-Netz/Netzentgelte/Strom/Allgemeine-Netzentgelte/2026_netzentgelte/finale_netzentgelte_strom_ab_20260101.pdf
+ELE Verteilnetz (Gelsenkirchen),2026,HS/MS,3.91,5.09,125.66,0.22,2026,https://www.evng.de/content/dam/revu-global/evng/documents/strom/entgelte-strom/netznutzungsentgelte_strom_2026_evng.pdf
+ELE Verteilnetz (Gelsenkirchen),2026,MS,4.45,5.89,132.2,0.78,2026,https://www.evng.de/content/dam/revu-global/evng/documents/strom/entgelte-strom/netznutzungsentgelte_strom_2026_evng.pdf
+ELE Verteilnetz (Gelsenkirchen),2026,MS/NS,7.03,6.33,151.03,0.57,2026,https://www.evng.de/content/dam/revu-global/evng/documents/strom/entgelte-strom/netznutzungsentgelte_strom_2026_evng.pdf
+ELE Verteilnetz (Gelsenkirchen),2026,NS,11.18,7.22,111.43,3.21,2026,https://www.evng.de/content/dam/revu-global/evng/documents/strom/entgelte-strom/netznutzungsentgelte_strom_2026_evng.pdf
+E-Werk Netze (Mittelbaden),2026,HS/MS,12.84,4.94,105.35,1.24,vorläufig 08.10.2025,https://www.ew-netze.de/sites/default/files/media_document/2025-10/2025-10-08_vorl%C3%A4ufige-Netzentgelte-%C3%9Cberlandwerk-Mittelbaden_2026.pdf
+E-Werk Netze (Mittelbaden),2026,MS,14.3,5.64,113.53,1.67,vorläufig 08.10.2025,https://www.ew-netze.de/sites/default/files/media_document/2025-10/2025-10-08_vorl%C3%A4ufige-Netzentgelte-%C3%9Cberlandwerk-Mittelbaden_2026.pdf
+E-Werk Netze (Mittelbaden),2026,MS/NS,16.17,6.4,129.1,1.88,vorläufig 08.10.2025,https://www.ew-netze.de/sites/default/files/media_document/2025-10/2025-10-08_vorl%C3%A4ufige-Netzentgelte-%C3%9Cberlandwerk-Mittelbaden_2026.pdf
+E-Werk Netze (Mittelbaden),2026,NS,19.28,7.86,161.92,2.15,vorläufig 08.10.2025,https://www.ew-netze.de/sites/default/files/media_document/2025-10/2025-10-08_vorl%C3%A4ufige-Netzentgelte-%C3%9Cberlandwerk-Mittelbaden_2026.pdf
+Stadtwerke Bochum Netz,2026,HS/MS,11.93,4.54,93.46,1.28,vorläufig,https://www.stwbo-netz.de/fileadmin/Dateien_Netz/Dokumente/Preisblaetter/Preisblatt_Netzentgelte_Strom_ab_01.01.2026_vorlaeufig.pdf
+Stadtwerke Bochum Netz,2026,MS,13.43,5.19,83.62,2.38,vorläufig,https://www.stwbo-netz.de/fileadmin/Dateien_Netz/Dokumente/Preisblaetter/Preisblatt_Netzentgelte_Strom_ab_01.01.2026_vorlaeufig.pdf
+Stadtwerke Bochum Netz,2026,MS/NS,17.37,5.84,89.76,2.94,vorläufig,https://www.stwbo-netz.de/fileadmin/Dateien_Netz/Dokumente/Preisblaetter/Preisblatt_Netzentgelte_Strom_ab_01.01.2026_vorlaeufig.pdf
+Stadtwerke Bochum Netz,2026,NS,36.78,6.08,68.35,4.82,vorläufig,https://www.stwbo-netz.de/fileadmin/Dateien_Netz/Dokumente/Preisblaetter/Preisblatt_Netzentgelte_Strom_ab_01.01.2026_vorlaeufig.pdf
+SWKiel Netz,2026,HS,2.09,0.61,16.6,0.03,16.12.2025,https://www.swkiel-netz.de/fileadmin/user_upload_swk_netz/dokumente/strom/marktpartner/entgelte/2026/SWKN_Preisblatt_Strom_2026.pdf
+SWKiel Netz,2026,HS/MS,7.61,1.63,44.59,0.16,16.12.2025,https://www.swkiel-netz.de/fileadmin/user_upload_swk_netz/dokumente/strom/marktpartner/entgelte/2026/SWKN_Preisblatt_Strom_2026.pdf
+SWKiel Netz,2026,MS,16.2,2.58,69.79,0.46,16.12.2025,https://www.swkiel-netz.de/fileadmin/user_upload_swk_netz/dokumente/strom/marktpartner/entgelte/2026/SWKN_Preisblatt_Strom_2026.pdf
+SWKiel Netz,2026,MS/NS,34.31,4.2,109.47,1.2,16.12.2025,https://www.swkiel-netz.de/fileadmin/user_upload_swk_netz/dokumente/strom/marktpartner/entgelte/2026/SWKN_Preisblatt_Strom_2026.pdf
+SWKiel Netz,2026,NS,69.0,5.68,142.22,2.75,16.12.2025,https://www.swkiel-netz.de/fileadmin/user_upload_swk_netz/dokumente/strom/marktpartner/entgelte/2026/SWKN_Preisblatt_Strom_2026.pdf
+MITNETZ Strom,2026,HS,23.11,2.82,84.86,0.35,endgültig 12.12.2025,https://www.mitnetz-strom.de/Media/docs/default-source/datei-ablage/2026_mns_pb_endg%C3%BCltig_12-12-2025_neuescd.pdf?sfvrsn=e7f356f8_3
+MITNETZ Strom,2026,HS/MS,30.39,3.46,102.89,0.56,endgültig 12.12.2025,https://www.mitnetz-strom.de/Media/docs/default-source/datei-ablage/2026_mns_pb_endg%C3%BCltig_12-12-2025_neuescd.pdf?sfvrsn=e7f356f8_3
+MITNETZ Strom,2026,MS,34.87,3.92,116.12,0.67,endgültig 12.12.2025,https://www.mitnetz-strom.de/Media/docs/default-source/datei-ablage/2026_mns_pb_endg%C3%BCltig_12-12-2025_neuescd.pdf?sfvrsn=e7f356f8_3
+MITNETZ Strom,2026,MS/NS,41.4,4.37,128.15,0.9,endgültig 12.12.2025,https://www.mitnetz-strom.de/Media/docs/default-source/datei-ablage/2026_mns_pb_endg%C3%BCltig_12-12-2025_neuescd.pdf?sfvrsn=e7f356f8_3
+MITNETZ Strom,2026,NS,46.88,4.99,146.63,1.0,endgültig 12.12.2025,https://www.mitnetz-strom.de/Media/docs/default-source/datei-ablage/2026_mns_pb_endg%C3%BCltig_12-12-2025_neuescd.pdf?sfvrsn=e7f356f8_3
+Syna,2026,HS/MS,9.6,5.44,134.13,0.46,2026,https://www.syna.de/content/dam/syna-de/dokumente/netz/netzentgelte-strom/preisblaetter-strom-2026-syna-gmbh.pdf
+Syna,2026,MS,13.17,7.05,159.73,1.18,2026,https://www.syna.de/content/dam/syna-de/dokumente/netz/netzentgelte-strom/preisblaetter-strom-2026-syna-gmbh.pdf
+Syna,2026,MS/NS,14.35,7.94,183.27,1.19,2026,https://www.syna.de/content/dam/syna-de/dokumente/netz/netzentgelte-strom/preisblaetter-strom-2026-syna-gmbh.pdf
+Syna,2026,NS,23.99,8.08,156.65,2.78,2026,https://www.syna.de/content/dam/syna-de/dokumente/netz/netzentgelte-strom/preisblaetter-strom-2026-syna-gmbh.pdf
+Netzgesellschaft Düsseldorf,2026,HS,11.87,3.04,75.4,0.49,endgültig 12.12.2025,https://a.storyblok.com/f/274773/x/dc3a61c884/2025-12-12_finales-preisblatt-nne-strom-2026.pdf
+Netzgesellschaft Düsseldorf,2026,HS/MS,13.32,4.28,105.66,0.58,endgültig 12.12.2025,https://a.storyblok.com/f/274773/x/dc3a61c884/2025-12-12_finales-preisblatt-nne-strom-2026.pdf
+Netzgesellschaft Düsseldorf,2026,MS,15.55,4.52,91.16,1.5,endgültig 12.12.2025,https://a.storyblok.com/f/274773/x/dc3a61c884/2025-12-12_finales-preisblatt-nne-strom-2026.pdf
+Netzgesellschaft Düsseldorf,2026,MS/NS,14.56,5.39,113.44,1.43,endgültig 12.12.2025,https://a.storyblok.com/f/274773/x/dc3a61c884/2025-12-12_finales-preisblatt-nne-strom-2026.pdf
+Netzgesellschaft Düsseldorf,2026,NS,19.57,6.12,75.34,3.89,endgültig 12.12.2025,https://a.storyblok.com/f/274773/x/dc3a61c884/2025-12-12_finales-preisblatt-nne-strom-2026.pdf
+Stadtwerke Karlsruhe Netzservice,2026,HS,13.89,4.45,119.51,0.22,05.12.2025,https://www.netzservice-swka.de/netze-wAssets/docs/downloads/preisblatt-strom-2026.pdf
+Stadtwerke Karlsruhe Netzservice,2026,HS/MS,15.22,4.93,133.03,0.22,05.12.2025,https://www.netzservice-swka.de/netze-wAssets/docs/downloads/preisblatt-strom-2026.pdf
+Stadtwerke Karlsruhe Netzservice,2026,MS,20.17,5.06,132.06,0.59,05.12.2025,https://www.netzservice-swka.de/netze-wAssets/docs/downloads/preisblatt-strom-2026.pdf
+Stadtwerke Karlsruhe Netzservice,2026,MS/NS,22.78,5.16,136.68,0.61,05.12.2025,https://www.netzservice-swka.de/netze-wAssets/docs/downloads/preisblatt-strom-2026.pdf
+Stadtwerke Karlsruhe Netzservice,2026,NS,22.21,7.11,102.31,3.9,05.12.2025,https://www.netzservice-swka.de/netze-wAssets/docs/downloads/preisblatt-strom-2026.pdf
+Stadtwerke Wiesbaden Netz,2026,HS,18.92,3.41,70.05,1.36,2026,https://www.sw-netz.de/wp-content/uploads/Preisblatt-ab-01.01.2026-Internet.pdf
+Stadtwerke Wiesbaden Netz,2026,HS/MS,20.05,3.77,79.87,1.38,2026,https://www.sw-netz.de/wp-content/uploads/Preisblatt-ab-01.01.2026-Internet.pdf
+Stadtwerke Wiesbaden Netz,2026,MS,31.1,4.73,84.69,2.58,2026,https://www.sw-netz.de/wp-content/uploads/Preisblatt-ab-01.01.2026-Internet.pdf
+Stadtwerke Wiesbaden Netz,2026,MS/NS,35.4,5.66,106.31,2.83,2026,https://www.sw-netz.de/wp-content/uploads/Preisblatt-ab-01.01.2026-Internet.pdf
+Stadtwerke Wiesbaden Netz,2026,NS,47.21,6.77,114.39,4.08,2026,https://www.sw-netz.de/wp-content/uploads/Preisblatt-ab-01.01.2026-Internet.pdf
+Energienetze Offenbach,2026,HS,14.66,4.69,126.15,0.23,endgültig 19.12.2025,https://www.energienetze-offenbach.de/fileadmin/user_upload_eno/Dokumente/Strom/Netzzugang/Netzentgelte_Strom/251219_ENO_finale_Preisblaetter_Strom_2026_Of_ohneUmlagen.pdf
+Energienetze Offenbach,2026,HS/MS,15.81,5.1,137.43,0.24,endgültig 19.12.2025,https://www.energienetze-offenbach.de/fileadmin/user_upload_eno/Dokumente/Strom/Netzzugang/Netzentgelte_Strom/251219_ENO_finale_Preisblaetter_Strom_2026_Of_ohneUmlagen.pdf
+Energienetze Offenbach,2026,MS,20.35,5.93,145.69,0.92,endgültig 19.12.2025,https://www.energienetze-offenbach.de/fileadmin/user_upload_eno/Dokumente/Strom/Netzzugang/Netzentgelte_Strom/251219_ENO_finale_Preisblaetter_Strom_2026_Of_ohneUmlagen.pdf
+Energienetze Offenbach,2026,MS/NS,22.04,6.01,143.27,1.16,endgültig 19.12.2025,https://www.energienetze-offenbach.de/fileadmin/user_upload_eno/Dokumente/Strom/Netzzugang/Netzentgelte_Strom/251219_ENO_finale_Preisblaetter_Strom_2026_Of_ohneUmlagen.pdf
+Energienetze Offenbach,2026,NS,22.95,6.19,97.04,3.22,endgültig 19.12.2025,https://www.energienetze-offenbach.de/fileadmin/user_upload_eno/Dokumente/Strom/Netzzugang/Netzentgelte_Strom/251219_ENO_finale_Preisblaetter_Strom_2026_Of_ohneUmlagen.pdf
+NGN Niederrhein (Krefeld),2026,HS,13.94,3.34,80.85,0.67,2026,https://cdn.swk.de/assets/download/Preisblatt%20Netznutzung%20Strom%202026.pdf
+NGN Niederrhein (Krefeld),2026,HS/MS,16.0,3.57,83.51,0.87,2026,https://cdn.swk.de/assets/download/Preisblatt%20Netznutzung%20Strom%202026.pdf
+NGN Niederrhein (Krefeld),2026,MS,15.2,5.23,117.5,1.14,2026,https://cdn.swk.de/assets/download/Preisblatt%20Netznutzung%20Strom%202026.pdf
+NGN Niederrhein (Krefeld),2026,MS/NS,16.99,5.57,121.7,1.38,2026,https://cdn.swk.de/assets/download/Preisblatt%20Netznutzung%20Strom%202026.pdf
+NGN Niederrhein (Krefeld),2026,NS,17.6,5.98,58.28,4.36,2026,https://cdn.swk.de/assets/download/Preisblatt%20Netznutzung%20Strom%202026.pdf
+inetz (Chemnitz),2026,HS,13.09,4.5,123.6,0.08,endgültig 18.12.2025,https://www.inetz.de/fileadmin/dokumente/02_Netzzugang/01_Netzentgelte/Strom/inetz_S_NNE_e2026.pdf
+inetz (Chemnitz),2026,HS/MS,16.99,5.44,146.09,0.27,endgültig 18.12.2025,https://www.inetz.de/fileadmin/dokumente/02_Netzzugang/01_Netzentgelte/Strom/inetz_S_NNE_e2026.pdf
+inetz (Chemnitz),2026,MS,24.23,6.05,148.62,1.07,endgültig 18.12.2025,https://www.inetz.de/fileadmin/dokumente/02_Netzzugang/01_Netzentgelte/Strom/inetz_S_NNE_e2026.pdf
+inetz (Chemnitz),2026,MS/NS,40.34,6.13,163.58,1.2,endgültig 18.12.2025,https://www.inetz.de/fileadmin/dokumente/02_Netzzugang/01_Netzentgelte/Strom/inetz_S_NNE_e2026.pdf
+inetz (Chemnitz),2026,NS,49.33,7.89,147.94,3.94,endgültig 18.12.2025,https://www.inetz.de/fileadmin/dokumente/02_Netzzugang/01_Netzentgelte/Strom/inetz_S_NNE_e2026.pdf
+SWU Netze (Ulm/Neu-Ulm),2026,HS,2.51,3.42,72.92,0.6,2026,https://www.ulm-netze.de/fileadmin/content/downloadcenter/Strom/Preisblaetter/Ulm-Netze-Strom-Netznutzungspreise-2026.pdf
+SWU Netze (Ulm/Neu-Ulm),2026,HS/MS,2.18,5.14,95.84,1.39,2026,https://www.ulm-netze.de/fileadmin/content/downloadcenter/Strom/Preisblaetter/Ulm-Netze-Strom-Netznutzungspreise-2026.pdf
+SWU Netze (Ulm/Neu-Ulm),2026,MS,2.44,5.67,104.1,1.6,2026,https://www.ulm-netze.de/fileadmin/content/downloadcenter/Strom/Preisblaetter/Ulm-Netze-Strom-Netznutzungspreise-2026.pdf
+SWU Netze (Ulm/Neu-Ulm),2026,MS/NS,2.03,6.68,101.51,2.7,2026,https://www.ulm-netze.de/fileadmin/content/downloadcenter/Strom/Preisblaetter/Ulm-Netze-Strom-Netznutzungspreise-2026.pdf
+SWU Netze (Ulm/Neu-Ulm),2026,NS,1.14,7.57,114.29,3.04,2026,https://www.ulm-netze.de/fileadmin/content/downloadcenter/Strom/Preisblaetter/Ulm-Netze-Strom-Netznutzungspreise-2026.pdf
+Stadtwerke Heidelberg Netze,2026,HS,11.76,3.71,99.26,0.21,2026,https://www.netze-heidelberg.de/de/Veroeffentlichungspflichten/Stromnetz/Preisblatt-Netznutzung-Strom-2026-1-.pdf
+Stadtwerke Heidelberg Netze,2026,HS/MS,15.19,4.74,126.94,0.27,2026,https://www.netze-heidelberg.de/de/Veroeffentlichungspflichten/Stromnetz/Preisblatt-Netznutzung-Strom-2026-1-.pdf
+Stadtwerke Heidelberg Netze,2026,MS,21.79,5.77,145.29,0.83,2026,https://www.netze-heidelberg.de/de/Veroeffentlichungspflichten/Stromnetz/Preisblatt-Netznutzung-Strom-2026-1-.pdf
+Stadtwerke Heidelberg Netze,2026,MS/NS,24.07,6.35,159.82,0.92,2026,https://www.netze-heidelberg.de/de/Veroeffentlichungspflichten/Stromnetz/Preisblatt-Netznutzung-Strom-2026-1-.pdf
+Stadtwerke Heidelberg Netze,2026,NS,20.95,7.0,171.45,0.98,2026,https://www.netze-heidelberg.de/de/Veroeffentlichungspflichten/Stromnetz/Preisblatt-Netznutzung-Strom-2026-1-.pdf
+AllgäuNetz,2026,HS,2.07,8.11,203.8,0.05,endgültig 22.12.2025,https://www.allgaeunetz.com/download/2025_12_22_preisblatt_nne_2026_endg.pdf
+AllgäuNetz,2026,HS/MS,8.39,8.5,213.22,0.3,endgültig 22.12.2025,https://www.allgaeunetz.com/download/2025_12_22_preisblatt_nne_2026_endg.pdf
+AllgäuNetz,2026,MS,11.39,9.1,225.82,0.52,endgültig 22.12.2025,https://www.allgaeunetz.com/download/2025_12_22_preisblatt_nne_2026_endg.pdf
+AllgäuNetz,2026,MS/NS,19.24,9.31,224.33,1.1,endgültig 22.12.2025,https://www.allgaeunetz.com/download/2025_12_22_preisblatt_nne_2026_endg.pdf
+AllgäuNetz,2026,NS,27.78,8.96,118.63,5.33,endgültig 22.12.2025,https://www.allgaeunetz.com/download/2025_12_22_preisblatt_nne_2026_endg.pdf
+Netzgesellschaft Potsdam,2026,HS,9.83,2.91,76.32,0.25,endgültig 22.12.2025,https://www.ngp-potsdam.de/content/pdf/unsere_sparten_1/strom_1/veroeffentlichungspflichten_strom/netzentgelte_strom/preisblatt_strom_2026_end_22_12_2025.pdf
+Netzgesellschaft Potsdam,2026,HS/MS,11.21,3.5,97.29,0.05,endgültig 22.12.2025,https://www.ngp-potsdam.de/content/pdf/unsere_sparten_1/strom_1/veroeffentlichungspflichten_strom/netzentgelte_strom/preisblatt_strom_2026_end_22_12_2025.pdf
+Netzgesellschaft Potsdam,2026,MS,22.7,4.11,93.11,1.29,endgültig 22.12.2025,https://www.ngp-potsdam.de/content/pdf/unsere_sparten_1/strom_1/veroeffentlichungspflichten_strom/netzentgelte_strom/preisblatt_strom_2026_end_22_12_2025.pdf
+Netzgesellschaft Potsdam,2026,MS/NS,25.64,5.7,156.61,0.46,endgültig 22.12.2025,https://www.ngp-potsdam.de/content/pdf/unsere_sparten_1/strom_1/veroeffentlichungspflichten_strom/netzentgelte_strom/preisblatt_strom_2026_end_22_12_2025.pdf
+Netzgesellschaft Potsdam,2026,NS,40.92,5.97,130.03,2.41,endgültig 22.12.2025,https://www.ngp-potsdam.de/content/pdf/unsere_sparten_1/strom_1/veroeffentlichungspflichten_strom/netzentgelte_strom/preisblatt_strom_2026_end_22_12_2025.pdf
+Stadtwerke Herne,2026,HS/MS,13.78,4.1,107.53,0.35,2026,https://www.stadtwerke-herne.de/IV.Netze/Netze_2026/Weitere%20Services/Ver%C3%B6ffentlichungpflichten/Netzzugang%20Strom/SW-Herne_Netzentgelte-Strom-g%C3%BCltig-ab-01.01.2026.pdf
+Stadtwerke Herne,2026,MS,19.97,5.4,137.47,0.7,2026,https://www.stadtwerke-herne.de/IV.Netze/Netze_2026/Weitere%20Services/Ver%C3%B6ffentlichungpflichten/Netzzugang%20Strom/SW-Herne_Netzentgelte-Strom-g%C3%BCltig-ab-01.01.2026.pdf
+Stadtwerke Herne,2026,MS/NS,21.83,5.99,152.33,0.77,2026,https://www.stadtwerke-herne.de/IV.Netze/Netze_2026/Weitere%20Services/Ver%C3%B6ffentlichungpflichten/Netzzugang%20Strom/SW-Herne_Netzentgelte-Strom-g%C3%BCltig-ab-01.01.2026.pdf
+Stadtwerke Herne,2026,NS,33.16,7.0,158.41,1.99,2026,https://www.stadtwerke-herne.de/IV.Netze/Netze_2026/Weitere%20Services/Ver%C3%B6ffentlichungpflichten/Netzzugang%20Strom/SW-Herne_Netzentgelte-Strom-g%C3%BCltig-ab-01.01.2026.pdf
+Stadtwerke Jena Netze,2026,MS,9.07,5.55,134.39,0.54,2026,https://www.stadtwerke-jena-netze.de/dam/jcr:e088d2e4-6d4c-407a-b333-a940cdbf30d2/NBS_2026_Pb1_NNEmrLM.pdf
+Stadtwerke Jena Netze,2026,NS,14.87,7.12,155.66,1.49,2026,https://www.stadtwerke-jena-netze.de/dam/jcr:e088d2e4-6d4c-407a-b333-a940cdbf30d2/NBS_2026_Pb1_NNEmrLM.pdf
+Creos Deutschland,2026,HS,5.83,3.75,92.79,0.27,endgültig 18.12.2025,https://www.creos-net.de/fileadmin/dokumente/Creos_Deutschland_Stromnetz/Netze/Netzentgelte/251218_Preisbl%C3%A4tter_NNE_Strom_2026_endg%C3%BCltig_Creos.pdf
+Creos Deutschland,2026,HS/MS,21.09,4.09,116.45,0.28,endgültig 18.12.2025,https://www.creos-net.de/fileadmin/dokumente/Creos_Deutschland_Stromnetz/Netze/Netzentgelte/251218_Preisbl%C3%A4tter_NNE_Strom_2026_endg%C3%BCltig_Creos.pdf
+Creos Deutschland,2026,MS,27.32,4.26,126.57,0.29,endgültig 18.12.2025,https://www.creos-net.de/fileadmin/dokumente/Creos_Deutschland_Stromnetz/Netze/Netzentgelte/251218_Preisbl%C3%A4tter_NNE_Strom_2026_endg%C3%BCltig_Creos.pdf
+Creos Deutschland,2026,MS/NS,32.51,5.14,153.06,0.31,endgültig 18.12.2025,https://www.creos-net.de/fileadmin/dokumente/Creos_Deutschland_Stromnetz/Netze/Netzentgelte/251218_Preisbl%C3%A4tter_NNE_Strom_2026_endg%C3%BCltig_Creos.pdf
+Creos Deutschland,2026,NS,46.18,6.55,170.96,1.56,endgültig 18.12.2025,https://www.creos-net.de/fileadmin/dokumente/Creos_Deutschland_Stromnetz/Netze/Netzentgelte/251218_Preisbl%C3%A4tter_NNE_Strom_2026_endg%C3%BCltig_Creos.pdf
+Mainzer Netze,2026,HS,12.73,4.36,119.73,0.08,2026,https://www.mainzer-netze.de/-/media/project/mainzer-stadtwerke/websites-mainzer-netze/mainzer-netze/dateien/ordnerstruktur-clean/g_s_w_preise-netzentgelte/strom/s_preisblatt_2026.pdf?rev=0b246c97be4b493188d844c94c08eb1f
+Mainzer Netze,2026,MS,15.41,4.91,131.41,0.27,2026,https://www.mainzer-netze.de/-/media/project/mainzer-stadtwerke/websites-mainzer-netze/mainzer-netze/dateien/ordnerstruktur-clean/g_s_w_preise-netzentgelte/strom/s_preisblatt_2026.pdf?rev=0b246c97be4b493188d844c94c08eb1f
+Mainzer Netze,2026,MS/NS,17.91,5.49,145.16,0.4,2026,https://www.mainzer-netze.de/-/media/project/mainzer-stadtwerke/websites-mainzer-netze/mainzer-netze/dateien/ordnerstruktur-clean/g_s_w_preise-netzentgelte/strom/s_preisblatt_2026.pdf?rev=0b246c97be4b493188d844c94c08eb1f
+Mainzer Netze,2026,NS,20.93,5.81,148.68,0.7,2026,https://www.mainzer-netze.de/-/media/project/mainzer-stadtwerke/websites-mainzer-netze/mainzer-netze/dateien/ordnerstruktur-clean/g_s_w_preise-netzentgelte/strom/s_preisblatt_2026.pdf?rev=0b246c97be4b493188d844c94c08eb1f
+wesernetz Bremen,2026,HS,6.5,3.81,90.55,0.45,2026,https://www.wesernetz.de/-/media/wesernetz/downloads-aktuell/fuer-partner/energielieferanten/stromnetz/stromentgelte/hb/nenu_hb_104_118_preisblatt_1_strom_netznutzung_2026_web.pdf
+wesernetz Bremen,2026,HS/MS,8.1,4.5,114.99,0.23,2026,https://www.wesernetz.de/-/media/wesernetz/downloads-aktuell/fuer-partner/energielieferanten/stromnetz/stromentgelte/hb/nenu_hb_104_118_preisblatt_1_strom_netznutzung_2026_web.pdf
+wesernetz Bremen,2026,MS,10.35,5.2,106.5,1.35,2026,https://www.wesernetz.de/-/media/wesernetz/downloads-aktuell/fuer-partner/energielieferanten/stromnetz/stromentgelte/hb/nenu_hb_104_118_preisblatt_1_strom_netznutzung_2026_web.pdf
+wesernetz Bremen,2026,MS/NS,11.31,5.46,114.52,1.33,2026,https://www.wesernetz.de/-/media/wesernetz/downloads-aktuell/fuer-partner/energielieferanten/stromnetz/stromentgelte/hb/nenu_hb_104_118_preisblatt_1_strom_netznutzung_2026_web.pdf
+wesernetz Bremen,2026,NS,13.17,6.46,84.94,3.58,2026,https://www.wesernetz.de/-/media/wesernetz/downloads-aktuell/fuer-partner/energielieferanten/stromnetz/stromentgelte/hb/nenu_hb_104_118_preisblatt_1_strom_netznutzung_2026_web.pdf
+Netze Duisburg,2026,HS,5.13,5.21,134.04,0.05,endgültig 15.12.2025,https://www.netze-duisburg.de/fileadmin/user_upload/Netz_nutzen/Netzentgelte/Strom/251215_Netze_Duisburg_-_Preisblatt_Strom_2026_Final.pdf
+Netze Duisburg,2026,HS/MS,10.11,5.79,134.23,0.82,endgültig 15.12.2025,https://www.netze-duisburg.de/fileadmin/user_upload/Netz_nutzen/Netzentgelte/Strom/251215_Netze_Duisburg_-_Preisblatt_Strom_2026_Final.pdf
+Netze Duisburg,2026,MS,10.96,6.46,134.52,1.52,endgültig 15.12.2025,https://www.netze-duisburg.de/fileadmin/user_upload/Netz_nutzen/Netzentgelte/Strom/251215_Netze_Duisburg_-_Preisblatt_Strom_2026_Final.pdf
+Netze Duisburg,2026,MS/NS,12.77,6.75,135.38,1.84,endgültig 15.12.2025,https://www.netze-duisburg.de/fileadmin/user_upload/Netz_nutzen/Netzentgelte/Strom/251215_Netze_Duisburg_-_Preisblatt_Strom_2026_Final.pdf
+Netze Duisburg,2026,NS,16.92,7.71,136.38,2.94,endgültig 15.12.2025,https://www.netze-duisburg.de/fileadmin/user_upload/Netz_nutzen/Netzentgelte/Strom/251215_Netze_Duisburg_-_Preisblatt_Strom_2026_Final.pdf
+Energie Waldeck-Frankenberg,2026,HS/MS,9.9,2.31,55.04,0.5,endgültig,https://www.ewf.de/fileadmin/user_upload/netz/strom/20251231_EWF_Strom_01_Netznutzungsentgelte_2026_final.pdf
+Energie Waldeck-Frankenberg,2026,MS,15.81,4.4,112.8,0.52,endgültig,https://www.ewf.de/fileadmin/user_upload/netz/strom/20251231_EWF_Strom_01_Netznutzungsentgelte_2026_final.pdf
+Energie Waldeck-Frankenberg,2026,MS/NS,17.68,5.76,155.72,0.24,endgültig,https://www.ewf.de/fileadmin/user_upload/netz/strom/20251231_EWF_Strom_01_Netznutzungsentgelte_2026_final.pdf
+Energie Waldeck-Frankenberg,2026,NS,33.54,5.91,119.74,2.46,endgültig,https://www.ewf.de/fileadmin/user_upload/netz/strom/20251231_EWF_Strom_01_Netznutzungsentgelte_2026_final.pdf
+Stadtwerke Elbtal,2026,MS,16.83,5.23,139.33,0.33,2026,https://www.stadtwerke-elbtal.de/fileadmin/user_upload/pdf/netz-strom/preisblaetter-strom/PB-M-20260101.pdf
+FairNetz (Reutlingen),2026,HS,12.73,5.18,134.42,0.31,endgültig 16.12.2025,https://www.fairnetzgmbh.de/Downloads/PDF/Strom/Preise-Preisbl%C3%A4tter/2026/Preisblatt%20Strom%20NN_01.2026.pdf
+FairNetz (Reutlingen),2026,HS/MS,13.89,5.65,146.72,0.34,endgültig 16.12.2025,https://www.fairnetzgmbh.de/Downloads/PDF/Strom/Preise-Preisbl%C3%A4tter/2026/Preisblatt%20Strom%20NN_01.2026.pdf
+FairNetz (Reutlingen),2026,MS,16.96,6.55,166.99,0.55,endgültig 16.12.2025,https://www.fairnetzgmbh.de/Downloads/PDF/Strom/Preise-Preisbl%C3%A4tter/2026/Preisblatt%20Strom%20NN_01.2026.pdf
+FairNetz (Reutlingen),2026,MS/NS,19.04,7.07,177.36,0.73,endgültig 16.12.2025,https://www.fairnetzgmbh.de/Downloads/PDF/Strom/Preise-Preisbl%C3%A4tter/2026/Preisblatt%20Strom%20NN_01.2026.pdf
+FairNetz (Reutlingen),2026,NS,24.08,7.59,177.28,1.46,endgültig 16.12.2025,https://www.fairnetzgmbh.de/Downloads/PDF/Strom/Preise-Preisbl%C3%A4tter/2026/Preisblatt%20Strom%20NN_01.2026.pdf
+EVH Halle Netz,2026,HS,13.74,5.37,133.97,0.56,09.12.2025,https://netzhalle.de/sixcms/media.php/233/Netzentgelte_Strom_2026_Preisblatt_1.pdf
+EVH Halle Netz,2026,HS/MS,18.15,6.82,183.41,0.21,09.12.2025,https://netzhalle.de/sixcms/media.php/233/Netzentgelte_Strom_2026_Preisblatt_1.pdf
+EVH Halle Netz,2026,MS,21.62,7.35,169.18,1.45,09.12.2025,https://netzhalle.de/sixcms/media.php/233/Netzentgelte_Strom_2026_Preisblatt_1.pdf
+EVH Halle Netz,2026,MS/NS,24.64,7.54,161.58,2.06,09.12.2025,https://netzhalle.de/sixcms/media.php/233/Netzentgelte_Strom_2026_Preisblatt_1.pdf
+EVH Halle Netz,2026,NS,26.76,8.28,148.97,3.39,09.12.2025,https://netzhalle.de/sixcms/media.php/233/Netzentgelte_Strom_2026_Preisblatt_1.pdf
+SWS Netze Solingen,2026,MS,21.23,5.38,131.23,0.98,endgültig 16.12.2025,https://www.netze-solingen.de/fileadmin/SWS_Netze/Marktpartner/Veroeffentlichungspflichten_Strom/Netzengelte_Strom_Preisblaetter/2025_12_16_Endgueltige_Entgelte_fuer_Netznutzung_Strom_gueltig_ab_01-01-2026.pdf
+SWS Netze Solingen,2026,MS/NS,23.42,6.22,152.17,1.07,endgültig 16.12.2025,https://www.netze-solingen.de/fileadmin/SWS_Netze/Marktpartner/Veroeffentlichungspflichten_Strom/Netzengelte_Strom_Preisblaetter/2025_12_16_Endgueltige_Entgelte_fuer_Netznutzung_Strom_gueltig_ab_01-01-2026.pdf
+SWS Netze Solingen,2026,NS,27.35,7.28,164.35,1.8,endgültig 16.12.2025,https://www.netze-solingen.de/fileadmin/SWS_Netze/Marktpartner/Veroeffentlichungspflichten_Strom/Netzengelte_Strom_Preisblaetter/2025_12_16_Endgueltige_Entgelte_fuer_Netznutzung_Strom_gueltig_ab_01-01-2026.pdf
+Hanau Netz,2026,HS/MS,16.65,3.84,91.25,0.86,endgültig 10.12.2025,https://hanau-netz.de/assets/img/04_Marktpartner/01_Strom/20251210-HaNeG-PB-NN-Strom-ab-01.01.2026-24.0_s.pdf
+Hanau Netz,2026,MS,22.29,3.83,76.11,1.68,endgültig 10.12.2025,https://hanau-netz.de/assets/img/04_Marktpartner/01_Strom/20251210-HaNeG-PB-NN-Strom-ab-01.01.2026-24.0_s.pdf
+Hanau Netz,2026,MS/NS,29.22,4.77,90.96,2.3,endgültig 10.12.2025,https://hanau-netz.de/assets/img/04_Marktpartner/01_Strom/20251210-HaNeG-PB-NN-Strom-ab-01.01.2026-24.0_s.pdf
+Hanau Netz,2026,NS,43.67,4.93,58.64,4.3,endgültig 10.12.2025,https://hanau-netz.de/assets/img/04_Marktpartner/01_Strom/20251210-HaNeG-PB-NN-Strom-ab-01.01.2026-24.0_s.pdf
+Stadtwerke Hameln Weserbergland,2026,MS,22.0,4.76,109.53,1.26,31.12.2025,https://www.stwhw-netze.de/fileadmin/user_upload/Netzengelt/Strom_ham26_31.12.2025.pdf
+Stadtwerke Hameln Weserbergland,2026,MS/NS,26.37,5.16,112.18,1.73,31.12.2025,https://www.stwhw-netze.de/fileadmin/user_upload/Netzengelt/Strom_ham26_31.12.2025.pdf
+Stadtwerke Hameln Weserbergland,2026,NS,30.55,5.62,117.29,2.15,31.12.2025,https://www.stwhw-netze.de/fileadmin/user_upload/Netzengelt/Strom_ham26_31.12.2025.pdf
+Stadtwerke Flensburg,2026,MS,5.9,5.1,125.5,0.32,2026,https://www.stadtwerke-flensburg.de/fileadmin/user_upload/PDFs/1.2_Service/1.2.7_Downloads/Netze/netzentgelte_strom_2026_barrierefrei.pdf
+Stadtwerke Flensburg,2026,MS/NS,8.13,7.0,162.69,0.82,2026,https://www.stadtwerke-flensburg.de/fileadmin/user_upload/PDFs/1.2_Service/1.2.7_Downloads/Netze/netzentgelte_strom_2026_barrierefrei.pdf
+Stadtwerke Flensburg,2026,NS,16.35,7.07,121.86,2.85,2026,https://www.stadtwerke-flensburg.de/fileadmin/user_upload/PDFs/1.2_Service/1.2.7_Downloads/Netze/netzentgelte_strom_2026_barrierefrei.pdf
+SWK Kaiserslautern,2026,MS,17.84,5.56,130.34,1.06,2026,https://www.swk-kl.de/_Resources/Persistent/2/4/c/5/24c5f8b74cea036c0173e9b36f76b091f1a7d7ea/SWKVersorgung_Preisblatt_Netznutzung_Strom-01-01-2026.pdf
+SWK Kaiserslautern,2026,MS/NS,18.59,7.04,179.53,0.6,2026,https://www.swk-kl.de/_Resources/Persistent/2/4/c/5/24c5f8b74cea036c0173e9b36f76b091f1a7d7ea/SWKVersorgung_Preisblatt_Netznutzung_Strom-01-01-2026.pdf
+SWK Kaiserslautern,2026,NS,39.35,6.89,138.89,2.91,2026,https://www.swk-kl.de/_Resources/Persistent/2/4/c/5/24c5f8b74cea036c0173e9b36f76b091f1a7d7ea/SWKVersorgung_Preisblatt_Netznutzung_Strom-01-01-2026.pdf
+Stadtwerke Ingolstadt Netze,2026,HS/MS,12.45,3.99,107.32,0.2,2026,https://swi-netze.de/fileadmin/media/04_Netze/C_Netze_Downloads/PDFs/01_Strom/Entgelte/2026_01_01_Preisblatt_SWI_Strom_2026.pdf
+Stadtwerke Ingolstadt Netze,2026,MS,6.11,5.97,128.13,1.09,2026,https://swi-netze.de/fileadmin/media/04_Netze/C_Netze_Downloads/PDFs/01_Strom/Entgelte/2026_01_01_Preisblatt_SWI_Strom_2026.pdf
+Stadtwerke Ingolstadt Netze,2026,MS/NS,6.65,6.01,122.36,1.38,2026,https://swi-netze.de/fileadmin/media/04_Netze/C_Netze_Downloads/PDFs/01_Strom/Entgelte/2026_01_01_Preisblatt_SWI_Strom_2026.pdf
+Stadtwerke Ingolstadt Netze,2026,NS,7.25,6.32,115.5,1.99,2026,https://swi-netze.de/fileadmin/media/04_Netze/C_Netze_Downloads/PDFs/01_Strom/Entgelte/2026_01_01_Preisblatt_SWI_Strom_2026.pdf
+Stadtwerke Frankenthal,2026,MS,50.68,4.43,124.83,1.47,2026,https://www.stw-frankenthal.de/_Resources/Persistent/0/e/5/4/0e54cd560e4580f4257501b8b0846be71fc46021/Preisblatt%20FT%20Stromnetzentgelte%20%28ab%2001.01.2026%29.pdf
+Stadtwerke Frankenthal,2026,MS/NS,62.32,6.63,194.81,1.33,2026,https://www.stw-frankenthal.de/_Resources/Persistent/0/e/5/4/0e54cd560e4580f4257501b8b0846be71fc46021/Preisblatt%20FT%20Stromnetzentgelte%20%28ab%2001.01.2026%29.pdf
+Stadtwerke Frankenthal,2026,NS,80.37,5.91,130.34,3.91,2026,https://www.stw-frankenthal.de/_Resources/Persistent/0/e/5/4/0e54cd560e4580f4257501b8b0846be71fc46021/Preisblatt%20FT%20Stromnetzentgelte%20%28ab%2001.01.2026%29.pdf
+Stadtwerke Hockenheim,2026,MS,20.64,6.09,159.44,0.54,2026,https://www.stadtwerke-hockenheim.de/Topmenue/Netze/Stromnetz/Netzzugang-Entgelte/Preisblatt-NNE-Strom-Teil-I.pdf
+Stadtwerke Hockenheim,2026,MS/NS,22.71,7.08,178.81,0.84,2026,https://www.stadtwerke-hockenheim.de/Topmenue/Netze/Stromnetz/Netzzugang-Entgelte/Preisblatt-NNE-Strom-Teil-I.pdf
+Stadtwerke Hockenheim,2026,NS,24.83,8.4,204.78,1.21,2026,https://www.stadtwerke-hockenheim.de/Topmenue/Netze/Stromnetz/Netzzugang-Entgelte/Preisblatt-NNE-Strom-Teil-I.pdf
+Stadtwerke Iserlohn,2026,HS,7.2,5.02,128.2,0.18,endgültig 16.12.2025,https://www.stadtwerke-iserlohn.de/582364-stadtwerke-iserlohn-de-wAssets/docs/netz/stromnetz/netzentgelte-strom/finales-preisblatt-strom-nne-2026-2025_12_16.pdf
+Stadtwerke Iserlohn,2026,HS/MS,7.43,5.39,139.18,0.12,endgültig 16.12.2025,https://www.stadtwerke-iserlohn.de/582364-stadtwerke-iserlohn-de-wAssets/docs/netz/stromnetz/netzentgelte-strom/finales-preisblatt-strom-nne-2026-2025_12_16.pdf
+Stadtwerke Iserlohn,2026,MS,11.21,6.33,146.96,0.9,endgültig 16.12.2025,https://www.stadtwerke-iserlohn.de/582364-stadtwerke-iserlohn-de-wAssets/docs/netz/stromnetz/netzentgelte-strom/finales-preisblatt-strom-nne-2026-2025_12_16.pdf
+Stadtwerke Iserlohn,2026,MS/NS,12.43,7.2,169.18,0.93,endgültig 16.12.2025,https://www.stadtwerke-iserlohn.de/582364-stadtwerke-iserlohn-de-wAssets/docs/netz/stromnetz/netzentgelte-strom/finales-preisblatt-strom-nne-2026-2025_12_16.pdf
+Stadtwerke Iserlohn,2026,NS,14.94,8.01,181.69,1.34,endgültig 16.12.2025,https://www.stadtwerke-iserlohn.de/582364-stadtwerke-iserlohn-de-wAssets/docs/netz/stromnetz/netzentgelte-strom/finales-preisblatt-strom-nne-2026-2025_12_16.pdf
+Stadtwerke Landshut,2026,HS/MS,17.02,3.57,63.9,1.7,endgültig 2026,https://www.stadtwerke-landshut.de/wp-content/uploads/Netznutzungsentgelte-ab-01.01.2026.pdf
+Stadtwerke Landshut,2026,MS,18.41,3.87,69.11,1.84,endgültig 2026,https://www.stadtwerke-landshut.de/wp-content/uploads/Netznutzungsentgelte-ab-01.01.2026.pdf
+Stadtwerke Landshut,2026,MS/NS,19.33,4.06,72.56,1.93,endgültig 2026,https://www.stadtwerke-landshut.de/wp-content/uploads/Netznutzungsentgelte-ab-01.01.2026.pdf
+Stadtwerke Landshut,2026,NS,21.48,4.56,82.42,2.12,endgültig 2026,https://www.stadtwerke-landshut.de/wp-content/uploads/Netznutzungsentgelte-ab-01.01.2026.pdf
+Stadtwerke Lünen,2026,HS/MS,10.97,3.84,105.94,0.04,2026,https://www.stadtwerke-luenen.de/fileadmin/dokumente/strom/SWL24_Netznutzung_Preisblatt_2026_Strom.pdf
+Stadtwerke Lünen,2026,MS,28.51,5.97,134.98,1.71,2026,https://www.stadtwerke-luenen.de/fileadmin/dokumente/strom/SWL24_Netznutzung_Preisblatt_2026_Strom.pdf
+Stadtwerke Lünen,2026,MS/NS,31.91,6.38,140.47,2.04,2026,https://www.stadtwerke-luenen.de/fileadmin/dokumente/strom/SWL24_Netznutzung_Preisblatt_2026_Strom.pdf
+Stadtwerke Lünen,2026,NS,47.95,6.5,103.14,4.3,2026,https://www.stadtwerke-luenen.de/fileadmin/dokumente/strom/SWL24_Netznutzung_Preisblatt_2026_Strom.pdf
+Überlandwerk Rhön,2026,MS,22.73,4.22,91.13,1.48,vorläufig 15.10.2025,https://www.uew-rhoen.de/de/Netz/Veroeffentlichungen/Stromnetz/Netzzugang-Entgelte/Netznutzungsentgelte-vorlaeufig-ab-01.01.2026-Stand-15.10.2025.pdf
+Überlandwerk Rhön,2026,MS/NS,23.6,4.95,94.53,2.12,vorläufig 15.10.2025,https://www.uew-rhoen.de/de/Netz/Veroeffentlichungen/Stromnetz/Netzzugang-Entgelte/Netznutzungsentgelte-vorlaeufig-ab-01.01.2026-Stand-15.10.2025.pdf
+Überlandwerk Rhön,2026,NS,37.69,5.08,106.55,2.32,vorläufig 15.10.2025,https://www.uew-rhoen.de/de/Netz/Veroeffentlichungen/Stromnetz/Netzzugang-Entgelte/Netznutzungsentgelte-vorlaeufig-ab-01.01.2026-Stand-15.10.2025.pdf
+Stadtwerke Mosbach,2026,HS/MS,6.73,5.46,129.73,0.54,2026,https://www.swm-online.de/wp-content/uploads/Preisblatt_Netzentgelte_Strom_2026.pdf
+Stadtwerke Mosbach,2026,MS,9.17,5.55,133.62,0.57,2026,https://www.swm-online.de/wp-content/uploads/Preisblatt_Netzentgelte_Strom_2026.pdf
+Stadtwerke Mosbach,2026,MS/NS,14.42,7.74,175.86,1.28,2026,https://www.swm-online.de/wp-content/uploads/Preisblatt_Netzentgelte_Strom_2026.pdf
+Stadtwerke Mosbach,2026,NS,19.4,10.25,230.71,1.8,2026,https://www.swm-online.de/wp-content/uploads/Preisblatt_Netzentgelte_Strom_2026.pdf
+Stadtwerke Neustadt an der Weinstraße,2026,MS,4.69,7.09,169.6,0.5,vorläufig 10/2025,https://www.swneustadt.de/wp-content/uploads/2025/10/SWN-STROM-NE26-PREISBLATT.pdf
+Stadtwerke Neustadt an der Weinstraße,2026,MS/NS,5.7,8.06,170.12,1.48,vorläufig 10/2025,https://www.swneustadt.de/wp-content/uploads/2025/10/SWN-STROM-NE26-PREISBLATT.pdf
+Stadtwerke Neustadt an der Weinstraße,2026,NS,7.61,8.41,136.15,3.27,vorläufig 10/2025,https://www.swneustadt.de/wp-content/uploads/2025/10/SWN-STROM-NE26-PREISBLATT.pdf
+Stadtwerke Neuwied,2026,HS/MS,13.94,5.02,139.4,0.0,18.12.2025,https://www.swn-neuwied.de/swn/Netzbetrieb/EnWG/Stromnetz/Netzzugang-Entgelte/swn-netzentgelte-strom-2026.pdf
+Stadtwerke Neuwied,2026,MS,5.6,7.44,178.76,0.52,18.12.2025,https://www.swn-neuwied.de/swn/Netzbetrieb/EnWG/Stromnetz/Netzzugang-Entgelte/swn-netzentgelte-strom-2026.pdf
+Stadtwerke Neuwied,2026,MS/NS,4.96,9.05,224.54,0.27,18.12.2025,https://www.swn-neuwied.de/swn/Netzbetrieb/EnWG/Stromnetz/Netzzugang-Entgelte/swn-netzentgelte-strom-2026.pdf
+Stadtwerke Neuwied,2026,NS,6.72,8.94,143.23,3.48,18.12.2025,https://www.swn-neuwied.de/swn/Netzbetrieb/EnWG/Stromnetz/Netzzugang-Entgelte/swn-netzentgelte-strom-2026.pdf
+Stadtwerke Rastatt,2026,HS/MS,12.94,7.25,168.36,1.03,endgültig 2026,https://www.stadtwerke-rastatt.de/media/docs/service-und-beratung/netze/stromnetz/netzentgelte/Endgueltiges-Preisblatt-NNe-Strom-2026.pdf
+Stadtwerke Rastatt,2026,MS,14.88,8.35,193.93,1.18,endgültig 2026,https://www.stadtwerke-rastatt.de/media/docs/service-und-beratung/netze/stromnetz/netzentgelte/Endgueltiges-Preisblatt-NNe-Strom-2026.pdf
+Stadtwerke Rastatt,2026,MS/NS,17.78,8.89,204.37,1.43,endgültig 2026,https://www.stadtwerke-rastatt.de/media/docs/service-und-beratung/netze/stromnetz/netzentgelte/Endgueltiges-Preisblatt-NNe-Strom-2026.pdf
+Stadtwerke Rastatt,2026,NS,18.84,9.67,214.24,1.86,endgültig 2026,https://www.stadtwerke-rastatt.de/media/docs/service-und-beratung/netze/stromnetz/netzentgelte/Endgueltiges-Preisblatt-NNe-Strom-2026.pdf
+Energie- und Wasserversorgung Rheine,2026,HS/MS,10.57,4.09,110.84,0.08,vorläufig 23.10.2025,https://www.stadtwerke-rheine.de/de/Netze/Stromnetz/20251023-Preisblatt-2026-vorlaeufig-EWR.pdf
+Energie- und Wasserversorgung Rheine,2026,MS,4.81,6.03,153.67,0.08,vorläufig 23.10.2025,https://www.stadtwerke-rheine.de/de/Netze/Stromnetz/20251023-Preisblatt-2026-vorlaeufig-EWR.pdf
+Energie- und Wasserversorgung Rheine,2026,MS/NS,5.88,7.24,146.73,1.41,vorläufig 23.10.2025,https://www.stadtwerke-rheine.de/de/Netze/Stromnetz/20251023-Preisblatt-2026-vorlaeufig-EWR.pdf
+Energie- und Wasserversorgung Rheine,2026,NS,8.26,8.28,136.23,3.16,vorläufig 23.10.2025,https://www.stadtwerke-rheine.de/de/Netze/Stromnetz/20251023-Preisblatt-2026-vorlaeufig-EWR.pdf
+Stadtwerke Schweinfurt,2026,HS/MS,7.28,5.37,137.42,0.16,endgültig 2026,https://www.stadtwerke-sw.de/_Resources/Persistent/e/9/1/a/e91a8671e0b66f1eda30ef040baf0ef3c1a1b648/Preisblatt%20Netzentgelte%20Strom%202026.pdf
+Stadtwerke Schweinfurt,2026,MS,8.95,5.65,130.72,0.78,endgültig 2026,https://www.stadtwerke-sw.de/_Resources/Persistent/e/9/1/a/e91a8671e0b66f1eda30ef040baf0ef3c1a1b648/Preisblatt%20Netzentgelte%20Strom%202026.pdf
+Stadtwerke Schweinfurt,2026,MS/NS,10.72,5.98,129.02,1.25,endgültig 2026,https://www.stadtwerke-sw.de/_Resources/Persistent/e/9/1/a/e91a8671e0b66f1eda30ef040baf0ef3c1a1b648/Preisblatt%20Netzentgelte%20Strom%202026.pdf
+Stadtwerke Schweinfurt,2026,NS,10.54,6.2,126.49,1.56,endgültig 2026,https://www.stadtwerke-sw.de/_Resources/Persistent/e/9/1/a/e91a8671e0b66f1eda30ef040baf0ef3c1a1b648/Preisblatt%20Netzentgelte%20Strom%202026.pdf
+Stadtwerke Velbert,2026,HS/MS,8.23,5.93,152.73,0.15,2026,https://www.stadtwerke-velbert.de/fileadmin/documents/netze/strom/STW_Preisblatt-NetznutzungsentgelteStrom_01.01.2026.pdf
+Stadtwerke Velbert,2026,MS,14.44,8.16,190.94,1.1,2026,https://www.stadtwerke-velbert.de/fileadmin/documents/netze/strom/STW_Preisblatt-NetznutzungsentgelteStrom_01.01.2026.pdf
+Stadtwerke Velbert,2026,MS/NS,16.02,9.22,215.52,1.24,2026,https://www.stadtwerke-velbert.de/fileadmin/documents/netze/strom/STW_Preisblatt-NetznutzungsentgelteStrom_01.01.2026.pdf
+Stadtwerke Velbert,2026,NS,20.73,10.6,234.48,2.05,2026,https://www.stadtwerke-velbert.de/fileadmin/documents/netze/strom/STW_Preisblatt-NetznutzungsentgelteStrom_01.01.2026.pdf
+Stadtwerke Weinheim,2026,MS,9.21,5.89,144.21,0.49,18.12.2025,https://netz.sww.de/downloads/netz/20251218_Preisblatt_NE_Strom_2026_SWW.pdf
+Stadtwerke Weinheim,2026,NS,15.12,7.93,176.87,1.46,18.12.2025,https://netz.sww.de/downloads/netz/20251218_Preisblatt_NE_Strom_2026_SWW.pdf
+GEW Wilhelmshaven,2026,MS,15.03,3.49,83.22,0.77,vorläufig 2026,https://www.gew-wilhelmshaven.de/media/download/strom_netznutzungsentgelte_2026_vorlaeufig-1.pdf
+GEW Wilhelmshaven,2026,NS,34.54,6.77,147.08,2.26,vorläufig 2026,https://www.gew-wilhelmshaven.de/media/download/strom_netznutzungsentgelte_2026_vorlaeufig-1.pdf
+Stadtwerke Wolfenbüttel,2026,MS,20.84,7.14,160.21,1.57,16.12.2025,https://www.stadtwerke-wf.de/_Resources/Persistent/d/6/f/8/d6f8caed574242cb311fc5ad7c4759b6365cf922/NNE%20Strom%202026_SWW_2025-12-16.pdf
+Stadtwerke Wolfenbüttel,2026,MS/NS,24.66,7.82,176.93,1.73,16.12.2025,https://www.stadtwerke-wf.de/_Resources/Persistent/d/6/f/8/d6f8caed574242cb311fc5ad7c4759b6365cf922/NNE%20Strom%202026_SWW_2025-12-16.pdf
+Stadtwerke Wolfenbüttel,2026,NS,24.18,8.71,145.24,3.86,16.12.2025,https://www.stadtwerke-wf.de/_Resources/Persistent/d/6/f/8/d6f8caed574242cb311fc5ad7c4759b6365cf922/NNE%20Strom%202026_SWW_2025-12-16.pdf
+ENWG Energienetze Weimar,2026,MS,26.29,4.74,121.87,0.92,2026,https://enwg-weimar.de/fileadmin/user_upload/Enwg/Formularpool/2_Netzkunden_Lieferanten/ENWG_FEX0501_Aktuelles_PB_Strom.pdf
+ENWG Energienetze Weimar,2026,NS,43.07,7.14,174.49,1.88,2026,https://enwg-weimar.de/fileadmin/user_upload/Enwg/Formularpool/2_Netzkunden_Lieferanten/ENWG_FEX0501_Aktuelles_PB_Strom.pdf
+SWS Netze Stralsund,2026,MS,12.64,5.27,130.08,0.58,2026 (Stand 24.02.2026),https://www.netze-stralsund.de/fileadmin/www/tech/pdf/entgeltver%C3%B6ffentlichungen/stromnetz/swsn-entgeltaufstellung-strom-gesamtentgeltveroeffentlichung.pdf
+SWS Netze Stralsund,2026,MS/NS,16.82,5.67,125.94,1.3,2026 (Stand 24.02.2026),https://www.netze-stralsund.de/fileadmin/www/tech/pdf/entgeltver%C3%B6ffentlichungen/stromnetz/swsn-entgeltaufstellung-strom-gesamtentgeltveroeffentlichung.pdf
+SWS Netze Stralsund,2026,NS,27.08,5.88,89.11,3.4,2026 (Stand 24.02.2026),https://www.netze-stralsund.de/fileadmin/www/tech/pdf/entgeltver%C3%B6ffentlichungen/stromnetz/swsn-entgeltaufstellung-strom-gesamtentgeltveroeffentlichung.pdf
+Netzgesellschaft Frankfurt (Oder),2026,HS/MS,8.76,2.66,62.71,0.5,12.12.2025,https://www.netze-ffo.de/fileadmin/user_upload/netzentgelte_strom_ab_01.01.2026__stand_12.12.2025_.pdf
+Netzgesellschaft Frankfurt (Oder),2026,MS,13.23,3.09,62.31,1.13,12.12.2025,https://www.netze-ffo.de/fileadmin/user_upload/netzentgelte_strom_ab_01.01.2026__stand_12.12.2025_.pdf
+Netzgesellschaft Frankfurt (Oder),2026,MS/NS,20.12,3.69,68.07,1.78,12.12.2025,https://www.netze-ffo.de/fileadmin/user_upload/netzentgelte_strom_ab_01.01.2026__stand_12.12.2025_.pdf
+Netzgesellschaft Frankfurt (Oder),2026,NS,29.01,4.53,57.7,3.38,12.12.2025,https://www.netze-ffo.de/fileadmin/user_upload/netzentgelte_strom_ab_01.01.2026__stand_12.12.2025_.pdf
+Stadtwerke Detmold,2026,MS,11.32,6.43,149.57,0.9,19.12.2025,https://www.stadtwerke-detmold.de/Kopfnavigation/Netze/Stromnetz/Preisblatt-2026-Netznutzung-Strom-Stadtwerke-Detmold-GmbH.pdf
+Stadtwerke Detmold,2026,MS/NS,13.13,7.19,165.13,1.11,19.12.2025,https://www.stadtwerke-detmold.de/Kopfnavigation/Netze/Stromnetz/Preisblatt-2026-Netznutzung-Strom-Stadtwerke-Detmold-GmbH.pdf
+Stadtwerke Detmold,2026,NS,16.72,8.97,204.47,1.46,19.12.2025,https://www.stadtwerke-detmold.de/Kopfnavigation/Netze/Stromnetz/Preisblatt-2026-Netznutzung-Strom-Stadtwerke-Detmold-GmbH.pdf
+Stadtwerke Lingen,2026,MS,18.4,4.29,102.52,0.93,2026,https://netz.stadtwerke-lingen.de/fileadmin/user_upload/netz/pdf/nne_s_2026.pdf
+Stadtwerke Lingen,2026,MS/NS,23.36,4.96,112.83,1.38,2026,https://netz.stadtwerke-lingen.de/fileadmin/user_upload/netz/pdf/nne_s_2026.pdf
+Stadtwerke Lingen,2026,NS,27.28,5.5,121.62,1.73,2026,https://netz.stadtwerke-lingen.de/fileadmin/user_upload/netz/pdf/nne_s_2026.pdf
+e.wa riss Netze,2026,MS,15.91,7.14,166.24,1.13,Dezember 2025,https://www.ewa-netze.de/de/Startseite/Startseite/Preisblatt-fuer-Netzentgelte-Strom-zum-01.01.2026-Stand-Dezember-2025-e.wa-riss.pdf
+e.wa riss Netze,2026,NS,31.8,8.3,176.04,2.53,Dezember 2025,https://www.ewa-netze.de/de/Startseite/Startseite/Preisblatt-fuer-Netzentgelte-Strom-zum-01.01.2026-Stand-Dezember-2025-e.wa-riss.pdf
+nvb Nordhorner Versorgungsbetriebe,2026,MS/NS,18.29,5.34,87.29,2.59,endgültig 22.12.2025,https://nvb-netz.de/wp-content/uploads/2025/10/2025-12-22_nvb_Preisblatt_endgueltige-Netznutzungsentgelte-Strom-2026.pdf
+nvb Nordhorner Versorgungsbetriebe,2026,NS,18.55,6.37,87.77,3.6,endgültig 22.12.2025,https://nvb-netz.de/wp-content/uploads/2025/10/2025-12-22_nvb_Preisblatt_endgueltige-Netznutzungsentgelte-Strom-2026.pdf
+KommEnergie,2026,MS,15.14,4.62,122.46,0.33,2026,https://www.kommenergie.de/_Resources/Persistent/0/c/3/6/0c36b4d66aae3d90641af15a8ca34e11b5d3bb8a/KommEnergie_Preisblatt_Netzentgelte_Strom_2026_Gesamtversion.pdf
+KommEnergie,2026,MS/NS,17.57,4.96,127.89,0.55,2026,https://www.kommenergie.de/_Resources/Persistent/0/c/3/6/0c36b4d66aae3d90641af15a8ca34e11b5d3bb8a/KommEnergie_Preisblatt_Netzentgelte_Strom_2026_Gesamtversion.pdf
+KommEnergie,2026,NS,22.88,5.21,112.76,1.61,2026,https://www.kommenergie.de/_Resources/Persistent/0/c/3/6/0c36b4d66aae3d90641af15a8ca34e11b5d3bb8a/KommEnergie_Preisblatt_Netzentgelte_Strom_2026_Gesamtversion.pdf
+Energieversorgung Filstal,2026,MS,19.11,5.5,124.54,1.31,vorläufig 2026,https://evf.de/dateien/netze/vorlaeufiges-preisblatt-nne-strom-01.01.2026.pdf
+Energieversorgung Filstal,2026,MS/NS,19.84,5.95,136.96,1.27,vorläufig 2026,https://evf.de/dateien/netze/vorlaeufiges-preisblatt-nne-strom-01.01.2026.pdf
+Energieversorgung Filstal,2026,NS,22.49,6.07,131.65,1.71,vorläufig 2026,https://evf.de/dateien/netze/vorlaeufiges-preisblatt-nne-strom-01.01.2026.pdf
+netzplus,2026,HS/MS,1.03,4.02,100.96,0.02,2026,https://www.netz.plus/fileadmin/user_upload/netzplus/Strom/Preisblatt_Netzentgelte_Strom_netzplus_2026.pdf
+netzplus,2026,MS,2.33,6.21,127.32,1.21,2026,https://www.netz.plus/fileadmin/user_upload/netzplus/Strom/Preisblatt_Netzentgelte_Strom_netzplus_2026.pdf
+netzplus,2026,MS/NS,2.35,6.42,134.31,1.14,2026,https://www.netz.plus/fileadmin/user_upload/netzplus/Strom/Preisblatt_Netzentgelte_Strom_netzplus_2026.pdf
+netzplus,2026,NS,2.67,6.79,134.77,1.51,2026,https://www.netz.plus/fileadmin/user_upload/netzplus/Strom/Preisblatt_Netzentgelte_Strom_netzplus_2026.pdf
+enwag Wetzlar,2026,MS,21.17,5.46,136.04,0.86,2026,https://www.enwag.de/de/Netze/Veroeffentlichungen-Auskuenfte/Stromnetzdaten1/NNE-Strom-enwag-NEU-Z026-final.pdf
+enwag Wetzlar,2026,NS,43.57,6.43,111.92,3.7,2026,https://www.enwag.de/de/Netze/Veroeffentlichungen-Auskuenfte/Stromnetzdaten1/NNE-Strom-enwag-NEU-Z026-final.pdf
 SWM Infrastruktur (München),2027 vorläufig,HS,14.81,4.62,123.24,0.28,10/2026 vorläufig,https://www.swm-infrastruktur.de/dam/swm-infrastruktur/dokumente/strom/netzzugang-netznutzungsentgelte/preisblaetter-2027/strom-preisblatt-2027.pdf
 SWM Infrastruktur (München),2027 vorläufig,HS/MS,14.97,4.67,124.56,0.29,10/2026 vorläufig,https://www.swm-infrastruktur.de/dam/swm-infrastruktur/dokumente/strom/netzzugang-netznutzungsentgelte/preisblaetter-2027/strom-preisblatt-2027.pdf
 SWM Infrastruktur (München),2027 vorläufig,MS,18.0,5.62,149.82,0.35,10/2026 vorläufig,https://www.swm-infrastruktur.de/dam/swm-infrastruktur/dokumente/strom/netzzugang-netznutzungsentgelte/preisblaetter-2027/strom-preisblatt-2027.pdf

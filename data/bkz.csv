@@ -29,9 +29,6 @@ Netze ODR,MS/NS,151.52,,https://www.netze-odr.de/fileadmin/Netze-ODR/Dokumente/U
 Netze ODR,NS,47.28,,https://www.netze-odr.de/fileadmin/Netze-ODR/Dokumente/Unternehmen/Veroeffentlichungen/Netzanschluss/Preisblatt_BKZ.pdf
 Regionetz (Aachen),HS,46.49,,https://www.regionetz.de/de/Service/Downloads/Downloads/2026-Preisblatt-Baukostenzuschuss-oberhalb-der-Niederspannung.pdf
 Regionetz (Aachen),HS/MS,74.0,,https://www.regionetz.de/de/Service/Downloads/Downloads/2026-Preisblatt-Baukostenzuschuss-oberhalb-der-Niederspannung.pdf
-ELE Verteilnetz (Gelsenkirchen),HS/MS,153.22,,https://www.evng.de/content/dam/revu-global/evng/documents/energie_beziehen/strom/bkz_pb.pdf
-ELE Verteilnetz (Gelsenkirchen),MS,144.27,,https://www.evng.de/content/dam/revu-global/evng/documents/energie_beziehen/strom/bkz_pb.pdf
-ELE Verteilnetz (Gelsenkirchen),MS/NS,151.51,,https://www.evng.de/content/dam/revu-global/evng/documents/energie_beziehen/strom/bkz_pb.pdf
 EAM Netz,HS/MS,156.79,,https://www.eam-netz.de/fileadmin/user_upload/Hausanschluss/Netzanschlusskosten/Preisblatt_fuer_Baukostenzuschuesse_ab_01.01.2026.pdf
 EAM Netz,MS,164.66,,https://www.eam-netz.de/fileadmin/user_upload/Hausanschluss/Netzanschlusskosten/Preisblatt_fuer_Baukostenzuschuesse_ab_01.01.2026.pdf
 EAM Netz,MS/NS,141.98,,https://www.eam-netz.de/fileadmin/user_upload/Hausanschluss/Netzanschlusskosten/Preisblatt_fuer_Baukostenzuschuesse_ab_01.01.2026.pdf
@@ -64,9 +61,6 @@ LEW Verteilnetz,HS/MS,126.43,01.01.2026,https://www.lew-verteilnetz.de/media/4ap
 LEW Verteilnetz,MS,127.84,01.01.2026,https://www.lew-verteilnetz.de/media/4apj0vzh/preisblatt_bkz_2026_20251222.pdf
 LEW Verteilnetz,MS/NS,185.57,01.01.2026,https://www.lew-verteilnetz.de/media/4apj0vzh/preisblatt_bkz_2026_20251222.pdf
 LEW Verteilnetz,NS,49.0,01.01.2026,https://www.lew-verteilnetz.de/media/4apj0vzh/preisblatt_bkz_2026_20251222.pdf
-E.DIS Netz,HS,73.88,01.01.2026,https://www.e-dis-netz.de/content/dam/revu-global/e-dis-netz/dokumente/BKZ-Strom.pdf
-E.DIS Netz,HS/MS,110.3,01.01.2026,https://www.e-dis-netz.de/content/dam/revu-global/e-dis-netz/dokumente/BKZ-Strom.pdf
-E.DIS Netz,MS,80.68,01.01.2026,https://www.e-dis-netz.de/content/dam/revu-global/e-dis-netz/dokumente/BKZ-Strom.pdf
 Energienetze Mittelrhein,HS/MS,114.8,01.01.2026,https://www.energienetze-mittelrhein.de/mediendateien/downloads/stromnetz/netzanschluss/2026-01-01-preisblatt-bkz.pdf
 Energienetze Mittelrhein,MS,125.5,01.01.2026,https://www.energienetze-mittelrhein.de/mediendateien/downloads/stromnetz/netzanschluss/2026-01-01-preisblatt-bkz.pdf
 Energienetze Mittelrhein,MS/NS,116.1,01.01.2026,https://www.energienetze-mittelrhein.de/mediendateien/downloads/stromnetz/netzanschluss/2026-01-01-preisblatt-bkz.pdf
@@ -86,11 +80,27 @@ Mittelhessen Netz (Gießen),MS/NS,141.65,01.2026,https://www.mit-n.de/fileadmin/
 Gelsenwasser Energienetze,MS,107.2,"01.01.2026 (netto aus brutto/1,19)",https://www.gw-energienetze.de/fileadmin/gw-energienetze/20_netzanschluss/2025-12-12_preisblatt_netzanschl%C3%BCsse_und_bkz_strom_2026.pdf
 Gelsenwasser Energienetze,MS/NS,115.51,"01.01.2026 (netto aus brutto/1,19)",https://www.gw-energienetze.de/fileadmin/gw-energienetze/20_netzanschluss/2025-12-12_preisblatt_netzanschl%C3%BCsse_und_bkz_strom_2026.pdf
 Gelsenwasser Energienetze,NS,121.05,"01.01.2026 (netto aus brutto/1,19)",https://www.gw-energienetze.de/fileadmin/gw-energienetze/20_netzanschluss/2025-12-12_preisblatt_netzanschl%C3%BCsse_und_bkz_strom_2026.pdf
-Creos Deutschland,HS,57.88,2026,https://www.creos-net.de/strom/netzanschluss/baukostenzuschuss
-Creos Deutschland,HS/MS,93.76,2026,https://www.creos-net.de/strom/netzanschluss/baukostenzuschuss
-Creos Deutschland,MS,114.36,2026,https://www.creos-net.de/strom/netzanschluss/baukostenzuschuss
-Creos Deutschland,MS/NS,131.69,2026,https://www.creos-net.de/strom/netzanschluss/baukostenzuschuss
-Creos Deutschland,NS,179.66,2026,https://www.creos-net.de/strom/netzanschluss/baukostenzuschuss
 Stadtwerke Ingolstadt Netze,MS,121.34,"Preistabelle seit 07/2020, Dokument Stand 01.01.2026",https://swi-netze.de/fileadmin/media/04_Netze/C_Netze_Downloads/PDFs/01_Strom/Hausanschluss/Infos/Baukostenzuschuss_Preisuebersicht.pdf
 Stadtwerke Ingolstadt Netze,MS/NS,88.4,"Preistabelle seit 07/2020, Dokument Stand 01.01.2026",https://swi-netze.de/fileadmin/media/04_Netze/C_Netze_Downloads/PDFs/01_Strom/Hausanschluss/Infos/Baukostenzuschuss_Preisuebersicht.pdf
 Stadtwerke Ingolstadt Netze,NS,65.0,"Preistabelle seit 07/2020, Dokument Stand 01.01.2026",https://swi-netze.de/fileadmin/media/04_Netze/C_Netze_Downloads/PDFs/01_Strom/Hausanschluss/Infos/Baukostenzuschuss_Preisuebersicht.pdf
+ELE Verteilnetz (Gelsenkirchen),HS/MS,153.22,,https://www.evng.de/content/dam/revu-global/evng/documents/energie_beziehen/strom/bkz_pb.pdf
+ELE Verteilnetz (Gelsenkirchen),MS,144.27,,https://www.evng.de/content/dam/revu-global/evng/documents/energie_beziehen/strom/bkz_pb.pdf
+ELE Verteilnetz (Gelsenkirchen),MS/NS,151.51,,https://www.evng.de/content/dam/revu-global/evng/documents/energie_beziehen/strom/bkz_pb.pdf
+ELE Verteilnetz (Gelsenkirchen),NS,66.66,,https://www.evng.de/content/dam/revu-global/evng/documents/energie_beziehen/strom/bkz_pb.pdf
+E.DIS Netz,HS,73.88,,https://www.e-dis-netz.de/content/dam/revu-global/e-dis-netz/dokumente/BKZ-Strom.pdf
+E.DIS Netz,HS/MS,110.3,,https://www.e-dis-netz.de/content/dam/revu-global/e-dis-netz/dokumente/BKZ-Strom.pdf
+E.DIS Netz,MS,80.68,,https://www.e-dis-netz.de/content/dam/revu-global/e-dis-netz/dokumente/BKZ-Strom.pdf
+Schleswig-Holstein Netz,HS,51.79,,https://www.sh-netz.com/content/dam/revu-global/sh-netz/Documents/Energie_anschliessen/Stromnetz/ergaenzendeBedingungen/sh-netz_anschliessen_stromnetz_baukostenzuschuss_008p_0724_0925_web.pdf
+Schleswig-Holstein Netz,HS/MS,52.36,,https://www.sh-netz.com/content/dam/revu-global/sh-netz/Documents/Energie_anschliessen/Stromnetz/ergaenzendeBedingungen/sh-netz_anschliessen_stromnetz_baukostenzuschuss_008p_0724_0925_web.pdf
+Schleswig-Holstein Netz,MS,62.58,,https://www.sh-netz.com/content/dam/revu-global/sh-netz/Documents/Energie_anschliessen/Stromnetz/ergaenzendeBedingungen/sh-netz_anschliessen_stromnetz_baukostenzuschuss_008p_0724_0925_web.pdf
+Schleswig-Holstein Netz,NS,29.0,,https://www.sh-netz.com/content/dam/revu-global/sh-netz/Documents/Energie_anschliessen/Stromnetz/ergaenzendeBedingungen/sh-netz_anschliessen_stromnetz_baukostenzuschuss_008p_0724_0925_web.pdf
+Stadtwerke Heidelberg Netze,HS,112.65,,https://www.netze-heidelberg.de/de/hausanschluss/So-kommen-Sie-zu-Ihrem-Hausanschluss/Baukostenzuschuss-Stromnetz.pdf
+Stadtwerke Heidelberg Netze,MS,118.23,,https://www.netze-heidelberg.de/de/hausanschluss/So-kommen-Sie-zu-Ihrem-Hausanschluss/Baukostenzuschuss-Stromnetz.pdf
+Stadtwerke Heidelberg Netze,NS,68.73,,https://www.netze-heidelberg.de/de/hausanschluss/So-kommen-Sie-zu-Ihrem-Hausanschluss/Baukostenzuschuss-Stromnetz.pdf
+Creos Deutschland,MS,114.36,,https://www.creos-net.de/strom/netzanschluss/baukostenzuschuss
+Stadtwerke Landshut,MS,83.11,,https://www.stadtwerke-landshut.de/wp-content/uploads/Preise-Netzanschluss-Strom.pdf?ver=1
+Stadtwerke Landshut,MS/NS,89.05,,https://www.stadtwerke-landshut.de/wp-content/uploads/Preise-Netzanschluss-Strom.pdf?ver=1
+Stadtwerke Landshut,NS,75.0,,https://www.stadtwerke-landshut.de/wp-content/uploads/Preise-Netzanschluss-Strom.pdf?ver=1
+enwag Wetzlar,MS,136.04,,https://www.enwag.de/de/Netze/Veroeffentlichungen-Auskuenfte/Stromnetzdaten1/NNE-Strom-enwag-NEU-Z026-final.pdf
+enwag Wetzlar,MS/NS,185.38,,https://www.enwag.de/de/Netze/Veroeffentlichungen-Auskuenfte/Stromnetzdaten1/NNE-Strom-enwag-NEU-Z026-final.pdf
+enwag Wetzlar,NS,111.92,,https://www.enwag.de/de/Netze/Veroeffentlichungen-Auskuenfte/Stromnetzdaten1/NNE-Strom-enwag-NEU-Z026-final.pdf

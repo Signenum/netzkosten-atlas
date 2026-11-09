@@ -40,7 +40,7 @@ Die Excel-Datei `Netzkosten_Auswertung_Deutschland.xlsx` enthält alle Rohdaten,
 
 ## Grenzen
 
-- Nicht alle rund 860 VNB sind erfasst, sondern die großen Flächen- und Stadtnetze (siehe `data/vnb_kennwerte.csv`). Gebiete anderer Netzbetreiber sind in der Karte hellgrau.
+- Nicht alle rund 860 VNB sind erfasst, sondern die großen Flächen- und Stadtnetze (siehe `data/vnb_kennwerte.csv`). Gebiete anderer Netzbetreiber sind in der Kosten-Ansicht hellgrau.
 - Die NAP-Kennwerte sind Planwerte der Netzbetreiber, nicht abgerechnete Kosten, und je nach Netzbetreiber unterschiedlich abgegrenzt.
 - Netzgebiete sind aus Stichproben abgeleitet. Gemeinden mit mehreren Netzbetreibern werden dem überwiegenden zugeordnet.
 - BKZ-Proxy: Der veröffentlichte BKZ weicht im Einzelfall um den Faktor 0,5–1,4 vom Leistungspreis 2026 ab.

@@ -52,12 +52,6 @@
   "HS": 46.49,
   "HS/MS": 74.0
  },
- "ELE Verteilnetz GmbH": {
-  "src": "https://www.evng.de/content/dam/revu-global/evng/documents/energie_beziehen/strom/bkz_pb.pdf",
-  "HS/MS": 153.22,
-  "MS": 144.27,
-  "MS/NS": 151.51
- },
  "EWE NETZ GmbH": {
   "src": "https://www.ewe-netz.de/-/media/ewe-netz/downloads/2026_02_24_ewe_netz_nne_strom_2026.pdf",
   "note": "BKZ 71,71 / 71,27 / 31,03 €/kW, Zuordnung unklar"
@@ -125,14 +119,6 @@
   "MS/NS": 185.57,
   "NS": 49.0
  },
- "E.DIS Netz": {
-  "src": "https://www.e-dis-netz.de/content/dam/revu-global/e-dis-netz/dokumente/BKZ-Strom.pdf",
-  "stand": "01.01.2026",
-  "note": "Zuordnung unsicher: 73,88 / 110,30 / 80,68 (vermutl. HS / HS/MS / MS)",
-  "HS": 73.88,
-  "HS/MS": 110.3,
-  "MS": 80.68
- },
  "Energienetze Mittelrhein": {
   "src": "https://www.energienetze-mittelrhein.de/mediendateien/downloads/stromnetz/netzanschluss/2026-01-01-preisblatt-bkz.pdf",
   "stand": "01.01.2026",
@@ -178,20 +164,53 @@
   "NS": 121.05,
   "src": "https://www.gw-energienetze.de/fileadmin/gw-energienetze/20_netzanschluss/2025-12-12_preisblatt_netzanschl%C3%BCsse_und_bkz_strom_2026.pdf"
  },
- "Creos Deutschland GmbH": {
-  "HS": 57.88,
-  "HS/MS": 93.76,
-  "MS": 114.36,
-  "MS/NS": 131.69,
-  "NS": 179.66,
-  "src": "https://www.creos-net.de/strom/netzanschluss/baukostenzuschuss",
-  "stand": "2026"
- },
  "Stadtwerke Ingolstadt Netze GmbH": {
   "MS": 121.34,
   "MS/NS": 88.4,
   "NS": 65.0,
   "src": "https://swi-netze.de/fileadmin/media/04_Netze/C_Netze_Downloads/PDFs/01_Strom/Hausanschluss/Infos/Baukostenzuschuss_Preisuebersicht.pdf",
   "stand": "Preistabelle seit 07/2020, Dokument Stand 01.01.2026"
+ },
+ "ELE Verteilnetz GmbH": {
+  "HS/MS": 153.22,
+  "MS": 144.27,
+  "MS/NS": 151.51,
+  "NS": 66.66,
+  "src": "https://www.evng.de/content/dam/revu-global/evng/documents/energie_beziehen/strom/bkz_pb.pdf"
+ },
+ "E.DIS Netz GmbH": {
+  "HS": 73.88,
+  "HS/MS": 110.3,
+  "MS": 80.68,
+  "src": "https://www.e-dis-netz.de/content/dam/revu-global/e-dis-netz/dokumente/BKZ-Strom.pdf"
+ },
+ "Schleswig-Holstein Netz GmbH": {
+  "HS": 51.79,
+  "HS/MS": 52.36,
+  "MS": 62.58,
+  "NS": 29.0,
+  "src": "https://www.sh-netz.com/content/dam/revu-global/sh-netz/Documents/Energie_anschliessen/Stromnetz/ergaenzendeBedingungen/sh-netz_anschliessen_stromnetz_baukostenzuschuss_008p_0724_0925_web.pdf"
+ },
+ "Stadtwerke Heidelberg Netze GmbH": {
+  "HS": 112.65,
+  "MS": 118.23,
+  "NS": 68.73,
+  "src": "https://www.netze-heidelberg.de/de/hausanschluss/So-kommen-Sie-zu-Ihrem-Hausanschluss/Baukostenzuschuss-Stromnetz.pdf"
+ },
+ "Creos Deutschland GmbH": {
+  "MS": 114.36,
+  "src": "https://www.creos-net.de/strom/netzanschluss/baukostenzuschuss"
+ },
+ "Stadtwerke Landshut": {
+  "MS": 83.11,
+  "MS/NS": 89.05,
+  "NS": 75.0,
+  "src": "https://www.stadtwerke-landshut.de/wp-content/uploads/Preise-Netzanschluss-Strom.pdf?ver=1"
+ },
+ "enwag energie- und wassergesellschaft mbh": {
+  "MS": 136.04,
+  "MS/NS": 185.38,
+  "NS": 111.92,
+  "src": "https://www.enwag.de/de/Netze/Veroeffentlichungen-Auskuenfte/Stromnetzdaten1/NNE-Strom-enwag-NEU-Z026-final.pdf"
  }
 }

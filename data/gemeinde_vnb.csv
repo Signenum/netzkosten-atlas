@@ -1,5 +1,5 @@
 Gemeinde,Kreis,Land,VNB_ID_VNBdigital,VNB_Name,im_Atlas_als,Stichproben
-Flensburg,Flensburg,Schleswig-Holstein,187,Stadtwerke Flensburg GmbH,,5.0
+Flensburg,Flensburg,Schleswig-Holstein,187,Stadtwerke Flensburg GmbH,Stadtwerke Flensburg,5.0
 Kiel,Kiel,Schleswig-Holstein,339,SWKiel Netz GmbH,SWKiel Netz,7.0
 Lübeck,Lübeck,Schleswig-Holstein,399,TraveNetz GmbH,TraveNetz (Lübeck),8.0
 Neumünster,Neumünster,Schleswig-Holstein,535,Schleswig-Holstein Netz GmbH,Schleswig-Holstein Netz,5.0
@@ -722,8 +722,8 @@ Schönhorst,Rendsburg-Eckernförde,Schleswig-Holstein,339,SWKiel Netz GmbH,SWKie
 Techelsdorf,Rendsburg-Eckernförde,Schleswig-Holstein,339,SWKiel Netz GmbH,SWKiel Netz,0
 Kappeln,Schleswig-Flensburg,Schleswig-Holstein,535,Schleswig-Holstein Netz GmbH,Schleswig-Holstein Netz,1.0
 Schleswig,Schleswig-Flensburg,Schleswig-Holstein,576,Schleswiger Stadtwerke GmbH,,4.0
-Glücksburg (Ostsee),Schleswig-Flensburg,Schleswig-Holstein,187,Stadtwerke Flensburg GmbH,,1.0
-Harrislee,Schleswig-Flensburg,Schleswig-Holstein,187,Stadtwerke Flensburg GmbH,,0
+Glücksburg (Ostsee),Schleswig-Flensburg,Schleswig-Holstein,187,Stadtwerke Flensburg GmbH,Stadtwerke Flensburg,1.0
+Harrislee,Schleswig-Flensburg,Schleswig-Holstein,187,Stadtwerke Flensburg GmbH,Stadtwerke Flensburg,0
 Handewitt,Schleswig-Flensburg,Schleswig-Holstein,535,Schleswig-Holstein Netz GmbH,Schleswig-Holstein Netz,2.0
 Eggebek,Schleswig-Flensburg,Schleswig-Holstein,535,Schleswig-Holstein Netz GmbH,Schleswig-Holstein Netz,0
 Janneby,Schleswig-Flensburg,Schleswig-Holstein,535,Schleswig-Holstein Netz GmbH,Schleswig-Holstein Netz,1.0
@@ -753,9 +753,9 @@ Rabenkirchen-Faulück,Schleswig-Flensburg,Schleswig-Holstein,535,Schleswig-Holst
 Dollerup,Schleswig-Flensburg,Schleswig-Holstein,535,Schleswig-Holstein Netz GmbH,Schleswig-Holstein Netz,0
 Grundhof,Schleswig-Flensburg,Schleswig-Holstein,535,Schleswig-Holstein Netz GmbH,Schleswig-Holstein Netz,1.0
 Langballig,Schleswig-Flensburg,Schleswig-Holstein,535,Schleswig-Holstein Netz GmbH,Schleswig-Holstein Netz,0
-Munkbrarup,Schleswig-Flensburg,Schleswig-Holstein,187,Stadtwerke Flensburg GmbH,,0
+Munkbrarup,Schleswig-Flensburg,Schleswig-Holstein,187,Stadtwerke Flensburg GmbH,Stadtwerke Flensburg,0
 Ringsberg,Schleswig-Flensburg,Schleswig-Holstein,535,Schleswig-Holstein Netz GmbH,Schleswig-Holstein Netz,0
-Wees,Schleswig-Flensburg,Schleswig-Holstein,187,Stadtwerke Flensburg GmbH,,0
+Wees,Schleswig-Flensburg,Schleswig-Holstein,187,Stadtwerke Flensburg GmbH,Stadtwerke Flensburg,0
 Westerholz,Schleswig-Flensburg,Schleswig-Holstein,535,Schleswig-Holstein Netz GmbH,Schleswig-Holstein Netz,0
 Sieverstedt,Schleswig-Flensburg,Schleswig-Holstein,535,Schleswig-Holstein Netz GmbH,Schleswig-Holstein Netz,1.0
 Tarp,Schleswig-Flensburg,Schleswig-Holstein,535,Schleswig-Holstein Netz GmbH,Schleswig-Holstein Netz,0
@@ -1207,7 +1207,7 @@ Vechelde,Peine,Niedersachsen,7137,Avacon Netz GmbH,Avacon Netz,1.0
 Wendeburg,Peine,Niedersachsen,7137,Avacon Netz GmbH,Avacon Netz,2.0
 Ilsede,Peine,Niedersachsen,7137,Avacon Netz GmbH,Avacon Netz,5.0
 Cremlingen,Wolfenbüttel,Niedersachsen,7137,Avacon Netz GmbH,Avacon Netz,2.0
-Wolfenbüttel,Wolfenbüttel,Niedersachsen,696,Stadtwerke Wolfenbüttel GmbH,,6.0
+Wolfenbüttel,Wolfenbüttel,Niedersachsen,696,Stadtwerke Wolfenbüttel GmbH,Stadtwerke Wolfenbüttel,6.0
 Schladen-Werla,Wolfenbüttel,Niedersachsen,7388,LSW Netz GmbH & Co. KG,LSW Netz (Wolfsburg),1.0
 Baddeckenstedt,Wolfenbüttel,Niedersachsen,7137,Avacon Netz GmbH,Avacon Netz,0
 Burgdorf,Wolfenbüttel,Niedersachsen,7137,Avacon Netz GmbH,Avacon Netz,0
@@ -1215,11 +1215,11 @@ Elbe,Wolfenbüttel,Niedersachsen,7137,Avacon Netz GmbH,Avacon Netz,1.0
 Haverlah,Wolfenbüttel,Niedersachsen,7137,Avacon Netz GmbH,Avacon Netz,0
 Heere,Wolfenbüttel,Niedersachsen,7137,Avacon Netz GmbH,Avacon Netz,0
 Sehlde,Wolfenbüttel,Niedersachsen,7137,Avacon Netz GmbH,Avacon Netz,0
-Cramme,Wolfenbüttel,Niedersachsen,696,Stadtwerke Wolfenbüttel GmbH,,0
+Cramme,Wolfenbüttel,Niedersachsen,696,Stadtwerke Wolfenbüttel GmbH,Stadtwerke Wolfenbüttel,0
 Dorstadt,Wolfenbüttel,Niedersachsen,7388,LSW Netz GmbH & Co. KG,LSW Netz (Wolfsburg),0
 Flöthe,Wolfenbüttel,Niedersachsen,7137,Avacon Netz GmbH,Avacon Netz,0
 Heiningen,Wolfenbüttel,Niedersachsen,7388,LSW Netz GmbH & Co. KG,LSW Netz (Wolfsburg),1.0
-Ohrum,Wolfenbüttel,Niedersachsen,696,Stadtwerke Wolfenbüttel GmbH,,0
+Ohrum,Wolfenbüttel,Niedersachsen,696,Stadtwerke Wolfenbüttel GmbH,Stadtwerke Wolfenbüttel,0
 Börßum,Wolfenbüttel,Niedersachsen,7388,LSW Netz GmbH & Co. KG,LSW Netz (Wolfsburg),1.0
 Dettum,Wolfenbüttel,Niedersachsen,7137,Avacon Netz GmbH,Avacon Netz,0
 Erkerode,Wolfenbüttel,Niedersachsen,7137,Avacon Netz GmbH,Avacon Netz,0
@@ -1347,14 +1347,14 @@ Maasen,Diepholz,Niedersachsen,7332,Westnetz GmbH,Westnetz,0
 Mellinghausen,Diepholz,Niedersachsen,7332,Westnetz GmbH,Westnetz,1.0
 Siedenburg,Diepholz,Niedersachsen,7332,Westnetz GmbH,Westnetz,0
 Staffhorst,Diepholz,Niedersachsen,7137,Avacon Netz GmbH,Avacon Netz,0
-Aerzen,Hameln-Pyrmont,Niedersachsen,261,Stadtwerke Hameln Weserbergland GmbH,,1.0
+Aerzen,Hameln-Pyrmont,Niedersachsen,261,Stadtwerke Hameln Weserbergland GmbH,Stadtwerke Hameln Weserbergland,1.0
 Bad Münder am Deister,Hameln-Pyrmont,Niedersachsen,7137,Avacon Netz GmbH,Avacon Netz,3.0
 Bad Pyrmont,Hameln-Pyrmont,Niedersachsen,48,Stadtwerke Bad Pyrmont GmbH,,2.0
-Coppenbrügge,Hameln-Pyrmont,Niedersachsen,261,Stadtwerke Hameln Weserbergland GmbH,,2.0
-Emmerthal,Hameln-Pyrmont,Niedersachsen,261,Stadtwerke Hameln Weserbergland GmbH,,3.0
-Hameln,Hameln-Pyrmont,Niedersachsen,261,Stadtwerke Hameln Weserbergland GmbH,,6.0
-Hessisch Oldendorf,Hameln-Pyrmont,Niedersachsen,261,Stadtwerke Hameln Weserbergland GmbH,,2.0
-Salzhemmendorf,Hameln-Pyrmont,Niedersachsen,261,Stadtwerke Hameln Weserbergland GmbH,,3.0
+Coppenbrügge,Hameln-Pyrmont,Niedersachsen,261,Stadtwerke Hameln Weserbergland GmbH,Stadtwerke Hameln Weserbergland,2.0
+Emmerthal,Hameln-Pyrmont,Niedersachsen,261,Stadtwerke Hameln Weserbergland GmbH,Stadtwerke Hameln Weserbergland,3.0
+Hameln,Hameln-Pyrmont,Niedersachsen,261,Stadtwerke Hameln Weserbergland GmbH,Stadtwerke Hameln Weserbergland,6.0
+Hessisch Oldendorf,Hameln-Pyrmont,Niedersachsen,261,Stadtwerke Hameln Weserbergland GmbH,Stadtwerke Hameln Weserbergland,2.0
+Salzhemmendorf,Hameln-Pyrmont,Niedersachsen,261,Stadtwerke Hameln Weserbergland GmbH,Stadtwerke Hameln Weserbergland,3.0
 Alfeld (Leine),Hildesheim,Niedersachsen,243,Überlandwerk Leinetal GmbH,,2.0
 Algermissen,Hildesheim,Niedersachsen,7137,Avacon Netz GmbH,Avacon Netz,1.0
 Bad Salzdetfurth,Hildesheim,Niedersachsen,7137,Avacon Netz GmbH,Avacon Netz,1.0
@@ -1825,7 +1825,7 @@ Delmenhorst,Delmenhorst,Niedersachsen,496,EWE NETZ GmbH,EWE NETZ,5.0
 Emden,Emden,Niedersachsen,170,Stadtwerke Emden GmbH,,5.0
 Oldenburg (Oldb),Oldenburg (Oldb),Niedersachsen,496,EWE NETZ GmbH,EWE NETZ,5.0
 Osnabrück,Osnabrück,Niedersachsen,500,SWO Netz GmbH,SWO Netz (Osnabrück),6.0
-Wilhelmshaven,Wilhelmshaven,Niedersachsen,685,GEW Wilhelmshaven GmbH,,5.0
+Wilhelmshaven,Wilhelmshaven,Niedersachsen,685,GEW Wilhelmshaven GmbH,GEW Wilhelmshaven,5.0
 Apen,Ammerland,Niedersachsen,496,EWE NETZ GmbH,EWE NETZ,2.0
 Bad Zwischenahn,Ammerland,Niedersachsen,496,EWE NETZ GmbH,EWE NETZ,7.0
 Edewecht,Ammerland,Niedersachsen,496,EWE NETZ GmbH,EWE NETZ,4.0
@@ -1874,7 +1874,7 @@ Emsbüren,Emsland,Niedersachsen,579,Stadtwerke Schüttorf ▪ Emsbüren GmbH,,3.
 Geeste,Emsland,Niedersachsen,7332,Westnetz GmbH,Westnetz,3.0
 Haren (Ems),Emsland,Niedersachsen,7332,Westnetz GmbH,Westnetz,8.0
 Haselünne,Emsland,Niedersachsen,7332,Westnetz GmbH,Westnetz,3.0
-Lingen (Ems),Emsland,Niedersachsen,7187,Stadtwerke Lingen GmbH,,9.0
+Lingen (Ems),Emsland,Niedersachsen,7187,Stadtwerke Lingen GmbH,Stadtwerke Lingen,9.0
 Meppen,Emsland,Niedersachsen,7332,Westnetz GmbH,Westnetz,8.0
 Papenburg,Emsland,Niedersachsen,496,EWE NETZ GmbH,EWE NETZ,6.0
 Rhede (Ems),Emsland,Niedersachsen,496,EWE NETZ GmbH,EWE NETZ,3.0
@@ -1939,30 +1939,30 @@ Bockhorn,Friesland,Niedersachsen,496,EWE NETZ GmbH,EWE NETZ,2.0
 Varel,Friesland,Niedersachsen,496,EWE NETZ GmbH,EWE NETZ,5.0
 Zetel,Friesland,Niedersachsen,496,EWE NETZ GmbH,EWE NETZ,2.0
 Bad Bentheim,Grafschaft Bentheim,Niedersachsen,7332,Westnetz GmbH,Westnetz,1.0
-Nordhorn,Grafschaft Bentheim,Niedersachsen,7391,nvb Nordhorner Versorgungsbetriebe GmbH,,8.0
-Wietmarschen,Grafschaft Bentheim,Niedersachsen,7187,Stadtwerke Lingen GmbH,,2.0
-Emlichheim,Grafschaft Bentheim,Niedersachsen,7391,nvb Nordhorner Versorgungsbetriebe GmbH,,1.0
-Hoogstede,Grafschaft Bentheim,Niedersachsen,7391,nvb Nordhorner Versorgungsbetriebe GmbH,,1.0
-Laar,Grafschaft Bentheim,Niedersachsen,7391,nvb Nordhorner Versorgungsbetriebe GmbH,,1.0
-Ringe,Grafschaft Bentheim,Niedersachsen,7391,nvb Nordhorner Versorgungsbetriebe GmbH,,1.0
-Esche,Grafschaft Bentheim,Niedersachsen,7391,nvb Nordhorner Versorgungsbetriebe GmbH,,0
+Nordhorn,Grafschaft Bentheim,Niedersachsen,7391,nvb Nordhorner Versorgungsbetriebe GmbH,nvb Nordhorner Versorgungsbetriebe,8.0
+Wietmarschen,Grafschaft Bentheim,Niedersachsen,7187,Stadtwerke Lingen GmbH,Stadtwerke Lingen,2.0
+Emlichheim,Grafschaft Bentheim,Niedersachsen,7391,nvb Nordhorner Versorgungsbetriebe GmbH,nvb Nordhorner Versorgungsbetriebe,1.0
+Hoogstede,Grafschaft Bentheim,Niedersachsen,7391,nvb Nordhorner Versorgungsbetriebe GmbH,nvb Nordhorner Versorgungsbetriebe,1.0
+Laar,Grafschaft Bentheim,Niedersachsen,7391,nvb Nordhorner Versorgungsbetriebe GmbH,nvb Nordhorner Versorgungsbetriebe,1.0
+Ringe,Grafschaft Bentheim,Niedersachsen,7391,nvb Nordhorner Versorgungsbetriebe GmbH,nvb Nordhorner Versorgungsbetriebe,1.0
+Esche,Grafschaft Bentheim,Niedersachsen,7391,nvb Nordhorner Versorgungsbetriebe GmbH,nvb Nordhorner Versorgungsbetriebe,0
 Georgsdorf,Grafschaft Bentheim,Niedersachsen,7332,Westnetz GmbH,Westnetz,0
 Lage,Grafschaft Bentheim,Niedersachsen,7332,Westnetz GmbH,Westnetz,0
 Neuenhaus,Grafschaft Bentheim,Niedersachsen,7332,Westnetz GmbH,Westnetz,1.0
 Osterwald,Grafschaft Bentheim,Niedersachsen,7332,Westnetz GmbH,Westnetz,1.0
 Engden,Grafschaft Bentheim,Niedersachsen,7332,Westnetz GmbH,Westnetz,2.0
-Isterberg,Grafschaft Bentheim,Niedersachsen,7391,nvb Nordhorner Versorgungsbetriebe GmbH,,0
+Isterberg,Grafschaft Bentheim,Niedersachsen,7391,nvb Nordhorner Versorgungsbetriebe GmbH,nvb Nordhorner Versorgungsbetriebe,0
 Ohne,Grafschaft Bentheim,Niedersachsen,7332,Westnetz GmbH,Westnetz,0
 Quendorf,Grafschaft Bentheim,Niedersachsen,579,Stadtwerke Schüttorf ▪ Emsbüren GmbH,,0
 Samern,Grafschaft Bentheim,Niedersachsen,7332,Westnetz GmbH,Westnetz,0
 Schüttorf,Grafschaft Bentheim,Niedersachsen,579,Stadtwerke Schüttorf ▪ Emsbüren GmbH,,1.0
-Getelo,Grafschaft Bentheim,Niedersachsen,7391,nvb Nordhorner Versorgungsbetriebe GmbH,,1.0
-Gölenkamp,Grafschaft Bentheim,Niedersachsen,7391,nvb Nordhorner Versorgungsbetriebe GmbH,,1.0
+Getelo,Grafschaft Bentheim,Niedersachsen,7391,nvb Nordhorner Versorgungsbetriebe GmbH,nvb Nordhorner Versorgungsbetriebe,1.0
+Gölenkamp,Grafschaft Bentheim,Niedersachsen,7391,nvb Nordhorner Versorgungsbetriebe GmbH,nvb Nordhorner Versorgungsbetriebe,1.0
 Halle,Grafschaft Bentheim,Niedersachsen,7332,Westnetz GmbH,Westnetz,0
-Itterbeck,Grafschaft Bentheim,Niedersachsen,7391,nvb Nordhorner Versorgungsbetriebe GmbH,,1.0
-Uelsen,Grafschaft Bentheim,Niedersachsen,7391,nvb Nordhorner Versorgungsbetriebe GmbH,,0
-Wielen,Grafschaft Bentheim,Niedersachsen,7391,nvb Nordhorner Versorgungsbetriebe GmbH,,1.0
-Wilsum,Grafschaft Bentheim,Niedersachsen,7391,nvb Nordhorner Versorgungsbetriebe GmbH,,1.0
+Itterbeck,Grafschaft Bentheim,Niedersachsen,7391,nvb Nordhorner Versorgungsbetriebe GmbH,nvb Nordhorner Versorgungsbetriebe,1.0
+Uelsen,Grafschaft Bentheim,Niedersachsen,7391,nvb Nordhorner Versorgungsbetriebe GmbH,nvb Nordhorner Versorgungsbetriebe,0
+Wielen,Grafschaft Bentheim,Niedersachsen,7391,nvb Nordhorner Versorgungsbetriebe GmbH,nvb Nordhorner Versorgungsbetriebe,1.0
+Wilsum,Grafschaft Bentheim,Niedersachsen,7391,nvb Nordhorner Versorgungsbetriebe GmbH,nvb Nordhorner Versorgungsbetriebe,1.0
 Borkum,Leer,Niedersachsen,496,EWE NETZ GmbH,EWE NETZ,0
 Jemgum,Leer,Niedersachsen,496,EWE NETZ GmbH,EWE NETZ,2.0
 Leer (Ostfriesland),Leer,Niedersachsen,496,EWE NETZ GmbH,EWE NETZ,6.0
@@ -2001,12 +2001,12 @@ Winkelsett,Oldenburg,Niedersachsen,496,EWE NETZ GmbH,EWE NETZ,0
 Bad Essen,Osnabrück,Niedersachsen,7332,Westnetz GmbH,Westnetz,2.0
 Bad Iburg,Osnabrück,Niedersachsen,7332,Westnetz GmbH,Westnetz,1.0
 Bad Laer,Osnabrück,Niedersachsen,7153,Teutoburger Energie Netzwerk eG (TEN),,2.0
-Bad Rothenfelde,Osnabrück,Niedersachsen,x3T5mZbpCQXRDfPJB,netzplus GmbH & Co. KG,,0
+Bad Rothenfelde,Osnabrück,Niedersachsen,x3T5mZbpCQXRDfPJB,netzplus GmbH & Co. KG,netzplus,0
 Belm,Osnabrück,Niedersachsen,7332,Westnetz GmbH,Westnetz,3.0
 Bissendorf,Osnabrück,Niedersachsen,7332,Westnetz GmbH,Westnetz,1.0
 Bohmte,Osnabrück,Niedersachsen,7332,Westnetz GmbH,Westnetz,3.0
 Bramsche,Osnabrück,Niedersachsen,7332,Westnetz GmbH,Westnetz,8.0
-Dissen am Teutoburger Wald,Osnabrück,Niedersachsen,x3T5mZbpCQXRDfPJB,netzplus GmbH & Co. KG,,1.0
+Dissen am Teutoburger Wald,Osnabrück,Niedersachsen,x3T5mZbpCQXRDfPJB,netzplus GmbH & Co. KG,netzplus,1.0
 Georgsmarienhütte,Osnabrück,Niedersachsen,7027,Stadtwerke Georgsmarienhütte Netz GmbH,,5.0
 Hagen am Teutoburger Wald,Osnabrück,Niedersachsen,7153,Teutoburger Energie Netzwerk eG (TEN),,1.0
 Hasbergen,Osnabrück,Niedersachsen,BgQMkconGK8gRHSoo,SWL Energienetz- und Entsorgungsgesellschaft Mbh,,1.0
@@ -2106,7 +2106,7 @@ Langenfeld (Rhld.),Mettmann,Nordrhein-Westfalen,7332,Westnetz GmbH,Westnetz,4.0
 Mettmann,Mettmann,Nordrhein-Westfalen,7332,Westnetz GmbH,Westnetz,3.0
 Monheim am Rhein,Mettmann,Nordrhein-Westfalen,7154,MEGA Monheimer Elektrizitäts- und Gasversorgung,,3.0
 Ratingen,Mettmann,Nordrhein-Westfalen,527,Stadtwerke Ratingen GmbH,,6.0
-Velbert,Mettmann,Nordrhein-Westfalen,651,Stadtwerke Velbert GmbH,,5.0
+Velbert,Mettmann,Nordrhein-Westfalen,651,Stadtwerke Velbert GmbH,Stadtwerke Velbert,5.0
 Wülfrath,Mettmann,Nordrhein-Westfalen,7332,Westnetz GmbH,Westnetz,4.0
 Dormagen,Rhein-Kreis Neuss,Nordrhein-Westfalen,7399,RheinNetz GmbH (RNG),RheinNetz (Köln),5.0
 Grevenbroich,Rhein-Kreis Neuss,Nordrhein-Westfalen,426,NEW Netz GmbH,NEW Netz (Mönchengladbach),6.0
@@ -2296,7 +2296,7 @@ Neuenkirchen,Steinfurt,Nordrhein-Westfalen,7332,Westnetz GmbH,Westnetz,1.0
 Nordwalde,Steinfurt,Nordrhein-Westfalen,7332,Westnetz GmbH,Westnetz,2.0
 Ochtrup,Steinfurt,Nordrhein-Westfalen,7054,Stadtwerke Ochtrup,,7.0
 Recke,Steinfurt,Nordrhein-Westfalen,7792,SWTE Netz GmbH & Co. KG,,1.0
-Rheine,Steinfurt,Nordrhein-Westfalen,541,Energie- und Wasserversorgung Rheine GmbH,,6.0
+Rheine,Steinfurt,Nordrhein-Westfalen,541,Energie- und Wasserversorgung Rheine GmbH,Energie- und Wasserversorgung Rheine,6.0
 Saerbeck,Steinfurt,Nordrhein-Westfalen,7632,Saerbecker Ver- und Entsorgungsnetzgesellschaft,,2.0
 Steinfurt,Steinfurt,Nordrhein-Westfalen,7775,Stadtwerke Steinfurt GmbH,,5.0
 Tecklenburg,Steinfurt,Nordrhein-Westfalen,7042,SWL Verteilungsnetzgesellschaft mbH,,1.0
@@ -2319,7 +2319,7 @@ Bielefeld,Bielefeld,Nordrhein-Westfalen,85,Bielefelder Netz GmbH,Bielefelder Net
 Borgholzhausen,Gütersloh,Nordrhein-Westfalen,7332,Westnetz GmbH,Westnetz,1.0
 Gütersloh,Gütersloh,Nordrhein-Westfalen,248,Netzgesellschaft Gütersloh mbH,,5.0
 Halle (Westf.),Gütersloh,Nordrhein-Westfalen,944,T.W.O. Technische Werke Osning GmbH,,5.0
-Harsewinkel,Gütersloh,Nordrhein-Westfalen,x3T5mZbpCQXRDfPJB,netzplus GmbH & Co. KG,,5.0
+Harsewinkel,Gütersloh,Nordrhein-Westfalen,x3T5mZbpCQXRDfPJB,netzplus GmbH & Co. KG,netzplus,5.0
 Herzebrock-Clarholz,Gütersloh,Nordrhein-Westfalen,7332,Westnetz GmbH,Westnetz,2.0
 Langenberg,Gütersloh,Nordrhein-Westfalen,7332,Westnetz GmbH,Westnetz,1.0
 Rheda-Wiedenbrück,Gütersloh,Nordrhein-Westfalen,7332,Westnetz GmbH,Westnetz,5.0
@@ -2327,7 +2327,7 @@ Rietberg,Gütersloh,Nordrhein-Westfalen,7332,Westnetz GmbH,Westnetz,5.0
 Schloß Holte-Stukenbrock,Gütersloh,Nordrhein-Westfalen,1087,Westfalen Weser Netz GmbH,Westfalen Weser Netz,4.0
 Steinhagen,Gütersloh,Nordrhein-Westfalen,7070,Gemeindewerke Steinhagen GmbH,,4.0
 Verl,Gütersloh,Nordrhein-Westfalen,7332,Westnetz GmbH,Westnetz,5.0
-Versmold,Gütersloh,Nordrhein-Westfalen,x3T5mZbpCQXRDfPJB,netzplus GmbH & Co. KG,,6.0
+Versmold,Gütersloh,Nordrhein-Westfalen,x3T5mZbpCQXRDfPJB,netzplus GmbH & Co. KG,netzplus,6.0
 Werther (Westf.),Gütersloh,Nordrhein-Westfalen,944,T.W.O. Technische Werke Osning GmbH,,0
 Bünde,Herford,Nordrhein-Westfalen,1087,Westfalen Weser Netz GmbH,Westfalen Weser Netz,5.0
 Enger,Herford,Nordrhein-Westfalen,1087,Westfalen Weser Netz GmbH,Westfalen Weser Netz,4.0
@@ -2352,7 +2352,7 @@ Augustdorf,Lippe,Nordrhein-Westfalen,7704,Stadtwerke Lippe-Weser Service GmbH & 
 Bad Salzuflen,Lippe,Nordrhein-Westfalen,55,Stadtwerke Bad Salzuflen GmbH,,5.0
 Barntrup,Lippe,Nordrhein-Westfalen,1087,Westfalen Weser Netz GmbH,Westfalen Weser Netz,2.0
 Blomberg,Lippe,Nordrhein-Westfalen,7010,Blomberg Netz GmbH & Co. KG,,2.0
-Detmold,Lippe,Nordrhein-Westfalen,968,Stadtwerke Detmold GmbH,,6.0
+Detmold,Lippe,Nordrhein-Westfalen,968,Stadtwerke Detmold GmbH,Stadtwerke Detmold,6.0
 Dörentrup,Lippe,Nordrhein-Westfalen,7704,Stadtwerke Lippe-Weser Service GmbH & Co. KG,,1.0
 Extertal,Lippe,Nordrhein-Westfalen,1087,Westfalen Weser Netz GmbH,Westfalen Weser Netz,3.0
 Horn-Bad Meinberg,Lippe,Nordrhein-Westfalen,1087,Westfalen Weser Netz GmbH,Westfalen Weser Netz,3.0
@@ -2416,7 +2416,7 @@ Balve,Märkischer Kreis,Nordrhein-Westfalen,7332,Westnetz GmbH,Westnetz,1.0
 Halver,Märkischer Kreis,Nordrhein-Westfalen,7409,ENERVIE Vernetzt GmbH,ENERVIE Vernetzt (Hagen),2.0
 Hemer,Märkischer Kreis,Nordrhein-Westfalen,7409,ENERVIE Vernetzt GmbH,ENERVIE Vernetzt (Hagen),5.0
 Herscheid,Märkischer Kreis,Nordrhein-Westfalen,7409,ENERVIE Vernetzt GmbH,ENERVIE Vernetzt (Hagen),1.0
-Iserlohn,Märkischer Kreis,Nordrhein-Westfalen,317,Stadtwerke Iserlohn GmbH,,5.0
+Iserlohn,Märkischer Kreis,Nordrhein-Westfalen,317,Stadtwerke Iserlohn GmbH,Stadtwerke Iserlohn,5.0
 Kierspe,Märkischer Kreis,Nordrhein-Westfalen,7409,ENERVIE Vernetzt GmbH,ENERVIE Vernetzt (Hagen),2.0
 Lüdenscheid,Märkischer Kreis,Nordrhein-Westfalen,7409,ENERVIE Vernetzt GmbH,ENERVIE Vernetzt (Hagen),6.0
 Meinerzhagen,Märkischer Kreis,Nordrhein-Westfalen,7409,ENERVIE Vernetzt GmbH,ENERVIE Vernetzt (Hagen),5.0
@@ -2463,7 +2463,7 @@ Bönen,Unna,Nordrhein-Westfalen,323,GSW Gemeinschaftsstadtwerke GmbH Kamen - Bö
 Fröndenberg/Ruhr,Unna,Nordrhein-Westfalen,205,Stadtwerke Fröndenberg Wickede GmbH,,4.0
 Holzwickede,Unna,Nordrhein-Westfalen,205,Stadtwerke Fröndenberg Wickede GmbH,,0
 Kamen,Unna,Nordrhein-Westfalen,323,GSW Gemeinschaftsstadtwerke GmbH Kamen - Bönen - Bergkamen,,4.0
-Lünen,Unna,Nordrhein-Westfalen,402,Stadtwerke Lünen GmbH,,6.0
+Lünen,Unna,Nordrhein-Westfalen,402,Stadtwerke Lünen GmbH,Stadtwerke Lünen,6.0
 Schwerte,Unna,Nordrhein-Westfalen,7112,Stadtwerke Schwerte GmbH,,5.0
 Selm,Unna,Nordrhein-Westfalen,7332,Westnetz GmbH,Westnetz,4.0
 Unna,Unna,Nordrhein-Westfalen,646,Stadtwerke Unna GmbH,,5.0
@@ -2558,7 +2558,7 @@ Gelnhausen,Main-Kinzig-Kreis,Hessen,330,EAM Netz GmbH,EAM Netz,4.0
 Großkrotzenburg,Main-Kinzig-Kreis,Hessen,320,Gemeindewerke Kahl Versorgungsgesellschaft mbH,,0
 Gründau,Main-Kinzig-Kreis,Hessen,220,Kreiswerke Main-Kinzig GmbH,,2.0
 Hammersbach,Main-Kinzig-Kreis,Hessen,330,EAM Netz GmbH,EAM Netz,0
-Hanau,Main-Kinzig-Kreis,Hessen,7684,Hanau Netz GmbH,,5.0
+Hanau,Main-Kinzig-Kreis,Hessen,7684,Hanau Netz GmbH,Hanau Netz,5.0
 Hasselroth,Main-Kinzig-Kreis,Hessen,220,Kreiswerke Main-Kinzig GmbH,,1.0
 Jossgrund,Main-Kinzig-Kreis,Hessen,220,Kreiswerke Main-Kinzig GmbH,,1.0
 Langenselbold,Main-Kinzig-Kreis,Hessen,330,EAM Netz GmbH,EAM Netz,0
@@ -2602,7 +2602,7 @@ Oberzent,Odenwaldkreis,Hessen,134,e-netz Südhessen AG,e-netz Südhessen,3.0
 Dietzenbach,Offenbach,Hessen,7757,Energienetze Offenbach GmbH (ENO),Energienetze Offenbach,3.0
 Dreieich,Offenbach,Hessen,146,Stadtwerke Dreieich GmbH,,6.0
 Egelsbach,Offenbach,Hessen,372,Stadtwerke Langen GmbH,,1.0
-Hainburg,Offenbach,Hessen,7684,Hanau Netz GmbH,,0
+Hainburg,Offenbach,Hessen,7684,Hanau Netz GmbH,Hanau Netz,0
 Heusenstamm,Offenbach,Hessen,7757,Energienetze Offenbach GmbH (ENO),Energienetze Offenbach,0
 Langen (Hessen),Offenbach,Hessen,372,Stadtwerke Langen GmbH,,3.0
 Mainhausen,Offenbach,Hessen,7757,Energienetze Offenbach GmbH (ENO),Energienetze Offenbach,0
@@ -2694,7 +2694,7 @@ Siegbach,Lahn-Dill-Kreis,Hessen,330,EAM Netz GmbH,EAM Netz,0
 Sinn,Lahn-Dill-Kreis,Hessen,330,EAM Netz GmbH,EAM Netz,0
 Solms,Lahn-Dill-Kreis,Hessen,330,EAM Netz GmbH,EAM Netz,1.0
 Waldsolms,Lahn-Dill-Kreis,Hessen,1064,Syna GmbH,Syna,0
-Wetzlar,Lahn-Dill-Kreis,Hessen,EQ5hdQYCuitLBWrqu,enwag energie- und wassergesellschaft mbh,,4.0
+Wetzlar,Lahn-Dill-Kreis,Hessen,EQ5hdQYCuitLBWrqu,enwag energie- und wassergesellschaft mbh,enwag Wetzlar,4.0
 Beselich,Limburg-Weilburg,Hessen,1064,Syna GmbH,Syna,2.0
 Brechen,Limburg-Weilburg,Hessen,1064,Syna GmbH,Syna,0
 Bad Camberg,Limburg-Weilburg,Hessen,1064,Syna GmbH,Syna,1.0
@@ -2760,14 +2760,14 @@ Bad Salzschlirf,Fulda,Hessen,202,ovag Netz GmbH,ovag Netz,0
 Burghaun,Fulda,Hessen,209,OsthessenNetz GmbH,OsthessenNetz,3.0
 Dipperz,Fulda,Hessen,209,OsthessenNetz GmbH,OsthessenNetz,0
 Ebersburg,Fulda,Hessen,209,OsthessenNetz GmbH,OsthessenNetz,0
-Ehrenberg (Rhön),Fulda,Hessen,417,Überlandwerk Rhön GmbH,,1.0
+Ehrenberg (Rhön),Fulda,Hessen,417,Überlandwerk Rhön GmbH,Überlandwerk Rhön,1.0
 Eichenzell,Fulda,Hessen,209,OsthessenNetz GmbH,OsthessenNetz,1.0
 Eiterfeld,Fulda,Hessen,209,OsthessenNetz GmbH,OsthessenNetz,2.0
 Flieden,Fulda,Hessen,209,OsthessenNetz GmbH,OsthessenNetz,1.0
 Fulda,Fulda,Hessen,209,OsthessenNetz GmbH,OsthessenNetz,5.0
 Gersfeld (Rhön),Fulda,Hessen,209,OsthessenNetz GmbH,OsthessenNetz,2.0
 Großenlüder,Fulda,Hessen,209,OsthessenNetz GmbH,OsthessenNetz,2.0
-Hilders,Fulda,Hessen,417,Überlandwerk Rhön GmbH,,1.0
+Hilders,Fulda,Hessen,417,Überlandwerk Rhön GmbH,Überlandwerk Rhön,1.0
 Hofbieber,Fulda,Hessen,209,OsthessenNetz GmbH,OsthessenNetz,2.0
 Hosenfeld,Fulda,Hessen,209,OsthessenNetz GmbH,OsthessenNetz,2.0
 Hünfeld,Fulda,Hessen,7035,Stadtwerke Hünfeld GmbH,,2.0
@@ -2778,7 +2778,7 @@ Nüsttal,Fulda,Hessen,209,OsthessenNetz GmbH,OsthessenNetz,2.0
 Petersberg,Fulda,Hessen,209,OsthessenNetz GmbH,OsthessenNetz,2.0
 Poppenhausen (Wasserkuppe),Fulda,Hessen,209,OsthessenNetz GmbH,OsthessenNetz,1.0
 Rasdorf,Fulda,Hessen,209,OsthessenNetz GmbH,OsthessenNetz,1.0
-Tann (Rhön),Fulda,Hessen,417,Überlandwerk Rhön GmbH,,1.0
+Tann (Rhön),Fulda,Hessen,417,Überlandwerk Rhön GmbH,Überlandwerk Rhön,1.0
 Alheim,Hersfeld-Rotenburg,Hessen,330,EAM Netz GmbH,EAM Netz,1.0
 Bad Hersfeld,Hersfeld-Rotenburg,Hessen,36,Stadtwerke Bad Hersfeld GmbH,,5.0
 Bebra,Hersfeld-Rotenburg,Hessen,76,Stadtwerke Bebra GmbH,,3.0
@@ -3391,7 +3391,7 @@ Walhausen,Cochem-Zell,Rheinland-Pfalz,7332,Westnetz GmbH,Westnetz,0
 Zell (Mosel),Cochem-Zell,Rheinland-Pfalz,7332,Westnetz GmbH,Westnetz,1.0
 Andernach,Mayen-Koblenz,Rheinland-Pfalz,7690,Stadtwerke Andernach Energie GmbH,,4.0
 Mayen,Mayen-Koblenz,Rheinland-Pfalz,350,Energienetze Mittelrhein GmbH & Co. KG,Energienetze Mittelrhein,2.0
-Bendorf,Mayen-Koblenz,Rheinland-Pfalz,469,Stadtwerke Neuwied GmbH,,0
+Bendorf,Mayen-Koblenz,Rheinland-Pfalz,469,Stadtwerke Neuwied GmbH,Stadtwerke Neuwied,0
 Kretz,Mayen-Koblenz,Rheinland-Pfalz,7332,Westnetz GmbH,Westnetz,0
 Kruft,Mayen-Koblenz,Rheinland-Pfalz,7332,Westnetz GmbH,Westnetz,0
 Nickenich,Mayen-Koblenz,Rheinland-Pfalz,7332,Westnetz GmbH,Westnetz,0
@@ -3476,7 +3476,7 @@ Waldesch,Mayen-Koblenz,Rheinland-Pfalz,350,Energienetze Mittelrhein GmbH & Co. K
 Winningen,Mayen-Koblenz,Rheinland-Pfalz,7332,Westnetz GmbH,Westnetz,0
 Wolken,Mayen-Koblenz,Rheinland-Pfalz,7332,Westnetz GmbH,Westnetz,0
 Lehmen,Mayen-Koblenz,Rheinland-Pfalz,7332,Westnetz GmbH,Westnetz,0
-Neuwied,Neuwied,Rheinland-Pfalz,469,Stadtwerke Neuwied GmbH,,5.0
+Neuwied,Neuwied,Rheinland-Pfalz,469,Stadtwerke Neuwied GmbH,Stadtwerke Neuwied,5.0
 Asbach,Neuwied,Rheinland-Pfalz,1064,Syna GmbH,Syna,0
 Neustadt (Wied),Neuwied,Rheinland-Pfalz,1064,Syna GmbH,Syna,1.0
 Windhagen,Neuwied,Rheinland-Pfalz,1064,Syna GmbH,Syna,0
@@ -3487,7 +3487,7 @@ Leutesdorf,Neuwied,Rheinland-Pfalz,1064,Syna GmbH,Syna,1.0
 Rheinbrohl,Neuwied,Rheinland-Pfalz,1064,Syna GmbH,Syna,1.0
 Dierdorf,Neuwied,Rheinland-Pfalz,1064,Syna GmbH,Syna,1.0
 Großmaischeid,Neuwied,Rheinland-Pfalz,1064,Syna GmbH,Syna,0
-Isenburg,Neuwied,Rheinland-Pfalz,469,Stadtwerke Neuwied GmbH,,0
+Isenburg,Neuwied,Rheinland-Pfalz,469,Stadtwerke Neuwied GmbH,Stadtwerke Neuwied,0
 Kleinmaischeid,Neuwied,Rheinland-Pfalz,1064,Syna GmbH,Syna,0
 Stebach,Neuwied,Rheinland-Pfalz,1064,Syna GmbH,Syna,1.0
 Marienhausen,Neuwied,Rheinland-Pfalz,1064,Syna GmbH,Syna,0
@@ -3894,7 +3894,7 @@ Untershausen,Westerwaldkreis,Rheinland-Pfalz,350,Energienetze Mittelrhein GmbH &
 Welschneudorf,Westerwaldkreis,Rheinland-Pfalz,350,Energienetze Mittelrhein GmbH & Co. KG,Energienetze Mittelrhein,0
 Alsbach,Westerwaldkreis,Rheinland-Pfalz,350,Energienetze Mittelrhein GmbH & Co. KG,Energienetze Mittelrhein,0
 Breitenau,Westerwaldkreis,Rheinland-Pfalz,1064,Syna GmbH,Syna,0
-Caan,Westerwaldkreis,Rheinland-Pfalz,469,Stadtwerke Neuwied GmbH,,0
+Caan,Westerwaldkreis,Rheinland-Pfalz,469,Stadtwerke Neuwied GmbH,Stadtwerke Neuwied,0
 Deesen,Westerwaldkreis,Rheinland-Pfalz,1064,Syna GmbH,Syna,0
 Hundsdorf,Westerwaldkreis,Rheinland-Pfalz,350,Energienetze Mittelrhein GmbH & Co. KG,Energienetze Mittelrhein,0
 Nauort,Westerwaldkreis,Rheinland-Pfalz,350,Energienetze Mittelrhein GmbH & Co. KG,Energienetze Mittelrhein,0
@@ -4559,12 +4559,12 @@ Waldweiler,Trier-Saarburg,Rheinland-Pfalz,7332,Westnetz GmbH,Westnetz,0
 Wincheringen,Trier-Saarburg,Rheinland-Pfalz,7332,Westnetz GmbH,Westnetz,0
 Zerf,Trier-Saarburg,Rheinland-Pfalz,7332,Westnetz GmbH,Westnetz,1.0
 Merzkirchen,Trier-Saarburg,Rheinland-Pfalz,7332,Westnetz GmbH,Westnetz,0
-Frankenthal (Pfalz),Frankenthal (Pfalz),Rheinland-Pfalz,191,Stadtwerke Frankenthal GmbH,,4.0
-Kaiserslautern,Kaiserslautern,Rheinland-Pfalz,321,SWK Stadtwerke Kaiserslautern Versorgungs-AG,,6.0
+Frankenthal (Pfalz),Frankenthal (Pfalz),Rheinland-Pfalz,191,Stadtwerke Frankenthal GmbH,Stadtwerke Frankenthal,4.0
+Kaiserslautern,Kaiserslautern,Rheinland-Pfalz,321,SWK Stadtwerke Kaiserslautern Versorgungs-AG,SWK Kaiserslautern,6.0
 Landau in der Pfalz,Südliche Weinstraße,Rheinland-Pfalz,369,EnergieSüdwest Netz GmbH,,4.0
 Ludwigshafen am Rhein,Ludwigshafen am Rhein,Rheinland-Pfalz,7473,TWL Netze GmbH,TWL Netze (Ludwigshafen),4.0
 Mainz,Mainz,Rheinland-Pfalz,405,Mainzer Netze GmbH,Mainzer Netze,6.0
-Neustadt an der Weinstraße,Neustadt an der Weinstraße,Rheinland-Pfalz,467,Stadtwerke Neustadt an der Weinstraße GmbH,,6.0
+Neustadt an der Weinstraße,Neustadt an der Weinstraße,Rheinland-Pfalz,467,Stadtwerke Neustadt an der Weinstraße GmbH,Stadtwerke Neustadt an der Weinstraße,6.0
 Pirmasens,Pirmasens,Rheinland-Pfalz,519,Stadtwerke Pirmasens Versorgungs GmbH,,4.0
 Speyer,Speyer,Rheinland-Pfalz,607,Stadtwerke Speyer GmbH,,3.0
 Worms,Worms,Rheinland-Pfalz,701,EWR Netz GmbH,EWR Netz (Worms),7.0
@@ -4645,7 +4645,7 @@ Deidesheim,Bad Dürkheim,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,
 Forst an der Weinstraße,Bad Dürkheim,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,1.0
 Meckenheim,Bad Dürkheim,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
 Niederkirchen bei Deidesheim,Bad Dürkheim,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
-Ruppertsberg,Bad Dürkheim,Rheinland-Pfalz,467,Stadtwerke Neustadt an der Weinstraße GmbH,,0
+Ruppertsberg,Bad Dürkheim,Rheinland-Pfalz,467,Stadtwerke Neustadt an der Weinstraße GmbH,Stadtwerke Neustadt an der Weinstraße,0
 Bobenheim am Berg,Bad Dürkheim,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
 Dackenheim,Bad Dürkheim,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
 Erpolzheim,Bad Dürkheim,Rheinland-Pfalz,33,Stadtwerke Bad Dürkheim GmbH,,0
@@ -4658,7 +4658,7 @@ Elmstein,Bad Dürkheim,Rheinland-Pfalz,369,EnergieSüdwest Netz GmbH,,2.0
 Esthal,Bad Dürkheim,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,1.0
 Frankeneck,Bad Dürkheim,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
 Lambrecht (Pfalz),Bad Dürkheim,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
-Lindenberg,Bad Dürkheim,Rheinland-Pfalz,467,Stadtwerke Neustadt an der Weinstraße GmbH,,0
+Lindenberg,Bad Dürkheim,Rheinland-Pfalz,467,Stadtwerke Neustadt an der Weinstraße GmbH,Stadtwerke Neustadt an der Weinstraße,0
 Neidenfels,Bad Dürkheim,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
 Weidenthal,Bad Dürkheim,Rheinland-Pfalz,33,Stadtwerke Bad Dürkheim GmbH,,0
 Ellerstadt,Bad Dürkheim,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
@@ -4670,9 +4670,9 @@ Battenberg (Pfalz),Bad Dürkheim,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwer
 Bissersheim,Bad Dürkheim,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
 Bockenheim an der Weinstraße,Bad Dürkheim,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,1.0
 Carlsberg,Bad Dürkheim,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,1.0
-Dirmstein,Bad Dürkheim,Rheinland-Pfalz,191,Stadtwerke Frankenthal GmbH,,0
+Dirmstein,Bad Dürkheim,Rheinland-Pfalz,191,Stadtwerke Frankenthal GmbH,Stadtwerke Frankenthal,0
 Ebertsheim,Bad Dürkheim,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
-Gerolsheim,Bad Dürkheim,Rheinland-Pfalz,191,Stadtwerke Frankenthal GmbH,,0
+Gerolsheim,Bad Dürkheim,Rheinland-Pfalz,191,Stadtwerke Frankenthal GmbH,Stadtwerke Frankenthal,0
 Großkarlbach,Bad Dürkheim,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
 Hettenleidelheim,Bad Dürkheim,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
 Kindenheim,Bad Dürkheim,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
@@ -4838,7 +4838,7 @@ Schneckenhausen,Kaiserslautern,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke
 Sulzbachtal,Kaiserslautern,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
 Bann,Kaiserslautern,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
 Hauptstuhl,Kaiserslautern,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
-Kindsbach,Kaiserslautern,Rheinland-Pfalz,321,SWK Stadtwerke Kaiserslautern Versorgungs-AG,,0
+Kindsbach,Kaiserslautern,Rheinland-Pfalz,321,SWK Stadtwerke Kaiserslautern Versorgungs-AG,SWK Kaiserslautern,0
 Krickenbach,Kaiserslautern,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,1.0
 Landstuhl,Kaiserslautern,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
 Linden,Kaiserslautern,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
@@ -4914,34 +4914,34 @@ Matzenbach,Kusel,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,1.0
 Quirnbach/Pfalz,Kusel,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
 Albessen,Kusel,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
 Altenglan,Kusel,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,1.0
-Blaubach,Kusel,Rheinland-Pfalz,321,SWK Stadtwerke Kaiserslautern Versorgungs-AG,,0
+Blaubach,Kusel,Rheinland-Pfalz,321,SWK Stadtwerke Kaiserslautern Versorgungs-AG,SWK Kaiserslautern,0
 Bosenbach,Kusel,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
 Dennweiler-Frohnbach,Kusel,Rheinland-Pfalz,7332,Westnetz GmbH,Westnetz,0
-Ehweiler,Kusel,Rheinland-Pfalz,321,SWK Stadtwerke Kaiserslautern Versorgungs-AG,,0
+Ehweiler,Kusel,Rheinland-Pfalz,321,SWK Stadtwerke Kaiserslautern Versorgungs-AG,SWK Kaiserslautern,0
 Elzweiler,Kusel,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
-Erdesbach,Kusel,Rheinland-Pfalz,321,SWK Stadtwerke Kaiserslautern Versorgungs-AG,,0
+Erdesbach,Kusel,Rheinland-Pfalz,321,SWK Stadtwerke Kaiserslautern Versorgungs-AG,SWK Kaiserslautern,0
 Etschberg,Kusel,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
 Föckelberg,Kusel,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
-Haschbach am Remigiusberg,Kusel,Rheinland-Pfalz,321,SWK Stadtwerke Kaiserslautern Versorgungs-AG,,0
+Haschbach am Remigiusberg,Kusel,Rheinland-Pfalz,321,SWK Stadtwerke Kaiserslautern Versorgungs-AG,SWK Kaiserslautern,0
 Herchweiler,Kusel,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
 Horschbach,Kusel,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
-Körborn,Kusel,Rheinland-Pfalz,321,SWK Stadtwerke Kaiserslautern Versorgungs-AG,,0
+Körborn,Kusel,Rheinland-Pfalz,321,SWK Stadtwerke Kaiserslautern Versorgungs-AG,SWK Kaiserslautern,0
 Konken,Kusel,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
-Kusel,Kusel,Rheinland-Pfalz,321,SWK Stadtwerke Kaiserslautern Versorgungs-AG,,1.0
+Kusel,Kusel,Rheinland-Pfalz,321,SWK Stadtwerke Kaiserslautern Versorgungs-AG,SWK Kaiserslautern,1.0
 Neunkirchen am Potzberg,Kusel,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
 Niederalben,Kusel,Rheinland-Pfalz,7332,Westnetz GmbH,Westnetz,1.0
 Niederstaufenbach,Kusel,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
-Oberalben,Kusel,Rheinland-Pfalz,321,SWK Stadtwerke Kaiserslautern Versorgungs-AG,,0
+Oberalben,Kusel,Rheinland-Pfalz,321,SWK Stadtwerke Kaiserslautern Versorgungs-AG,SWK Kaiserslautern,0
 Oberstaufenbach,Kusel,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
 Pfeffelbach,Kusel,Rheinland-Pfalz,7332,Westnetz GmbH,Westnetz,0
 Rammelsbach,Kusel,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
 Rathsweiler,Kusel,Rheinland-Pfalz,7332,Westnetz GmbH,Westnetz,0
 Reichweiler,Kusel,Rheinland-Pfalz,7332,Westnetz GmbH,Westnetz,1.0
-Ruthweiler,Kusel,Rheinland-Pfalz,321,SWK Stadtwerke Kaiserslautern Versorgungs-AG,,0
+Ruthweiler,Kusel,Rheinland-Pfalz,321,SWK Stadtwerke Kaiserslautern Versorgungs-AG,SWK Kaiserslautern,0
 Rutsweiler am Glan,Kusel,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
 Schellweiler,Kusel,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
 Selchenbach,Kusel,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,1.0
-Thallichtenberg,Kusel,Rheinland-Pfalz,321,SWK Stadtwerke Kaiserslautern Versorgungs-AG,,0
+Thallichtenberg,Kusel,Rheinland-Pfalz,321,SWK Stadtwerke Kaiserslautern Versorgungs-AG,SWK Kaiserslautern,0
 Theisbergstegen,Kusel,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
 Ulmet,Kusel,Rheinland-Pfalz,7332,Westnetz GmbH,Westnetz,0
 Welchweiler,Kusel,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
@@ -4980,21 +4980,21 @@ Schweigen-Rechtenbach,Südliche Weinstraße,Rheinland-Pfalz,396,Pfalzwerke Netz 
 Schweighofen,Südliche Weinstraße,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
 Steinfeld,Südliche Weinstraße,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
 Vorderweidenthal,Südliche Weinstraße,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
-Altdorf,Südliche Weinstraße,Rheinland-Pfalz,467,Stadtwerke Neustadt an der Weinstraße GmbH,,0
-Böbingen,Südliche Weinstraße,Rheinland-Pfalz,467,Stadtwerke Neustadt an der Weinstraße GmbH,,0
+Altdorf,Südliche Weinstraße,Rheinland-Pfalz,467,Stadtwerke Neustadt an der Weinstraße GmbH,Stadtwerke Neustadt an der Weinstraße,0
+Böbingen,Südliche Weinstraße,Rheinland-Pfalz,467,Stadtwerke Neustadt an der Weinstraße GmbH,Stadtwerke Neustadt an der Weinstraße,0
 Burrweiler,Südliche Weinstraße,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
 Edenkoben,Südliche Weinstraße,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
 Edesheim,Südliche Weinstraße,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
 Flemlingen,Südliche Weinstraße,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
 Freimersheim (Pfalz),Südliche Weinstraße,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
 Gleisweiler,Südliche Weinstraße,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
-Gommersheim,Südliche Weinstraße,Rheinland-Pfalz,467,Stadtwerke Neustadt an der Weinstraße GmbH,,0
+Gommersheim,Südliche Weinstraße,Rheinland-Pfalz,467,Stadtwerke Neustadt an der Weinstraße GmbH,Stadtwerke Neustadt an der Weinstraße,0
 Großfischlingen,Südliche Weinstraße,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
 Hainfeld,Südliche Weinstraße,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
 Kleinfischlingen,Südliche Weinstraße,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
 Rhodt unter Rietburg,Südliche Weinstraße,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
 Roschbach,Südliche Weinstraße,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,1.0
-Venningen,Südliche Weinstraße,Rheinland-Pfalz,467,Stadtwerke Neustadt an der Weinstraße GmbH,,0
+Venningen,Südliche Weinstraße,Rheinland-Pfalz,467,Stadtwerke Neustadt an der Weinstraße GmbH,Stadtwerke Neustadt an der Weinstraße,0
 Weyher in der Pfalz,Südliche Weinstraße,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
 Herxheim bei Landau/Pfalz,Südliche Weinstraße,Rheinland-Pfalz,7033,Gemeindewerke Herxheim,,1.0
 Herxheimweyher,Südliche Weinstraße,Rheinland-Pfalz,7033,Gemeindewerke Herxheim,,0
@@ -5014,7 +5014,7 @@ Leinsweiler,Südliche Weinstraße,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwe
 Ranschbach,Südliche Weinstraße,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
 Siebeldingen,Südliche Weinstraße,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
 Walsheim,Südliche Weinstraße,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
-Kirrweiler (Pfalz),Südliche Weinstraße,Rheinland-Pfalz,467,Stadtwerke Neustadt an der Weinstraße GmbH,,1.0
+Kirrweiler (Pfalz),Südliche Weinstraße,Rheinland-Pfalz,467,Stadtwerke Neustadt an der Weinstraße GmbH,Stadtwerke Neustadt an der Weinstraße,1.0
 Maikammer,Südliche Weinstraße,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,1.0
 Sankt Martin,Südliche Weinstraße,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,1.0
 Bornheim,Südliche Weinstraße,Rheinland-Pfalz,Ne2H7yucha4SrFjPK,Queichtal Energie Offenbach Netz GmbH,,0
@@ -5032,10 +5032,10 @@ Rödersheim-Gronau,Rhein-Pfalz-Kreis,Rheinland-Pfalz,599,Thüga Energienetze Gmb
 Birkenheide,Rhein-Pfalz-Kreis,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
 Fußgönheim,Rhein-Pfalz-Kreis,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
 Maxdorf,Rhein-Pfalz-Kreis,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,1.0
-Beindersheim,Rhein-Pfalz-Kreis,Rheinland-Pfalz,191,Stadtwerke Frankenthal GmbH,,0
-Großniedesheim,Rhein-Pfalz-Kreis,Rheinland-Pfalz,191,Stadtwerke Frankenthal GmbH,,0
-Heßheim,Rhein-Pfalz-Kreis,Rheinland-Pfalz,191,Stadtwerke Frankenthal GmbH,,0
-Heuchelheim bei Frankenthal,Rhein-Pfalz-Kreis,Rheinland-Pfalz,191,Stadtwerke Frankenthal GmbH,,1.0
+Beindersheim,Rhein-Pfalz-Kreis,Rheinland-Pfalz,191,Stadtwerke Frankenthal GmbH,Stadtwerke Frankenthal,0
+Großniedesheim,Rhein-Pfalz-Kreis,Rheinland-Pfalz,191,Stadtwerke Frankenthal GmbH,Stadtwerke Frankenthal,0
+Heßheim,Rhein-Pfalz-Kreis,Rheinland-Pfalz,191,Stadtwerke Frankenthal GmbH,Stadtwerke Frankenthal,0
+Heuchelheim bei Frankenthal,Rhein-Pfalz-Kreis,Rheinland-Pfalz,191,Stadtwerke Frankenthal GmbH,Stadtwerke Frankenthal,1.0
 Kleinniedesheim,Rhein-Pfalz-Kreis,Rheinland-Pfalz,701,EWR Netz GmbH,EWR Netz (Worms),0
 Lambsheim,Rhein-Pfalz-Kreis,Rheinland-Pfalz,396,Pfalzwerke Netz AG,Pfalzwerke Netz,0
 Dudenhofen,Rhein-Pfalz-Kreis,Rheinland-Pfalz,7165,Gemeindewerke Dudenhofen,,1.0
@@ -5276,10 +5276,10 @@ Salach,Göppingen,Baden-Württemberg,7772,stauferwerk GmbH & Co. KG,,0
 Bad Überkingen,Göppingen,Baden-Württemberg,219,Albwerk GmbH & Co. KG,Albwerk (Geislingen),0
 Geislingen an der Steige,Göppingen,Baden-Württemberg,219,Albwerk GmbH & Co. KG,Albwerk (Geislingen),4.0
 Kuchen,Göppingen,Baden-Württemberg,7772,stauferwerk GmbH & Co. KG,,0
-Göppingen,Göppingen,Baden-Württemberg,7645,Energieversorgung Filstal GmbH & Co. KG,,4.0
+Göppingen,Göppingen,Baden-Württemberg,7645,Energieversorgung Filstal GmbH & Co. KG,Energieversorgung Filstal,4.0
 Schlat,Göppingen,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,0
 Wäschenbeuren,Göppingen,Baden-Württemberg,582,Stadtwerke Schwäbisch Gmünd GmbH,,0
-Wangen,Göppingen,Baden-Württemberg,7645,Energieversorgung Filstal GmbH & Co. KG,,0
+Wangen,Göppingen,Baden-Württemberg,7645,Energieversorgung Filstal GmbH & Co. KG,Energieversorgung Filstal,0
 Donzdorf,Göppingen,Baden-Württemberg,7772,stauferwerk GmbH & Co. KG,,2.0
 Gingen an der Fils,Göppingen,Baden-Württemberg,7772,stauferwerk GmbH & Co. KG,,0
 Süßen,Göppingen,Baden-Württemberg,7772,stauferwerk GmbH & Co. KG,,0
@@ -5292,7 +5292,7 @@ Wiesensteig,Göppingen,Baden-Württemberg,219,Albwerk GmbH & Co. KG,Albwerk (Gei
 Adelberg,Göppingen,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,0
 Birenbach,Göppingen,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,0
 Börtlingen,Göppingen,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,1.0
-Rechberghausen,Göppingen,Baden-Württemberg,7645,Energieversorgung Filstal GmbH & Co. KG,,0
+Rechberghausen,Göppingen,Baden-Württemberg,7645,Energieversorgung Filstal GmbH & Co. KG,Energieversorgung Filstal,0
 Aichelberg,Göppingen,Baden-Württemberg,219,Albwerk GmbH & Co. KG,Albwerk (Geislingen),0
 Bad Boll,Göppingen,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,0
 Dürnau,Göppingen,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,1.0
@@ -5568,7 +5568,7 @@ Dettenheim,Karlsruhe,Baden-Württemberg,225,Stadtwerke Germersheim GmbH,,0
 Kürnbach,Karlsruhe,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,1.0
 Oberderdingen,Karlsruhe,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,0
 Philippsburg,Karlsruhe,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,1.0
-Oberhausen-Rheinhausen,Karlsruhe,Baden-Württemberg,302,Stadtwerke Hockenheim,,0
+Oberhausen-Rheinhausen,Karlsruhe,Baden-Württemberg,302,Stadtwerke Hockenheim,Stadtwerke Hockenheim,0
 Sulzfeld,Karlsruhe,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,0
 Zaisenhausen,Karlsruhe,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,0
 Bühlertal,Rastatt,Baden-Württemberg,117,Stadtwerke Bühl GmbH,,0
@@ -5588,7 +5588,7 @@ Weisenbach,Rastatt,Baden-Württemberg,61,Stadtwerke Baden-Baden,Stadtwerke Baden
 Iffezheim,Rastatt,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,1.0
 Muggensturm,Rastatt,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,0
 Ötigheim,Rastatt,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,0
-Rastatt,Rastatt,Baden-Württemberg,526,Stadtwerke Rastatt GmbH,,3.0
+Rastatt,Rastatt,Baden-Württemberg,526,Stadtwerke Rastatt GmbH,Stadtwerke Rastatt,3.0
 Steinmauern,Rastatt,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,1.0
 Lichtenau,Rastatt,Baden-Württemberg,366,E-Werk Netze GmbH & Co. KG,E-Werk Netze (Mittelbaden),1.0
 Rheinmünster,Rastatt,Baden-Württemberg,601,GWS Gemeindewerke Sinzheim GmbH & Co. KG,,0
@@ -5603,24 +5603,24 @@ Höpfingen,Neckar-Odenwald-Kreis,Baden-Württemberg,271,Gebrüder Eirich GmbH & 
 Walldürn,Neckar-Odenwald-Kreis,Baden-Württemberg,666,Stadtwerke Walldürn GmbH,,3.0
 Haßmersheim,Neckar-Odenwald-Kreis,Baden-Württemberg,1064,Syna GmbH,Syna,0
 Hüffenhardt,Neckar-Odenwald-Kreis,Baden-Württemberg,1064,Syna GmbH,Syna,0
-Aglasterhausen,Neckar-Odenwald-Kreis,Baden-Württemberg,430,Stadtwerke Mosbach GmbH,,0
+Aglasterhausen,Neckar-Odenwald-Kreis,Baden-Württemberg,430,Stadtwerke Mosbach GmbH,Stadtwerke Mosbach,0
 Neunkirchen,Neckar-Odenwald-Kreis,Baden-Württemberg,155,Stadtwerke Eberbach GmbH,,0
 Schwarzach,Neckar-Odenwald-Kreis,Baden-Württemberg,1064,Syna GmbH,Syna,0
 Fahrenbach,Neckar-Odenwald-Kreis,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,1.0
 Limbach,Neckar-Odenwald-Kreis,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,0
-Mosbach,Neckar-Odenwald-Kreis,Baden-Württemberg,430,Stadtwerke Mosbach GmbH,,4.0
-Neckarzimmern,Neckar-Odenwald-Kreis,Baden-Württemberg,430,Stadtwerke Mosbach GmbH,,0
-Obrigheim,Neckar-Odenwald-Kreis,Baden-Württemberg,430,Stadtwerke Mosbach GmbH,,0
-Elztal,Neckar-Odenwald-Kreis,Baden-Württemberg,430,Stadtwerke Mosbach GmbH,,1.0
-Binau,Neckar-Odenwald-Kreis,Baden-Württemberg,430,Stadtwerke Mosbach GmbH,,0
-Neckargerach,Neckar-Odenwald-Kreis,Baden-Württemberg,430,Stadtwerke Mosbach GmbH,,0
+Mosbach,Neckar-Odenwald-Kreis,Baden-Württemberg,430,Stadtwerke Mosbach GmbH,Stadtwerke Mosbach,4.0
+Neckarzimmern,Neckar-Odenwald-Kreis,Baden-Württemberg,430,Stadtwerke Mosbach GmbH,Stadtwerke Mosbach,0
+Obrigheim,Neckar-Odenwald-Kreis,Baden-Württemberg,430,Stadtwerke Mosbach GmbH,Stadtwerke Mosbach,0
+Elztal,Neckar-Odenwald-Kreis,Baden-Württemberg,430,Stadtwerke Mosbach GmbH,Stadtwerke Mosbach,1.0
+Binau,Neckar-Odenwald-Kreis,Baden-Württemberg,430,Stadtwerke Mosbach GmbH,Stadtwerke Mosbach,0
+Neckargerach,Neckar-Odenwald-Kreis,Baden-Württemberg,430,Stadtwerke Mosbach GmbH,Stadtwerke Mosbach,0
 Zwingenberg,Neckar-Odenwald-Kreis,Baden-Württemberg,155,Stadtwerke Eberbach GmbH,,0
 Waldbrunn,Neckar-Odenwald-Kreis,Baden-Württemberg,155,Stadtwerke Eberbach GmbH,,0
 Osterburken,Neckar-Odenwald-Kreis,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,0
 Rosenberg,Neckar-Odenwald-Kreis,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,1.0
 Ravenstein,Neckar-Odenwald-Kreis,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,0
-Billigheim,Neckar-Odenwald-Kreis,Baden-Württemberg,430,Stadtwerke Mosbach GmbH,,0
-Schefflenz,Neckar-Odenwald-Kreis,Baden-Württemberg,430,Stadtwerke Mosbach GmbH,,1.0
+Billigheim,Neckar-Odenwald-Kreis,Baden-Württemberg,430,Stadtwerke Mosbach GmbH,Stadtwerke Mosbach,0
+Schefflenz,Neckar-Odenwald-Kreis,Baden-Württemberg,430,Stadtwerke Mosbach GmbH,Stadtwerke Mosbach,1.0
 Adelsheim,Neckar-Odenwald-Kreis,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,0
 Seckach,Neckar-Odenwald-Kreis,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,1.0
 Brühl,Rhein-Neckar-Kreis,Baden-Württemberg,607,Stadtwerke Speyer GmbH,,0
@@ -5638,10 +5638,10 @@ Sandhausen,Rhein-Neckar-Kreis,Baden-Württemberg,277,Stadtwerke Heidelberg Netze
 Schriesheim,Rhein-Neckar-Kreis,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,1.0
 Schwetzingen,Rhein-Neckar-Kreis,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,3.0
 Walldorf,Rhein-Neckar-Kreis,Baden-Württemberg,987,Stadtwerke Walldorf GmbH & Co. KG,,1.0
-Weinheim,Rhein-Neckar-Kreis,Baden-Württemberg,674,Stadtwerke Weinheim GmbH,,4.0
+Weinheim,Rhein-Neckar-Kreis,Baden-Württemberg,674,Stadtwerke Weinheim GmbH,Stadtwerke Weinheim,4.0
 St. Leon-Rot,Rhein-Neckar-Kreis,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,1.0
 Edingen-Neckarhausen,Rhein-Neckar-Kreis,Baden-Württemberg,7466,MVV Netze GmbH,MVV Netze (Mannheim),0
-Hirschberg an der Bergstraße,Rhein-Neckar-Kreis,Baden-Württemberg,674,Stadtwerke Weinheim GmbH,,0
+Hirschberg an der Bergstraße,Rhein-Neckar-Kreis,Baden-Württemberg,674,Stadtwerke Weinheim GmbH,Stadtwerke Weinheim,0
 Eberbach,Rhein-Neckar-Kreis,Baden-Württemberg,155,Stadtwerke Eberbach GmbH,,2.0
 Schönbrunn,Rhein-Neckar-Kreis,Baden-Württemberg,155,Stadtwerke Eberbach GmbH,,0
 Eschelbronn,Rhein-Neckar-Kreis,Baden-Württemberg,1064,Syna GmbH,Syna,0
@@ -5649,12 +5649,12 @@ Mauer,Rhein-Neckar-Kreis,Baden-Württemberg,1064,Syna GmbH,Syna,0
 Meckesheim,Rhein-Neckar-Kreis,Baden-Württemberg,1064,Syna GmbH,Syna,0
 Spechbach,Rhein-Neckar-Kreis,Baden-Württemberg,1064,Syna GmbH,Syna,0
 Lobbach,Rhein-Neckar-Kreis,Baden-Württemberg,1064,Syna GmbH,Syna,0
-Hemsbach,Rhein-Neckar-Kreis,Baden-Württemberg,674,Stadtwerke Weinheim GmbH,,0
-Laudenbach,Rhein-Neckar-Kreis,Baden-Württemberg,674,Stadtwerke Weinheim GmbH,,1.0
-Altlußheim,Rhein-Neckar-Kreis,Baden-Württemberg,302,Stadtwerke Hockenheim,,0
-Hockenheim,Rhein-Neckar-Kreis,Baden-Württemberg,302,Stadtwerke Hockenheim,,4.0
-Neulußheim,Rhein-Neckar-Kreis,Baden-Württemberg,302,Stadtwerke Hockenheim,,0
-Reilingen,Rhein-Neckar-Kreis,Baden-Württemberg,302,Stadtwerke Hockenheim,,0
+Hemsbach,Rhein-Neckar-Kreis,Baden-Württemberg,674,Stadtwerke Weinheim GmbH,Stadtwerke Weinheim,0
+Laudenbach,Rhein-Neckar-Kreis,Baden-Württemberg,674,Stadtwerke Weinheim GmbH,Stadtwerke Weinheim,1.0
+Altlußheim,Rhein-Neckar-Kreis,Baden-Württemberg,302,Stadtwerke Hockenheim,Stadtwerke Hockenheim,0
+Hockenheim,Rhein-Neckar-Kreis,Baden-Württemberg,302,Stadtwerke Hockenheim,Stadtwerke Hockenheim,4.0
+Neulußheim,Rhein-Neckar-Kreis,Baden-Württemberg,302,Stadtwerke Hockenheim,Stadtwerke Hockenheim,0
+Reilingen,Rhein-Neckar-Kreis,Baden-Württemberg,302,Stadtwerke Hockenheim,Stadtwerke Hockenheim,0
 Bammental,Rhein-Neckar-Kreis,Baden-Württemberg,1064,Syna GmbH,Syna,0
 Gaiberg,Rhein-Neckar-Kreis,Baden-Württemberg,1064,Syna GmbH,Syna,1.0
 Neckargemünd,Rhein-Neckar-Kreis,Baden-Württemberg,1064,Syna GmbH,Syna,0
@@ -6165,7 +6165,7 @@ Rottenacker,Alb-Donau-Kreis,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,0
 Untermarchtal,Alb-Donau-Kreis,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,0
 Unterstadion,Alb-Donau-Kreis,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,0
 Unterwachingen,Alb-Donau-Kreis,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,0
-Schemmerhofen,Biberach,Baden-Württemberg,7276,e.wa riss Netze GmbH,,0
+Schemmerhofen,Biberach,Baden-Württemberg,7276,e.wa riss Netze GmbH,e.wa riss Netze,0
 Alleshausen,Biberach,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,0
 Allmannsweiler,Biberach,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,0
 Bad Buchau,Biberach,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,0
@@ -6179,13 +6179,13 @@ Tiefenbach,Biberach,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,0
 Bad Schussenried,Biberach,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,0
 Ingoldingen,Biberach,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,2.0
 Attenweiler,Biberach,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,0
-Biberach an der Riß,Biberach,Baden-Württemberg,7276,e.wa riss Netze GmbH,,5.0
+Biberach an der Riß,Biberach,Baden-Württemberg,7276,e.wa riss Netze GmbH,e.wa riss Netze,5.0
 Eberhardzell,Biberach,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,2.0
 Hochdorf,Biberach,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,0
-Maselheim,Biberach,Baden-Württemberg,7276,e.wa riss Netze GmbH,,0
-Mittelbiberach,Biberach,Baden-Württemberg,7276,e.wa riss Netze GmbH,,0
+Maselheim,Biberach,Baden-Württemberg,7276,e.wa riss Netze GmbH,e.wa riss Netze,0
+Mittelbiberach,Biberach,Baden-Württemberg,7276,e.wa riss Netze GmbH,e.wa riss Netze,0
 Ummendorf,Biberach,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,0
-Warthausen,Biberach,Baden-Württemberg,7276,e.wa riss Netze GmbH,,0
+Warthausen,Biberach,Baden-Württemberg,7276,e.wa riss Netze GmbH,e.wa riss Netze,0
 Berkheim,Biberach,Baden-Württemberg,7214,Netze BW GmbH,Netze BW,1.0
 Dettingen an der Iller,Biberach,Baden-Württemberg,27,LEW Verteilnetz GmbH,LEW Verteilnetz,0
 Erolzheim,Biberach,Baden-Württemberg,588,Gebrüder Miller GmbH & Co. KG,,0
@@ -6488,15 +6488,15 @@ Wolfersdorf,Freising,Bayern,1068,Bayernwerk Netz GmbH,Bayernwerk Netz,0
 Zolling,Freising,Bayern,1068,Bayernwerk Netz GmbH,Bayernwerk Netz,1.0
 Alling,Fürstenfeldbruck,Bayern,206,Stadtwerke Fürstenfeldbruck GmbH,,0
 Egenhofen,Fürstenfeldbruck,Bayern,1068,Bayernwerk Netz GmbH,Bayernwerk Netz,1.0
-Eichenau,Fürstenfeldbruck,Bayern,7529,KommEnergie GmbH,,0
+Eichenau,Fürstenfeldbruck,Bayern,7529,KommEnergie GmbH,KommEnergie,0
 Emmering,Fürstenfeldbruck,Bayern,206,Stadtwerke Fürstenfeldbruck GmbH,,0
 Fürstenfeldbruck,Fürstenfeldbruck,Bayern,206,Stadtwerke Fürstenfeldbruck GmbH,,4.0
 Germering,Fürstenfeldbruck,Bayern,7510,Energienetze Bayern GmbH,,4.0
-Gröbenzell,Fürstenfeldbruck,Bayern,7529,KommEnergie GmbH,,0
+Gröbenzell,Fürstenfeldbruck,Bayern,7529,KommEnergie GmbH,KommEnergie,0
 Maisach,Fürstenfeldbruck,Bayern,1068,Bayernwerk Netz GmbH,Bayernwerk Netz,1.0
 Moorenweis,Fürstenfeldbruck,Bayern,206,Stadtwerke Fürstenfeldbruck GmbH,,1.0
 Olching,Fürstenfeldbruck,Bayern,7791,Stadtwerke Olching Stromnetz GmbH & Co. KG,,4.0
-Puchheim,Fürstenfeldbruck,Bayern,7529,KommEnergie GmbH,,4.0
+Puchheim,Fürstenfeldbruck,Bayern,7529,KommEnergie GmbH,KommEnergie,4.0
 Türkenfeld,Fürstenfeldbruck,Bayern,206,Stadtwerke Fürstenfeldbruck GmbH,,1.0
 Adelshofen,Fürstenfeldbruck,Bayern,206,Stadtwerke Fürstenfeldbruck GmbH,,0
 Althegnenberg,Fürstenfeldbruck,Bayern,206,Stadtwerke Fürstenfeldbruck GmbH,,1.0
@@ -6816,7 +6816,7 @@ Seeshaupt,Weilheim-Schongau,Bayern,1068,Bayernwerk Netz GmbH,Bayernwerk Netz,1.0
 Prem,Weilheim-Schongau,Bayern,208,Elektrizitätswerke Reutte GmbH & Co. KG,,0
 Steingaden,Weilheim-Schongau,Bayern,1068,Bayernwerk Netz GmbH,Bayernwerk Netz,1.0
 Wildsteig,Weilheim-Schongau,Bayern,1068,Bayernwerk Netz GmbH,Bayernwerk Netz,0
-Landshut,Landshut,Bayern,371,Stadtwerke Landshut,,6.0
+Landshut,Landshut,Bayern,371,Stadtwerke Landshut,Stadtwerke Landshut,6.0
 Passau,Passau,Bayern,510,Stadtwerke Passau GmbH,,5.0
 Straubing,Straubing,Bayern,615,Stadtwerke Straubing Strom und Gas GmbH,,5.0
 Aholming,Deggendorf,Bayern,1068,Bayernwerk Netz GmbH,Bayernwerk Netz,0
@@ -7816,7 +7816,7 @@ Gnotzheim,Weißenburg-Gunzenhausen,Bayern,479,N-ERGIE Netz GmbH,N-ERGIE Netz,1.0
 Heidenheim,Weißenburg-Gunzenhausen,Bayern,479,N-ERGIE Netz GmbH,N-ERGIE Netz,1.0
 Westheim,Weißenburg-Gunzenhausen,Bayern,1010,Netze ODR GmbH,Netze ODR,0
 Aschaffenburg,Aschaffenburg,Bayern,26,Aschaffenburger Versorgungs-GmbH,,3.0
-Schweinfurt,Schweinfurt,Bayern,586,Stadtwerke Schweinfurt GmbH,,4.0
+Schweinfurt,Schweinfurt,Bayern,586,Stadtwerke Schweinfurt GmbH,Stadtwerke Schweinfurt,4.0
 Würzburg,Würzburg,Bayern,702,Mainfranken Netze GmbH,Mainfranken Netze (Würzburg),5.0
 Alzenau,Aschaffenburg,Bayern,7191,Energieversorgung Alzenau GmbH,,1.0
 Bessenbach,Aschaffenburg,Bayern,1068,Bayernwerk Netz GmbH,Bayernwerk Netz,0
@@ -7897,16 +7897,16 @@ Römershager Forst-Nord,Bad Kissingen,Bayern,1068,Bayernwerk Netz GmbH,Bayernwer
 Römershager Forst-Ost,Bad Kissingen,Bayern,1068,Bayernwerk Netz GmbH,Bayernwerk Netz,0
 Roßbacher Forst,Bad Kissingen,Bayern,209,OsthessenNetz GmbH,OsthessenNetz,1.0
 Waldfensterer Forst,Bad Kissingen,Bayern,1068,Bayernwerk Netz GmbH,Bayernwerk Netz,0
-Bad Neustadt a.d.Saale,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,,1.0
+Bad Neustadt a.d.Saale,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,Überlandwerk Rhön,1.0
 Bischofsheim i.d.Rhön,Rhön-Grabfeld,Bayern,1068,Bayernwerk Netz GmbH,Bayernwerk Netz,2.0
 Bad Königshofen i.Grabfeld,Rhön-Grabfeld,Bayern,1068,Bayernwerk Netz GmbH,Bayernwerk Netz,2.0
-Oberelsbach,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,,2.0
+Oberelsbach,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,Überlandwerk Rhön,2.0
 Sandberg,Rhön-Grabfeld,Bayern,1068,Bayernwerk Netz GmbH,Bayernwerk Netz,1.0
-Bastheim,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,,1.0
-Hendungen,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,,1.0
+Bastheim,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,Überlandwerk Rhön,1.0
+Hendungen,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,Überlandwerk Rhön,1.0
 Mellrichstadt,Rhön-Grabfeld,Bayern,730,TEN Thüringer Energienetze GmbH & Co. KG,TEN Thüringer Energienetze,0
-Oberstreu,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,,1.0
-Stockheim,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,,1.0
+Oberstreu,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,Überlandwerk Rhön,1.0
+Stockheim,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,Überlandwerk Rhön,1.0
 Aubstadt,Rhön-Grabfeld,Bayern,1068,Bayernwerk Netz GmbH,Bayernwerk Netz,1.0
 Großbardorf,Rhön-Grabfeld,Bayern,1068,Bayernwerk Netz GmbH,Bayernwerk Netz,1.0
 Herbstadt,Rhön-Grabfeld,Bayern,1068,Bayernwerk Netz GmbH,Bayernwerk Netz,0
@@ -7914,34 +7914,34 @@ Höchheim,Rhön-Grabfeld,Bayern,1068,Bayernwerk Netz GmbH,Bayernwerk Netz,1.0
 Sulzdorf a.d.Lederhecke,Rhön-Grabfeld,Bayern,1068,Bayernwerk Netz GmbH,Bayernwerk Netz,1.0
 Sulzfeld,Rhön-Grabfeld,Bayern,1068,Bayernwerk Netz GmbH,Bayernwerk Netz,0
 Trappstadt,Rhön-Grabfeld,Bayern,1068,Bayernwerk Netz GmbH,Bayernwerk Netz,0
-Hohenroth,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,,0
-Niederlauer,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,,0
-Rödelmaier,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,,1.0
-Salz,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,,0
-Schönau a.d.Brend,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,,0
+Hohenroth,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,Überlandwerk Rhön,0
+Niederlauer,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,Überlandwerk Rhön,0
+Rödelmaier,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,Überlandwerk Rhön,1.0
+Salz,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,Überlandwerk Rhön,0
+Schönau a.d.Brend,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,Überlandwerk Rhön,0
 Strahlungen,Rhön-Grabfeld,Bayern,1068,Bayernwerk Netz GmbH,Bayernwerk Netz,0
-Burglauer,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,,1.0
-Fladungen,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,,1.0
-Hausen,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,,1.0
-Nordheim v.d.Rhön,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,,0
-Heustreu,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,,0
+Burglauer,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,Überlandwerk Rhön,1.0
+Fladungen,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,Überlandwerk Rhön,1.0
+Hausen,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,Überlandwerk Rhön,1.0
+Nordheim v.d.Rhön,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,Überlandwerk Rhön,0
+Heustreu,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,Überlandwerk Rhön,0
 Hollstadt,Rhön-Grabfeld,Bayern,1068,Bayernwerk Netz GmbH,Bayernwerk Netz,0
-Unsleben,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,,0
-Wollbach,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,,0
-Ostheim v.d.Rhön,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,,0
-Sondheim v.d.Rhön,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,,1.0
+Unsleben,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,Überlandwerk Rhön,0
+Wollbach,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,Überlandwerk Rhön,0
+Ostheim v.d.Rhön,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,Überlandwerk Rhön,0
+Sondheim v.d.Rhön,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,Überlandwerk Rhön,1.0
 Willmars,Rhön-Grabfeld,Bayern,730,TEN Thüringer Energienetze GmbH & Co. KG,TEN Thüringer Energienetze,0
 Großeibstadt,Rhön-Grabfeld,Bayern,1068,Bayernwerk Netz GmbH,Bayernwerk Netz,0
 Saal a.d.Saale,Rhön-Grabfeld,Bayern,1068,Bayernwerk Netz GmbH,Bayernwerk Netz,0
 Wülfershausen a.d.Saale,Rhön-Grabfeld,Bayern,1068,Bayernwerk Netz GmbH,Bayernwerk Netz,1.0
 Bundorfer Forst,Rhön-Grabfeld,Bayern,1068,Bayernwerk Netz GmbH,Bayernwerk Netz,1.0
-Burgwallbacher Forst,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,,0
+Burgwallbacher Forst,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,Überlandwerk Rhön,0
 Forst Schmalwasser-Nord,Rhön-Grabfeld,Bayern,1068,Bayernwerk Netz GmbH,Bayernwerk Netz,0
 Forst Schmalwasser-Süd,Rhön-Grabfeld,Bayern,1068,Bayernwerk Netz GmbH,Bayernwerk Netz,0
-Mellrichstadter Forst,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,,0
+Mellrichstadter Forst,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,Überlandwerk Rhön,0
 Steinacher Forst r.d.Saale,Rhön-Grabfeld,Bayern,1068,Bayernwerk Netz GmbH,Bayernwerk Netz,1.0
 Sulzfelder Forst,Rhön-Grabfeld,Bayern,1068,Bayernwerk Netz GmbH,Bayernwerk Netz,0
-Weigler,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,,0
+Weigler,Rhön-Grabfeld,Bayern,417,Überlandwerk Rhön GmbH,Überlandwerk Rhön,0
 Eltmann,Haßberge,Bayern,1068,Bayernwerk Netz GmbH,Bayernwerk Netz,1.0
 Haßfurt,Haßberge,Bayern,273,Stadtwerk Haßfurt GmbH,,1.0
 Oberaurach,Haßberge,Bayern,1068,Bayernwerk Netz GmbH,Bayernwerk Netz,0
@@ -8086,7 +8086,7 @@ Ruppertshüttener Forst,Main-Spessart,Bayern,1068,Bayernwerk Netz GmbH,Bayernwer
 Bergrheinfeld,Schweinfurt,Bayern,401,ÜZ Mainfranken eG,ÜZ Mainfranken,1.0
 Dittelbrunn,Schweinfurt,Bayern,1068,Bayernwerk Netz GmbH,Bayernwerk Netz,0
 Euerbach,Schweinfurt,Bayern,401,ÜZ Mainfranken eG,ÜZ Mainfranken,0
-Geldersheim,Schweinfurt,Bayern,586,Stadtwerke Schweinfurt GmbH,,0
+Geldersheim,Schweinfurt,Bayern,586,Stadtwerke Schweinfurt GmbH,Stadtwerke Schweinfurt,0
 Gochsheim,Schweinfurt,Bayern,7102,Elektrizitätsversorgungsunternehmen (EVU) der Gemeinde Gochsheim,,1.0
 Grafenrheinfeld,Schweinfurt,Bayern,401,ÜZ Mainfranken eG,ÜZ Mainfranken,0
 Grettstadt,Schweinfurt,Bayern,401,ÜZ Mainfranken eG,ÜZ Mainfranken,1.0
@@ -8580,7 +8580,7 @@ Tholey,St. Wendel,Saarland,7211,energis-Netzgesellschaft mbH,energis-Netzgesells
 Berlin,Berlin,Berlin,80,Stromnetz Berlin GmbH,Stromnetz Berlin,25.0
 Brandenburg an der Havel,Brandenburg an der Havel,Brandenburg,948,StWB Stadtwerke Brandenburg an der Havel GmbH &,,9.0
 Cottbus,Cottbus,Brandenburg,1081,Mitteldeutsche Netzgesellschaft Strom mbH,MITNETZ Strom,8.0
-Frankfurt (Oder),Frankfurt (Oder),Brandenburg,959,Netzgesellschaft Frankfurt (Oder) mbH,,6.0
+Frankfurt (Oder),Frankfurt (Oder),Brandenburg,959,Netzgesellschaft Frankfurt (Oder) mbH,Netzgesellschaft Frankfurt (Oder),6.0
 Potsdam,Potsdam,Brandenburg,792,Netzgesellschaft Potsdam GmbH,Netzgesellschaft Potsdam,7.0
 Ahrensfelde,Barnim,Brandenburg,1000,E.DIS Netz GmbH,E.DIS Netz,3.0
 Bernau bei Berlin,Barnim,Brandenburg,7007,Stadtwerke Bernau GmbH,,6.0
@@ -9258,7 +9258,7 @@ Grimmen,Vorpommern-Rügen,Mecklenburg-Vorpommern,1000,E.DIS Netz GmbH,E.DIS Netz
 Marlow,Vorpommern-Rügen,Mecklenburg-Vorpommern,1000,E.DIS Netz GmbH,E.DIS Netz,2.0
 Putbus,Vorpommern-Rügen,Mecklenburg-Vorpommern,1000,E.DIS Netz GmbH,E.DIS Netz,2.0
 Sassnitz,Vorpommern-Rügen,Mecklenburg-Vorpommern,1000,E.DIS Netz GmbH,E.DIS Netz,0
-Stralsund,Vorpommern-Rügen,Mecklenburg-Vorpommern,915,SWS Netze GmbH,,4.0
+Stralsund,Vorpommern-Rügen,Mecklenburg-Vorpommern,915,SWS Netze GmbH,SWS Netze Stralsund,4.0
 Süderholz,Vorpommern-Rügen,Mecklenburg-Vorpommern,1000,E.DIS Netz GmbH,E.DIS Netz,3.0
 Zingst,Vorpommern-Rügen,Mecklenburg-Vorpommern,1000,E.DIS Netz GmbH,E.DIS Netz,0
 Altenpleen,Vorpommern-Rügen,Mecklenburg-Vorpommern,1000,E.DIS Netz GmbH,E.DIS Netz,0
@@ -9267,7 +9267,7 @@ Klausdorf,Vorpommern-Rügen,Mecklenburg-Vorpommern,1000,E.DIS Netz GmbH,E.DIS Ne
 Kramerhof,Vorpommern-Rügen,Mecklenburg-Vorpommern,1000,E.DIS Netz GmbH,E.DIS Netz,1.0
 Preetz,Vorpommern-Rügen,Mecklenburg-Vorpommern,1000,E.DIS Netz GmbH,E.DIS Netz,1.0
 Prohn,Vorpommern-Rügen,Mecklenburg-Vorpommern,1000,E.DIS Netz GmbH,E.DIS Netz,0
-Barth,Vorpommern-Rügen,Mecklenburg-Vorpommern,915,SWS Netze GmbH,,1.0
+Barth,Vorpommern-Rügen,Mecklenburg-Vorpommern,915,SWS Netze GmbH,SWS Netze Stralsund,1.0
 Divitz-Spoldershagen,Vorpommern-Rügen,Mecklenburg-Vorpommern,1000,E.DIS Netz GmbH,E.DIS Netz,0
 Fuhlendorf,<NA>,Mecklenburg-Vorpommern,1000,E.DIS Netz GmbH,E.DIS Netz,1.0
 Karnin,Vorpommern-Rügen,Mecklenburg-Vorpommern,1000,E.DIS Netz GmbH,E.DIS Netz,1.0
@@ -9315,11 +9315,11 @@ Zirkow,Vorpommern-Rügen,Mecklenburg-Vorpommern,1000,E.DIS Netz GmbH,E.DIS Netz,
 Mönchgut,Vorpommern-Rügen,Mecklenburg-Vorpommern,1000,E.DIS Netz GmbH,E.DIS Netz,0
 Groß Kordshagen,Vorpommern-Rügen,Mecklenburg-Vorpommern,1000,E.DIS Netz GmbH,E.DIS Netz,0
 Jakobsdorf,Vorpommern-Rügen,Mecklenburg-Vorpommern,1000,E.DIS Netz GmbH,E.DIS Netz,0
-Lüssow,Vorpommern-Rügen,Mecklenburg-Vorpommern,915,SWS Netze GmbH,,0
+Lüssow,Vorpommern-Rügen,Mecklenburg-Vorpommern,915,SWS Netze GmbH,SWS Netze Stralsund,0
 Niepars,Vorpommern-Rügen,Mecklenburg-Vorpommern,1000,E.DIS Netz GmbH,E.DIS Netz,2.0
 Pantelitz,Vorpommern-Rügen,Mecklenburg-Vorpommern,1000,E.DIS Netz GmbH,E.DIS Netz,1.0
 Steinhagen,Vorpommern-Rügen,Mecklenburg-Vorpommern,1000,E.DIS Netz GmbH,E.DIS Netz,1.0
-Wendorf,Vorpommern-Rügen,Mecklenburg-Vorpommern,915,SWS Netze GmbH,,0
+Wendorf,Vorpommern-Rügen,Mecklenburg-Vorpommern,915,SWS Netze GmbH,SWS Netze Stralsund,0
 Zarrendorf,Vorpommern-Rügen,Mecklenburg-Vorpommern,1000,E.DIS Netz GmbH,E.DIS Netz,0
 Altenkirchen,Vorpommern-Rügen,Mecklenburg-Vorpommern,1000,E.DIS Netz GmbH,E.DIS Netz,1.0
 Breege,<NA>,Mecklenburg-Vorpommern,1000,E.DIS Netz GmbH,E.DIS Netz,1.0
@@ -10357,7 +10357,7 @@ Erfurt,Erfurt,Thüringen,744,SWE Netz GmbH (Erfurt),SWE Netz (Erfurt),11.0
 Gera,Gera,Thüringen,745,GeraNetz GmbH,,5.0
 Jena,Jena,Thüringen,7237,Stadtwerke Jena Netze GmbH,Stadtwerke Jena Netze,5.0
 Suhl,Suhl,Thüringen,930,Stadtwerke Suhl/Zella-Mehlis Netz GmbH,,6.0
-Weimar,Weimar,Thüringen,739,ENWG Energienetze Weimar GmbH & Co. KG,,4.0
+Weimar,Weimar,Thüringen,739,ENWG Energienetze Weimar GmbH & Co. KG,ENWG Energienetze Weimar,4.0
 Heilbad Heiligenstadt,Eichsfeld,Thüringen,730,TEN Thüringer Energienetze GmbH & Co. KG,TEN Thüringer Energienetze,0
 Niederorschel,Eichsfeld,Thüringen,730,TEN Thüringer Energienetze GmbH & Co. KG,TEN Thüringer Energienetze,2.0
 Leinefelde-Worbis,Eichsfeld,Thüringen,730,TEN Thüringer Energienetze GmbH & Co. KG,TEN Thüringer Energienetze,6.0
@@ -10462,14 +10462,14 @@ Nazza,Wartburgkreis,Thüringen,730,TEN Thüringer Energienetze GmbH & Co. KG,TEN
 Amt Creuzburg,Wartburgkreis,Thüringen,730,TEN Thüringer Energienetze GmbH & Co. KG,TEN Thüringer Energienetze,2.0
 Bad Salzungen,Wartburgkreis,Thüringen,730,TEN Thüringer Energienetze GmbH & Co. KG,TEN Thüringer Energienetze,4.0
 Leimbach,Wartburgkreis,Thüringen,730,TEN Thüringer Energienetze GmbH & Co. KG,TEN Thüringer Energienetze,1.0
-Buttlar,Wartburgkreis,Thüringen,417,Überlandwerk Rhön GmbH,,1.0
+Buttlar,Wartburgkreis,Thüringen,417,Überlandwerk Rhön GmbH,Überlandwerk Rhön,1.0
 Geisa,Wartburgkreis,Thüringen,209,OsthessenNetz GmbH,OsthessenNetz,0
-Gerstengrund,Wartburgkreis,Thüringen,417,Überlandwerk Rhön GmbH,,0
-Schleid,Wartburgkreis,Thüringen,417,Überlandwerk Rhön GmbH,,1.0
+Gerstengrund,Wartburgkreis,Thüringen,417,Überlandwerk Rhön GmbH,Überlandwerk Rhön,0
+Schleid,Wartburgkreis,Thüringen,417,Überlandwerk Rhön GmbH,Überlandwerk Rhön,1.0
 Ruhla,Wartburgkreis,Thüringen,730,TEN Thüringer Energienetze GmbH & Co. KG,TEN Thüringer Energienetze,1.0
 Seebach,Wartburgkreis,Thüringen,730,TEN Thüringer Energienetze GmbH & Co. KG,TEN Thüringer Energienetze,0
 Dermbach,Wartburgkreis,Thüringen,730,TEN Thüringer Energienetze GmbH & Co. KG,TEN Thüringer Energienetze,3.0
-Empfertshausen,Wartburgkreis,Thüringen,417,Überlandwerk Rhön GmbH,,0
+Empfertshausen,Wartburgkreis,Thüringen,417,Überlandwerk Rhön GmbH,Überlandwerk Rhön,0
 Oechsen,Wartburgkreis,Thüringen,7667,WerraEnergie GmbH,,0
 Weilar,Wartburgkreis,Thüringen,730,TEN Thüringer Energienetze GmbH & Co. KG,TEN Thüringer Energienetze,0
 Wiesenthal,Wartburgkreis,Thüringen,730,TEN Thüringer Energienetze GmbH & Co. KG,TEN Thüringer Energienetze,1.0
@@ -10536,11 +10536,11 @@ Brotterode-Trusetal,Schmalkalden-Meiningen,Thüringen,730,TEN Thüringer Energie
 Zella-Mehlis,Schmalkalden-Meiningen,Thüringen,930,Stadtwerke Suhl/Zella-Mehlis Netz GmbH,,0
 Rhönblick,Schmalkalden-Meiningen,Thüringen,730,TEN Thüringer Energienetze GmbH & Co. KG,TEN Thüringer Energienetze,2.0
 Grabfeld,Schmalkalden-Meiningen,Thüringen,730,TEN Thüringer Energienetze GmbH & Co. KG,TEN Thüringer Energienetze,3.0
-Birx,Schmalkalden-Meiningen,Thüringen,417,Überlandwerk Rhön GmbH,,0
-Erbenhausen,Schmalkalden-Meiningen,Thüringen,417,Überlandwerk Rhön GmbH,,2.0
-Frankenheim/Rhön,Schmalkalden-Meiningen,Thüringen,417,Überlandwerk Rhön GmbH,,0
-Oberweid,Schmalkalden-Meiningen,Thüringen,417,Überlandwerk Rhön GmbH,,0
-Kaltennordheim,Schmalkalden-Meiningen,Thüringen,417,Überlandwerk Rhön GmbH,,2.0
+Birx,Schmalkalden-Meiningen,Thüringen,417,Überlandwerk Rhön GmbH,Überlandwerk Rhön,0
+Erbenhausen,Schmalkalden-Meiningen,Thüringen,417,Überlandwerk Rhön GmbH,Überlandwerk Rhön,2.0
+Frankenheim/Rhön,Schmalkalden-Meiningen,Thüringen,417,Überlandwerk Rhön GmbH,Überlandwerk Rhön,0
+Oberweid,Schmalkalden-Meiningen,Thüringen,417,Überlandwerk Rhön GmbH,Überlandwerk Rhön,0
+Kaltennordheim,Schmalkalden-Meiningen,Thüringen,417,Überlandwerk Rhön GmbH,Überlandwerk Rhön,2.0
 Friedelshausen,Schmalkalden-Meiningen,Thüringen,730,TEN Thüringer Energienetze GmbH & Co. KG,TEN Thüringer Energienetze,0
 Mehmels,Schmalkalden-Meiningen,Thüringen,730,TEN Thüringer Energienetze GmbH & Co. KG,TEN Thüringer Energienetze,0
 Schwallungen,Schmalkalden-Meiningen,Thüringen,730,TEN Thüringer Energienetze GmbH & Co. KG,TEN Thüringer Energienetze,2.0
