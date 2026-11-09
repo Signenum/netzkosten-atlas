@@ -104,6 +104,14 @@ footer.note{grid-column:1/-1;color:var(--muted);font-size:.76rem;margin:0}
 
 /* Entwicklungen */
 .dev{margin-top:22px;display:grid;gap:12px}
+.qtbl{max-height:420px;overflow:auto;font-size:.8rem}
+.qtbl .qr{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,2fr);gap:10px;padding:6px 4px;border-bottom:1px solid var(--line)}
+.qtbl .qr .qn{font-weight:600;cursor:pointer;color:var(--ink)} .qtbl .qr .qn:hover{color:var(--accent);text-decoration:underline}
+.qtbl .qr .ql{display:flex;flex-wrap:wrap;gap:4px 12px} .qtbl a{color:var(--accent)} .qtbl .na{color:var(--muted)}
+#qsearch{font:inherit;font-size:.82rem;padding:5px 8px;border:1px solid var(--line);border-radius:4px;background:var(--panel);color:var(--ink);min-width:0;width:220px;max-width:100%}
+.qgen{margin:6px 0 0;padding-left:18px;font-size:.82rem;line-height:1.5} .qgen a{color:var(--accent)}
+@media (max-width:520px){.qtbl .qr{grid-template-columns:minmax(0,1fr)}}
+
 .dev h2{font-family:var(--f-disp);font-weight:700;font-size:1.3rem;margin:0}
 .dev .lead{color:var(--muted);font-size:.88rem;margin:0;max-width:75ch}
 .devgrid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:16px}
@@ -191,7 +199,7 @@ footer.note{grid-column:1/-1;color:var(--muted);font-size:.76rem;margin:0}
     </div>
   </aside>
 
-  <footer class="note">Flächen = Netzgebiete der Mittelspannung, genähert auf Gemeindeebene: Stichproben-Abfrage bei VNBdigital (ca. 9.400 Punkte), Zuordnung jeder Gemeinde zum häufigsten Netzbetreiber; Geometrie © GeoBasis-DE / BKG 2026 (VG250-EW, dl-de/by-2-0). Gemeinden mit mehreren Netzbetreibern erscheinen nur beim überwiegenden. Mausrad/Pinch zum Zoomen. NAP-Kennwerte: geschätzte Kosten ÷ Menge laut Netzausbauplan 2026 (2025–2035, netzdimensionierender Ausbau; vereinzelt NAP 2024 als Fallback). BKZ: veröffentlicht oder Proxy = Leistungspreis ≥2.500 h 2026. Netzentgelte ohne Umlagen, Konzessionsabgabe und USt. Daten: Preisblätter der VNB, VNBdigital (Stand 9. Nov. 2026).</footer>
+  <footer class="note">Flächen = Netzgebiete der Mittelspannung, genähert auf Gemeindeebene: Stichproben-Abfrage bei VNBdigital (ca. 9.400 Punkte), Zuordnung jeder Gemeinde zum häufigsten Netzbetreiber; Geometrie © GeoBasis-DE / BKG 2026 (VG250-EW, dl-de/by-2-0). Gemeinden mit mehreren Netzbetreibern erscheinen nur beim überwiegenden. Mausrad/Pinch zum Zoomen. NAP-Kennwerte: geschätzte Kosten ÷ Menge laut Netzausbauplan 2026 (2025–2035, netzdimensionierender Ausbau; vereinzelt NAP 2024 als Fallback). BKZ: veröffentlicht oder Proxy = Leistungspreis ≥2.500 h 2026. Netzentgelte ohne Umlagen, Konzessionsabgabe und USt. Daten: Preisblätter der VNB, VNBdigital (Stand 9. Nov. 2026) – <a href="#quellen">alle Quellen unten</a>.</footer>
 </div>
 
 <section class="dev" aria-labelledby="devh">
@@ -242,6 +250,25 @@ footer.note{grid-column:1/-1;color:var(--muted);font-size:.76rem;margin:0}
       </div>
       <p class="note2" id="nenote"></p>
     </div>
+  </div>
+</section>
+
+<section class="dev" aria-labelledby="qh" id="quellen">
+  <h2 id="qh">Quellen</h2>
+  <p class="lead">Alle Werte sind mit ihrer Quelle verlinkt: Netzausbaupläne von VNBdigital, Preisblätter für Netzentgelte und Baukostenzuschuss direkt bei den Netzbetreibern. Ein Klick auf einen Netzbetreiber springt zu seinem Steckbrief auf der Karte.</p>
+  <div class="panel">
+    <div class="ph"><h3>Je Netzbetreiber</h3><input type="search" id="qsearch" placeholder="Netzbetreiber suchen …" aria-label="Quellen nach Netzbetreiber filtern"></div>
+    <div class="qtbl" id="qtbl" role="table"></div>
+  </div>
+  <div class="panel">
+    <h3>Allgemeine Quellen</h3>
+    <ul class="qgen">
+      <li><a href="https://www.vnbdigital.de/" target="_blank" rel="noopener">VNBdigital</a> – Netzausbaupläne nach § 14d EnWG (NAP 2026, NAP 2024) und Zuordnung der Netzbetreiber zu Orten (Stichproben, Nov. 2026)</li>
+      <li>Gemeinde- und Ländergrenzen: © GeoBasis-DE / BKG 2026, <a href="https://gdz.bkg.bund.de/index.php/default/verwaltungsgebiete-1-250-000-mit-einwohnerzahlen-stand-31-12-vg250-ew-31-12.html" target="_blank" rel="noopener">VG250-EW</a>, Lizenz dl-de/by-2-0, aufbereitet über <a href="https://github.com/dimfalk/vg250" target="_blank" rel="noopener">dimfalk/vg250</a></li>
+      <li>BKZ-Methodik: Bundesnetzagentur, Positionspapier zur Erhebung von Baukostenzuschüssen (BK8, November 2024); BGH-Beschluss „Batteriespeicher II“ (Juli 2025)</li>
+      <li>Netzentgeltsystematik: StromNEV Anlage 4 (Gleichzeitigkeitsfunktion, 2.500-h-Grenze); Bundeszuschuss zu den Übertragungsnetzkosten 2026 (6,5 Mrd. €) bzw. 2027 (rund 5,5 Mrd. €, geplant)</li>
+      <li>Daten, Skripte und Methodik: <a href="https://github.com/Signenum/netzkosten-atlas" target="_blank" rel="noopener">github.com/Signenum/netzkosten-atlas</a> (CC BY-NC 4.0)</li>
+    </ul>
   </div>
 </section>
 
@@ -449,6 +476,9 @@ function renderCard(){
       ${d.nap ? `<span>${d.napurl ? `<a href="${d.napurl}" target="_blank" rel="noopener">${d.naped}</a>` : d.naped} vom ${new Date(d.nap).toLocaleDateString("de-DE")} (VNBdigital)</span>` : ""}
       ${d.srcne ? `<span>${link(d.srcne, "Preisblatt Netzentgelte 2026")}${d.stne ? " · Stand " + d.stne : ""}</span>` : ""}
       ${d.srcb ? `<span>${link(d.srcb, "Preisblatt Baukostenzuschuss")}</span>` : ""}
+      ${(NNE[d.n] && NNE[d.n].src && NNE[d.n].src["2025"]) ? `<span>${link(NNE[d.n].src["2025"], "Preisblatt 2025")}</span>` : ""}
+      ${(NNE[d.n] && NNE[d.n].src && NNE[d.n].src["2027"]) ? `<span>${link(NNE[d.n].src["2027"], "Preisblatt 2027 (vorläufig)")}</span>` : ""}
+      <span><a href="#quellen">Alle Quellen ↓</a></span>
     </div>`;
 }
 
@@ -602,6 +632,26 @@ function renderNE(){
   const def = nem==="ref" ? "Referenzkunde 1 MW, 4.000 Benutzungsstunden: Leistungspreis ≥2.500 h ÷ 40 + Arbeitspreis ≥2.500 h." : nem==="lpg" ? "Jahresleistungspreis für Entnahmestellen ≥2.500 Benutzungsstunden." : "Jahresleistungspreis für Entnahmestellen <2.500 Benutzungsstunden.";
   document.getElementById("nenote").textContent = `${def} Netto, ohne Umlagen, Konzessionsabgabe und USt. 2026 ist durch den Bundeszuschuss zu den Übertragungsnetzkosten (6,5 Mrd. €) gesenkt; 2027 sind vorläufige Preisblätter (Veröffentlichung 15.10.2026) mit geringerem Zuschuss (rund 5,5 Mrd. €), die endgültigen Preise folgen bis Ende Dezember. Vergleichswerte 2025 und 2027 liegen bisher für ${d1.length} bzw. ${d2.length} der ${rows.length} Netzbetreiber vor; die gestrichelte Linie verkettet die Median-Veränderungen dieser Paare ab dem Median 2026.`;
 }
+
+function renderSources(){
+  const q = (document.getElementById("qsearch").value || "").toLowerCase();
+  const L = (u, t) => u ? `<a href="${u}" target="_blank" rel="noopener">${t}</a>` : "";
+  const rows = [...DATA].sort((a, b) => a.n.localeCompare(b.n, "de")).filter(d => !q || d.n.toLowerCase().includes(q)).map(d => {
+    const ne = NNE[d.n] || {}, src = ne.src || {};
+    const links = [
+      d.nap ? (d.napurl ? L(d.napurl, d.naped) : d.naped) + ` <span class="na">(${new Date(d.nap).toLocaleDateString("de-DE")})</span>` : "",
+      L(src["2026"] || d.srcne, "Netzentgelte 2026") + (d.stne ? ` <span class="na">Stand ${d.stne}</span>` : ""),
+      L(src["2025"], "Netzentgelte 2025"), L(src["2027"], "Netzentgelte 2027 (vorl.)"),
+      d.srcb ? L(d.srcb, "Baukostenzuschuss") : (d.bkz != null ? `<span class="na">BKZ: Proxy aus Leistungspreis</span>` : "")
+    ].filter(Boolean);
+    return `<div class="qr" role="row"><span class="qn" role="cell" data-n="${d.n}">${d.n}</span><span class="ql" role="cell">${links.length ? links.join("") : '<span class="na">keine Quelle erfasst</span>'}</span></div>`;
+  });
+  const t = document.getElementById("qtbl");
+  t.innerHTML = rows.join("") || '<p class="empty">Kein Treffer.</p>';
+  t.querySelectorAll(".qn").forEach(el => el.addEventListener("click", () => { if (cur === "vnb") { cur = lastCost; sel.value = cur; syncView(); } select(el.dataset.n); document.querySelector(".app").scrollIntoView({behavior: "smooth"}); }));
+}
+document.getElementById("qsearch").addEventListener("input", renderSources);
+renderSources();
 const dt = document.createElement("div"); dt.className="tip"; dt.hidden=true; dt.style.position="fixed"; document.body.appendChild(dt);
 function devTip(e,html){ dt.innerHTML=html; dt.hidden=false; let x=e.clientX+14,y=e.clientY+12; if(x+dt.offsetWidth>innerWidth-8)x=e.clientX-dt.offsetWidth-12; if(y+dt.offsetHeight>innerHeight-8)y=e.clientY-dt.offsetHeight-10; dt.style.left=x+"px"; dt.style.top=y+"px"; }
 
