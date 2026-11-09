@@ -14,7 +14,9 @@ Die Karte zeigt die **Netzgebiete der Mittelspannung aller rund 630 Verteilnetzb
 
 ## Benutzung
 
-`index.html` herunterladen und im Browser öffnen. Die Datei enthält alle Daten und braucht nur eine Internetverbindung für die Bibliothek d3.js (cdnjs).
+**Online:** https://signenum.github.io/netzkosten-atlas/
+
+Offline: Repository herunterladen und `index.html` im Browser öffnen. Alle Daten, d3.js und die Schriften liegen im Repository, es werden keine Inhalte von Drittanbietern geladen.
 
 - Kennzahl oben rechts wählen, Netzgebiet oder Eintrag der Rangliste anklicken für den Steckbrief mit Quellen
 - Mausrad bzw. Pinch zum Zoomen
@@ -26,7 +28,8 @@ Die Excel-Datei `Netzkosten_Auswertung_Deutschland.xlsx` enthält alle Rohdaten,
 
 | Pfad | Inhalt |
 |---|---|
-| `index.html` | Interaktive Karte (eine Datei) |
+| `index.html` | Interaktive Karte (eine Datei, wird über GitHub Pages veröffentlicht) |
+| `assets/` | d3.js 7.8.5 (ISC-Lizenz) und Schriften Barlow, Barlow Semi Condensed, JetBrains Mono (SIL Open Font License) |
 | `Netzkosten_Auswertung_Deutschland.xlsx` | Auswertung mit Formeln, Rohdaten und Quellen |
 | `data/vnb_kennwerte.csv` | Eine Zeile je VNB mit allen Kennzahlen |
 | `data/nap_rohdaten.csv` | Mengen und Kosten aus den Netzausbauplänen 2026/2024 |

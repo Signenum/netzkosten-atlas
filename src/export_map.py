@@ -80,6 +80,15 @@ t=open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'index.htm
 open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'index.html'),'w').write(t)
 print('nne',len(NNE),{y:sum(1 for d in NNE.values() if y in d) for y in ('2025','2026','2027')})
 
+_FOOT = ('\n<footer style="max-width:1400px;margin:0 auto;padding:12px max(16px,env(safe-area-inset-left,0px)) 28px;font-size:12px;color:#5b6660;line-height:1.5">'
+         'Netzkosten-Atlas Deutschland · Daniel Maier · privates, nicht kommerzielles Projekt · '
+         '<a href="https://github.com/Signenum/netzkosten-atlas">Daten, Methodik und Quellcode auf GitHub</a> · Lizenz CC BY-NC 4.0 · '
+         'Keine Gewähr, maßgeblich sind die Preisblätter der Netzbetreiber.<br>'
+         'Datenschutz: Diese Seite setzt keine Cookies, nutzt kein Tracking und lädt keine Inhalte von Drittanbietern. '
+         'Die gewählte Ansicht wird nur lokal im Browser gespeichert. Hosting über GitHub Pages (GitHub Inc.); '
+         'GitHub verarbeitet beim Aufruf technisch notwendige Zugriffsdaten wie die IP-Adresse, siehe '
+         '<a href="https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement">GitHub-Datenschutzerklärung</a>.'
+         '</footer>')
 # Eigenständiges HTML-Dokument für das Repository (index.html) + Fragment für die Artifact-Veröffentlichung
 _p = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'index.html')
 _t = open(_p).read()
@@ -87,5 +96,11 @@ if not _t.lstrip().lower().startswith('<!doctype'):
     open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'atlas_fragment.html'), 'w').write(_t)
     _i = _t.index('</style>') + len('</style>')
     _t = ('<!doctype html>\n<html lang="de">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1">\n'
-          + _t[:_i] + '\n</head>\n<body>\n' + _t[_i:] + '\n</body>\n</html>\n')
+          + _t[:_i] + '\n</head>\n<body>\n' + _t[_i:] + _FOOT + '\n</body>\n</html>\n')
+    # Für GitHub Pages: keine Drittanbieter-Abrufe (d3 und Schriften liegen in assets/)
+    import re as _re
+    _t = _re.sub(r'<link rel="preconnect"[^>]*>\n?', '', _t)
+    _t = _re.sub(r'<link rel="stylesheet" href="https://fonts.googleapis.com[^>]*>', '<link rel="stylesheet" href="assets/fonts.css">', _t)
+    _t = _t.replace('https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js', 'assets/d3.min.js')
+    _t = _t.replace('<meta name="viewport"', '<title>Netzkosten-Atlas Deutschland</title>\n<meta name="description" content="Netzanschluss-, Netzausbau- und Netzentgeltkosten der deutschen Verteilnetzbetreiber im Vergleich – Karte nach Netzgebieten.">\n<meta name="viewport"', 1) if '<title>' not in _t else _t
     open(_p, 'w').write(_t)
