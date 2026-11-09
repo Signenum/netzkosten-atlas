@@ -46,6 +46,7 @@ svg#map{width:100%;height:100%;display:block}
 .area.sel{stroke:var(--sel);stroke-width:2.4}
 .area.atlas:hover{stroke:var(--ink);stroke-width:1.4}
 .area:focus-visible{outline:none;stroke:var(--accent);stroke-width:3}
+.viewctl{position:absolute;left:10px;top:10px;z-index:2;background:var(--panel)}
 .zoomctl{position:absolute;right:10px;top:10px;display:flex;flex-direction:column;gap:4px}
 .zoomctl button{width:30px;height:30px;font:inherit;font-size:1rem;border:1px solid var(--line);border-radius:4px;background:var(--panel);color:var(--ink);cursor:pointer}
 .slab{font-family:var(--f-disp);font-size:10px;fill:var(--muted);pointer-events:none;letter-spacing:.06em}
@@ -160,6 +161,7 @@ footer.note{grid-column:1/-1;color:var(--muted);font-size:.76rem;margin:0}
     <svg id="map" role="img" aria-label="Karte Deutschlands mit Verteilnetzbetreibern, eingefärbt nach der gewählten Kennzahl"></svg>
     <div class="legend" id="legend"></div>
     <div class="tip" id="tip" hidden></div>
+    <div class="viewctl seg sm" role="group" aria-label="Kartenansicht" id="view"><button type="button" data-v="cost" aria-pressed="true">Kosten</button><button type="button" data-v="vnb" aria-pressed="false">Netzbetreiber</button></div>
     <div class="zoomctl"><button type="button" id="zin" aria-label="Hineinzoomen">+</button><button type="button" id="zout" aria-label="Herauszoomen">−</button><button type="button" id="zreset" aria-label="Ansicht zurücksetzen">⟲</button></div>
   </div>
 
@@ -270,9 +272,10 @@ const M = [
 ];
 const ALLM = M.filter(m=>m.k!=="idx" && m.k!=="vnb");
 const PAL = ["#8fb9a8","#f0c27a","#a3b6dc","#e3a093","#bfd394","#c6a3d0","#93cdd6","#dcbf98"];
-let cur = "vnb", typ = "all", selected = null, shade = false;
-try { const s = JSON.parse(localStorage.getItem("nka2") || "{}"); if (s.cur && M.find(m=>m.k===s.cur)) cur = s.cur; if (s.typ) typ = s.typ; if (typeof s.shade === "boolean") shade = s.shade; } catch(e) {}
-const save = () => { try { localStorage.setItem("nka2", JSON.stringify({cur, typ, shade})); } catch(e) {} };
+let cur = "idx", typ = "all", lastCost = "idx", selected = null, shade = false;
+try { const s = JSON.parse(localStorage.getItem("nka3") || "{}"); if (s.cur && M.find(m=>m.k===s.cur)) cur = s.cur; if (s.typ) typ = s.typ; if (typeof s.shade === "boolean") shade = s.shade; } catch(e) {}
+if (cur !== "vnb") lastCost = cur;
+const save = () => { try { localStorage.setItem("nka3", JSON.stringify({cur, typ, shade})); } catch(e) {} };
 
 const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
 const fmt = (v, f) => v == null ? "–" : v.toLocaleString("de-DE", {minimumFractionDigits: f, maximumFractionDigits: f});
@@ -289,7 +292,10 @@ function colorFor(p){ if (p == null) return css("--nodata"); return d3.interpola
 const sel = document.getElementById("metric");
 M.forEach(m => { const o = document.createElement("option"); o.value = m.k; o.textContent = m.l + (m.u ? ` [${m.u}]` : ""); sel.appendChild(o); });
 sel.value = cur;
-sel.addEventListener("change", () => { cur = sel.value; save(); render(); });
+const syncView = () => document.querySelectorAll("#view button").forEach(b => b.setAttribute("aria-pressed", (b.dataset.v === "vnb") === (cur === "vnb")));
+sel.addEventListener("change", () => { cur = sel.value; if (cur !== "vnb") lastCost = cur; syncView(); save(); render(); });
+document.querySelectorAll("#view button").forEach(b => b.addEventListener("click", () => { cur = b.dataset.v === "vnb" ? "vnb" : lastCost; sel.value = cur; syncView(); save(); render(); }));
+syncView();
 document.querySelectorAll("#typ button").forEach(b => {
   b.setAttribute("aria-pressed", b.dataset.v === typ);
   b.addEventListener("click", () => { typ = b.dataset.v; document.querySelectorAll("#typ button").forEach(x => x.setAttribute("aria-pressed", x === b)); save(); render(); });
@@ -331,7 +337,7 @@ function render(){
   gAreas.selectAll("path").data(NG.features, f => f.properties.id).join("path")
     .attr("d", path)
     .attr("class", f => { const d = areaOf(f); if (!d) return "area other" + (selected === "id:" + f.properties.id ? " sel" : ""); return "area atlas" + (d[cur] == null ? " nodata" : "") + (visible(d) ? "" : " dim") + (d.n === selected ? " sel" : ""); })
-    .style("fill", f => { const d = areaOf(f); if (!d) return css("--land") || "#dde5e2"; return d[cur] != null ? colorFor(pct[cur](d[cur])) : (css("--nodata") || "#a8b3b0"); })
+    .style("fill", f => { const d = areaOf(f); if (!d) return css("--line") || "#d3dbd8"; return d[cur] != null ? colorFor(pct[cur](d[cur])) : (css("--nodata") || "#a8b3b0"); })
     .style("display", f => shade && !(areaOf(f) && visible(areaOf(f))) ? "none" : null)
     .attr("tabindex", 0).attr("role", "button")
     .attr("aria-label", f => { const d = areaOf(f); return d ? `${d.n}: ${m.l} ${fmt(d[cur], m.f)} ${m.u}` : `${f.properties.v}: noch keine Daten`; })
