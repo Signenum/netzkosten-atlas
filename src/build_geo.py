@@ -40,6 +40,15 @@ for k, v in res.items():
     else:
         gi = int(k[1:])
         for x in ids: votes[gi][x] += 3 / len(ids)  # Stützpunkt in der Gemeinde selbst zählt stärker
+# Punkte innerhalb jeder Gemeinde (res_gem.json, Nov. 2026): "r<i>" = innerer Punkt jeder Gemeinde,
+# "e<i>_<k>" = drei zusätzliche, möglichst weit verteilte Punkte in Grenzgemeinden
+if os.path.exists(D + 'res_gem.json'):
+    for k, v in json.load(open(D + 'res_gem.json')).items():
+        ids = [x for x in v.split('|') if x]
+        if not ids: continue
+        if k[0] == 'r': gi, w = int(k[1:]), 4
+        else: gi, w = int(k[1:].split('_')[0]), 2
+        for x in ids: votes[gi][x] += w / len(ids)
 P = np.array([(p[0], p[1]) for p in pts])
 assign = {}
 for gi in range(len(G)):

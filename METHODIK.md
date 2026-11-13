@@ -46,11 +46,11 @@ Für jede Kennzahl (MS-Leitung, NS-Leitung, Ortsnetzstation, Umspannwerk, BKZ MS
 
 Es gibt keinen offenen, bundesweiten Datensatz der Netzgebietsgrenzen. Die Karte nähert die **Mittelspannungs-Netzgebiete** auf Gemeindeebene:
 
-1. Abfrage bei VNBdigital, welcher Netzbetreiber an einem Punkt die Mittelspannung betreibt, für ein Raster von 0,06° × 0,09° (ca. 6,7 × 6,3 km) über Deutschland und zusätzlich für einen Punkt in jeder Gemeinde ab 20.000 Einwohnern (insgesamt rund 9.400 Punkte, November 2026).
-2. Jede Gemeinde (VG250-EW, BKG) wird dem Netzbetreiber mit den meisten Treffern zugeordnet. Gemeinden ohne Rasterpunkt erhalten den Netzbetreiber des nächstgelegenen Punkts.
+1. Abfrage bei VNBdigital, welcher Netzbetreiber an einem Punkt die Mittelspannung betreibt, für ein Raster von 0,06° × 0,09° (ca. 6,7 × 6,3 km) über Deutschland, zusätzlich für einen Punkt in jeder Gemeinde ab 20.000 Einwohnern (rund 9.400 Punkte) und – seit Überarbeitung im November 2026 – für einen inneren Punkt in **jeder** Gemeinde (10.978) sowie drei weitere, möglichst weit verteilte Punkte in Gemeinden, deren Zuordnung beim Abgleich unsicher war (insgesamt rund 24.000 Punkte).
+2. Jede Gemeinde (VG250-EW, BKG) wird dem Netzbetreiber mit den meisten gewichteten Treffern zugeordnet (innerer Gemeindepunkt ×4, Zusatzpunkte ×2, Rasterpunkte ×1). Nur wo VNBdigital für keinen Punkt der Gemeinde einen Mittelspannungsbetreiber liefert (rund 165 Gemeinden), gilt der nächstgelegene Punkt.
 3. Die Gemeinden werden je Netzbetreiber zu einer Fläche zusammengefasst und vereinfacht.
 
-Folgen: Gemeinden, die sich mehrere Netzbetreiber teilen, erscheinen nur beim überwiegenden; kleine Netzgebiete unterhalb der Rasterweite können fehlen. Die Zuordnung je Gemeinde steht in `data/gemeinde_vnb.csv`.
+Folgen: Gemeinden, die sich mehrere Netzbetreiber teilen, erscheinen nur beim überwiegenden; Netzgebiete, die nur Teile einer Gemeinde umfassen, können fehlen. Als Plausibilitätsprüfung diente die gemeindescharfe MaStR-Auswertung im Energiewende-Dashboard von Mathias Bock (energiewende-dashboard.org); deren Daten sind nicht übernommen, sie dienten nur dazu, Gemeinden für zusätzliche Abfragen auszuwählen. Die Zuordnung je Gemeinde steht in `data/gemeinde_vnb.csv`.
 
 ## 6. Aktualisierung
 
@@ -62,6 +62,7 @@ Folgen: Gemeinden, die sich mehrere Netzbetreiber teilen, erscheinen nur beim ü
 - `add_nne_sheet.py`: Blatt „NNE_Entwicklung“
 - `prep_vg250.py`: bereitet die VG250-Gemeinden vor (aus [dimfalk/vg250](https://github.com/dimfalk/vg250), `data/vg250.rda`)
 - `geo/stichproben_raw.txt` + `geo/decode_raw.py`: Ergebnisse der VNBdigital-Abfrage (Raster + Stützpunkte, Netzbetreiber-IDs) → `res.json`, `names.json`
+- `geo/res_gem.json`: Ergebnisse der Gemeindeabfrage (Nov. 2026): `r<i>` innerer Punkt der Gemeinde i (Reihenfolge wie `gem.pkl`), `e<i>_<k>` Zusatzpunkte; Werte = VNBdigital-IDs, mehrere mit `|`
 - `geo/vnbmap.json`: geprüfte Zuordnung VNBdigital-ID → Netzbetreiber im Atlas
 - `build_geo.py`: Netzgebiete aus Stichproben und Gemeindegrenzen
 - `export_csv.py`: CSV-Dateien in `data/`
