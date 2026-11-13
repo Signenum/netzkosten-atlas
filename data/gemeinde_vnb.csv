@@ -1746,7 +1746,7 @@ Osterheide,Heidekreis,Niedersachsen,7137,Avacon Netz GmbH,Avacon Netz,10.0
 Buxtehude,Stade,Niedersachsen,123,Stadtwerke Buxtehude GmbH,,8.0
 Drochtersen,Stade,Niedersachsen,496,EWE NETZ GmbH,EWE NETZ,7.0
 Jork,Stade,Niedersachsen,496,EWE NETZ GmbH,EWE NETZ,7.0
-Stade,Stade,Niedersachsen,608,Stadtwerke Stade GmbH,,9.0
+Stade,Stade,Niedersachsen,608,Stadtwerke Stade GmbH,Stadtwerke Stade,9.0
 Apensen,Stade,Niedersachsen,123,Stadtwerke Buxtehude GmbH,,5.0
 Beckdorf,Stade,Niedersachsen,496,EWE NETZ GmbH,EWE NETZ,4.0
 Sauensiek,Stade,Niedersachsen,496,EWE NETZ GmbH,EWE NETZ,5.0
@@ -2071,7 +2071,7 @@ Schweindorf,Wittmund,Niedersachsen,496,EWE NETZ GmbH,EWE NETZ,4.0
 Utarp,Wittmund,Niedersachsen,496,EWE NETZ GmbH,EWE NETZ,4.0
 Westerholt,Wittmund,Niedersachsen,496,EWE NETZ GmbH,EWE NETZ,4.0
 Bremen,Bremen,Bremen,7203,wesernetz Bremen GmbH,wesernetz Bremen,16.0
-Bremerhaven,Bremerhaven,Bremen,107,wesernetz Bremerhaven GmbH,,8.0
+Bremerhaven,Bremerhaven,Bremen,107,wesernetz Bremerhaven GmbH,wesernetz Bremerhaven,8.0
 Düsseldorf,Düsseldorf,Nordrhein-Westfalen,153,Netzgesellschaft Düsseldorf mbH,Netzgesellschaft Düsseldorf,11.0
 Duisburg,Duisburg,Nordrhein-Westfalen,154,Netze Duisburg GmbH,Netze Duisburg,14.0
 Essen,Essen,Nordrhein-Westfalen,7332,Westnetz GmbH,Westnetz,11.0
@@ -2079,7 +2079,7 @@ Krefeld,Krefeld,Nordrhein-Westfalen,360,NGN NETZGESELLSCHAFT NIEDERRHEIN MBH,NGN
 Mönchengladbach,Mönchengladbach,Nordrhein-Westfalen,426,NEW Netz GmbH,NEW Netz (Mönchengladbach),12.0
 Mülheim an der Ruhr,Mülheim an der Ruhr,Nordrhein-Westfalen,7332,Westnetz GmbH,Westnetz,9.0
 Oberhausen,Oberhausen,Nordrhein-Westfalen,485,Oberhausener Netzgesellschaft mbH,Oberhausener Netzgesellschaft,9.0
-Remscheid,Remscheid,Nordrhein-Westfalen,534,EWR GmbH,,9.0
+Remscheid,Remscheid,Nordrhein-Westfalen,534,EWR GmbH,EWR Remscheid,9.0
 Solingen,Solingen,Nordrhein-Westfalen,603,SWS Netze Solingen GmbH,SWS Netze Solingen,9.0
 Wuppertal,Wuppertal,Nordrhein-Westfalen,705,WSW Netz GmbH,WSW Netz (Wuppertal),12.0
 Bedburg-Hau,Kleve,Nordrhein-Westfalen,7332,Westnetz GmbH,Westnetz,5.0
@@ -2244,7 +2244,7 @@ Ahaus,Borken,Nordrhein-Westfalen,8,LokalWerke GmbH,LokalWerke,11.0
 Bocholt,Borken,Nordrhein-Westfalen,91,Bocholter Energie- und Wasserversorgung GmbH,,10.0
 Borken,Borken,Nordrhein-Westfalen,H4n3FSzg7aEKnPqyw,Stadtwerke Borken/Westf. GmbH,,11.0
 Gescher,Borken,Nordrhein-Westfalen,7332,Westnetz GmbH,Westnetz,7.0
-Gronau (Westf.),Borken,Nordrhein-Westfalen,244,Stadtwerke Gronau GmbH,,8.0
+Gronau (Westf.),Borken,Nordrhein-Westfalen,244,Stadtwerke Gronau GmbH,Stadtwerke Gronau,8.0
 Heek,Borken,Nordrhein-Westfalen,7332,Westnetz GmbH,Westnetz,5.0
 Heiden,Borken,Nordrhein-Westfalen,7332,Westnetz GmbH,Westnetz,5.0
 Isselburg,Borken,Nordrhein-Westfalen,7332,Westnetz GmbH,Westnetz,5.0
@@ -2281,38 +2281,38 @@ Waltrop,Recklinghausen,Nordrhein-Westfalen,7332,Westnetz GmbH,Westnetz,9.0
 Altenberge,Steinfurt,Nordrhein-Westfalen,7332,Westnetz GmbH,Westnetz,5.0
 Emsdetten,Steinfurt,Nordrhein-Westfalen,171,Stadtwerke Emsdetten GmbH,,8.0
 Greven,Steinfurt,Nordrhein-Westfalen,242,Stadtwerke Greven GmbH,,11.0
-Hörstel,Steinfurt,Nordrhein-Westfalen,7792,SWTE Netz GmbH & Co. KG,,9.0
-Hopsten,Steinfurt,Nordrhein-Westfalen,7792,SWTE Netz GmbH & Co. KG,,7.0
+Hörstel,Steinfurt,Nordrhein-Westfalen,7792,SWTE Netz GmbH & Co. KG,SWTE Netz,9.0
+Hopsten,Steinfurt,Nordrhein-Westfalen,7792,SWTE Netz GmbH & Co. KG,SWTE Netz,7.0
 Horstmar,Steinfurt,Nordrhein-Westfalen,7332,Westnetz GmbH,Westnetz,6.0
-Ibbenbüren,Steinfurt,Nordrhein-Westfalen,7792,SWTE Netz GmbH & Co. KG,,9.0
+Ibbenbüren,Steinfurt,Nordrhein-Westfalen,7792,SWTE Netz GmbH & Co. KG,SWTE Netz,9.0
 Ladbergen,Steinfurt,Nordrhein-Westfalen,7042,SWL Verteilungsnetzgesellschaft mbH,,5.0
 Laer,Steinfurt,Nordrhein-Westfalen,7332,Westnetz GmbH,Westnetz,5.0
 Lengerich,Steinfurt,Nordrhein-Westfalen,7042,SWL Verteilungsnetzgesellschaft mbH,,10.0
 Lienen,Steinfurt,Nordrhein-Westfalen,7042,SWL Verteilungsnetzgesellschaft mbH,,5.0
-Lotte,Steinfurt,Nordrhein-Westfalen,7792,SWTE Netz GmbH & Co. KG,,5.0
+Lotte,Steinfurt,Nordrhein-Westfalen,7792,SWTE Netz GmbH & Co. KG,SWTE Netz,5.0
 Metelen,Steinfurt,Nordrhein-Westfalen,7332,Westnetz GmbH,Westnetz,5.0
-Mettingen,Steinfurt,Nordrhein-Westfalen,7792,SWTE Netz GmbH & Co. KG,,5.0
+Mettingen,Steinfurt,Nordrhein-Westfalen,7792,SWTE Netz GmbH & Co. KG,SWTE Netz,5.0
 Neuenkirchen,Steinfurt,Nordrhein-Westfalen,7332,Westnetz GmbH,Westnetz,5.0
 Nordwalde,Steinfurt,Nordrhein-Westfalen,7332,Westnetz GmbH,Westnetz,6.0
 Ochtrup,Steinfurt,Nordrhein-Westfalen,7054,Stadtwerke Ochtrup,,11.0
-Recke,Steinfurt,Nordrhein-Westfalen,7792,SWTE Netz GmbH & Co. KG,,5.0
+Recke,Steinfurt,Nordrhein-Westfalen,7792,SWTE Netz GmbH & Co. KG,SWTE Netz,5.0
 Rheine,Steinfurt,Nordrhein-Westfalen,541,Energie- und Wasserversorgung Rheine GmbH,Energie- und Wasserversorgung Rheine,10.0
 Saerbeck,Steinfurt,Nordrhein-Westfalen,7632,Saerbecker Ver- und Entsorgungsnetzgesellschaft,,6.0
 Steinfurt,Steinfurt,Nordrhein-Westfalen,7775,Stadtwerke Steinfurt GmbH,,9.0
 Tecklenburg,Steinfurt,Nordrhein-Westfalen,7042,SWL Verteilungsnetzgesellschaft mbH,,5.0
-Westerkappeln,Steinfurt,Nordrhein-Westfalen,7792,SWTE Netz GmbH & Co. KG,,5.0
+Westerkappeln,Steinfurt,Nordrhein-Westfalen,7792,SWTE Netz GmbH & Co. KG,SWTE Netz,5.0
 Wettringen,Steinfurt,Nordrhein-Westfalen,7332,Westnetz GmbH,Westnetz,6.0
 Ahlen,Warendorf,Nordrhein-Westfalen,9,Netzgesellschaft Ahlen mbH,,10.0
 Beckum,Warendorf,Nordrhein-Westfalen,7006,Energieversorgung Beckum GmbH & Co. KG,,9.0
 Beelen,Warendorf,Nordrhein-Westfalen,7332,Westnetz GmbH,Westnetz,5.0
-Drensteinfurt,Warendorf,Nordrhein-Westfalen,172,Stadtwerke Ostmünsterland GmbH & Co. KG,,6.0
-Ennigerloh,Warendorf,Nordrhein-Westfalen,172,Stadtwerke Ostmünsterland GmbH & Co. KG,,8.0
+Drensteinfurt,Warendorf,Nordrhein-Westfalen,172,Stadtwerke Ostmünsterland GmbH & Co. KG,Stadtwerke Ostmünsterland,6.0
+Ennigerloh,Warendorf,Nordrhein-Westfalen,172,Stadtwerke Ostmünsterland GmbH & Co. KG,Stadtwerke Ostmünsterland,8.0
 Everswinkel,Warendorf,Nordrhein-Westfalen,7332,Westnetz GmbH,Westnetz,5.0
-Oelde,Warendorf,Nordrhein-Westfalen,172,Stadtwerke Ostmünsterland GmbH & Co. KG,,10.0
-Ostbevern,Warendorf,Nordrhein-Westfalen,172,Stadtwerke Ostmünsterland GmbH & Co. KG,,7.0
+Oelde,Warendorf,Nordrhein-Westfalen,172,Stadtwerke Ostmünsterland GmbH & Co. KG,Stadtwerke Ostmünsterland,10.0
+Ostbevern,Warendorf,Nordrhein-Westfalen,172,Stadtwerke Ostmünsterland GmbH & Co. KG,Stadtwerke Ostmünsterland,7.0
 Sassenberg,Warendorf,Nordrhein-Westfalen,7332,Westnetz GmbH,Westnetz,5.0
-Sendenhorst,Warendorf,Nordrhein-Westfalen,172,Stadtwerke Ostmünsterland GmbH & Co. KG,,7.0
-Telgte,Warendorf,Nordrhein-Westfalen,172,Stadtwerke Ostmünsterland GmbH & Co. KG,,10.0
+Sendenhorst,Warendorf,Nordrhein-Westfalen,172,Stadtwerke Ostmünsterland GmbH & Co. KG,Stadtwerke Ostmünsterland,7.0
+Telgte,Warendorf,Nordrhein-Westfalen,172,Stadtwerke Ostmünsterland GmbH & Co. KG,Stadtwerke Ostmünsterland,10.0
 Wadersloh,Warendorf,Nordrhein-Westfalen,7332,Westnetz GmbH,Westnetz,6.0
 Warendorf,Warendorf,Nordrhein-Westfalen,7759,WEV Warendorfer Energieversorgung GmbH,,11.0
 Bielefeld,Bielefeld,Nordrhein-Westfalen,85,Bielefelder Netz GmbH,Bielefelder Netz,14.0
@@ -2398,7 +2398,7 @@ Herdecke,Ennepe-Ruhr-Kreis,Nordrhein-Westfalen,7409,ENERVIE Vernetzt GmbH,ENERVI
 Schwelm,Ennepe-Ruhr-Kreis,Nordrhein-Westfalen,227,AVU Netz GmbH,AVU Netz,8.0
 Sprockhövel,Ennepe-Ruhr-Kreis,Nordrhein-Westfalen,227,AVU Netz GmbH,AVU Netz,8.0
 Wetter (Ruhr),Ennepe-Ruhr-Kreis,Nordrhein-Westfalen,227,AVU Netz GmbH,AVU Netz,7.0
-Witten,Ennepe-Ruhr-Kreis,Nordrhein-Westfalen,7809,Stadtwerke Witten Mittelspannungsnetz GmbH,,8.0
+Witten,Ennepe-Ruhr-Kreis,Nordrhein-Westfalen,7809,Stadtwerke Witten Mittelspannungsnetz GmbH,Stadtwerke Witten (MS),8.0
 Arnsberg,Hochsauerlandkreis,Nordrhein-Westfalen,7332,Westnetz GmbH,Westnetz,12.0
 Bestwig,Hochsauerlandkreis,Nordrhein-Westfalen,7332,Westnetz GmbH,Westnetz,6.0
 Brilon,Hochsauerlandkreis,Nordrhein-Westfalen,7332,Westnetz GmbH,Westnetz,12.0
@@ -2458,11 +2458,11 @@ Warstein,Soest,Nordrhein-Westfalen,7332,Westnetz GmbH,Westnetz,11.0
 Welver,Soest,Nordrhein-Westfalen,7332,Westnetz GmbH,Westnetz,5.0
 Werl,Soest,Nordrhein-Westfalen,941,Stadtwerke Werl GmbH,,10.0
 Wickede (Ruhr),Soest,Nordrhein-Westfalen,205,Stadtwerke Fröndenberg Wickede GmbH,,10.0
-Bergkamen,Unna,Nordrhein-Westfalen,323,GSW Gemeinschaftsstadtwerke GmbH Kamen - Bönen - Bergkamen,,8.0
-Bönen,Unna,Nordrhein-Westfalen,323,GSW Gemeinschaftsstadtwerke GmbH Kamen - Bönen - Bergkamen,,5.0
+Bergkamen,Unna,Nordrhein-Westfalen,323,GSW Gemeinschaftsstadtwerke GmbH Kamen - Bönen - Bergkamen,GSW Kamen-Bönen-Bergkamen,8.0
+Bönen,Unna,Nordrhein-Westfalen,323,GSW Gemeinschaftsstadtwerke GmbH Kamen - Bönen - Bergkamen,GSW Kamen-Bönen-Bergkamen,5.0
 Fröndenberg/Ruhr,Unna,Nordrhein-Westfalen,205,Stadtwerke Fröndenberg Wickede GmbH,,8.0
 Holzwickede,Unna,Nordrhein-Westfalen,7332,Westnetz GmbH,Westnetz,10.0
-Kamen,Unna,Nordrhein-Westfalen,323,GSW Gemeinschaftsstadtwerke GmbH Kamen - Bönen - Bergkamen,,8.0
+Kamen,Unna,Nordrhein-Westfalen,323,GSW Gemeinschaftsstadtwerke GmbH Kamen - Bönen - Bergkamen,GSW Kamen-Bönen-Bergkamen,8.0
 Lünen,Unna,Nordrhein-Westfalen,402,Stadtwerke Lünen GmbH,Stadtwerke Lünen,10.0
 Schwerte,Unna,Nordrhein-Westfalen,7112,Stadtwerke Schwerte GmbH,,9.0
 Selm,Unna,Nordrhein-Westfalen,7332,Westnetz GmbH,Westnetz,8.0
@@ -2473,7 +2473,7 @@ Frankfurt am Main,Frankfurt am Main,Hessen,7376,NRM Netzdienste Rhein-Main GmbH,
 Offenbach am Main,Offenbach am Main,Hessen,7757,Energienetze Offenbach GmbH (ENO),Energienetze Offenbach,7.0
 Wiesbaden,Wiesbaden,Hessen,683,Stadtwerke Wiesbaden Netz GmbH,Stadtwerke Wiesbaden Netz,10.0
 Abtsteinach,Bergstraße,Hessen,134,e-netz Südhessen AG,e-netz Südhessen,4.0
-Bensheim,Bergstraße,Hessen,78,GRUPPEN-GAS- UND ELEKTRIZITÄTSWERK BERGSTRASSE AKTIENGESELLSCHAFT,,8.0
+Bensheim,Bergstraße,Hessen,78,GRUPPEN-GAS- UND ELEKTRIZITÄTSWERK BERGSTRASSE AKTIENGESELLSCHAFT,GGEW Bergstraße,8.0
 Biblis,Bergstraße,Hessen,701,EWR Netz GmbH,EWR Netz (Worms),6.0
 Birkenau,Bergstraße,Hessen,134,e-netz Südhessen AG,e-netz Südhessen,5.0
 Bürstadt,Bergstraße,Hessen,701,EWR Netz GmbH,EWR Netz (Worms),4.0
@@ -2482,22 +2482,22 @@ Fürth,Bergstraße,Hessen,134,e-netz Südhessen AG,e-netz Südhessen,6.0
 Gorxheimertal,Bergstraße,Hessen,134,e-netz Südhessen AG,e-netz Südhessen,4.0
 Grasellenbach,Bergstraße,Hessen,134,e-netz Südhessen AG,e-netz Südhessen,5.0
 Groß-Rohrheim,Bergstraße,Hessen,701,EWR Netz GmbH,EWR Netz (Worms),5.0
-Heppenheim (Bergstraße),Bergstraße,Hessen,78,GRUPPEN-GAS- UND ELEKTRIZITÄTSWERK BERGSTRASSE AKTIENGESELLSCHAFT,,7.0
+Heppenheim (Bergstraße),Bergstraße,Hessen,78,GRUPPEN-GAS- UND ELEKTRIZITÄTSWERK BERGSTRASSE AKTIENGESELLSCHAFT,GGEW Bergstraße,7.0
 Hirschhorn (Neckar),Bergstraße,Hessen,134,e-netz Südhessen AG,e-netz Südhessen,4.0
 Lampertheim,Bergstraße,Hessen,701,EWR Netz GmbH,EWR Netz (Worms),9.0
-Lautertal (Odenwald),Bergstraße,Hessen,78,GRUPPEN-GAS- UND ELEKTRIZITÄTSWERK BERGSTRASSE AKTIENGESELLSCHAFT,,10.0
+Lautertal (Odenwald),Bergstraße,Hessen,78,GRUPPEN-GAS- UND ELEKTRIZITÄTSWERK BERGSTRASSE AKTIENGESELLSCHAFT,GGEW Bergstraße,10.0
 Lindenfels,Bergstraße,Hessen,134,e-netz Südhessen AG,e-netz Südhessen,4.0
-Lorsch,Bergstraße,Hessen,78,GRUPPEN-GAS- UND ELEKTRIZITÄTSWERK BERGSTRASSE AKTIENGESELLSCHAFT,,10.0
+Lorsch,Bergstraße,Hessen,78,GRUPPEN-GAS- UND ELEKTRIZITÄTSWERK BERGSTRASSE AKTIENGESELLSCHAFT,GGEW Bergstraße,10.0
 Mörlenbach,Bergstraße,Hessen,134,e-netz Südhessen AG,e-netz Südhessen,5.0
 Neckarsteinach,Bergstraße,Hessen,134,e-netz Südhessen AG,e-netz Südhessen,4.0
 Rimbach,Bergstraße,Hessen,134,e-netz Südhessen AG,e-netz Südhessen,4.0
 Viernheim,Bergstraße,Hessen,654,Stadtwerke Viernheim Netz GmbH,,8.0
 Wald-Michelbach,Bergstraße,Hessen,134,e-netz Südhessen AG,e-netz Südhessen,5.0
-Zwingenberg,Bergstraße,Hessen,78,GRUPPEN-GAS- UND ELEKTRIZITÄTSWERK BERGSTRASSE AKTIENGESELLSCHAFT,,4.0
+Zwingenberg,Bergstraße,Hessen,78,GRUPPEN-GAS- UND ELEKTRIZITÄTSWERK BERGSTRASSE AKTIENGESELLSCHAFT,GGEW Bergstraße,4.0
 Michelbuch,Bergstraße,Hessen,134,e-netz Südhessen AG,e-netz Südhessen,4.0
-Alsbach-Hähnlein,Darmstadt-Dieburg,Hessen,78,GRUPPEN-GAS- UND ELEKTRIZITÄTSWERK BERGSTRASSE AKTIENGESELLSCHAFT,,5.0
+Alsbach-Hähnlein,Darmstadt-Dieburg,Hessen,78,GRUPPEN-GAS- UND ELEKTRIZITÄTSWERK BERGSTRASSE AKTIENGESELLSCHAFT,GGEW Bergstraße,5.0
 Babenhausen,Darmstadt-Dieburg,Hessen,134,e-netz Südhessen AG,e-netz Südhessen,6.0
-Bickenbach,Darmstadt-Dieburg,Hessen,78,GRUPPEN-GAS- UND ELEKTRIZITÄTSWERK BERGSTRASSE AKTIENGESELLSCHAFT,,10.0
+Bickenbach,Darmstadt-Dieburg,Hessen,78,GRUPPEN-GAS- UND ELEKTRIZITÄTSWERK BERGSTRASSE AKTIENGESELLSCHAFT,GGEW Bergstraße,10.0
 Dieburg,Darmstadt-Dieburg,Hessen,134,e-netz Südhessen AG,e-netz Südhessen,5.0
 Eppertshausen,Darmstadt-Dieburg,Hessen,134,e-netz Südhessen AG,e-netz Südhessen,4.0
 Erzhausen,Darmstadt-Dieburg,Hessen,134,e-netz Südhessen AG,e-netz Südhessen,10.0
@@ -2516,7 +2516,7 @@ Pfungstadt,Darmstadt-Dieburg,Hessen,134,e-netz Südhessen AG,e-netz Südhessen,8
 Reinheim,Darmstadt-Dieburg,Hessen,134,e-netz Südhessen AG,e-netz Südhessen,5.0
 Roßdorf,Darmstadt-Dieburg,Hessen,134,e-netz Südhessen AG,e-netz Südhessen,4.0
 Schaafheim,Darmstadt-Dieburg,Hessen,134,e-netz Südhessen AG,e-netz Südhessen,5.0
-Seeheim-Jugenheim,Darmstadt-Dieburg,Hessen,78,GRUPPEN-GAS- UND ELEKTRIZITÄTSWERK BERGSTRASSE AKTIENGESELLSCHAFT,,6.0
+Seeheim-Jugenheim,Darmstadt-Dieburg,Hessen,78,GRUPPEN-GAS- UND ELEKTRIZITÄTSWERK BERGSTRASSE AKTIENGESELLSCHAFT,GGEW Bergstraße,6.0
 Weiterstadt,Darmstadt-Dieburg,Hessen,134,e-netz Südhessen AG,e-netz Südhessen,8.0
 Biebesheim am Rhein,Groß-Gerau,Hessen,405,Mainzer Netze GmbH,Mainzer Netze,5.0
 Bischofsheim,Groß-Gerau,Hessen,405,Mainzer Netze GmbH,Mainzer Netze,10.0
@@ -7576,7 +7576,7 @@ Weißenstadter Forst-Nord,Wunsiedel i.Fichtelgebirge,Bayern,1068,Bayernwerk Netz
 Weißenstadter Forst-Süd,Wunsiedel i.Fichtelgebirge,Bayern,1068,Bayernwerk Netz GmbH,Bayernwerk Netz,4.0
 Ansbach,Ansbach,Bayern,24,Stadtwerke Ansbach GmbH,,10.0
 Erlangen,Erlangen,Bayern,179,ESTW - Erlanger Stadtwerke AG,Erlanger Stadtwerke (ESTW),9.0
-Fürth,Fürth,Bayern,207,infra fürth gmbh,,9.0
+Fürth,Fürth,Bayern,207,infra fürth gmbh,infra fürth,9.0
 Nürnberg,Nürnberg,Bayern,479,N-ERGIE Netz GmbH,N-ERGIE Netz,11.0
 Schwabach,Schwabach,Bayern,581,Stadtwerke Schwabach GmbH,,7.0
 Arberg,Ansbach,Bayern,479,N-ERGIE Netz GmbH,N-ERGIE Netz,5.0

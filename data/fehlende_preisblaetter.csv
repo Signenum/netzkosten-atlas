@@ -9,14 +9,7 @@ im Atlas,OsthessenNetz,"Bayern, Hessen, Thüringen",267355,Netzentgelte 2026; BK
 im Atlas,Celle-Uelzen Netz (SVO),Niedersachsen,246042,Netzentgelte 2026; BKZ MS (veröffentlicht); Netzentgelte 2025; Netzentgelte 2027 vorläufig
 im Atlas,Oberhausener Netzgesellschaft,Nordrhein-Westfalen,211099,Netzentgelte 2026; BKZ MS (veröffentlicht); Netzentgelte 2025; Netzentgelte 2027 vorläufig
 im Atlas,Stadtwerke Hamm,Nordrhein-Westfalen,180761,Netzentgelte 2026; BKZ MS (veröffentlicht); Netzentgelte 2025; Netzentgelte 2027 vorläufig
-noch nicht im Atlas,infra fürth gmbh,Bayern,132032,Netzentgelte 2026; BKZ MS
-noch nicht im Atlas,SWTE Netz GmbH & Co. KG,Nordrhein-Westfalen,130971,Netzentgelte 2026; BKZ MS
-noch nicht im Atlas,GRUPPEN-GAS- UND ELEKTRIZITÄTSWERK BERGSTRASSE AKTIENGESELLSCHAFT,Hessen,130020,Netzentgelte 2026; BKZ MS
-noch nicht im Atlas,wesernetz Bremerhaven GmbH,Bremen,114677,Netzentgelte 2026; BKZ MS
-noch nicht im Atlas,EWR GmbH,Nordrhein-Westfalen,112970,Netzentgelte 2026; BKZ MS
 noch nicht im Atlas,SWT Stadtwerke Trier Versorgungs-GmbH,Rheinland-Pfalz,112737,Netzentgelte 2026; BKZ MS
-noch nicht im Atlas,Stadtwerke Ostmünsterland GmbH & Co. KG,Nordrhein-Westfalen,111211,Netzentgelte 2026; BKZ MS
-noch nicht im Atlas,GSW Gemeinschaftsstadtwerke GmbH Kamen - Bönen - Bergkamen,Nordrhein-Westfalen,110715,Netzentgelte 2026; BKZ MS
 noch nicht im Atlas,Thüga Energienetze GmbH,"Baden-Württemberg, Baden-Württemberg (Bodensee), Rheinland-Pfalz",110669,Netzentgelte 2026; BKZ MS
 noch nicht im Atlas,Stadtwerk am See,Baden-Württemberg,108385,Netzentgelte 2026; BKZ MS
 noch nicht im Atlas,Netzgesellschaft Gütersloh mbH,Nordrhein-Westfalen,102464,Netzentgelte 2026; BKZ MS
@@ -24,7 +17,6 @@ noch nicht im Atlas,EVI Energieversorgung Hildesheim GmbH & Co. KG,Niedersachsen
 noch nicht im Atlas,Aschaffenburger Versorgungs-GmbH,Bayern,101952,Netzentgelte 2026; BKZ MS
 noch nicht im Atlas,Netzgesellschaft Schwerin mbH (NGS),Mecklenburg-Vorpommern,98733,Netzentgelte 2026; BKZ MS
 noch nicht im Atlas,Kreiswerke Main-Kinzig GmbH,Hessen,96410,Netzentgelte 2026; BKZ MS
-noch nicht im Atlas,Stadtwerke Witten Mittelspannungsnetz GmbH,Nordrhein-Westfalen,95724,Netzentgelte 2026; BKZ MS
 noch nicht im Atlas,GeraNetz GmbH,Thüringen,94847,Netzentgelte 2026; BKZ MS
 noch nicht im Atlas,SÜC Energie und H2O GmbH,"Bayern, Thüringen",94628,Netzentgelte 2026; BKZ MS
 noch nicht im Atlas,Leitungspartner GmbH,Nordrhein-Westfalen,93323,Netzentgelte 2026; BKZ MS
@@ -80,12 +72,10 @@ noch nicht im Atlas,Elektrizitätswerk Wörth an der Donau Rupert,Bayern,51927,N
 noch nicht im Atlas,Stadtwerke Langen GmbH,Hessen,51509,Netzentgelte 2026; BKZ MS
 noch nicht im Atlas,NordNetz GmbH,Schleswig-Holstein,51002,Netzentgelte 2026; BKZ MS
 noch nicht im Atlas,Stadtwerke Emden GmbH,Niedersachsen,50659,Netzentgelte 2026; BKZ MS
-noch nicht im Atlas,Stadtwerke Gronau GmbH,Nordrhein-Westfalen,50151,Netzentgelte 2026; BKZ MS
 noch nicht im Atlas,Freisinger Stadtwerke Versorgungs-GmbH,Bayern,49939,Netzentgelte 2026; BKZ MS
 noch nicht im Atlas,Hellenstein-Energie-Logistik GmbH,Baden-Württemberg,49895,Netzentgelte 2026; BKZ MS
 noch nicht im Atlas,Stadtwerke Suhl/Zella-Mehlis Netz GmbH,Thüringen,49431,Netzentgelte 2026; BKZ MS
 noch nicht im Atlas,Stadtwerke Achim AG,Niedersachsen,49381,Netzentgelte 2026; BKZ MS
-noch nicht im Atlas,Stadtwerke Stade GmbH,Niedersachsen,48708,Netzentgelte 2026; BKZ MS
 noch nicht im Atlas,EnergieSüdwest Netz GmbH,Rheinland-Pfalz,48341,Netzentgelte 2026; BKZ MS
 noch nicht im Atlas,Stadtwerke Dachau,Bayern,48337,Netzentgelte 2026; BKZ MS
 noch nicht im Atlas,SWL Verteilungsnetzgesellschaft mbH,Nordrhein-Westfalen,48328,Netzentgelte 2026; BKZ MS
@@ -647,17 +637,25 @@ im Atlas,Stadtwerke Jena Netze,Thüringen,147264,BKZ MS (veröffentlicht); Netze
 im Atlas,Stadtwerke Ingolstadt Netze,Bayern,142308,Netzentgelte 2025; Netzentgelte 2027 vorläufig
 im Atlas,Gelsenwasser Energienetze,"Niedersachsen, Nordrhein-Westfalen",138924,Netzentgelte 2025; Netzentgelte 2027 vorläufig
 im Atlas,e-regio Netz (Euskirchen),Nordrhein-Westfalen,136076,BKZ MS (veröffentlicht); Netzentgelte 2025; Netzentgelte 2027 vorläufig
+im Atlas,infra fürth,Bayern,132032,BKZ MS (veröffentlicht); Netzentgelte 2025; Netzentgelte 2027 vorläufig
+im Atlas,SWTE Netz,Nordrhein-Westfalen,130971,BKZ MS (veröffentlicht); Netzentgelte 2025; Netzentgelte 2027 vorläufig
+im Atlas,GGEW Bergstraße,Hessen,130020,Netzentgelte 2025; Netzentgelte 2027 vorläufig
 im Atlas,Stadtwerke Ludwigsburg-Kornwestheim,Baden-Württemberg,129036,BKZ MS (veröffentlicht); Netzentgelte 2025; Netzentgelte 2027 vorläufig
 im Atlas,Stadtwerke Tübingen,Baden-Württemberg,119593,BKZ MS (veröffentlicht); Netzentgelte 2025; Netzentgelte 2027 vorläufig
 im Atlas,Erlanger Stadtwerke (ESTW),Bayern,117806,BKZ MS (veröffentlicht); Netzentgelte 2025; Netzentgelte 2027 vorläufig
 im Atlas,ÜZ Mainfranken,Bayern,116094,BKZ MS (veröffentlicht); Netzentgelte 2025; Netzentgelte 2027 vorläufig
+im Atlas,wesernetz Bremerhaven,Bremen,114677,BKZ MS (veröffentlicht); Netzentgelte 2025; Netzentgelte 2027 vorläufig
 im Atlas,Albwerk (Geislingen),Baden-Württemberg,114217,BKZ MS (veröffentlicht); Netzentgelte 2025; Netzentgelte 2027 vorläufig
 im Atlas,Stadtwerke Hameln Weserbergland,Niedersachsen,113270,BKZ MS (veröffentlicht); Netzentgelte 2025; Netzentgelte 2027 vorläufig
+im Atlas,EWR Remscheid,Nordrhein-Westfalen,112970,BKZ MS (veröffentlicht); Netzentgelte 2025; Netzentgelte 2027 vorläufig
+im Atlas,Stadtwerke Ostmünsterland,Nordrhein-Westfalen,111211,BKZ MS (veröffentlicht); Netzentgelte 2025; Netzentgelte 2027 vorläufig
 im Atlas,Stadtwerke Flensburg,Schleswig-Holstein,110781,BKZ MS (veröffentlicht); Netzentgelte 2025; Netzentgelte 2027 vorläufig
+im Atlas,GSW Kamen-Bönen-Bergkamen,Nordrhein-Westfalen,110715,BKZ MS (veröffentlicht); Netzentgelte 2025; Netzentgelte 2027 vorläufig
 im Atlas,Stadtwerke Meerbusch Willich,Nordrhein-Westfalen,107652,BKZ MS (veröffentlicht); Netzentgelte 2025; Netzentgelte 2027 vorläufig
 im Atlas,SWK Kaiserslautern,Rheinland-Pfalz,107543,BKZ MS (veröffentlicht); Netzentgelte 2025; Netzentgelte 2027 vorläufig
 im Atlas,Hanau Netz,Hessen,103184,BKZ MS (veröffentlicht); Netzentgelte 2025; Netzentgelte 2027 vorläufig
 im Atlas,Stadtwerke Iserlohn,Nordrhein-Westfalen,98822,BKZ MS (veröffentlicht); Netzentgelte 2025; Netzentgelte 2027 vorläufig
+im Atlas,Stadtwerke Witten (MS),Nordrhein-Westfalen,95724,BKZ MS (veröffentlicht); Netzentgelte 2025; Netzentgelte 2027 vorläufig
 im Atlas,LokalWerke,Nordrhein-Westfalen,94374,BKZ MS (veröffentlicht); Netzentgelte 2025; Netzentgelte 2027 vorläufig
 im Atlas,Stadtwerke Bayreuth,Bayern,91454,BKZ MS (veröffentlicht); Netzentgelte 2025; Netzentgelte 2027 vorläufig
 im Atlas,Stadtwerke Bamberg,Bayern,89468,BKZ MS (veröffentlicht); Netzentgelte 2025; Netzentgelte 2027 vorläufig
@@ -692,6 +690,8 @@ im Atlas,Stadtwerke Wolfenbüttel,Niedersachsen,53034,BKZ MS (veröffentlicht); 
 im Atlas,KommEnergie,Bayern,52906,BKZ MS (veröffentlicht); Netzentgelte 2025; Netzentgelte 2027 vorläufig
 im Atlas,Stadtwerke Rastatt,Baden-Württemberg,51800,BKZ MS (veröffentlicht); Netzentgelte 2025; Netzentgelte 2027 vorläufig
 im Atlas,Stadtwerke Peine,Niedersachsen,51521,BKZ MS (veröffentlicht); Netzentgelte 2025; Netzentgelte 2027 vorläufig
+im Atlas,Stadtwerke Gronau,Nordrhein-Westfalen,50151,BKZ MS (veröffentlicht); Netzentgelte 2025; Netzentgelte 2027 vorläufig
+im Atlas,Stadtwerke Stade,Niedersachsen,48708,BKZ MS (veröffentlicht); Netzentgelte 2025; Netzentgelte 2027 vorläufig
 im Atlas,e.wa riss Netze,Baden-Württemberg,44077,BKZ MS (veröffentlicht); Netzentgelte 2025; Netzentgelte 2027 vorläufig
 im Atlas,ENRW Energieversorgung Rottweil,Baden-Württemberg,40455,Netzentgelte 2025; Netzentgelte 2027 vorläufig
 im Atlas,Stadtwerke Mosbach,Baden-Württemberg,34975,BKZ MS (veröffentlicht); Netzentgelte 2025; Netzentgelte 2027 vorläufig

@@ -328,5 +328,65 @@
   "bl": "SN",
   "typ": "Stadt",
   "id": "762"
+ },
+ "infra fürth gmbh": {
+  "disp": "infra fürth",
+  "bl": "BY",
+  "typ": "Stadt",
+  "id": "207"
+ },
+ "SWTE Netz GmbH & Co. KG": {
+  "disp": "SWTE Netz",
+  "bl": "NW",
+  "typ": "Stadt",
+  "id": "7792"
+ },
+ "GRUPPEN-GAS- UND ELEKTRIZITÄTSWERK BERGSTRASSE AKTIENGESELLSCHAFT": {
+  "disp": "GGEW Bergstraße",
+  "bl": "HE",
+  "typ": "Stadt",
+  "id": "78"
+ },
+ "wesernetz Bremerhaven GmbH": {
+  "disp": "wesernetz Bremerhaven",
+  "bl": "HB",
+  "typ": "Stadt",
+  "id": "107"
+ },
+ "EWR GmbH": {
+  "disp": "EWR Remscheid",
+  "bl": "NW",
+  "typ": "Stadt",
+  "id": "534"
+ },
+ "Stadtwerke Witten Mittelspannungsnetz GmbH": {
+  "disp": "Stadtwerke Witten (MS)",
+  "bl": "NW",
+  "typ": "Stadt",
+  "id": "7809"
+ },
+ "Stadtwerke Ostmünsterland GmbH & Co. KG": {
+  "disp": "Stadtwerke Ostmünsterland",
+  "bl": "NW",
+  "typ": "Stadt",
+  "id": "172"
+ },
+ "GSW Gemeinschaftsstadtwerke GmbH Kamen - Bönen - Bergkamen": {
+  "disp": "GSW Kamen-Bönen-Bergkamen",
+  "bl": "NW",
+  "typ": "Stadt",
+  "id": "323"
+ },
+ "Stadtwerke Gronau GmbH": {
+  "disp": "Stadtwerke Gronau",
+  "bl": "NW",
+  "typ": "Stadt",
+  "id": "244"
+ },
+ "Stadtwerke Stade GmbH": {
+  "disp": "Stadtwerke Stade",
+  "bl": "NI",
+  "typ": "Stadt",
+  "id": "608"
  }
 }
